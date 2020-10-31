@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 </head>
   <body>
-  	<div class="breadcrumb"><a href="/">home</a> <span>></span> <a href="/{{ .Data.Plural }}/" class="tag">{{ .Data.Plural }}</a> <span class="next">></span> {{ .Page.Params.name }}</div>
+  	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>></span> <a href="{{ $.Site.BaseURL }}{{ .Data.Plural }}/" class="tag">{{ .Data.Plural }}</a> <span class="next">></span> {{ .Page.Params.name }}</div>
   	<h1>{{ .Page.Params.name }}</h1>
   	<p>{{ .Page.Params.legalarrangement }}</p>
   	<p>This Member state has implemented the following exceptions in its national laws:</p>
