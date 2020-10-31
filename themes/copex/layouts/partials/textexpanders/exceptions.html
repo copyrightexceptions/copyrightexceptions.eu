@@ -1,0 +1,102 @@
+{{ $exception := . }}
+
+{{/* DSM directive */}}
+
+{{ if in $exception "dsm3"}}
+	{{$exception = "Text and data mining for scientific research (Art. 3 DSM)"}}
+{{end}}
+{{ if in $exception "dsm4"}}
+	{{$exception = "Exception or limitation for text and data mining (Art. 4 DSM)"}}
+{{end}}
+{{ if in $exception "dsm5"}}
+	{{$exception = "Use in digital and cross-border teaching activities (Art. 5 DSM)"}}
+{{end}}
+{{ if in $exception "dsm6"}}
+	{{$exception = "Preservation of cultural heritage (Art. 6 DSM)"}}
+{{end}}
+{{ if in $exception "dsm8"}}
+	{{$exception = "Use of out-of-commerce works by cultural heritage institutions (Art. 8 DSM)"}}
+{{end}}
+
+{{/* Orphan Works directive */}}
+
+{{ if in $exception "ow"}}
+	{{$exception = "Permitted uses of orphan works (Art. 6 OWD)"}}
+{{end}}
+
+{{/* Marrakesh directive */}}
+
+{{ if in $exception "mkd"}}
+	{{$exception = "Permitted uses under Article 3 of the Marrakesh directive"}}
+{{end}}
+
+{{/* InfoSoc directive */}}
+
+{{ if in $exception "info51"}}
+	{{$exception = "Temporary acts of reproduction (Art. 5.1 InfoSoc)"}}
+{{end}}
+{{ if in $exception "info52a"}}
+	{{$exception = "Photocopying/photo-reproduction (Art. 5.2(a) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info52b"}}
+	{{$exception = "Private copying (Art. 5.2(b) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info52c"}}
+	{{$exception = "Reproductions by Libraries, Archives & Museums (Art. 5.2(c) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info52d"}}
+	{{$exception = "Ephemeral recordings made by broadcasters (Art. 5.2(d) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info52e"}}
+	{{$exception = "Reproduction of broadcasts by social institutions (Art. 5.2(e) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53a"}}
+	{{$exception = "Illustration for teaching or scientific research (Art. 5.3(a) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53b"}}
+	{{$exception = "Use for the benefit of people with a disability (Art. 5.3(b) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53c1"}}
+	{{$exception = "Reporting by the press on current events (Art. 5.3(c) 1st part InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53c2"}}
+	{{$exception = "Reporting by the press on current events (Art. 5.3(c) 2nd part InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53d"}}
+	{{$exception = "Quotation for criticism or review (Art. 5.3(d) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53e"}}
+	{{$exception = "Use for public security purposes (Art. 5.3(e) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53f"}}
+	{{$exception = "Use of public speeches and public lectures (Art. 5.3(f) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53g"}}
+	{{$exception = "Use during religious or official celebrations (Art. 5.3(g) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53h"}}
+	{{$exception = "Use of works of architecture or sculptures in public spaces (Art. 5.3(h) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53i"}}
+	{{$exception = "Incidental inclusion (Art. 5.3(i) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53j"}}
+	{{$exception = "Use for advertising the exhibition or sale of works of art (Art. 5.3(j) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53k"}}
+	{{$exception = "Use for the purpose of caricature, parody or pastiche (Art. 5.3(k) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53l"}}
+	{{$exception = "Use for the demonstration or repair of equipment (Art. 5.3(l) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53m"}}
+	{{$exception = "Use for the purpose of reconstructing a building (Art. 5.3(m) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53n"}}
+	{{$exception = "Use for the purpose of research or private study (Art. 5.3(n) InfoSoc)"}}
+{{end}}
+{{ if in $exception "info53o"}}
+	{{$exception = "Pre-existing exceptions of minor importance (Art. 5.3(o) InfoSoc)"}}
+{{end}}
+
+{{ return $exception }}

@@ -1,0 +1,8 @@
+baseURL = "https://www.copyrightexceptions.eu"
+languageCode = "en-us"
+title = "Copyright Exceptions"
+theme = "copex"
+
+[taxonomies]
+  exception = "exceptions"
+  memberstate = "memberstates"

@@ -1,0 +1,102 @@
+{{ $exception := . }}
+
+{{/* DSM directive */}}
+
+{{ if in $exception "dsm3"}}
+	{{$exception = "Art. 3 DSM"}}
+{{end}}
+{{ if in $exception "dsm4"}}
+	{{$exception = "Art. 4 DSM"}}
+{{end}}
+{{ if in $exception "dsm5"}}
+	{{$exception = "Art. 5 DSM"}}
+{{end}}
+{{ if in $exception "dsm6"}}
+	{{$exception = "Art. 6 DSM"}}
+{{end}}
+{{ if in $exception "dsm8"}}
+	{{$exception = "Art. 8 DSM"}}
+{{end}}
+
+{{/* Orphan Works directive */}}
+
+{{ if in $exception "ow"}}
+	{{$exception = "Art. 6 OWD"}}
+{{end}}
+
+{{/* Marrakesh directive */}}
+
+{{ if in $exception "mkd"}}
+	{{$exception = "Art. 3 MKD"}}
+{{end}}
+
+{{/* InfoSoc directive */}}
+
+{{ if in $exception "info51"}}
+	{{$exception = "Art. 5.1 InfoSoc"}}
+{{end}}
+{{ if in $exception "info52a"}}
+	{{$exception = "Art. 5.2(a) InfoSoc"}}
+{{end}}
+{{ if in $exception "info52b"}}
+	{{$exception = "Art. 5.2(b) InfoSoc"}}
+{{end}}
+{{ if in $exception "info52c"}}
+	{{$exception = "Art. 5.2(c) InfoSoc"}}
+{{end}}
+{{ if in $exception "info52d"}}
+	{{$exception = "Art. 5.2(d) InfoSoc"}}
+{{end}}
+{{ if in $exception "info52e"}}
+	{{$exception = "Art. 5.2(e) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53a"}}
+	{{$exception = "Art. 5.3(a) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53b"}}
+	{{$exception = "Art. 5.3(b) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53c1"}}
+	{{$exception = "Art. 5.3(c) 1st part InfoSoc"}}
+{{end}}
+{{ if in $exception "info53c2"}}
+	{{$exception = "Art. 5.3(c) 2nd part InfoSoc"}}
+{{end}}
+{{ if in $exception "info53d"}}
+	{{$exception = "Art. 5.3(d) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53e"}}
+	{{$exception = "Art. 5.3(e) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53f"}}
+	{{$exception = "Art. 5.3(f) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53g"}}
+	{{$exception = "Art. 5.3(g) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53h"}}
+	{{$exception = "Art. 5.3(h) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53i"}}
+	{{$exception = "Art. 5.3(i) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53j"}}
+	{{$exception = "Art. 5.3(j) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53k"}}
+	{{$exception = "Art. 5.3(k) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53l"}}
+	{{$exception = "Art. 5.3(l) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53m"}}
+	{{$exception = "Art. 5.3(m) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53n"}}
+	{{$exception = "Art. 5.3(n) InfoSoc"}}
+{{end}}
+{{ if in $exception "info53o"}}
+	{{$exception = "Art. 5.3(o) InfoSoc"}}
+{{end}}
+
+{{ return $exception }}

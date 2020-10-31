@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dsm5 on Copyright Exceptions</title>
+    <link>https://www.copyrightexceptions.eu/exceptions/dsm5/</link>
+    <description>Recent content in dsm5 on Copyright Exceptions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Sep 2020 17:14:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.copyrightexceptions.eu/exceptions/dsm5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DE dsm5</title>
+      <link>https://www.copyrightexceptions.eu/de/dsm5/</link>
+      <pubDate>Sun, 06 Sep 2020 17:14:14 +0200</pubDate>
+      
+      <guid>https://www.copyrightexceptions.eu/de/dsm5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NL dsm5</title>
+      <link>https://www.copyrightexceptions.eu/nl/dsm5/</link>
+      <pubDate>Sun, 06 Sep 2020 17:14:14 +0200</pubDate>
+      
+      <guid>https://www.copyrightexceptions.eu/nl/dsm5/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

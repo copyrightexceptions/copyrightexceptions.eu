@@ -1,0 +1,129 @@
+{{ $memberstate := . | upper }}
+
+{{/* Candidate Countries */}}
+
+{{ if in $memberstate "AL"}}
+	{{$memberstate = "Albania"}}
+{{end}}
+{{ if in $memberstate "ME"}}
+	{{$memberstate = "Montenegro"}}
+{{end}}
+{{ if in $memberstate "MK"}}
+	{{$memberstate = "North Macedonia"}}
+{{end}}
+{{ if in $memberstate "RS"}}
+	{{$memberstate = "Serbia "}}
+{{end}}
+
+{{/* potential candidates */}}
+
+{{ if in $memberstate "BA"}}
+	{{$memberstate = "Bosnia Herzegovina"}}
+{{end}}
+{{ if in $memberstate "XK"}}
+	{{$memberstate = "Kosovo"}}
+{{end}}
+
+{{/* EFTA Countries */}}
+
+{{ if in $memberstate "LI"}}
+	{{$memberstate = "Lichtenstein"}}
+{{end}}
+{{ if in $memberstate "NO"}}
+	{{$memberstate = "Norway"}}
+{{end}}
+{{ if in $memberstate "CH"}}
+	{{$memberstate = "Switzerland"}}
+{{end}}
+
+{{/* Ex EU */}}
+
+{{ if in $memberstate "GB"}}
+	{{$memberstate = "the United Kingdom"}}
+{{end}}
+
+{{/* EU Member States */}}
+
+{{ if in $memberstate "AT"}}
+	{{$memberstate = "Austria"}}
+{{end}}
+{{ if in $memberstate "BE"}}
+	{{$memberstate = "Belgium"}}
+{{end}}
+{{ if in $memberstate "BG"}}
+	{{$memberstate = "Bulgaria"}}
+{{end}}
+{{ if in $memberstate "HR"}}
+	{{$memberstate = "Croatia"}}
+{{end}}
+{{ if in $memberstate "CY"}}
+	{{$memberstate = "Cyprus"}}
+{{end}}
+{{ if in $memberstate "CZ"}}
+	{{$memberstate = "Czech Republic"}}
+{{end}}
+{{ if in $memberstate "DK"}}
+	{{$memberstate = "Denmark"}}
+{{end}}
+{{ if in $memberstate "EE"}}
+	{{$memberstate = "Estonia"}}
+{{end}}
+{{ if in $memberstate "FI"}}
+	{{$memberstate = "Finland "}}
+{{end}}
+{{ if in $memberstate "FR"}}
+	{{$memberstate = "France"}}
+{{end}}
+{{ if in $memberstate "DE"}}
+	{{$memberstate = "Germany"}}
+{{end}}
+{{ if in $memberstate "GR"}}
+	{{$memberstate = "Greece"}}
+{{end}}
+{{ if in $memberstate "HU"}}
+	{{$memberstate = "Hungary"}}
+{{end}}
+{{ if in $memberstate "IE"}}
+	{{$memberstate = "Ireland"}}	
+{{end}}
+{{ if in $memberstate "IT"}}
+	{{$memberstate = "Italy "}}	
+{{end}}
+{{ if in $memberstate "LV"}}
+	{{$memberstate = "Latvia"}}	
+{{end}}
+{{ if in $memberstate "LT"}}
+	{{$memberstate = "Lithuania"}}	
+{{end}}
+{{ if in $memberstate "LU"}}
+	{{$memberstate = "Luxembourg"}}	
+{{end}}
+{{ if in $memberstate "MT"}}
+	{{$memberstate = "Malta"}}													
+{{end}}
+{{ if in $memberstate "NL"}}
+	{{$memberstate = "the Netherlands"}}
+{{end}}
+{{ if in $memberstate "PL"}}
+	{{$memberstate = "Poland"}}
+{{end}}
+{{ if in $memberstate "PT"}}
+	{{$memberstate = "Portugal"}}
+{{end}}
+{{ if in $memberstate "RO"}}
+	{{$memberstate = "Romania"}}
+{{end}}
+{{ if in $memberstate "SK"}}
+	{{$memberstate = "Slovakia"}}
+{{end}}
+{{ if in $memberstate "SI"}}
+	{{$memberstate = "Slovenia"}}
+{{end}}
+{{ if in $memberstate "ES"}}
+	{{$memberstate = "Spain"}}
+{{end}}
+{{ if in $memberstate "SE"}}
+	{{$memberstate = "Sweden"}}
+{{end}}
+
+{{ return $memberstate }}
