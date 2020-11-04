@@ -33,8 +33,6 @@ link:
 
 ## Case law interpretations:
 
-Case law interpretations:
-
 **Beneficiaries:** No definition or express judicial interpretation of ‘mass media’ is available, but Courts generally include all websites in. 
 
 **Types of Usage:** Reproduction only. However almost all available case law concerns MA by websites and online news providers and no distinction is made by courts between the two types of use.
