@@ -6,3 +6,4 @@ theme = "copex"
 [taxonomies]
   exception = "exceptions"
   memberstate = "memberstates"
+  alldata = "alldata"
