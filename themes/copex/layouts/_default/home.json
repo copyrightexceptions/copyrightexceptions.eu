@@ -1,0 +1,17 @@
+{{ range $jurisdiction, $taxonomy := .Site.Taxonomies.memberstates }}
+	"jurisdiction" : {{ $jurisdiction }}
+{{end}}
+
+
+{{ $list := .Site.Pages -}}
+{{ $length := (len $list) -}}
+{
+    "title" : "{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}",
+    "items" : [
+    {{ range $index, $element := $list -}}
+    {
+    	"title" : 
+    }{{ if ne (add $index 1) $length }},{{ end }}
+    {{ end -}}
+    ]
+}

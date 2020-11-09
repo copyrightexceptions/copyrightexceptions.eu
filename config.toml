@@ -3,7 +3,9 @@ languageCode = "en-us"
 title = "Copyright Exceptions"
 theme = "copex"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
   exception = "exceptions"
   memberstate = "memberstates"
-  alldata = "alldata"
