@@ -51,7 +51,7 @@
 		</ul>
 		{{if .Params.remarks}}<p><strong>Remarks: </strong> {{.Params.remarks| safeHTML }}</p>{{end}}
 		{{if .Params.link}}<p><a href="{{.Params.link | safeHTML }}">View online</a></p>{{end}}
-		<p><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/{{ range .Params.memberstates }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view data on GitHub</a></p>	
+		<p><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/implementations/{{ range .Params.memberstates }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view data on GitHub</a></p>	
 	</div>
   </body>
 </html>
