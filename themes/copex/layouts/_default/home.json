@@ -1,17 +1,58 @@
-{{ range $jurisdiction, $taxonomy := .Site.Taxonomies.memberstates }}
-	"jurisdiction" : {{ $jurisdiction }}
-{{end}}
+{{- $pages := sort (where .Site.Pages "Section" "implementations") ".Dir" -}}
+{{- $len := (len $pages) -}}
 
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "currentJurisdiction" "" -}}
 
-{{ $list := .Site.Pages -}}
-{{ $length := (len $list) -}}
-{
-    "title" : "{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}",
-    "items" : [
-    {{ range $index, $element := $list -}}
-    {
-    	"title" : 
-    }{{ if ne (add $index 1) $length }},{{ end }}
-    {{ end -}}
-    ]
+{"implementations" : {
+{{- range $index, $element := $pages -}}
+	
+	{{/* Test if the subsection contains documents */}}
+	{{-  if not .IsSection -}}
+		
+		{{/* Test if this is the same jurisdiction as last time */}}
+		{{- if not (eq ($scratch.Get "currentJurisdiction") (path.Base .Dir)) -}}
+			{{- $scratch.Set "newJurisdiction" true -}}
+		{{- else -}}
+			{{- $scratch.Set "newJurisdiction" false -}}
+		{{- end -}}
+		
+		
+		{{- if ($scratch.Get "newJurisdiction") -}}	
+			
+			{{/* if there is a previous section, close it  */}}
+			{{- if not (eq ($scratch.Get "currentJurisdiction") "") -}}
+				}},
+			{{- end -}}
+			
+			{{- $scratch.Set "currentJurisdiction" (path.Base .Dir) -}}
+			
+			{{/* create new dict for jurisdiction */}}
+			"{{- $scratch.Get "currentJurisdiction" -}}" : {			
+		
+		{{- else -}}
+			},
+		{{- end -}}
+		
+		{{/* Main mapping */}}
+		"{{- .File.BaseFileName -}}": 
+		{"Time in effect (YYYY-MM-DD)": "",
+		"Last updated": "",
+		"Link to article (URL)": "{{- .Params.link -}}",
+		"Remarks": "{{- .Params.remarks -}}",
+		"short_code": "",
+		"Remuneration": "{{- .Params.compensation -}}",
+		"Article Number in local act (TEXT)": "",
+		"long_name": "{{- .Params.title -}}",
+		"Implemented": "{{- .Params.score -}}"
+		
+		{{/* Test if this is the last item to process, to wrap up the dict */}}
+		{{- if (eq (add $index 1) $len) -}}
+			}
+		{{- end -}}
+		
+	{{- end -}}
+{{- end -}}
+}
+}
 }
