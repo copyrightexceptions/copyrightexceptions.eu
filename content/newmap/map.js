@@ -189,20 +189,13 @@ function switchView (setView) {
 function changeSelected_Exception (hash) {
 	hash = unescape(hash);
 	if (hash != '') {
-		if (Object.keys(article_to_short).indexOf(hash) != -1) {
+		if (hash == 'table') { // Additionally check if table view is requested
+			switchView(hash);
+		} else {
 			selected_exception = hash;
 			changeException(selected_exception);  
 			highlight(selected_exception); 
-		} else if (hash == 'table') { // Additionally check if table view is requested
-			switchView(hash);
-		} else {
-			console.log(hash + " not found.");
-			selected_exception = "dummy";
-			changeException(selected_exception);  
-			highlight(selected_exception); 
 		}
-		
-		
 	} else {
 		selected_exception = "dummy";
 		changeException(selected_exception);  
