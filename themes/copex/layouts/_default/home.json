@@ -1,4 +1,4 @@
-{{- $pages := sort (where .Site.Pages "Section" "implementations") ".Dir" -}}
+{{- $pages := sort (where .Site.Pages "Section" "implementations") ".File.Dir" -}}
 {{- $len := (len $pages) -}}
 
 {{- $scratch := newScratch -}}
