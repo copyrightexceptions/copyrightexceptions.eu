@@ -203,54 +203,36 @@ function changeSelected_Exception (hash) {
 	}
 }
 
-function loadTable(data, names) {
+function loadTable(data, names, implementations) {
 	var result = [];
 	var countries = []; 
-	exceptions_names = [];
-	// Create list with exceptions
-	exceptions = Object.keys(names);
-	exceptions.sort(); 	
-  	
 
-	for (var i = 0; i < exceptions.length; i++) {
-		exceptions_names[i] = '<p><span class="exception">' + exceptions[i] + '</span></p>';
-	}
-  	
-  	$.each( data['features'], function( key, val ) {
-		countries[val['properties']['iso']] = val['properties']['name'].replace(/[ ]/g, "-");
-		hashtags = [];
-		country = val['properties']['iso'];
-		if ('exceptions' in val['properties']) {
-			result[country] = [];
-			$.each( val['properties']['exceptions'], function( exception, val ) {
-				if ('Implemented' in val) {
-					result[country][exception] = val['Implemented'];
-					hashtags[exception] = val['short_code'];
-				}
-			});
-		}
-	});
   
 	var table = $("<table/>").addClass('data-table');
 	var row = $("<tr/>").addClass( "table_header" );
 	row.append($("<th/>").text(''));
-	for (var country in result) {
+	for (country in implementations) {
 		cell = $("<th/>");
-		cell.attr('title', countries[country]);
-		$('<a>'+ country +'</a>').attr({'href': '/project/' + countries[country]}).appendTo(cell);
+		cell.attr('title', country);
+		$('<a>'+ country +'</a>').attr({'href': '/v2dev/memberstates/' + country.toLowerCase()}).appendTo(cell);
 		row.append(cell);
 	};
 	table.append(row);
 	
-	$.each (exceptions, function( key, exception ) {
+	$.each (names, function( key, exception ) {
 		var row = $("<tr/>");
 		cell = $("<td/>");
-		cell.html(exceptions_names[0]);
+		cell.html(names[key].title);
+		short_name = names[key].short;
 		row.append(cell);
-		exceptions_names.shift();
-		for (var country in result) {
-			cell = $("<td/>").css("background-color", getColor(result[country][exception]));
-			$('<a></a>').attr({'href': '/project/' + countries[country] + '/#' + hashtags[exception] }).appendTo(cell);
+		for (var country in implementations) {
+			if ( implementations[country].hasOwnProperty(short_name)) {
+				cell = $("<td/>").css("background-color", getColor(implementations[country][short_name].Implemented));
+				$('<a></a>').attr({'href': '/v2dev/implementations/' + country.toLowerCase() + '/' + short_name + '/'}).appendTo(cell);
+			}
+			else {
+				cell = $("<td/>").css("background-color", getColor(''));
+			}
 			row.append(cell);
 		};
 		table.append(row);
@@ -290,7 +272,7 @@ L.geoJson(mapdata, {
 	style: style,
 	onEachFeature: onEachFeature
 }).addTo(map);
-table = loadTable(mapdata, exceptionsNames)
+table = loadTable(mapdata, exceptionsNames, implementations)
 $("#table").html('<div id="logo">' + '<a href="/"><img src="/v2dev/images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="/" class="SwitchTABLE">SHOW MAP</href></div>');
 
 map.addEventListener('mousemove', function(ev) {
@@ -310,31 +292,37 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
 	this._div.style = "visibility: visible;"	
-
+	console.log(props);
 	this._div.innerHTML = ""
 	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 		this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
 		table = 	"<table><tr><td>Implemented: </td><td>" + props.exceptions[selected_exception].Implemented + '</td></tr>';
+		
 		if (props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)'] != "") {
 			table += 	"<tr><td>Implemented on: </td><td>" + convertDate(props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)']) + '</td></tr>';
 		}
+		
 		if (props.exceptions[selected_exception].Remuneration != "") {
 			table += 	"<tr><td>Remuneration: </td><td>" + props.exceptions[selected_exception].Remuneration + '</td></tr>';
 		}
 		table += 	'</table>';
+		
 		this._div.innerHTML += table;
 		this._div.innerHTML += 	"<p>&nbsp;</p>";
+		
 		if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
 			this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
 			this._div.innerHTML += 	displayActLinks(props.exceptions[selected_exception]);
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		}
+		
 		if (props.exceptions[selected_exception].Remarks != "") {
 			this._div.innerHTML += 	"<p>Remarks: </p><p><span>" + props.exceptions[selected_exception].Remarks +  '</span></p>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		}
+		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='/project/" + props.name.replace(/[ ]/g, "-") + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
+		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
 	
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
@@ -395,7 +383,6 @@ function changeException(value) {
 }
 
 function highlight(excep) {
-	console.log(excep);
 	$( ".exception" + "." + excep ).css( "color", "#feffff");
 	$( ".exception" + "." + excep ).css( "background", "url('')"); 
 	$( ".exception" + "." + excep ).css( "background-color", "red"); 
