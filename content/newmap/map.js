@@ -1,30 +1,5 @@
-var selected_exception = "Art. 5.1";
-var selected_exception_short = "Art51";
+var selected_exception = "dummy";
 var lat, lng;
-
-// REDO This
-article_to_short = {'Art. 5.1': 'Art51',
-'Art. 5.2(a)': 'Art52a',
-'Art. 5.2(b)': 'Art52b',
-'Art. 5.2(c)': 'Art52c',
-'Art. 5.2(d)': 'Art52d',
-'Art. 5.2(e)': 'Art52e',
-'Art. 5.3(a)': 'Art53a',
-'Art. 5.3(b)': 'Art53b',
-'Art. 5.3(c)': 'Art53c',
-'Art. 5.3(d)': 'Art53d',
-'Art. 5.3(e)': 'Art53e',
-'Art. 5.3(f)': 'Art53f',
-'Art. 5.3(g)': 'Art53g',
-'Art. 5.3(h)': 'Art53h',
-'Art. 5.3(i)': 'Art53i',
-'Art. 5.3(j)': 'Art53j',
-'Art. 5.3(k)': 'Art53k',
-'Art. 5.3(l)': 'Art53l',
-'Art. 5.3(m)': 'Art53m',
-'Art. 5.3(n)': 'Art53n',
-'Art. 5.3(o)': 'Art53o',
-'Orphan Works': 'Orphan'};
 
 var color_legenda = '<div id=legenda><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#aee300></div> Implemented </div><div class=legenda-box><div class=legenda-box-color style=background-color:#f80000></div> Not Implemented </div></div>' +
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#ff9100></div> Partly Implemented </div><div class=legenda-box><div class=legenda-box-color style=background-color:#DDD></div> Unknown </div></div>'
@@ -120,9 +95,7 @@ function registerClick(e) {
 function style(feature) {
 	if (feature.hasOwnProperty('properties')) {
 		if (feature.properties.hasOwnProperty('exceptions')) {
-			console.log(feature.properties);
 			if (feature.properties.exceptions.hasOwnProperty(selected_exception)) {
-				console.log("color: " + feature.properties.exceptions[selected_exception].Implemented);
 				color =  getColor(feature.properties.exceptions[selected_exception].Implemented);
 			} else {
 				color = getColor('n/a');
@@ -218,25 +191,22 @@ function changeSelected_Exception (hash) {
 	if (hash != '') {
 		if (Object.keys(article_to_short).indexOf(hash) != -1) {
 			selected_exception = hash;
-			selected_exception_short = article_to_short[hash];
 			changeException(selected_exception);  
-			highlight(selected_exception_short); 
+			highlight(selected_exception); 
 		} else if (hash == 'table') { // Additionally check if table view is requested
 			switchView(hash);
 		} else {
 			console.log(hash + " not found.");
-			selected_exception = "Art. 5.1";
-			selected_exception_short = "Art51";
+			selected_exception = "dummy";
 			changeException(selected_exception);  
-			highlight(selected_exception_short); 
+			highlight(selected_exception); 
 		}
 		
 		
 	} else {
-		selected_exception = "Art. 5.1";
-		selected_exception_short = "Art51";
+		selected_exception = "dummy";
 		changeException(selected_exception);  
-		highlight(selected_exception_short); 
+		highlight(selected_exception); 
 	}
 }
 
@@ -349,31 +319,32 @@ info.update = function (props) {
 	this._div.style = "visibility: visible;"	
 
 	this._div.innerHTML = ""
+	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
+		this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
+		table = 	"<table><tr><td>Implemented: </td><td>" + props.exceptions[selected_exception].Implemented + '</td></tr>';
+		if (props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)'] != "") {
+			table += 	"<tr><td>Implemented on: </td><td>" + convertDate(props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)']) + '</td></tr>';
+		}
+		if (props.exceptions[selected_exception].Remuneration != "") {
+			table += 	"<tr><td>Remuneration: </td><td>" + props.exceptions[selected_exception].Remuneration + '</td></tr>';
+		}
+		table += 	'</table>';
+		this._div.innerHTML += table;
+		this._div.innerHTML += 	"<p>&nbsp;</p>";
+		if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
+			this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
+			this._div.innerHTML += 	displayActLinks(props.exceptions[selected_exception]);
+			this._div.innerHTML += 	"<p>&nbsp;</p>";
+		}
+		if (props.exceptions[selected_exception].Remarks != "") {
+			this._div.innerHTML += 	"<p>Remarks: </p><p><span>" + props.exceptions[selected_exception].Remarks +  '</span></p>';
+			this._div.innerHTML += 	"<p>&nbsp;</p>";
+		}
+		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
+		this._div.innerHTML += "<p><a href='/project/" + props.name.replace(/[ ]/g, "-") + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
 	
-	this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
-	table = 	"<table><tr><td>Implemented: </td><td>" + props.exceptions[selected_exception].Implemented + '</td></tr>';
-	if (props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)'] != "") {
-		table += 	"<tr><td>Implemented on: </td><td>" + convertDate(props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)']) + '</td></tr>';
+		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
-	if (props.exceptions[selected_exception].Remuneration != "") {
-		table += 	"<tr><td>Remuneration: </td><td>" + props.exceptions[selected_exception].Remuneration + '</td></tr>';
-	}
-	table += 	'</table>';
-	this._div.innerHTML += table;
-	this._div.innerHTML += 	"<p>&nbsp;</p>";
-	if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
-		this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
-		this._div.innerHTML += 	displayActLinks(props.exceptions[selected_exception]);
-		this._div.innerHTML += 	"<p>&nbsp;</p>";
-	}
-	if (props.exceptions[selected_exception].Remarks != "") {
-		this._div.innerHTML += 	"<p>Remarks: </p><p><span>" + props.exceptions[selected_exception].Remarks +  '</span></p>';
-		this._div.innerHTML += 	"<p>&nbsp;</p>";
-	}
-	this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-	this._div.innerHTML += "<p><a href='/project/" + props.name.replace(/[ ]/g, "-") + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
-
-	this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 };
 
 info.clear = function () {
@@ -431,6 +402,7 @@ function changeException(value) {
 }
 
 function highlight(excep) {
+	console.log(excep);
 	$( ".exception" + "." + excep ).css( "color", "#feffff");
 	$( ".exception" + "." + excep ).css( "background", "url('')"); 
 	$( ".exception" + "." + excep ).css( "background-color", "red"); 
@@ -472,8 +444,6 @@ for(index in exceptionsNames) {
     highlight(exceptionsNames[index]["short"]); 
   });
 }
-
-// EXAMPLE $('#Art51').click(function(){ changeException('Art. 5.1');  highlight('Art51'); return false;});
 $('.SwitchMAP').click(function(){ switchView(); return false;});
 $('.SwitchTABLE').click(function(){ switchView(); return false;});
 $('#closeinfo').click(function(){ switchView(); return false;});
