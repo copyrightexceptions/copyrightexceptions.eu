@@ -1,26 +1,16 @@
 ---
-title: "Article 75 (2) (q) Código do Direito de Autor e dos Direitos Conexos"
-date: 2020-09-06T17:43:20+02:00
+title: "Article 75 (2) (q)"
 draft: false
 exceptions:
 - info53h
 memberstates:
-- PT 
-score: 2
-description: "The use of works, such as architecture or sculpture, made to be kept permanently in public places;" 
-benficiaries:
-- Anyone 
-purposes: 
-- No purpose limitation 
-usage:
-- All uses
-subjectmatter:
-- Works such as architecture or sculpture
-compensation: 
-- Not required
-attribution:
-- Not required
-otherConditions: ""
-remarks: "" 
-link: 
+- PT
+score: 3
+compensation:
+- No compensation
+remarks: |
+ 
+
+
+link: "http://www.pgdlisboa.pt/leis/lei_mostra_estrutura.php?tabela=leis&artigo_id=484A0075&nid=484&nversao=&tabela=leis&so_miolo="
 ---

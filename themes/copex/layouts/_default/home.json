@@ -39,10 +39,10 @@
 		{"Time in effect (YYYY-MM-DD)": "",
 		"Last updated": "",
 		"Link to article (URL)": "{{- .Params.link -}}",
-		"Remarks": "{{- .Params.remarks -}}",
+		"Remarks": "{{ (replace .Params.remarks "\n" "<br/>") | safeHTML}}",
 		"short_code": "",
 		"Remuneration": "{{- .Params.compensation -}}",
-		"Article Number in local act (TEXT)": "",
+		"Article Number in local act (TEXT)": "{{- .Params.title -}}",
 		"long_name": "{{- .Params.title -}}",
 		"Implemented": "{{- .Params.score -}}"
 		

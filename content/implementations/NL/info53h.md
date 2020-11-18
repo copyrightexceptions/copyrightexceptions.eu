@@ -1,31 +1,16 @@
 ---
-title: "Artikel 18 Auteurswet"
-date: 2020-09-06T17:43:20+02:00
+title: "Article 18"
 draft: false
 exceptions:
 - info53h
 memberstates:
-- NL 
-score: 2
-description: "Artikel 18 Auteurswet implements the exception from Art 5(3)h InfoSoc. " 
-benficiaries:
-- Anyone
-purposes: 
-- No purpose limitation 
-usage:
-- Reproduction
-- Making available to the public
-subjectmatter:
-- Scultures
-- Paintings 
-- Works of architecture 
-compensation: 
-- Not required
-attribution: 
-- Not required
-otherConditions:
-- The work needs to be reproduced in its original context 
-- It is not authorized to reproduce more than a few works or an individual author in a compilation work.
-remarks: "" 
-link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=18&z=2018-10-11&g=2018-10-11
+- NL
+score: 1
+compensation:
+- 
+remarks: |
+ Implementation is more narrow in comparision to art.5.3(h) of the InfoSoc Directive. Article 18 includes a limited list of applicable works and does not allow derivative works, the works of art needs to be presented in the context where the object is found (zoals het zich aldaar bevindt).
+
+
+link: "http://wetten.overheid.nl/BWBR0001886/"
 ---

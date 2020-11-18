@@ -32,7 +32,30 @@ $.each(mapdata.features, function(key,value) {
   if (country_code in implementations) {
   	value.properties["exceptions"] = implementations[country_code];
   }
+  else {
+  	delete mapdata.features[key];
+  }
 }); 
+
+if (typeof JSON.clone !== "function") {
+    JSON.clone = function(obj) {
+        return JSON.parse(JSON.stringify(obj));
+    };
+}
+
+mapdataTMP = JSON.clone(mapdata)
+mapdata.features = [];
+index = 0
+$.each(mapdataTMP.features, function(key,value) {
+	console.log()
+	if (value != null) {	
+		mapdata.features[index] = value;
+		index += 1;
+	}
+}); 
+
+console.log(mapdataTMP)
+console.log(mapdata)
 
 // LOAD ALL EXCEPTIONS FROM THE HUGO TAXONOMY
 var exceptionsNames;
@@ -129,12 +152,19 @@ function showValue (name, value, row) {
 }
 
 function getColor(d) {
-	return d == '1' ? 'red' :
-		   d == '2' ? 'green' :
-		   d == '3' ? 'blue' :
-		   d == '4'	? 'orange'	:
-		   d == '5'	? 'yellow'	:
+	return d == '0' ? '#F80700':
+		   d == '1' ? '#FC9100':
+		   d == '2' ? '#FC9100':
+		   d == '3' ? '#AEE301':
 					  '#DDDDDD';
+}
+
+function getStatus(s) {
+	return s == '0' ? 'Not implemented':
+		   s == '1' ? 'Much more restrictive than the EU law ':
+		   s == '2' ? 'Slightly more restrictive than the EU law ':
+		   s == '3' ? 'Implemented as the EU law':
+					  'Unknown implementation status';
 }
 
 // Converts YYYY/MM/DD to DD-MM-YYYY
@@ -144,16 +174,6 @@ function convertDate (date) {
 		return date[2] + "-" + date[1] + "-" + date[0];
 	}
 	return date;
-}
-
-function displayActLinks(info) {
-	result = "";
-	if (info['Link to article (URL)'] != '' && info['Link to WIPO LEX (URL)'] != '') {
-		result = '<p>&nbsp;</p><p><a href="' + encodeURI(info['Link to article (URL)'].replace(/"/g, '&quot;')) + '">Local act</a>  |  <a href="' + encodeURI(info['Link to WIPO LEX (URL)'].replace(/"/g, '&quot;')) + '">WIPO Lex</a></p>';
-	} else if (info['Link to article (URL)'] != '') {
-		result = '<p>&nbsp;</p><p><a href="' + encodeURI(info['Link to article (URL)'].replace(/"/g, '&quot;')) + '">Local act</a></p>';
-	} 
-	return result;
 }
 
 function switchView (setView) {
@@ -291,20 +311,18 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
+	console.log(props);
 	this._div.style = "visibility: visible;"	
 	console.log(props);
 	this._div.innerHTML = ""
 	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 		this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
-		table = 	"<table><tr><td>Implemented: </td><td>" + props.exceptions[selected_exception].Implemented + '</td></tr>';
+		table = 	"<table><tr><td>Implemented: </td><td>" + getStatus(props.exceptions[selected_exception].Implemented) + '</td></tr>';
 		
 		if (props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)'] != "") {
 			table += 	"<tr><td>Implemented on: </td><td>" + convertDate(props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)']) + '</td></tr>';
 		}
 		
-		if (props.exceptions[selected_exception].Remuneration != "") {
-			table += 	"<tr><td>Remuneration: </td><td>" + props.exceptions[selected_exception].Remuneration + '</td></tr>';
-		}
 		table += 	'</table>';
 		
 		this._div.innerHTML += table;
@@ -312,9 +330,12 @@ info.update = function (props) {
 		
 		if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
 			this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
-			this._div.innerHTML += 	displayActLinks(props.exceptions[selected_exception]);
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		}
+		
+		if (props.exceptions[selected_exception]['Link to article (URL)'] != '') {
+			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + encodeURI(props.exceptions[selected_exception]['Link to article (URL)'].replace(/"/g, '&quot;')) + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] + '"></a></p>';
+		} 
 		
 		if (props.exceptions[selected_exception].Remarks != "") {
 			this._div.innerHTML += 	"<p>Remarks: </p><p><span>" + props.exceptions[selected_exception].Remarks +  '</span></p>';
@@ -322,7 +343,8 @@ info.update = function (props) {
 		}
 		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
+		this._div.innerHTML += "<p><a href='/v2dev/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a>";
+		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() +"</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
 	
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
@@ -414,15 +436,21 @@ function createClickAction( exceptionName ){
 
 $(document).ready(function(){
 	for(index in exceptionsNames) {
-	  $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
+	  if (exceptionsNames[index]["short"] != "") {
+	 	 $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
+		}
 	}  
 });
 
 for(index in exceptionsNames) {
-  $('#' + exceptionsNames[index]["short"]).click( function(){
-    changeException(exceptionsNames[index]["short"]);  
-    highlight(exceptionsNames[index]["short"]); 
-  });
+	if (exceptionsNames[index]["short"] != "") {
+		$('#' + exceptionsNames[index]["short"]).click( function(){
+			changeException(exceptionsNames[index]["short"]);  
+			highlight(exceptionsNames[index]["short"]); 
+		});
+	}else {
+		console.log("No short for: " + exceptionsNames[index]["title"])
+	}
 }
 $('.SwitchMAP').click(function(){ switchView(); return false;});
 $('.SwitchTABLE').click(function(){ switchView(); return false;});
