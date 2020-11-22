@@ -402,26 +402,35 @@ legend.update = function (props) {
 legend.addTo(map);
 
 function changeException(value) {
-  $( ".exception" ).css( "background", "url('')" ); 
-  $( ".exception" ).css( "background-color", "rgba(242,242,242,0.7)"); 
-  $( ".exception" ).css( "color", "#494949");
-  info.clear();
-  info.showExceptionDetails(value);
-  selected_exception = value;
-  window.parent.location.hash = selected_exception
-  map.eachLayer(function (layer) {
-	if(layer.hasOwnProperty("feature")){
-		layer.setStyle(style(layer.feature))
-	}
-	   
+	// Clear colors
+	$( ".exception" ).css( "background", "url('')" ); 
+	$( ".exception" ).css( "background-color", "rgba(242,242,242,0.7)"); 
+	$( ".exception" ).css( "color", "#494949");
+	
+	// clear info box
+	info.clear();
+	
+	// Show new exception details in info box
+	info.showExceptionDetails(value);
+
+	// Update hash for easy linking
+	selected_exception = value;
+	window.parent.location.hash = selected_exception
+
+	// Update map
+	map.eachLayer(function (layer) {
+		if(layer.hasOwnProperty("feature")){
+			layer.setStyle(style(layer.feature))
+		}
+   
 	})
-  map.closePopup();
+	map.closePopup();
 }
 
 function highlight(excep) {
 	$( ".exception" + "." + excep ).css( "color", "#feffff");
 	$( ".exception" + "." + excep ).css( "background", "url('')"); 
-	$( ".exception" + "." + excep ).css( "background-color", "red"); 
+	$( ".exception" + "." + excep ).css( "background-color", "#494949"); 
 }
 
 
