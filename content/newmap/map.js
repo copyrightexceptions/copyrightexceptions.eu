@@ -311,9 +311,7 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-	console.log(props);
 	this._div.style = "visibility: visible;"	
-	console.log(props);
 	this._div.innerHTML = ""
 	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 		this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
@@ -349,6 +347,21 @@ info.update = function (props) {
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
+
+info.showExceptionDetails = function (value) {
+	this._div.style = "visibility: visible;"
+	this._div.innerHTML = ""
+	for(var i = 0; i < exceptionsNames.length; i++) {
+		var obj = exceptionsNames[i];
+		if (obj.short == value) {
+			this._div.innerHTML += "<span class=country-name>" + obj.title + '</span>';
+			this._div.innerHTML += 	"<p>&nbsp;</p>";
+			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
+			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + encodeURI(obj.linklaw.replace(/"/g, '&quot;')) + '">Link to Article</a></p>';
+			return;
+		}
+	}
+}
 
 info.clear = function () {
 	this._div.style = "visibility: hidden;"	
@@ -393,6 +406,7 @@ function changeException(value) {
   $( ".exception" ).css( "background-color", "rgba(242,242,242,0.7)"); 
   $( ".exception" ).css( "color", "#494949");
   info.clear();
+  info.showExceptionDetails(value);
   selected_exception = value;
   window.parent.location.hash = selected_exception
   map.eachLayer(function (layer) {

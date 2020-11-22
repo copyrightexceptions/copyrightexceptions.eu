@@ -1,6 +1,7 @@
 ---
-title: "InfoSoc Directive, Article 5.2(c) Reproductions by Libraries, Archives & Museums"
+title: "Art 5(2)c InfoSoc"
 short: "info52c"
 summary: ""
+
 linklaw: ""
 ---
