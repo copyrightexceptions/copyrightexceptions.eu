@@ -1,9 +1,7 @@
 var selected_exception = "dummy";
 var lat, lng;
 
-var color_legenda = '<div id=legenda><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#aee300></div> Implemented </div><div class=legenda-box><div class=legenda-box-color style=background-color:#f80000></div> Not Implemented </div></div>' +
-					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#ff9100></div> Partly Implemented </div><div class=legenda-box><div class=legenda-box-color style=background-color:#DDD></div> Unknown </div></div>'
-
+var color_legenda = '<div id=legenda><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#f46d43></div> No implementation</div></div><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#fee08b></div> Very restrictive implementation</div></div><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#a6d96a></div> Restrictive implementation</div></div><div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#1a9850></div> Broad implementation </div></div></div>'
 // LOAD ALL IMPLEMENTATIONS FROM THE HUGO TAXONOMY
 var implementations;
 $.ajax({
@@ -53,9 +51,6 @@ $.each(mapdataTMP.features, function(key,value) {
 		index += 1;
 	}
 }); 
-
-console.log(mapdataTMP)
-console.log(mapdata)
 
 // LOAD ALL EXCEPTIONS FROM THE HUGO TAXONOMY
 var exceptionsNames;
@@ -151,20 +146,21 @@ function showValue (name, value, row) {
 	}
 }
 
-function getColor(d) {
-	return d == '0' ? '#F80700':
-		   d == '1' ? '#FC9100':
-		   d == '2' ? '#FC9100':
-		   d == '3' ? '#AEE301':
+function getColor(d) { 
+	return d == '0' ? '#f46d43':
+		   d == '1' ? '#fee08b':
+		   d == '2' ? '#a6d96a':
+		   d == '3' ? '#1a9850':
 					  '#DDDDDD';
 }
 
 function getStatus(s) {
-	return s == '0' ? 'Not implemented':
-		   s == '1' ? 'Much more restrictive than the EU law ':
-		   s == '2' ? 'Slightly more restrictive than the EU law ':
-		   s == '3' ? 'Implemented as the EU law':
-					  'Unknown implementation status';
+	return s == '0' ? 'The EU exception is not implemented':
+		   s == '1' ? 'The national exception is much more restrictive than the EU exception':
+		   s == '2' ? 'The national exception is slightly more restrictive than the EU exception':
+		   s == '3' ? 'The national exception closely resembles the EU exception':
+					  'Copyrightexceptions.eu does not know the implementation status of this exception';
+					  
 }
 
 // Converts YYYY/MM/DD to DD-MM-YYYY

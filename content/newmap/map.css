@@ -499,7 +499,7 @@
 		}
 		
 		.legenda-row {
-			width: 140px;
+			max-width: 350px;
 			float: left;
 			margin-right: 5px;
 		}
