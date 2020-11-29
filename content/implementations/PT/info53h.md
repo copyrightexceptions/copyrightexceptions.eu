@@ -8,7 +8,7 @@ memberstates:
 - PT 
 score: 2
 description: "The use of works, such as architecture or sculpture, made to be kept permanently in public places;" 
-benficiaries:
+beneficiaries:
 - Anyone 
 purposes: 
 - No purpose limitation 

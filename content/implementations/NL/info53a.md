@@ -8,7 +8,7 @@ memberstates:
 - NL
 score: 2
 description: "Articles 12(5) and 16 of the Dutch Copyright act implement the the European exception contained in Art 5(3)a of the InfoSoc Directive. Article 16 allows reproductions and communications to the public for illustration for teaching. Article 12(5) allows in classroom use by public or not-for profit institutions as long as the use is part of a curriculum or justified by an academic purpose. " 
-benficiaries:
+beneficiaries:
 - Public or non for profit academic or educational institutions (Art 12(5))
 - Not defined (Art 16)
 purposes: 

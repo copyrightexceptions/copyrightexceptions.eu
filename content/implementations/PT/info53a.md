@@ -8,7 +8,7 @@ memberstates:
 - PT 
 score: 2
 description: "The national exceptions are similar to the EU exception with regards to who can benefit from the exception and the materials that can be used. The national exceptions are more restrictive than the EU exception with regards to the type of activities that can be done and the purposes of the activities. The national exceptions require attribution and do not require the payment of compensation for most uses. The national exceptions have further restrictions." 
-benficiaries:
+beneficiaries:
 - Any users
 purposes: 
 - Educational purposes

@@ -8,7 +8,7 @@ memberstates:
 - NL 
 score: 2
 description: "Artikel 18 Auteurswet implements the exception from Art 5(3)h InfoSoc. " 
-benficiaries:
+beneficiaries:
 - Anyone
 purposes: 
 - No purpose limitation 

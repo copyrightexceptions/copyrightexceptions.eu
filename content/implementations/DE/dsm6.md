@@ -8,7 +8,7 @@ memberstates:
 - DE
 score: NOT IMPLEMENTED
 description: "" 
-benficiaries:
+beneficiaries:
 purposes: 
 usage:
 subjectmatter:

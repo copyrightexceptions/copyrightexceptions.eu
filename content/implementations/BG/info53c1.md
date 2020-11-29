@@ -9,7 +9,7 @@ memberstates:
 - BG
 score: 2
 description: "The reuse of articles on current economic, political and religious topics is allowed only by reproduction and by mass media only. The exception does not extend to the rights of performers,  phonograms producers, film producers, and broadcasting organisations. The author’s opt-out option is very broadly interpreted." 
-benficiaries:
+beneficiaries:
 - Mass media only
 purposes: 
 usage:

@@ -9,7 +9,7 @@ memberstates:
 - NL
 score: 3
 description: "Articles 16n (1) Auteurswet, Art. 10 (p) Wet naburige rechten and Art 4a (d) Databankenwet implement the optional exception contained in Article 5(2)c of the InfoSoc Directive and the mandatory exception in Art 6 of the DSM directive. As and implementation of Article 6 DSM these exceptions follow the scope of the European exceptions. As an implementation of 5(2)c Infosoc they do not explore the full room provided by the EUorpean exception." 
-benficiaries:
+beneficiaries:
 - Cultural Heritage Institutions
 purposes: 
 - Preservation 

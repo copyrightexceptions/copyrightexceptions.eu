@@ -8,7 +8,7 @@ memberstates:
 - DE
 score: 2
 description: "Articles 60a - 60d of the German copyright act contain exceptions that are derived from article 5(3)a of the InfoSoc directive. These deal with Education and Teaching (§60a), educational materials(§60b), scientific research (§60c) and text and data mining (§60d)." 
-benficiaries:
+beneficiaries:
 - Educational institutions (§60a)
 - Producers of educational media (§60b)
 - Anyone engaging in academic research (§60c, §60d)

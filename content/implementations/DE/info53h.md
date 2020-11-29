@@ -9,7 +9,7 @@ memberstates:
 score: 3
 description: "This exception implements the generic exception from Art 5(3)h of the INfosoc directive. It authorises anyone to copy, distribute and publicly reproduce works that are permanently located in public spaces by means of painting or graphic art, by photograph or by film."
 
-benficiaries:
+beneficiaries:
 - anyone 
 purposes: 
 - No limitation
