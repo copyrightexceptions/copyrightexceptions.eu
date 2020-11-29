@@ -317,36 +317,27 @@ info.update = function (props) {
 	this._div.style = "visibility: visible;"	
 	this._div.innerHTML = ""
 	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
-		this._div.innerHTML += "<span class=country-name>" + props.name + '</span>';
-		table = 	"<table><tr><td>Implemented: </td><td>" + getStatus(props.exceptions[selected_exception].Implemented) + '</td></tr>';
-		
-		if (props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)'] != "") {
-			table += 	"<tr><td>Implemented on: </td><td>" + convertDate(props.exceptions[selected_exception]['Time in effect (YYYY-MM-DD)']) + '</td></tr>';
-		}
-		
-		table += 	'</table>';
-		
-		this._div.innerHTML += table;
+		this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
 		this._div.innerHTML += 	"<p>&nbsp;</p>";
+		
+		if (props.exceptions[selected_exception].Implemented != "") {
+			this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].Implemented) +  '</span></p>';
+			this._div.innerHTML += 	"<p>&nbsp;</p>";
+		}
 		
 		if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
 			this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		}
 		
-		if (props.exceptions[selected_exception]['Link to article (URL)'] != '') {
-			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + encodeURI(props.exceptions[selected_exception]['Link to article (URL)'].replace(/"/g, '&quot;')) + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] + '"></a></p>';
-		} 
-		
-		if (props.exceptions[selected_exception].Remarks != "") {
-			this._div.innerHTML += 	"<p>Remarks: </p><p><span>" + props.exceptions[selected_exception].Remarks +  '</span></p>';
+		if (props.exceptions[selected_exception].Description != "") {
+			this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].Description +  '</span></p>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		}
 		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='/v2dev/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a>";
-		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() +"</span></a> <a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</span></a></p>";
-	
+		this._div.innerHTML += "<p><a href='/v2dev/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
+		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
@@ -357,20 +348,22 @@ info.showExceptionDetails = function (value) {
 	for(var i = 0; i < exceptionsNames.length; i++) {
 		var obj = exceptionsNames[i];
 		if (obj.short == value) {
-			this._div.innerHTML += "<span class=country-name>" + obj.title + '</span>';
+			this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-			console.log(obj);
 			this._div.innerHTML += '<p>&nbsp;</p><p><a href="/v2dev/exceptions/' + obj.short + '/">Overview of implementations</a></p>';
-			//exceptions/info52c/
 			return;
 		}
 	}
 }
 
-info.clear = function () {
-	this._div.style = "visibility: hidden;"	
-	map.closePopup();
+info.clear = function (exception) {
+	if (exception == "") {
+		this._div.style = "visibility: hidden;"	
+		map.closePopup();
+	} else {
+		info.showExceptionDetails(exception);
+	}
 };
 
 info.addTo(map);

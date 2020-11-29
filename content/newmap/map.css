@@ -121,7 +121,8 @@
 		}
 		
 		#closeinfo {
-			margin-left: -1px;
+			margin-right: 10px;
+			float: right;
 		}
 		
 		

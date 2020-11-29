@@ -39,7 +39,7 @@
 		{"Time in effect (YYYY-MM-DD)": "",
 		"Last updated": "",
 		"Link to article (URL)": "{{- .Params.link -}}",
-		"Remarks": "{{ (replace .Params.remarks "\n" "<br/>") | safeHTML}}",
+		"Description": "{{ (replace .Params.description "\n" "<br/>") | safeHTML}}",
 		"short_code": "",
 		"Remuneration": "{{- .Params.compensation -}}",
 		"Article Number in local act (TEXT)": "{{- .Params.title -}}",
