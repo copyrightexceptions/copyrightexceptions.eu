@@ -360,7 +360,9 @@ info.showExceptionDetails = function (value) {
 			this._div.innerHTML += "<span class=country-name>" + obj.title + '</span>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + encodeURI(obj.linklaw.replace(/"/g, '&quot;')) + '">Link to Article</a></p>';
+			console.log(obj);
+			this._div.innerHTML += '<p>&nbsp;</p><p><a href="/v2dev/exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			//exceptions/info52c/
 			return;
 		}
 	}
