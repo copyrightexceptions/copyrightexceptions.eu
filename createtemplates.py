@@ -1,6 +1,7 @@
 import json
 import os
 import errno
+from datetime import datetime
 
 jurisdictions = {"AL" : "Albania",
 					"ME" : "Montenegro",
@@ -198,12 +199,13 @@ def createImplementationsMDs ():
 				#link: ""
 				#<!--- OPTIONAL: link to the national implementation law --->
 				#---
-
+				now = datetime.now()
+				NOW = now.strftime("%Y-%m-%dT%X+02:00")
 				f = open(path, "w+")
 				f.write("---\n")
 				f.write("title: \"\"\n")
 				f.write("<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->\n")
-				f.write("date: \n")
+				f.write("date: " + NOW + " \n")
 				f.write("<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->\n")
 				f.write("draft: true\n")
 				f.write("<!--- REQUIRED/PRE-FILLED (\"true\"): publication status is set to true by default (as long as it is \"true\" the map will show \"no information available\" Set to \"false\" once the information has been cleared for publication --> \n")

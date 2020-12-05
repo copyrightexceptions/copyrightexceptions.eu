@@ -237,7 +237,7 @@ function loadTable(data, names, implementations) {
 	for (country in implementations) {
 		cell = $("<th/>");
 		cell.attr('title', country);
-		$('<a>'+ country +'</a>').attr({'href': '/v2dev/memberstates/' + country.toLowerCase()}).appendTo(cell);
+		$('<a>'+ country +'</a>').attr({'href': '/v2dev/jurisdictions/' + country.toLowerCase()}).appendTo(cell);
 		row.append(cell);
 	};
 	table.append(row);
@@ -337,7 +337,7 @@ info.update = function (props) {
 		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
 		this._div.innerHTML += "<p><a href='/v2dev/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-		this._div.innerHTML += "<p><a href='/v2dev/memberstates/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+		this._div.innerHTML += "<p><a href='/v2dev/jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
