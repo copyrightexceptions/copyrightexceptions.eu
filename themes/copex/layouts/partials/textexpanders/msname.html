@@ -1,6 +1,7 @@
-{{ $memberstate := . }}
+{{ $memberstate := . | upper }}
 
 {{/* Candidate Countries */}}
+
 {{ if in $memberstate "AL"}}
 	{{$memberstate = "Albania"}}
 {{end}}
