@@ -23,7 +23,7 @@ $.ajax({
 // LOAD ALL MAP FROM MAPDATA FOLDER
 var mapdata;
 $.ajax({
-  url: "/v2dev/mapdata/map.json",
+  url: "/v2dev/map/mapdata.json",
   dataType: 'json',
   async: false,
   success: function(data) {
