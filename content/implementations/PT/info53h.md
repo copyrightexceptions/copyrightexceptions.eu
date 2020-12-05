@@ -1,26 +1,40 @@
----
-title: "Article 75 (2) (q) Código do Direito de Autor e dos Direitos Conexos"
-date: 2020-09-06T17:43:20+02:00
-draft: false
+---draft: false
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+title: ""
+<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
+date: 
+<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
 exceptions:
-- info53h
+- 
+<!--- REQUIRED/PRE-FILLED: short code of the exception --> 
 memberstates:
-- PT 
-score: 2
-description: "The use of works, such as architecture or sculpture, made to be kept permanently in public places;" 
+- 
+<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
+score: 
+<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
+description: "" 
+<!--- REQUIRED: short summary of the national exception. no more than 400 characters. should focus on structure of implementation, allowed acts, beneficiaries and relevant restrictions --->
 beneficiaries:
-- Anyone 
+- 
+<!--- OPTIONAL: list of types of beneficiaries. if not specified then use "Any user" --->
 purposes: 
-- No purpose limitation 
+- 
+<!--- OPTIONAL: list of purposes covered by the exception. if not specified use "Any purpose" --->
 usage:
-- All uses
+- 
+<!--- OPTIONAL: list of types of use covered by the excepotion. if not specified use "Any usage" ---> 
 subjectmatter:
-- Works such as architecture or sculpture
-compensation: 
-- Not required
-attribution:
-- Not required
-otherConditions: ""
-remarks: "" 
-link: 
+- 
+<!--- OPTIONAL: list of types of subjectmatter that can be used under the exception ---> 
+compensation: ""
+<!--- OPTIONAL: yes/no or a description of the types of uses that are compensated ---> 
+attribution: ""
+<!--- OPTIONAL: yes/no or a more precise decription of the attribution requirement ---> 
+otherConditions: 
+- 
+<!--- OPTIONAL: list of other conditions for the excercise of the exception ---> 
+remarks: ""
+<!--- OPTIONAL: Remarks on the specific implementation that are relevant for the public and that do not fit into any of the above fileds. Can be as long as necessary. You can iclude mminimal formatting in here "<br /><br />" for a line break, "<strong></strong>" for bold.  --->  
+link: ""
+<!--- OPTIONAL: link to the national implementation law --->
 ---

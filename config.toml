@@ -11,4 +11,4 @@ ignoreErrors = ["error-output-taxonomy"]
 
 [taxonomies]
   exception = "exceptions"
-  memberstate = "memberstates"
+  jurisdiction = "jurisdictions"

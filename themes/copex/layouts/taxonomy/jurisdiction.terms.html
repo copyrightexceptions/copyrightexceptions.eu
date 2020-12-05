@@ -1,0 +1,24 @@
+{{/* This is the template for rendering the list that shows all Member States for which we have at least one implemented exception in the system */}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>copyrightexceptions.eu</title>
+</head>
+  <body>
+	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>></span> {{ .Data.Plural }}</div>
+	<h2>Overview of the Member states that have implemented at least one of the generic exceptions in their national laws:</h2>
+	<div>
+		<ul>
+			{{ $terms := .Data}}
+			{{ range .Data.Pages }}
+			<li>
+			  <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+			</li>
+			{{ end }}
+    	</ul>
+	</div>
+  </body>
+</html>

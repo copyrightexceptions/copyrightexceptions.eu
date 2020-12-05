@@ -1,39 +1,40 @@
----
-title: "Article 75(2) (f) and (h) and Article 189 (1)(c) Código do Direito de Autor e dos Direitos Conexos"
-date: 2020-09-06T17:42:55+02:00
-draft: false
+---draft: false
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+title: ""
+<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
+date: 
+<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
 exceptions:
-- info53a
+- 
+<!--- REQUIRED/PRE-FILLED: short code of the exception --> 
 memberstates:
-- PT 
-score: 2
-description: "The national exceptions are similar to the EU exception with regards to who can benefit from the exception and the materials that can be used. The national exceptions are more restrictive than the EU exception with regards to the type of activities that can be done and the purposes of the activities. The national exceptions require attribution and do not require the payment of compensation for most uses. The national exceptions have further restrictions." 
+- 
+<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
+score: 
+<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
+description: "" 
+<!--- REQUIRED: short summary of the national exception. no more than 400 characters. should focus on structure of implementation, allowed acts, beneficiaries and relevant restrictions --->
 beneficiaries:
-- Any users
+- 
+<!--- OPTIONAL: list of types of beneficiaries. if not specified then use "Any user" --->
 purposes: 
-- Educational purposes
-- Scientific purposes 
+- 
+<!--- OPTIONAL: list of purposes covered by the exception. if not specified use "Any purpose" --->
 usage:
-- Reproduction
-- Distribution
-- Public Communication 
-- Making available to the public
+- 
+<!--- OPTIONAL: list of types of use covered by the excepotion. if not specified use "Any usage" ---> 
 subjectmatter:
-- Works
-- Performances
-- Phonograms
-- Film fixations
-- Broadcasts
-compensation: 
-- Some uses
-attribution: 
-- "yes"
+- 
+<!--- OPTIONAL: list of types of subjectmatter that can be used under the exception ---> 
+compensation: ""
+<!--- OPTIONAL: yes/no or a description of the types of uses that are compensated ---> 
+attribution: ""
+<!--- OPTIONAL: yes/no or a more precise decription of the attribution requirement ---> 
 otherConditions: 
-- Non-commercial Purposes
-- Quantity Limitations
-- 3-step test 
-remarks: "There are 3 exceptions in the Portuguese law that implement Art. 5.3(a) InfoSoc.: two cover the use of copyright-protected works (Art. 75(2)(f) and (g)) and one covers the use of subject matter protected by neighbouring rights under the InfoSoc (i.e. performances, phonograms, film fixations and broadcasts) (Art. 189(1)(c)).<br /><br />The exception that applies to subject matter protected by neighbouring rights covers uses both for educational and scientific purposes, whereas the exceptions that apply to copyright-protected works do not cover scientific purposes.<br /><br /> The exception that applies to subject matter protected by neighbouring rights covers any uses. The main exception permitting the use of copyright-protected works covers reproduction, distribution and making available to the public for teaching purposes (Art. 75(2)(f)); the other allows the inclusion of works for purposes of creating teaching materials (Art. 75(2)(h)).<br /><br />The exceptions that allow the use of copyright-protected works (Art. 75(2)(f) and (g)) are conditioned to the use of parts of works, but one of them (Art. 75(2)(h)) allows the use of short works in their entirety. The exception that applies to subject matter protected by neighbouring rights does not restrict the portion to which a material can be used. The main exception permitting the use of copyright-protected works (Art. 75(2)(f)) is conditioned to uses that are exclusively related to the teaching objectives in the “establishments” (implying that the exception only covers formal activities, but without specifying which establishments are those) and that do not aim to obtain, directly or indirectly, an economic or commercial advantage. The other two exceptions do not have any such limitations.<br /><br />The exceptions that permit the use of copyright-protected works (Art. 75(2)(f) and (g)) are subject to the 3-step test. The exception that applies to subject matter protected by neighbouring rights does not have any such limitation. The exception that covers the creation of teaching materials (Art. 75(2)(h)) is the only one that is subject to compensation." 
-link: 
+- 
+<!--- OPTIONAL: list of other conditions for the excercise of the exception ---> 
+remarks: ""
+<!--- OPTIONAL: Remarks on the specific implementation that are relevant for the public and that do not fit into any of the above fileds. Can be as long as necessary. You can iclude mminimal formatting in here "<br /><br />" for a line break, "<strong></strong>" for bold.  --->  
+link: ""
+<!--- OPTIONAL: link to the national implementation law --->
 ---
-
-

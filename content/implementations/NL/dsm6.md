@@ -1,37 +1,40 @@
----
-title: "Art. 16n (1) Auteurswet, Art. 10 (p) Wet naburige rechten en Art 4a (d) Databankenwet"
-date: 2020-09-06T17:14:20+02:00
-draft: false
+---draft: false
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+title: ""
+<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
+date: 
+<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
 exceptions:
-- dsm6
-- info52c
+- 
+<!--- REQUIRED/PRE-FILLED: short code of the exception --> 
 memberstates:
-- NL
-score: 3
-description: "Articles 16n (1) Auteurswet, Art. 10 (p) Wet naburige rechten and Art 4a (d) Databankenwet implement the optional exception contained in Article 5(2)c of the InfoSoc Directive and the mandatory exception in Art 6 of the DSM directive. As and implementation of Article 6 DSM these exceptions follow the scope of the European exceptions. As an implementation of 5(2)c Infosoc they do not explore the full room provided by the EUorpean exception." 
+- 
+<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
+score: 
+<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
+description: "" 
+<!--- REQUIRED: short summary of the national exception. no more than 400 characters. should focus on structure of implementation, allowed acts, beneficiaries and relevant restrictions --->
 beneficiaries:
-- Cultural Heritage Institutions
+- 
+<!--- OPTIONAL: list of types of beneficiaries. if not specified then use "Any user" --->
 purposes: 
-- Preservation 
+- 
+<!--- OPTIONAL: list of purposes covered by the exception. if not specified use "Any purpose" --->
 usage:
-- Reproduction
+- 
+<!--- OPTIONAL: list of types of use covered by the excepotion. if not specified use "Any usage" ---> 
 subjectmatter:
-- Works
-- Databases
-- Press publications 
-- Performances
-- Phonograms
-- Film fixations
-- Broadcasts
-compensation: 
-- not required
-attribution: 
-- not required
+- 
+<!--- OPTIONAL: list of types of subjectmatter that can be used under the exception ---> 
+compensation: ""
+<!--- OPTIONAL: yes/no or a description of the types of uses that are compensated ---> 
+attribution: ""
+<!--- OPTIONAL: yes/no or a more precise decription of the attribution requirement ---> 
 otherConditions: 
-- only applies to works or other subject matter in the collection of the beneficiary institution
-remarks: "Article 16n Auteurswet originally implemented Art 5(2)c of the InfoSoc directive. With the Dutch implementation of the DSM directive it was replaced by a new version that closely follows Art 6 of the DSM directive. This did not meaningfully narrow down the scope of the previous version." 
-link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=16n&z=2018-10-11&g=2018-10-11
+- 
+<!--- OPTIONAL: list of other conditions for the excercise of the exception ---> 
+remarks: ""
+<!--- OPTIONAL: Remarks on the specific implementation that are relevant for the public and that do not fit into any of the above fileds. Can be as long as necessary. You can iclude mminimal formatting in here "<br /><br />" for a line break, "<strong></strong>" for bold.  --->  
+link: ""
+<!--- OPTIONAL: link to the national implementation law --->
 ---
-
-
-

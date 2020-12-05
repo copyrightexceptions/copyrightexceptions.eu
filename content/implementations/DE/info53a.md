@@ -1,34 +1,40 @@
----
-title: "§ 60a Unterricht und Lehre, § 60b Unterrichts- und Lehrmedien, § 60c Wissenschaftliche Forschung, §60d Text und Data Mining"
-date: 2020-09-06T17:14:20+02:00
-draft: false
+---draft: false
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+title: ""
+<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
+date: 
+<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
 exceptions:
-- info53a
+- 
+<!--- REQUIRED/PRE-FILLED: short code of the exception --> 
 memberstates:
-- DE
-score: 2
-description: "Articles 60a - 60d of the German copyright act contain exceptions that are derived from article 5(3)a of the InfoSoc directive. These deal with Education and Teaching (§60a), educational materials(§60b), scientific research (§60c) and text and data mining (§60d)." 
+- 
+<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
+score: 
+<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
+description: "" 
+<!--- REQUIRED: short summary of the national exception. no more than 400 characters. should focus on structure of implementation, allowed acts, beneficiaries and relevant restrictions --->
 beneficiaries:
-- Educational institutions (§60a)
-- Producers of educational media (§60b)
-- Anyone engaging in academic research (§60c, §60d)
+- 
+<!--- OPTIONAL: list of types of beneficiaries. if not specified then use "Any user" --->
 purposes: 
-- Education and teaching (§60a)
-- noncommercial academic research (§60c)
-- Automatic analysis in the context of noncommercial academic research (§60d)
+- 
+<!--- OPTIONAL: list of purposes covered by the exception. if not specified use "Any purpose" --->
 usage:
-- Reproduction (§60a, §60b, §60c, §60d) 
-- Public Communication (§60a, §60b, §60c, §60d) 
-- Distribution (§60a, §60b, §60c)
-- Making available to the public (§60a)
+- 
+<!--- OPTIONAL: list of types of use covered by the excepotion. if not specified use "Any usage" ---> 
 subjectmatter:
-- Works 
-compensation: 
-- Some uses
-attribution: 
-otherConditions:
-- Quantity limitations
-remarks: "This this a very complicated mess. Each of these four exceptions deserves its own analysis, there is lots of work to be done here" 
-link: https://dejure.org/gesetze/UrhG/60a.html
+- 
+<!--- OPTIONAL: list of types of subjectmatter that can be used under the exception ---> 
+compensation: ""
+<!--- OPTIONAL: yes/no or a description of the types of uses that are compensated ---> 
+attribution: ""
+<!--- OPTIONAL: yes/no or a more precise decription of the attribution requirement ---> 
+otherConditions: 
+- 
+<!--- OPTIONAL: list of other conditions for the excercise of the exception ---> 
+remarks: ""
+<!--- OPTIONAL: Remarks on the specific implementation that are relevant for the public and that do not fit into any of the above fileds. Can be as long as necessary. You can iclude mminimal formatting in here "<br /><br />" for a line break, "<strong></strong>" for bold.  --->  
+link: ""
+<!--- OPTIONAL: link to the national implementation law --->
 ---
-

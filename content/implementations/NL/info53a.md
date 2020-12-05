@@ -1,29 +1,40 @@
----
-title: "Artikel 12(5) en Artikel 16 Auteurswet"
-date: 2020-09-06T17:14:20+02:00
-draft: false
+---draft: false
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+title: ""
+<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
+date: 
+<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
 exceptions:
-- info53a
+- 
+<!--- REQUIRED/PRE-FILLED: short code of the exception --> 
 memberstates:
-- NL
-score: 2
-description: "Articles 12(5) and 16 of the Dutch Copyright act implement the the European exception contained in Art 5(3)a of the InfoSoc Directive. Article 16 allows reproductions and communications to the public for illustration for teaching. Article 12(5) allows in classroom use by public or not-for profit institutions as long as the use is part of a curriculum or justified by an academic purpose. " 
+- 
+<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
+score: 
+<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
+description: "" 
+<!--- REQUIRED: short summary of the national exception. no more than 400 characters. should focus on structure of implementation, allowed acts, beneficiaries and relevant restrictions --->
 beneficiaries:
-- Public or non for profit academic or educational institutions (Art 12(5))
-- Not defined (Art 16)
+- 
+<!--- OPTIONAL: list of types of beneficiaries. if not specified then use "Any user" --->
 purposes: 
-- Illustration for teaching (Art 16)
+- 
+<!--- OPTIONAL: list of purposes covered by the exception. if not specified use "Any purpose" --->
 usage:
-- Reproduction
-- Making available to the public
+- 
+<!--- OPTIONAL: list of types of use covered by the excepotion. if not specified use "Any usage" ---> 
 subjectmatter:
-- Works
-compensation: 
-- Not required (Uses under Art 12(5))
-- Required (Uses under Art 16)
-attribution: 
-- Required for uses under Art 16. 
-otherConditions: ""
-remarks: "" 
-link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=16&z=2018-10-11&g=2018-10-11
+- 
+<!--- OPTIONAL: list of types of subjectmatter that can be used under the exception ---> 
+compensation: ""
+<!--- OPTIONAL: yes/no or a description of the types of uses that are compensated ---> 
+attribution: ""
+<!--- OPTIONAL: yes/no or a more precise decription of the attribution requirement ---> 
+otherConditions: 
+- 
+<!--- OPTIONAL: list of other conditions for the excercise of the exception ---> 
+remarks: ""
+<!--- OPTIONAL: Remarks on the specific implementation that are relevant for the public and that do not fit into any of the above fileds. Can be as long as necessary. You can iclude mminimal formatting in here "<br /><br />" for a line break, "<strong></strong>" for bold.  --->  
+link: ""
+<!--- OPTIONAL: link to the national implementation law --->
 ---

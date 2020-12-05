@@ -1,7 +1,11 @@
 ---
-title: "Art 5(3)a InfoSoc: Illustration for teaching or scientific research"
+draft: "false"
+title: "Illustration for teaching or scientific research (Art. 5.3(a) InfoSoc)"
+<!--- REQUIRED: title of the exception as used in the list of exception on the homepage --->
 short: "info53a"
-summary: "This optional exception contained in Article 5(3)a of the InfoSoc directive allows uses for the purposes of illustration for teaching or scientific research as long as such uses are undertaken in non-commercial settings"
-
-linklaw: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0029"
+<!--- REQUIRED: short code of the exception --->
+summary: ""
+<!--- REQUIRED: summary of the the excption - no more than 400 characters--->
+linklaw: ""
+<!--- OPTIONAL: link to the exception on eur-lex ---> 
 ---

@@ -1,7 +1,11 @@
 ---
-title: "Art 5(3)h InfoSoc: Use of works of architecture or sculpture in public places"
+draft: "false"
+title: "Use of works of architecture or sculptures in public spaces (Art. 5.3(h) InfoSoc)"
+<!--- REQUIRED: title of the exception as used in the list of exception on the homepage --->
 short: "info53h"
-summary: "This optional exception contained in Article 5(3)h of the InfoSoc directive allows uses of works of architecture or sculpture located permanently in public places. It is colloquially known as the Freedom of Panorama exception"
-
-linklaw: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0029"
+<!--- REQUIRED: short code of the exception --->
+summary: ""
+<!--- REQUIRED: summary of the the excption - no more than 400 characters--->
+linklaw: ""
+<!--- OPTIONAL: link to the exception on eur-lex ---> 
 ---

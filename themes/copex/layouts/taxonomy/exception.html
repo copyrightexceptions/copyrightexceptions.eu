@@ -17,7 +17,7 @@
   	<p>{{ .Page.Params.summary }}</p>
   	<p>This exception has been implemented in the following Member States:</p>
   	{{ range .Pages }}
-	  		<h2>{{ partial "textexpanders/msname.html" (first 1 .Params.memberstates) }}: <a href="{{.Permalink}}"> {{.Title}}</a></h2>
+	  		<h2>{{ .Params.memberstates }}: <a href="{{.Permalink}}"> {{.Title}}</a></h2>
   	{{ end }}
   </body>
 </html>

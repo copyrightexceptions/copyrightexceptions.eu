@@ -1,7 +1,11 @@
 ---
-title: "Art 6 DSM: Preservation of cultural heritage"
+draft: "false"
+title: "Preservation of cultural heritage (Art. 6 DSM)"
+<!--- REQUIRED: title of the exception as used in the list of exception on the homepage --->
 short: "dsm6"
-summary: "This mandatory exception contained in Article 6 of DSM directive allows cultural heritage institutions to make copies of any works or other subject matter that are permanently in their collections for purposes the purpose of preservation"
-
-linklaw: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0790#006"
+<!--- REQUIRED: short code of the exception --->
+summary: ""
+<!--- REQUIRED: summary of the the excption - no more than 400 characters--->
+linklaw: ""
+<!--- OPTIONAL: link to the exception on eur-lex ---> 
 ---
