@@ -200,18 +200,18 @@ def createImplementationsMDs ():
 				#---
 
 				f = open(path, "w+")
-				f.write("---")
-				f.write("draft: false\n")
-				f.write("<!--- REQUIRED/PRE-FILLED (\"true\"): publication status is set to true by default (as long as it is \"true\" the map will show \"no information available\" Set to \"false\" once the information has been cleared for publication --> \n")
+				f.write("---\n")
 				f.write("title: \"\"\n")
 				f.write("<!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->\n")
 				f.write("date: \n")
 				f.write("<!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->\n")
+				f.write("draft: true\n")
+				f.write("<!--- REQUIRED/PRE-FILLED (\"true\"): publication status is set to true by default (as long as it is \"true\" the map will show \"no information available\" Set to \"false\" once the information has been cleared for publication --> \n")
 				f.write("exceptions:\n")
-				f.write("- \n")
+				f.write("- " + exception + "\n")
 				f.write("<!--- REQUIRED/PRE-FILLED: short code of the exception --> \n")
-				f.write("memberstates:\n")
-				f.write("- \n")
+				f.write("jurisdictions:\n")
+				f.write("- " + jurisdiction + "\n")
 				f.write("<!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->\n")
 				f.write("score: \n")
 				f.write("<!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->\n")
@@ -245,7 +245,7 @@ def createImplementationsMDs ():
 
 proefdraaien = False
 createImplementationsMDs()
-createExceptionMDs()
+#createExceptionMDs()
 #createCountryMDs()
 				
 				

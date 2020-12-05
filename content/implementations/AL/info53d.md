@@ -1,14 +1,15 @@
----draft: false
-<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
+---
 title: ""
 <!--- REQUIRED: full name of the exception in the local language (if in a non roman script include ENsummary in (brackets)) -->
 date: 
 <!--- REQUIRED/PRE-FILLED: date of adoption, or last change of the exception. if unavailable use date of data entry --->
+draft: true
+<!--- REQUIRED/PRE-FILLED ("true"): publication status is set to true by default (as long as it is "true" the map will show "no information available" Set to "false" once the information has been cleared for publication --> 
 exceptions:
-- 
+- info53d
 <!--- REQUIRED/PRE-FILLED: short code of the exception --> 
-memberstates:
-- 
+jurisdictions:
+- AL
 <!--- REQUIRED/PRE FILLED: short code of the jurisdiction --->
 score: 
 <!--- REQUIRED: implementation score from 0 (not implemented) to 3 (fully implemented) -->
