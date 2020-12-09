@@ -1,0 +1,4 @@
+---
+name: "Slovenia" 
+legalarrangement: ""
+---

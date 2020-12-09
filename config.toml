@@ -1,0 +1,14 @@
+baseURL = "https://www.copyrightexceptions.eu/v2dev/"
+languageCode = "en-us"
+title = "Copyright Exceptions"
+theme = "copex"
+ignoreErrors = ["error-output-taxonomy"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "JSON"]
+
+
+[taxonomies]
+  exception = "exceptions"
+  jurisdiction = "jurisdictions"

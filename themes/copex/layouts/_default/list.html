@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>voyantes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+  <body>
+  	<div class="breadcrumb"><a href="/">home</a> <span>></span> <a href="/{{ .Data.Plural }}/" class="tag">{{ .Data.Plural }}</a> <span class="next">></span> <a href="/{{ .Data.Plural }}/{{ .Title}}/" class="tag">{{ .Title }}</a></div>
+  	{{ range .Pages }}
+	  		<h1><a href="{{.Permalink}}">{{.Title}}</a></h1>
+  			<strong>Date:</strong> {{ dateFormat "02-01-2006" .Date }}</p>
+  	{{ end }}
+  </body>
+</html>
+

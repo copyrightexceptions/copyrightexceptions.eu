@@ -1,0 +1,4 @@
+---
+name: "Germany" 
+legalarrangement: ""
+---
