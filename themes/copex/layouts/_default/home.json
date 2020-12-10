@@ -1,4 +1,6 @@
-{{- $pages := sort (where .Site.Pages "Section" "implementations") ".File.Dir" -}}
+{{- $pages := where .Site.Pages "Section" "implementations" -}}
+{{- $pages = where $pages ".Params.draft" "!=" true -}}
+{{- $pages := sort $pages ".File.Dir" -}}
 {{- $len := (len $pages) -}}
 
 {{- $scratch := newScratch -}}
@@ -10,8 +12,8 @@
 	{{/* Test if the subsection contains documents */}}
 	{{-  if not .IsSection -}}
 		
-		{{/* Test if this is the same jurisdiction as last time */}}
-		{{- if not (eq ($scratch.Get "currentJurisdiction") (path.Base .Dir)) -}}
+		{{/* Test if this is the same jurisdiction as last time */}}		
+		{{- if not (eq ($scratch.Get "currentJurisdiction") (path.Base .File.Dir)) -}}
 			{{- $scratch.Set "newJurisdiction" true -}}
 		{{- else -}}
 			{{- $scratch.Set "newJurisdiction" false -}}
@@ -25,7 +27,7 @@
 				}},
 			{{- end -}}
 			
-			{{- $scratch.Set "currentJurisdiction" (path.Base .Dir) -}}
+			{{- $scratch.Set "currentJurisdiction" (path.Base .File.Dir) -}}
 			
 			{{/* create new dict for jurisdiction */}}
 			"{{- $scratch.Get "currentJurisdiction" -}}" : {			
