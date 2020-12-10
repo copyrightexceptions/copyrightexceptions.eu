@@ -1,6 +1,12 @@
-var selected_exception = "dummy";
-var lat, lng;
+/* SET VARIABLES */
+var base_url = "/v2dev/"
 
+/* pre-load an exception that you want to highlight, use the short of that exception (e.g. DSM6) */
+var selected_exception = "dummy";
+
+/* BUILD LEGENDA */
+
+/* Create legenda for under map and table */
 var color_legenda = '<div id=legenda>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#DDD></div> No information</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#f46d43></div> No implementation</div></div>' + 
@@ -9,60 +15,10 @@ var color_legenda = '<div id=legenda>' +
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#1a9850></div> Broad implementation </div></div>' + 
 					'</div>';
 
-// LOAD ALL IMPLEMENTATIONS FROM THE HUGO TAXONOMY
-var implementations;
-$.ajax({
-  url: "/index.json",
-  dataType: 'json',
-  async: false,
-  success: function(data) {
-    implementations = data.implementations;
-  }
-});
-
-// LOAD ALL MAP FROM MAPDATA FOLDER
-var mapdata;
-$.ajax({
-  url: "/map/mapdata.json",
-  dataType: 'json',
-  async: false,
-  success: function(data) {
-    mapdata = data;
-  }
-});
-
-// MERGE
-$.each(mapdata.features, function(key,value) {
-  country_code = value.properties.iso_a2;
-  if (country_code in implementations) {
-  	value.properties["exceptions"] = implementations[country_code];
-  }
-  else {
-  	delete mapdata.features[key];
-  }
-}); 
-
-if (typeof JSON.clone !== "function") {
-    JSON.clone = function(obj) {
-        return JSON.parse(JSON.stringify(obj));
-    };
-}
-
-mapdataTMP = JSON.clone(mapdata)
-mapdata.features = [];
-index = 0
-$.each(mapdataTMP.features, function(key,value) {
-	console.log()
-	if (value != null) {	
-		mapdata.features[index] = value;
-		index += 1;
-	}
-}); 
-
-// LOAD ALL EXCEPTIONS FROM THE HUGO TAXONOMY
+/* Load information about exceptions from the Hugo taxonomy */
 var exceptionsNames;
 $.ajax({
-  url: "/exceptions/index.json",
+  url: base_url + "/exceptions/index.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -70,53 +26,43 @@ $.ajax({
   }
 });
 
-// BUILD LEGENDA
-var legenda = '<div id="logo">' + '<a href="/"><img src="/images/copyright_exceptions_logo.svg"/></a>' + '</div>';
+/* Create legenda */
+var legenda = '<div id="logo">' + '<a href="/"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>' + '</div>';
 jQuery.each(exceptionsNames, function() {
   legenda = legenda + '<p><href id="' + this.short + '"><span class="exception ' + this.short + '">' + this.title + '</span></href></p>';
 });
 legenda = legenda + color_legenda;
-				
-var exceptionsTable = [];
 
-/* FUNCTIONS */
+/* FUNCTIONS RELATED TO MAP*/
 
+/* Reset highlight */
 function resetHighlight(e) {
 	var layer = e.target;
-
-	
 	if (!L.Browser.ie && !L.Browser.opera) {
 		layer.bringToFront();
 	}
 }
 
-function highlightFeature(e) {
-	var layer = e.target;		
-
-	if (!L.Browser.ie && !L.Browser.opera) {
-		layer.bringToFront();
-	}
-}
-
-
-function onEachFeature(feature, layer) {
-	layer.on({
-		click : registerClick,
-		mouseout: resetHighlight,
-	});
-	if(layer.hasOwnProperty("feature")){
-		layer.setStyle(style(layer.feature))
-		popup = layer.bindPopup('<div style="text-align:center;">' + layer.feature.properties.name + '</div>', {closeButton:false});
-	 }
-}
-
+/* On click, close existing infobox and update infobox */
 function registerClick(e) {
 	var layer = e.target;
 	map.closePopup();
 	info.update(layer.feature.properties);
 }
 
-// Style each feature
+/* Add click and mouseout features to layers on map */
+function onEachFeature(feature, layer) {
+	layer.on({
+		click : registerClick,
+		mouseout: resetHighlight,
+	});
+	if(layer.hasOwnProperty("feature")){
+		layer.setStyle(style(layer.feature));
+		popup = layer.bindPopup('<div style="text-align:center;">' + layer.feature.properties.name + '</div>', {closeButton:false});
+	 }
+}
+
+/* Style each feature */
 function style(feature) {
 	if (feature.hasOwnProperty('properties')) {
 		if (feature.properties.hasOwnProperty('exceptions')) {
@@ -140,19 +86,7 @@ function style(feature) {
 	};
 }
 
-function showValue (name, value, row) {
-	if (row === undefined) {
-		row = false;
-	}
-	result = (value != '' ? '#aee300' : "");
-	if (row) {
-		result = '<tr><td>'
-	}
-	else {
-		return value != '' ? '#aee300' : "";
-	}
-}
-
+/* translate status color code of country to color on map, gray if no code is available */
 function getColor(d) { 
 	return d == '0' ? '#f46d43':
 		   d == '1' ? '#fee08b':
@@ -161,6 +95,7 @@ function getColor(d) {
 					  '#DDDDDD';
 }
 
+/* get status text of country to color on map */
 function getStatus(s) {
 	return s == '0' ? 'The EU exception is not implemented':
 		   s == '1' ? 'The national exception is much more restrictive than the EU exception':
@@ -170,38 +105,31 @@ function getStatus(s) {
 					  
 }
 
-// Converts YYYY/MM/DD to DD-MM-YYYY
-function convertDate (date) {
-	if ((date.match(/\//g) || []).length == 2) {
-		date = date.split("/");
-		return date[2] + "-" + date[1] + "-" + date[0];
-	}
-	return date;
-}
-
+/* Switch between table view and map view */
 function switchView (setView) {
 	if (setView === undefined) {
 		setView = 'auto';
 	}
 	switch(setView) {
+		// auto detects whether map or table is currently active and switches to the other.
 		case 'auto':
 				if ($("#table").css("z-index") > $("#map").css("z-index")) {
 					$("#table").css("z-index", "0");
 					$("#map").css("z-index", "1");
-					window.parent.location.hash = selected_exception
+					window.parent.location.hash = selected_exception;
 				} else {
-					window.parent.location.hash = 'table'
+					window.parent.location.hash = 'table';
 					$("#table").css("z-index", "1");
 					$("#map").css("z-index", "0");
 				}
 			break;
 		case 'table':
-			window.parent.location.hash = 'table'
+			window.parent.location.hash = 'table';
 			$("#table").css("z-index", "1");
 			$("#map").css("z-index", "0");
 			break;
 		case 'map':
-			window.parent.location.hash = selected_exception
+			window.parent.location.hash = selected_exception;
 			$("#table").css("z-index", "0");
 			$("#map").css("z-index", "1");
 			break;
@@ -209,6 +137,7 @@ function switchView (setView) {
 	map.setView([55, 10], 4);	
 }
 
+/* Change selected exception, using the hash of the URL, in case people link to a specific implementation*/
 function changeSelected_Exception (hash) {
 	hash = unescape(hash);
 	if (hash != '') {
@@ -226,26 +155,23 @@ function changeSelected_Exception (hash) {
 	}
 }
 
-function loadTable(data, names, implementations) {
-	var result = [];
-	var countries = []; 
-
-  
+/* Generates the table view of the data. */
+function loadTable(data, names, implementations) {  
 	var table = $("<table/>").addClass('data-table');
 	var row = $("<tr/>").addClass( "table_header" );
 	row.append($("<th/>").text(''));
-	for (country in implementations) {
+	for (var country in implementations) {
 		cell = $("<th/>");
 		cell.attr('title', country);
 		$('<a>'+ country +'</a>').attr({'href': '/jurisdictions/' + country.toLowerCase()}).appendTo(cell);
 		row.append(cell);
-	};
+	}
 	table.append(row);
 	
 	$.each (names, function( key, exception ) {
 		var row = $("<tr/>");
 		cell = $("<td/>");
-		cell.html(names[key].title);
+		cell.html("<span class=exception>" + names[key].title + "</span>");
 		short_name = names[key].short;
 		row.append(cell);
 		for (var country in implementations) {
@@ -257,12 +183,13 @@ function loadTable(data, names, implementations) {
 				cell = $("<td/>").css("background-color", getColor(''));
 			}
 			row.append(cell);
-		};
+		}
 		table.append(row);
 	});
 	return table;
 }
 
+/* Create interface for map */
 var viewControl =  L.Control.extend({
   options: {
     position: 'topright'
@@ -278,32 +205,79 @@ var viewControl =  L.Control.extend({
   }
 });
 
+// * set up map */
 var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 10], 4);
 
 map.addControl(new viewControl());
 L.control.zoom({position:'topright'}).addTo(map);
-
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
-
 map.fitBounds(map.getBounds(), {padding: [0, 0]});
 
-var exceptionsTable = [];
+/* LOAD ALL STATIC DATA */
 
-// LOAD DATA
+/* Load implementations, generated by hugo */
+var implementations;
+$.ajax({
+  url: base_url + "index.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+    implementations = data.implementations;
+  }
+});
+
+/* Load GEOJSON mapdata, downloaded from https://geojson-maps.ash.ms/ */
+var mapdata;
+$.ajax({
+  url: base_url + "map/mapdata.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+    mapdata = data;
+  }
+});
+
+/* Merge both the GEOSJON mapdata with the country specific JSON */
+$.each(mapdata.features, function(key,value) {
+  country_code = value.properties.iso_a2;
+  if (country_code in implementations) {
+  	value.properties["exceptions"] = implementations[country_code];
+  }
+  else {
+  	// remove unwanted countries from map, countries that have no information about them.
+  	delete mapdata.features[key];
+  }
+}); 
+
+/* function to clone a JSON file */
+if (typeof JSON.clone !== "function") {
+    JSON.clone = function(obj) {
+        return JSON.parse(JSON.stringify(obj));
+    };
+}
+
+/* Clone mapdata, in order to reindex the features map */
+mapdataTMP = JSON.clone(mapdata);
+mapdata.features = [];
+index = 0;
+$.each(mapdataTMP.features, function(key,value) {
+	if (value != null) {	
+		mapdata.features[index] = value;
+		index += 1;
+	}
+}); 
+
+/* Load data in map */
 L.geoJson(mapdata, {
 	clickable: true,
 	style: style,
 	onEachFeature: onEachFeature
 }).addTo(map);
-table = loadTable(mapdata, exceptionsNames, implementations)
-$("#table").html('<div id="logo">' + '<a href="/"><img src="/images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="/" class="SwitchTABLE">SHOW MAP</href></div>');
+table = loadTable(mapdata, exceptionsNames, implementations);
+$("#table").html('<div id="logo">' + '<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</href></div>');
 
-map.addEventListener('mousemove', function(ev) {
-   lat = ev.latlng.lat;
-   lng = ev.latlng.lng;
-});
 
-// INFORMATION pane
+/* Functions pertaining to Information pane */
 
 // control that shows info on click
 var info = L.control();
@@ -314,8 +288,8 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-	this._div.style = "visibility: visible;"	
-	this._div.innerHTML = ""
+	this._div.style = "visibility: visible;";
+	this._div.innerHTML = "";
 	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 		this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
 		this._div.innerHTML += 	"<p>&nbsp;</p>";
@@ -336,30 +310,30 @@ info.update = function (props) {
 		}
 		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-		this._div.innerHTML += "<p><a href='/jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+		this._div.innerHTML += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
+		this._div.innerHTML += "<p><a href='" + base_url +  "jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
 
 info.showExceptionDetails = function (value) {
-	this._div.style = "visibility: visible;"
-	this._div.innerHTML = ""
+	this._div.style = "visibility: visible;";
+	this._div.innerHTML = "";
 	for(var i = 0; i < exceptionsNames.length; i++) {
 		var obj = exceptionsNames[i];
 		if (obj.short == value) {
 			this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-			this._div.innerHTML += '<p>&nbsp;</p><p><a href="/exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
 			return;
 		}
 	}
-}
+};
 
 info.clear = function (exception) {
 	if (exception == "") {
-		this._div.style = "visibility: hidden;"	
+		this._div.style = "visibility: hidden;";
 		map.closePopup();
 	} else {
 		info.showExceptionDetails(exception);
@@ -413,15 +387,15 @@ function changeException(value) {
 
 	// Update hash for easy linking
 	selected_exception = value;
-	window.parent.location.hash = selected_exception
+	window.parent.location.hash = selected_exception;
 
 	// Update map
 	map.eachLayer(function (layer) {
 		if(layer.hasOwnProperty("feature")){
-			layer.setStyle(style(layer.feature))
+			layer.setStyle(style(layer.feature));
 		}
    
-	})
+	});
 	map.closePopup();
 }
 
@@ -446,31 +420,31 @@ window.parent.onhashchange = function(e) {
 	if (selected_exception != hash) {
 	    changeSelected_Exception(hash);
 	}
-}    
+};
 
 function createClickAction( exceptionName ){
   return function(){
     changeException(exceptionName);  
 	highlight(exceptionName); 
-  }
+  };
 }
 
 $(document).ready(function(){
-	for(index in exceptionsNames) {
+	for(var index in exceptionsNames) {
 	  if (exceptionsNames[index]["short"] != "") {
 	 	 $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
 		}
 	}  
 });
 
-for(index in exceptionsNames) {
+for(var index in exceptionsNames) {
 	if (exceptionsNames[index]["short"] != "") {
 		$('#' + exceptionsNames[index]["short"]).click( function(){
 			changeException(exceptionsNames[index]["short"]);  
 			highlight(exceptionsNames[index]["short"]); 
 		});
 	}else {
-		console.log("No short for: " + exceptionsNames[index]["title"])
+		console.log("No short for: " + exceptionsNames[index]["title"]);
 	}
 }
 $('.SwitchMAP').click(function(){ switchView(); return false;});
@@ -478,18 +452,18 @@ $('.SwitchTABLE').click(function(){ switchView(); return false;});
 $('#closeinfo').click(function(){ switchView(); return false;});
 $( ".info" )
   .mouseover(function() {
-   	map.scrollWheelZoom.disable()
+   	map.scrollWheelZoom.disable();
   })
   .mouseout(function() {
-    map.scrollWheelZoom.enable()
+    map.scrollWheelZoom.enable();
   });
   
 $( ".exceptions" )
   .mouseover(function() {
-   	map.scrollWheelZoom.disable()
+   	map.scrollWheelZoom.disable();
   })
   .mouseout(function() {
-    map.scrollWheelZoom.enable()
+    map.scrollWheelZoom.enable();
   });
 
 $(document).on('mouseenter mouseleave', '.data-table td', function () {
@@ -504,7 +478,6 @@ $(document).on('mouseenter mouseleave', '.data-table td', function () {
 		first.children().toggleClass('table-name-hover');
 	}
 });
-
 
 $(document).on('click', '.SwitchTABLE', function(e){
     e.preventDefault(); // stop default action
