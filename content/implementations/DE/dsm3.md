@@ -1,12 +1,12 @@
 ---
-title: ""
+title: "test"
 date: 2020-12-09T11:39:35+02:00 
-draft: true
+draft: false
 exceptions:
 - dsm3
 jurisdictions:
 - DE
-score: 
+score: 2
 description: "" 
 beneficiaries:
 - 
