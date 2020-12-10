@@ -4,13 +4,17 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>copyrightexceptions.eu</title>
+	
+	{{ partial "map/header.html" . }}
+    
 </head>
   <body>
-	<h1>Development version for copyrightexceptions.eu version 2.0</h1>
-	<h2>Note that all information on this website should be treated as dummy information and not relied on in any way</h2>
+	<hr>
+	{{ partial "map/map.html" . }}
+	<hr>
+	<h1>About</h1>
+	<b>Note that all information on this website should be treated as dummy information and not relied on in any way</b>
 	<p><a href="{{ $.Site.BaseURL }}exceptions/">Go to all exceptions</a></p>
 	<p><a href="{{ $.Site.BaseURL }}jurisdictions/">Go to all jurisdictions</a></p>
-	<p><a href="index.json">Go to data in JSON</a></p>
-	<p><a href="map/index.html">Go to map</a></p>
   </body>
 </html>

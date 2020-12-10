@@ -1,4 +1,4 @@
-baseURL = "https://www.copyrightexceptions.eu/"
+baseURL = "https://www.copyrightexceptions.eu/v2dev/"
 languageCode = "en-us"
 title = "Copyright Exceptions"
 theme = "copex"
