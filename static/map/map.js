@@ -12,7 +12,7 @@ var color_legenda = '<div id=legenda>' +
 // LOAD ALL IMPLEMENTATIONS FROM THE HUGO TAXONOMY
 var implementations;
 $.ajax({
-  url: "/v2dev/index.json",
+  url: "/index.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -23,7 +23,7 @@ $.ajax({
 // LOAD ALL MAP FROM MAPDATA FOLDER
 var mapdata;
 $.ajax({
-  url: "/v2dev/map/mapdata.json",
+  url: "/map/mapdata.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -62,7 +62,7 @@ $.each(mapdataTMP.features, function(key,value) {
 // LOAD ALL EXCEPTIONS FROM THE HUGO TAXONOMY
 var exceptionsNames;
 $.ajax({
-  url: "/v2dev/exceptions/index.json",
+  url: "/exceptions/index.json",
   dataType: 'json',
   async: false,
   success: function(data) {
@@ -71,7 +71,7 @@ $.ajax({
 });
 
 // BUILD LEGENDA
-var legenda = '<div id="logo">' + '<a href="/"><img src="/v2dev/images/copyright_exceptions_logo.svg"/></a>' + '</div>';
+var legenda = '<div id="logo">' + '<a href="/"><img src="/images/copyright_exceptions_logo.svg"/></a>' + '</div>';
 jQuery.each(exceptionsNames, function() {
   legenda = legenda + '<p><href id="' + this.short + '"><span class="exception ' + this.short + '">' + this.title + '</span></href></p>';
 });
@@ -237,7 +237,7 @@ function loadTable(data, names, implementations) {
 	for (country in implementations) {
 		cell = $("<th/>");
 		cell.attr('title', country);
-		$('<a>'+ country +'</a>').attr({'href': '/v2dev/jurisdictions/' + country.toLowerCase()}).appendTo(cell);
+		$('<a>'+ country +'</a>').attr({'href': '/jurisdictions/' + country.toLowerCase()}).appendTo(cell);
 		row.append(cell);
 	};
 	table.append(row);
@@ -251,7 +251,7 @@ function loadTable(data, names, implementations) {
 		for (var country in implementations) {
 			if ( implementations[country].hasOwnProperty(short_name)) {
 				cell = $("<td/>").css("background-color", getColor(implementations[country][short_name].Implemented));
-				$('<a></a>').attr({'href': '/v2dev/implementations/' + country.toLowerCase() + '/' + short_name + '/'}).appendTo(cell);
+				$('<a></a>').attr({'href': '/implementations/' + country.toLowerCase() + '/' + short_name + '/'}).appendTo(cell);
 			}
 			else {
 				cell = $("<td/>").css("background-color", getColor(''));
@@ -296,7 +296,7 @@ L.geoJson(mapdata, {
 	onEachFeature: onEachFeature
 }).addTo(map);
 table = loadTable(mapdata, exceptionsNames, implementations)
-$("#table").html('<div id="logo">' + '<a href="/"><img src="/v2dev/images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="/" class="SwitchTABLE">SHOW MAP</href></div>');
+$("#table").html('<div id="logo">' + '<a href="/"><img src="/images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="/" class="SwitchTABLE">SHOW MAP</href></div>');
 
 map.addEventListener('mousemove', function(ev) {
    lat = ev.latlng.lat;
@@ -336,8 +336,8 @@ info.update = function (props) {
 		}
 		
 		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='/v2dev/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-		this._div.innerHTML += "<p><a href='/v2dev/jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+		this._div.innerHTML += "<p><a href='/implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
+		this._div.innerHTML += "<p><a href='/jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
 		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
@@ -351,7 +351,7 @@ info.showExceptionDetails = function (value) {
 			this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-			this._div.innerHTML += '<p>&nbsp;</p><p><a href="/v2dev/exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			this._div.innerHTML += '<p>&nbsp;</p><p><a href="/exceptions/' + obj.short + '/">Overview of implementations</a></p>';
 			return;
 		}
 	}
