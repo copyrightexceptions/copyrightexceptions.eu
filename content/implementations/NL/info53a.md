@@ -18,8 +18,11 @@ usage:
 - Making available to the public
 subjectmatter:
 - Works
-compensation: "Not required for uses under Art 12(5), required for Uses under Art 16"
-attribution: "Required for uses under Art 16"
+compensation: 
+- Not required for uses under Art 12(5)
+- required for Uses under Art 16
+attribution: 
+- Required for uses under Art 16
 otherConditions: 
 - 
 remarks: ""
