@@ -1,4 +1,4 @@
-{{ $jurisdiction := .Params.jurisdictions }}
+{{ $jurisdiction := . | upper}}
 
 {{/* Candidate Countries */}}
 
@@ -102,7 +102,7 @@
 	{{$jurisdiction = "Malta"}}													
 {{end}}
 {{ if in $jurisdiction "NL"}}
-	{{$jurisdiction = "the Netherlands"}}
+	{{$jurisdiction = "The Netherlands"}}
 {{end}}
 {{ if in $jurisdiction "PL"}}
 	{{$jurisdiction = "Poland"}}

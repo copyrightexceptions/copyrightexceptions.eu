@@ -10,10 +10,11 @@
 	<div class="exception">
 		<h1>{{.Title}}</h1>
 		<ul>
-			<li><strong>Generic Exception:</strong> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
-			<li><strong>Member State:</strong> {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
-			<li><strong>Score:</strong> {{.Params.score}}</li>
+			<li><strong>Generic Exception:</strong> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }}</li>
+			<li><strong>Member State:</strong> {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a> {{ end }}</li>
+			<li><strong>Score:</strong> {{ partial "textexpanders/score.html" . }}</li>
 		</ul>
+		<p><strong>Introduced/last updated:</strong> {{ dateFormat "02 January 2006" .Date }}</p>
 		{{if .Params.description}}<p><strong>Summary: </strong>{{.Params.description}}</p>{{end}}
 		<ul>
 			{{if .Params.benficiaries}}<li><strong>Benficiaries:</strong>
