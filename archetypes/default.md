@@ -1,11 +1,11 @@
 ---
-title: "{{ replace .Dir "/" " "}}{{ replace .Name "-" " "}}"
+title: "{{ with .File }}{{ replace .Dir "/" " "}}{{ end }}{{ replace .Name "-" " "}}"
 date: {{ .Date }}
 draft: true
 exceptions:
 - {{ replace .Name "-" " "}}
 memberstates:
-- {{ replace .Dir "/" " "}}
+- {{ with .File }}{{ replace .Dir "/" " "}}{{ end }}
 score: 0
 url: 
 remuneration:

@@ -1,0 +1,4 @@
+---
+name: "Lichtenstein" 
+legalarrangement: ""
+---

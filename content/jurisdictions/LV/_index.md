@@ -1,0 +1,4 @@
+---
+name: "Latvia" 
+legalarrangement: ""
+---

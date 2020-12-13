@@ -10,15 +10,15 @@
 	<div class="exception">
 		<h1>{{.Title}}</h1>
 		<ul>
-			<li><strong>Generic Exception:</strong> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }}</li>
-			<li><strong>Member State:</strong> {{ range .Params.memberstates }} <a href="{{ $.Site.BaseURL }}memberstates/{{ . | urlize }}/">{{ partial "textexpanders/msname.html" . }}</a> {{ end }}</li>
+			<li><strong>Generic Exception:</strong> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
+			<li><strong>Member State:</strong> {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
 			<li><strong>Score:</strong> {{.Params.score}}</li>
 		</ul>
 		{{if .Params.description}}<p><strong>Summary: </strong>{{.Params.description}}</p>{{end}}
 		<ul>
 			{{if .Params.benficiaries}}<li><strong>Benficiaries:</strong>
 				<ul>
-					{{ range .Params.benficiaries }}<li>{{ . }}</li>{{end}}
+					{{ range .Params.beneficiaries }}<li>{{ . }}</li>{{end}}
 					
 				</ul>
 			</li>{{end}}
@@ -51,7 +51,7 @@
 		</ul>
 		{{if .Params.remarks}}<p><strong>Remarks: </strong> {{.Params.remarks| safeHTML }}</p>{{end}}
 		{{if .Params.link}}<p><a href="{{.Params.link | safeHTML }}">View online</a></p>{{end}}
-		<p><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/{{ range .Params.memberstates }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view data on GitHub</a></p>	
+		<p><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/implementations/{{ range .Params.jurisdictions }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view data on GitHub</a></p>	
 	</div>
   </body>
 </html>
