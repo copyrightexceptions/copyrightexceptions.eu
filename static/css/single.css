@@ -79,8 +79,18 @@ h2 {
 
 .logo {
 	float: right;
-	margin: -27px 5px 0px 0px;
+	margin: -27px 5px 0px 20px;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 670px) {
+
+.logo img {
+	margin: 5px 5px 0px 10px;
+	max-width: 120px;
+	max-height: 40px;
+}
+}
+
 
 .breadcrumb {
 	margin: 25px 0px 0px 10px;
