@@ -1,6 +1,6 @@
 ---
-title: "test"
-date: 2020-12-09T11:39:34+02:00 
+title:
+date:  
 draft: false 
 exceptions:
 - dsm3
@@ -9,17 +9,12 @@ jurisdictions:
 score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
-compensation: ""
-attribution: ""
+compensation:
+attribution: 
 otherConditions: 
-- 
 remarks: ""
 link: ""
 ---
