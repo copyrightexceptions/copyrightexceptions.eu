@@ -2,23 +2,54 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>voyantes</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-	<link rel="stylesheet" type="text/css" href="/css/main.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-</head>
-  <body>
-  	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>></span> <a href="{{ $.Site.BaseURL }}{{ .Data.Plural }}/" class="tag">{{ .Data.Plural }}</a> <span class="next">></span> {{ .Page.Params.name }}</div>
-  	<h1>{{ .Page.Params.name }}</h1>
-  	<p>{{ .Page.Params.legalarrangement }}</p>
-  	<p>This Jurisdiction has implemented the following exceptions in its national laws:</p>
-  	{{ range .Pages }}
-	  		<h2>{{ partial "textexpanders/ex-short.html" . }}: <a href="{{.Permalink}}">{{.Title}}</a></h2>
-  	{{ end }}
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>copyrightexceptions.eu</title>
+		<link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}/css/single.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+  		<div id="page">
+        	<div id="header" class="site-header">
+            	<div class="wrap-header">
+                	<div id="branding" role="banner">
+                    	<div class="logo"><img src="{{ $.Site.BaseURL }}images/copyright_exceptions_logo.svg"></div>
+                    	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">map</a> <span>/</span> <a href="{{ $.Site.BaseURL }}{{ .Data.Plural }}/" >{{ .Data.Plural }}</a> <span>/</span> {{ .Page.Params.name }}</div>
+                    	<div style="clear:both;"></div>
+               		</div><!--#branding-->
+            	</div><!--.wrap-->
+        	</div><!--#header-->
+        	<div id="main">
+            	<div class="wrap">
+                	<div id="primary">
+                    	<div id="content" role="main">
+                    		
+                    		<h1>{{ .Page.Params.name }}</h1>
+  							<p>{{ .Page.Params.legalarrangement }}</p>
+  							<h2>{{ .Page.Params.name }} has implemented the following exceptions in its national laws:</h2>
+  							<ul class="exceptions-jur">
+  							{{ range where .Pages ".Params.score" "!=" 0}}
+	  						<li>{{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/ex-short.html" . }}</a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title}}</a></li>
+  							{{ end }}
+  							</ul>
+  							<h2>{{ .Page.Params.name }} has <span class="score0">not implemented</span> the following optional exceptions in its national laws:</h2>
+  							<ul class="exceptions-jur">
+  							{{ range where .Pages ".Params.score" 0}}
+	  						<li>{{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/ex-short.html" . }}</a> {{ end }}</li>
+  							{{ end }}
+  							</ul>
+                    	</div><!-- #content -->
+                	</div><!-- #primary -->
+            	</div><!--.wrap-->
+        	</div><!--#main-->
+        	<div id="footer" class="site-footer">
+            	<div class="wrap">
+ 					<p>CopyrightExceptions.eu is a project maintained by <a href="https://publicspace.online">publicspace.online</a>. The information provided on this website is for informational purposes only. You can find more information about the project and its contributors <a href="{{ $.Site.BaseURL }}about.html">here</a>. All texts and data presented on this website are dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a>.</p>
+            	</div><!--.wrap-->
+        	</div><!--#footer--> 
+    	</div><!--#page-->
+  	</body>
 </html>
 
+    

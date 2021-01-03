@@ -17,7 +17,21 @@ div{
 body {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.4em;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 1.2em;
+	font-weight: 700;
+	margin-top: 75px;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 700;
+	margin-top: 35px;
 }
 
 
@@ -57,6 +71,11 @@ body {
 	line-height: 1.6em;
 	margin-top: 75px;
 	}
+	
+.overview {
+	font-size: 18px;
+	line-height: 1.6em;
+}
 
 .logo {
 	float: right;
@@ -65,6 +84,35 @@ body {
 
 .breadcrumb {
 	margin: 25px 0px 0px 10px;
+	font-size: 14px;
+}
+
+.site-footer {
+	font-size: 14px;
+	margin-top: 50px;
+	border-top: 1px solid #E6E6E6;
+}
+
+.exceptions {
+	margin-top: 50px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.exceptions-jur {
+	margin-top: 30px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.exceptions-jur li {
+	margin-top: 5px;
+}
+
+.exceptions li {
+	margin-top: 5px;
 }
 
 a {

@@ -2,21 +2,46 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>copyrightexceptions.eu</title>
-</head>
-  <body>
-	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>></span> {{ .Data.Plural }}</div>
-	<h2>Overview of the jurisdictions that have implemented at least one of the generic exceptions in their national laws:</h2>
-	<div>
-		<ul>
-		{{ $data := .Data }}
-   			{{ range $key, $value := .Data.Terms.ByCount }}
-      			<li><a href="{{ $.Site.BaseURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}" class="tag">{{ partial "textexpanders/jur-single.html" $value.Name }}</a> ({{ $value.Count }} exceptions implemented into national law)</li>
-    	{{ end }}
-    	</ul>
-	</div>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>copyrightexceptions.eu</title>
+		<link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}/css/single.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+  		<div id="page">
+        	<div id="header" class="site-header">
+            	<div class="wrap-header">
+                	<div id="branding" role="banner">
+                    	<div class="logo"><img src="{{ $.Site.BaseURL }}images/copyright_exceptions_logo.svg"></div>
+                    	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>/</span> {{ .Data.Plural }}</div>
+                    	<div style="clear:both;"></div>
+               		</div><!--#branding-->
+            	</div><!--.wrap-->
+        	</div><!--#header-->
+        	<div id="main">
+            	<div class="wrap">
+                	<div id="primary">
+                    	<div id="content" role="main">
+                    		<h1>Overview of the jurisdictions that have implemented at least one of the generic exceptions in their national laws:</h1>
+							<div>
+								<ul class="exceptions">
+									{{ $data := .Data }}
+   									{{ range $key, $value := .Data.Terms.Alphabetical }}
+      								<li><a href="{{ $.Site.BaseURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}" class="tag">{{ partial "textexpanders/jur-single.html" $value.Name }}</a><!-- ({{ $value.Count }} exceptions implemented into national law) --></li> 
+    								{{ end }}
+    							</ul>
+							</div>
+                    	</div><!-- #content -->
+                	</div><!-- #primary -->
+            	</div><!--.wrap-->
+        	</div><!--#main-->
+        	<div id="footer" class="site-footer">
+            	<div class="wrap">
+ 					<p>CopyrightExceptions.eu is a project maintained by <a href="https://publicspace.online">publicspace.online</a>. The information provided on this website is for informational purposes only. You can find more information about the project and its contributors <a href="{{ $.Site.BaseURL }}about.html">here</a>. All texts and data presented on this website are dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a>.</p>
+            	</div><!--.wrap-->
+        	</div><!--#footer--> 
+    	</div><!--#page-->
+  	</body>
 </html>

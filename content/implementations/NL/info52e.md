@@ -1,25 +1,20 @@
 ---
 title: ""
-date: 2020-12-09T11:39:39+02:00 
-draft: true
+date: 
+draft: false
 exceptions:
 - info52e
 jurisdictions:
 - NL
-score: 
+score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
-compensation: ""
-attribution: ""
+compensation: 
+attribution: 
 otherConditions: 
-- 
 remarks: ""
 link: ""
 ---

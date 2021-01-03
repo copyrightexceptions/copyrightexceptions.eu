@@ -33,11 +33,14 @@
 
 						<!-- summar -->
 
-						{{if .Params.description}}<p class="summary"><strong>Implementation summary: </strong>{{.Params.description}}</p>{{end}}
+						{{if .Params.description}}
+						<h2>Implementation summary:</h2>
+						<p class="overview">{{.Params.description}}</p>
+						{{end}}
 						
 						<!-- details -->
 		
-						{{if (or .Params.beneficiaries .Params.purposes .Params.usage .Params.subjectmatter .Params.compensation .Params.attribution .Params.otherConditions)}}<h3>Implementation details:</h3>{{end}}
+						{{if (or .Params.beneficiaries .Params.purposes .Params.usage .Params.subjectmatter .Params.compensation .Params.attribution .Params.otherConditions)}}<h2>Implementation details:</h2>{{end}}
 		
 						{{if .Params.beneficiaries}}<p><strong>Beneficiaries:</strong></p>
 						<ul>
