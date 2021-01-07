@@ -27,7 +27,6 @@ $.ajax({
 });
 
 /* Create legenda */
-// <div id="logo">' + '<a href="/"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>' + '</div>
 var legenda = '';
 jQuery.each(exceptionsNames, function() {
   legenda = legenda + '<p><href id="' + this.short + '"><span class="exception ' + this.short + '">' + this.title + '</span></href></p>';
@@ -280,7 +279,9 @@ L.geoJson(mapdata, {
 	onEachFeature: onEachFeature
 }).addTo(map);
 table = loadTable(mapdata, exceptionsNames, implementations);
-$("#table").html('table[0].outerHTML' + color_legenda + '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</href></div>');
+tableLogo = '<div id=tablelogo><a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a></div>'
+tableSwitch = '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</a></div>'
+$("#table").html(tableLogo + tableSwitch + table[0].outerHTML + color_legenda);
 
 
 
@@ -291,6 +292,7 @@ var info = L.control();
 
 info.onAdd = function (map) {
 	this._div = L.DomUtil.create('div', 'info');
+	this._div.style = "display: none;";
 	return this._div;
 };
 
