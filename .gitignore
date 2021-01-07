@@ -119,3 +119,6 @@ contentBU/map/map.html
 contentBU/map/map.js
 contentBU/newmap/Leaflet.Sleep.js
 content/PT/.DS_Store
+static/.DS_Store
+themes/copex/layouts/.DS_Store
+themes/copex/layouts/partials/.DS_Store
