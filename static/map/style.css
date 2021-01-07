@@ -59,7 +59,8 @@
 		}
 		
 		#logo {
-			margin-bottom: 15px;
+			margin: 5px;
+			float: right;
 		}
 		
 		#logo a {

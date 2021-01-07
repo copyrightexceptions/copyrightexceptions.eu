@@ -1,12 +1,12 @@
 ---
-title: ""
+title: "Test DSM8"
 date: 2020-12-09T11:39:39+02:00 
-draft: true
+draft: false
 exceptions:
 - dsm8
 jurisdictions:
 - NL
-score: 
+score: 5
 description: "" 
 beneficiaries:
 - 

@@ -1,12 +1,12 @@
 ---
-title: ""
+title: "Test DSM5"
 date: 2020-12-09T11:39:39+02:00 
-draft: true
+draft: false
 exceptions:
 - dsm5
 jurisdictions:
 - NL
-score: 
+score: 2
 description: "" 
 beneficiaries:
 - 
