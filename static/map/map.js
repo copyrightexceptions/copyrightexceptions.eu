@@ -2,7 +2,7 @@
 var base_url = "/v2dev/"
 
 /* pre-load an exception that you want to highlight, use the short of that exception (e.g. DSM6) */
-var selected_exception = "dummy";
+var selected_exception = "";
 
 /* BUILD LEGENDA */
 
@@ -27,7 +27,7 @@ $.ajax({
 });
 
 /* Create legenda */
-var legenda = '<div id="logo">' + '<a href="/"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>' + '</div>';
+var legenda = '';
 jQuery.each(exceptionsNames, function() {
   legenda = legenda + '<p><href id="' + this.short + '"><span class="exception ' + this.short + '">' + this.title + '</span></href></p>';
 });
@@ -149,9 +149,7 @@ function changeSelected_Exception (hash) {
 			highlight(selected_exception); 
 		}
 	} else {
-		selected_exception = "dummy";
-		changeException(selected_exception);  
-		highlight(selected_exception); 
+		selected_exception = "";
 	}
 }
 
@@ -212,6 +210,13 @@ map.addControl(new viewControl());
 L.control.zoom({position:'topright'}).addTo(map);
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
 map.fitBounds(map.getBounds(), {padding: [0, 0]});
+
+/* ADD LOGO */
+var mapControlsContainer = document.getElementsByClassName("leaflet-top leaflet-right")[0];
+var logoContainer = document.createElement("div");
+logoContainer.setAttribute("id", "logo");
+logoContainer.innerHTML ='<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>';
+mapControlsContainer.insertBefore(logoContainer, mapControlsContainer.firstChild);
 
 /* LOAD ALL STATIC DATA */
 
@@ -274,7 +279,10 @@ L.geoJson(mapdata, {
 	onEachFeature: onEachFeature
 }).addTo(map);
 table = loadTable(mapdata, exceptionsNames, implementations);
-$("#table").html('<div id="logo">' + '<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>' + '</div>' +  table[0].outerHTML + color_legenda + '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</href></div>');
+tableLogo = '<div id=tablelogo><a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a></div>'
+tableSwitch = '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</a></div>'
+$("#table").html(tableLogo + tableSwitch + table[0].outerHTML + color_legenda);
+
 
 
 /* Functions pertaining to Information pane */
@@ -284,56 +292,76 @@ var info = L.control();
 
 info.onAdd = function (map) {
 	this._div = L.DomUtil.create('div', 'info');
+	this._div.style = "display: none;";
 	return this._div;
 };
 
 info.update = function (props) {
-	this._div.style = "visibility: visible;";
 	this._div.innerHTML = "";
-	if (("exceptions" in props) && (selected_exception in props.exceptions)) {
-		this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
-		this._div.innerHTML += 	"<p>&nbsp;</p>";
-		
-		if (props.exceptions[selected_exception].Implemented != "") {
-			this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].Implemented) +  '</span></p>';
+	if (selected_exception == "" || typeof(selected_exception) == 'undefined') {
+		this._div.style = "display: none;";
+	} else {
+		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
+			this._div.style = "display: inherit;";
+			this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
+		
+			if (props.exceptions[selected_exception].Implemented != "") {
+				this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].Implemented) +  '</span></p>';
+				this._div.innerHTML += 	"<p>&nbsp;</p>";
+			}
+		
+			if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
+				this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
+				this._div.innerHTML += 	"<p>&nbsp;</p>";
+			}
+		
+			if (props.exceptions[selected_exception].Description != "") {
+				this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].Description +  '</span></p>';
+				this._div.innerHTML += 	"<p>&nbsp;</p>";
+			}
+		
+			this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
+			this._div.innerHTML += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
+			this._div.innerHTML += "<p><a href='" + base_url +  "jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+			this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
+		}
+		else {// invalid exception
+			this._div.style = "display: none;";
 		}
 		
-		if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
-			this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
-			this._div.innerHTML += 	"<p>&nbsp;</p>";
-		}
-		
-		if (props.exceptions[selected_exception].Description != "") {
-			this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].Description +  '</span></p>';
-			this._div.innerHTML += 	"<p>&nbsp;</p>";
-		}
-		
-		this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-		this._div.innerHTML += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-		this._div.innerHTML += "<p><a href='" + base_url +  "jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
-		this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 	}
 };
 
 info.showExceptionDetails = function (value) {
-	this._div.style = "visibility: visible;";
 	this._div.innerHTML = "";
-	for(var i = 0; i < exceptionsNames.length; i++) {
-		var obj = exceptionsNames[i];
-		if (obj.short == value) {
-			this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
-			this._div.innerHTML += 	"<p>&nbsp;</p>";
-			this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-			this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
-			return;
+	if (value == "" || typeof(value) == 'undefined') {
+		this._div.style = "display: none;";
+	} else {
+		found = false
+		this._div.style = "display: inherit;";
+		for(var i = 0; i < exceptionsNames.length; i++) {
+			var obj = exceptionsNames[i];
+			if (obj.short == value) {
+				found = true;
+				this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
+				this._div.innerHTML += 	"<p>&nbsp;</p>";
+				this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
+				this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+				return;
+			}
+		}
+		
+		if (!found) {
+			this._div.style = "display: none;";
 		}
 	}
 };
 
 info.clear = function (exception) {
-	if (exception == "") {
-		this._div.style = "visibility: hidden;";
+	if (exception == "" || typeof(exception) == 'undefined') {
+		this._div.style = "display: none;";
+		this._div.innerHTML = "";
 		map.closePopup();
 	} else {
 		info.showExceptionDetails(exception);
@@ -380,7 +408,7 @@ function changeException(value) {
 	$( ".exception" ).css( "color", "#494949");
 	
 	// clear info box
-	info.clear();
+	info.clear('');
 	
 	// Show new exception details in info box
 	info.showExceptionDetails(value);
@@ -412,7 +440,6 @@ function showMap () {
 
 // SET exception (based on hash)
 changeSelected_Exception(window.parent.location.hash.substring(1));
-console.log("setting exception " + window.parent.location.hash.substring(1));
 
 window.parent.onhashchange = function(e) {
 	e.preventDefault();

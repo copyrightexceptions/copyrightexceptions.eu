@@ -28,6 +28,8 @@
 
 # OS generated files #
 ######################
+*.DS_Store
+*.DS_Store?
 .DS_Store
 .DS_Store?
 ._*
@@ -119,3 +121,4 @@ contentBU/map/map.html
 contentBU/map/map.js
 contentBU/newmap/Leaflet.Sleep.js
 content/PT/.DS_Store
+content/.DS_Store
