@@ -1,12 +1,12 @@
 ---
-title: "Test DSM 6"
+title: ""
 date: 2020-12-09T11:39:39+02:00 
-draft: false
+draft: true
 exceptions:
 - dsm6
 jurisdictions:
 - NL
-score: 1
+score: 
 description: "" 
 beneficiaries:
 - 
