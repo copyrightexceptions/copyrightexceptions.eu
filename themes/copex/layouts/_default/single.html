@@ -3,55 +3,111 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>copyrightexceptions.eu</title>
+	<link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}/css/single.css" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
   <body>
-	<div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">home</a> <span>></span> <a href="{{.Permalink}}">{{ .Title }}</a></div>
-	<div class="exception">
-		<h1>{{.Title}}</h1>
-		<ul>
-			<li><strong>Generic Exception:</strong> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
-			<li><strong>Member State:</strong> {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ . }}</a> {{ end }}</li>
-			<li><strong>Score:</strong> {{.Params.score}}</li>
-		</ul>
-		{{if .Params.description}}<p><strong>Summary: </strong>{{.Params.description}}</p>{{end}}
-		<ul>
-			{{if .Params.benficiaries}}<li><strong>Benficiaries:</strong>
-				<ul>
-					{{ range .Params.beneficiaries }}<li>{{ . }}</li>{{end}}
-					
-				</ul>
-			</li>{{end}}
-			{{if .Params.purposes}}<li><strong>Purposes:</strong>
-				<ul>
-					{{ range .Params.purposes }}<li>{{ . }}</li>{{end}}
-					
-				</ul>
-			</li>{{end}}
-			{{if .Params.usage}}<li><strong>Usage:</strong>
-				<ul>
-					{{ range .Params.usage }}<li>{{ . }}</li>{{end}}
-					
-				</ul>
-			</li>{{end}}
-			{{if .Params.subjectmatter}}<li><strong>Subject Matter:</strong>
-				<ul>
-					{{ range .Params.subjectmatter }}<li>{{ . }}</li>{{end}}
-					
-				</ul>
-			</li>{{end}}
-			{{if .Params.compensation}}<li><strong>Compensation:</strong> {{range .Params.compensation}}{{ . }}{{end}}</li>{{end}}	
-			{{if .Params.attribution}}<li><strong>Attribution:</strong> {{range .Params.attribution}}{{ . }}{{end}}</li>{{end}} 
-			{{if .Params.otherConditions}}<li><strong>Other Conditions:</strong>
-				<ul>
-					{{ range .Params.otherConditions }}<li>{{ . }}</li>{{end}}
-					
-				</ul>
-			</li>{{end}}
-		</ul>
-		{{if .Params.remarks}}<p><strong>Remarks: </strong> {{.Params.remarks| safeHTML }}</p>{{end}}
-		{{if .Params.link}}<p><a href="{{.Params.link | safeHTML }}">View online</a></p>{{end}}
-		<p><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/implementations/{{ range .Params.jurisdictions }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view data on GitHub</a></p>	
-	</div>
-  </body>
+    <div id="page">
+        <div id="header" class="site-header">
+            <div class="wrap-header">
+ 
+                <div id="branding" role="banner">
+                    <div class="logo"><img src="{{ $.Site.BaseURL }}images/copyright_exceptions_logo.svg"></div>
+                    <div class="breadcrumb"><a href="{{ $.Site.BaseURL }}">Map</a> <span> / </span> {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }} <span> / </span> {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a> {{ end }}</div>
+                    <div style="clear:both;"></div>
+                </div><!--#branding-->
+ 
+            </div><!--.wrap-->
+        </div><!--#header-->
+ 
+        <div id="main">
+            <div class="wrap">
+ 
+                <div id="primary">
+                    <div id="content" role="main">
+                        
+                        <!-- intro -->
+                        
+                        <p class="intro">{{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a> {{ end }} has {{if in .Params.score "0"}}<span class="score0">not {{end}}implemented{{if in .Params.score "0"}}</span>{{end}} the {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }} exception{{if .Title}} in {{if .Params.link}}<a href="{{.Params.link | safeHTML }}">{{end}}<strong>{{.Title}}</strong>{{if .Params.link}}</a>{{end}}. {{if in .Params.score "0"}}<span class="score0">{{end}}{{if in .Params.score "1"}}<span class="score1">{{end}}{{if in .Params.score "2"}}<span class="score2">{{end}}{{if in .Params.score "3"}}<span class="score3">{{end}}{{ partial "textexpanders/score.html" . }}</span>{{end}}.</p>
+
+						<!-- summar -->
+
+						{{if .Params.description}}
+						<h2>Implementation summary:</h2>
+						<p class="overview">{{.Params.description}}</p>
+						{{end}}
+						
+						<!-- details -->
+		
+						{{if (or .Params.beneficiaries .Params.purposes .Params.usage .Params.subjectmatter .Params.compensation .Params.attribution .Params.otherConditions)}}<h2>Implementation details:</h2>{{end}}
+		
+						{{if .Params.beneficiaries}}<p><strong>Beneficiaries:</strong></p>
+						<ul>
+							{{ range .Params.beneficiaries }}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}
+						
+						{{if .Params.purposes}}<p><strong>Purposes:</strong></p>
+						<ul>
+							{{ range .Params.purposes }}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}
+						
+						{{if .Params.usage}}<p><strong>Usage:</strong></p>
+						<ul>
+							{{ range .Params.usage }}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}
+			
+						{{if .Params.subjectmatter}}<p><strong>Subject Matter:</strong></p>
+						<ul>
+							{{ range .Params.subjectmatter }}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}
+			
+						{{if .Params.compensation}}<p><strong>Compensation:</strong></p> 			
+						<ul>
+							{{range .Params.compensation}}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}	
+						
+						{{if .Params.attribution}}<p><strong>Attribution:</strong></p> 			
+						<ul>
+							{{range .Params.attribution}}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}} 
+			
+						{{if .Params.otherConditions}}<p><strong>Other Conditions:</strong></p>
+						<ul>
+							{{ range .Params.otherConditions }}<li>{{ . }}</li>{{end}}
+						</ul>
+						{{end}}
+						
+						{{if .Date }}<p><strong>Introduced/last updated:</strong> {{ dateFormat "02 January 2006" .Date }}</p>{{end}}
+		
+						<!-- remarks -->
+		
+						{{if .Params.remarks}}<p><strong>Remarks:</strong> {{.Params.remarks| safeHTML }}</p>{{end}}
+						
+						<!-- github -->
+						
+					 	<div id="github"><p><img  src="{{ $.Site.BaseURL }}/images/GitHub-Mark-64px.png" height="24" width="24" class="github" /><a href="https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/development-pk/content/implementations/{{ range .Params.jurisdictions }}{{ . }}{{end}}/{{ range first 1 .Params.exceptions }}{{ . }}{{end}}.md">view/contribute additional information on GitHub</a></p></div>
+                    </div><!-- #content -->
+                </div><!-- #primary -->
+ 
+            </div><!--.wrap-->
+        </div><!--#main-->
+ 
+        <div id="footer" class="site-footer">
+            <div class="wrap">
+ <p>CopyrightExceptions.eu is a project maintained by <a href="https://publicspace.online">publicspace.online</a>. The information provided on this website is for informational purposes only. You can find more information about the project and its contributors <a href="{{ $.Site.BaseURL }}about.html">here</a>. All texts and data presented on this website are dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a>.</p>
+               	
+ 
+            </div><!--.wrap-->
+        </div><!--#footer-->
+ 
+    </div><!--#page-->
+</body>
 </html>

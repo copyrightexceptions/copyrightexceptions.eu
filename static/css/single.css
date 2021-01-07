@@ -1,0 +1,170 @@
+/* Reset */
+ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+ 
+html,
+body,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.4em;
+    font-size: 16px;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 1.2em;
+	font-weight: 700;
+	margin-top: 75px;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 700;
+	margin-top: 35px;
+}
+
+
+/* Color */
+ 
+#header{
+    background: #ffffff;
+}
+ 
+#main{
+    background: #ffffff;
+    padding: 2px;    
+}
+
+.score0 {
+	background: #f46d43;
+	padding: 3px 4px 4px 4px;
+}
+
+.score1 {
+	background: #fee08b;
+	padding: 3px 4px 4px 4px;
+}
+
+.score2 {
+	background: #a6d96a;
+	padding: 3px 4px 4px 4px;
+}
+
+.score3 {
+	background: #1a9850;
+	padding: 3px 4px 4px 4px;
+}
+
+.intro {
+	font-size: 18px;
+	line-height: 1.6em;
+	margin-top: 75px;
+	}
+	
+.overview {
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
+.logo {
+	float: right;
+	margin: -27px 5px 0px 20px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 670px) {
+
+.logo img {
+	margin: 5px 5px 0px 10px;
+	max-width: 120px;
+	max-height: 40px;
+}
+}
+
+
+.breadcrumb {
+	margin: 25px 0px 0px 10px;
+	font-size: 14px;
+}
+
+.site-footer {
+	font-size: 14px;
+	margin-top: 50px;
+	border-top: 1px solid #E6E6E6;
+}
+
+.exceptions {
+	margin-top: 50px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.exceptions-jur {
+	margin-top: 30px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.exceptions-jur li {
+	margin-top: 5px;
+}
+
+.exceptions li {
+	margin-top: 5px;
+}
+
+a {
+	color: #000000;
+	background: #E6E6E6;
+	padding: 3px 4px 4px 4px;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #CCCCCC;
+}
+
+#github {
+	margin-top: 50px;
+}
+
+.github {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+ul {
+	margin-top: -10px;
+}
+
+/* Structures */
+ 
+.wrap-header {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+ 
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#primary{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/

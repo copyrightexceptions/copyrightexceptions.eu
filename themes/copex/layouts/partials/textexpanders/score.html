@@ -1,0 +1,18 @@
+{{ $score := .Params.score }}
+
+{{/* DSM directive */}}
+
+{{ if in $score "3"}}
+	{{$score = "The national exception closely resembles the EU exception"}}
+{{end}}
+{{ if in $score "2"}}
+	{{$score = "The national exception is slightly more restrictive than the EU exception"}}
+{{end}}
+{{ if in $score "1"}}
+	{{$score = "The national exception is much more restrictive than the EU exception"}}
+{{end}}
+{{ if in $score "0"}}
+	{{$score = "The EU exception is not implemented"}}
+{{end}}
+
+{{ return $score }}
