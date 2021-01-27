@@ -198,7 +198,7 @@ var mapControlsContainer = document.getElementsByClassName("leaflet-top leaflet-
 var logoContainer = document.createElement("div");
 logoContainer.setAttribute("id", "logo");
 logoContainer.innerHTML ='<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>';
-mapControlsContainer.insertBefore(logoContainer, mapControlsContainer.firstChild);
+mapControlsContainer.append(logoContainer);
 
 
 /* LOAD ALL STATIC DATA */
