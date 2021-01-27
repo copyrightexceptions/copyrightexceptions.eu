@@ -38,15 +38,13 @@
 		
 		{{/* Main mapping */}}
 		"{{- .File.BaseFileName -}}": 
-		{"Time in effect (YYYY-MM-DD)": "",
-		"Last updated": "",
-		"Link to article (URL)": "{{- .Params.link -}}",
-		"Description": "{{ (replace .Params.description "\n" "<br/>") | safeHTML}}",
-		"short_code": "",
-		"Remuneration": "{{- .Params.compensation -}}",
-		"Article Number in local act (TEXT)": "{{- .Params.title -}}",
-		"long_name": "{{- .Params.title -}}",
-		"Implemented": "{{- .Params.score -}}"
+		{
+		"link": "{{- .Params.link -}}",
+		"description": "{{ (replace .Params.description "\n" "<br/>") | safeHTML}}",
+		
+		"compensation": "{{- .Params.compensation -}}",
+		"title": "{{- .Params.title -}}",
+		"score": "{{- .Params.score -}}"
 		
 		{{/* Test if this is the last item to process, to wrap up the dict */}}
 		{{- if (eq (add $index 1) $len) -}}

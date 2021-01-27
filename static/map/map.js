@@ -7,8 +7,7 @@ var selected_exception = "";
 /* BUILD LEGENDA */
 
 /* Create legenda for under map and table */
-var color_legenda = '<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#DDD></div> No information</div></div>' + 
-					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#f46d43></div> No implementation</div></div>' + 
+var color_legenda =	'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#f46d43></div> No implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#fee08b></div> Very restrictive implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#a6d96a></div> Restrictive implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#1a9850></div> Broad implementation </div></div>' + 
@@ -66,7 +65,7 @@ function style(feature) {
 	if (feature.hasOwnProperty('properties')) {
 		if (feature.properties.hasOwnProperty('exceptions')) {
 			if (feature.properties.exceptions.hasOwnProperty(selected_exception)) {
-				color =  getColor(feature.properties.exceptions[selected_exception].Implemented);
+				color =  getColor(feature.properties.exceptions[selected_exception].score);
 			} else {
 				color = getColor('n/a');
 			}
@@ -173,7 +172,7 @@ function loadTable(data, names, implementations) {
 		row.append(cell);
 		for (var country in implementations) {
 			if ( implementations[country].hasOwnProperty(short_name)) {
-				cell = $("<td/>").css("background-color", getColor(implementations[country][short_name].Implemented));
+				cell = $("<td/>").css("background-color", getColor(implementations[country][short_name].score));
 				$('<a></a>').attr({'href': '/implementations/' + country.toLowerCase() + '/' + short_name + '/'}).appendTo(cell);
 			}
 			else {
@@ -186,26 +185,10 @@ function loadTable(data, names, implementations) {
 	return table;
 }
 
-/* Create interface for map */
-var viewControl =  L.Control.extend({
-  options: {
-    position: 'topright'
-  },
-
-  onAdd: function (map) {
-    var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-switch');
-
-    container.style.backgroundColor = '';     
-    container.innerHTML= '<a href="#table" class="SwitchMAP">SHOW TABLE</href>';
-
-    return container;
-  }
-});
 
 // * set up map */
 var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 10], 4);
 
-map.addControl(new viewControl());
 L.control.zoom({position:'topright'}).addTo(map);
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
 map.fitBounds(map.getBounds(), {padding: [0, 0]});
@@ -217,13 +200,6 @@ logoContainer.setAttribute("id", "logo");
 logoContainer.innerHTML ='<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>';
 mapControlsContainer.insertBefore(logoContainer, mapControlsContainer.firstChild);
 
-/* ADD COLOR-LEGENDA */
-var mapControlsContainer = document.getElementsByClassName("leaflet-top leaflet-right")[0];
-var ColorLegendaContainer = document.createElement("div");
-ColorLegendaContainer.setAttribute("id", "legenda");
-ColorLegendaContainer.innerHTML = color_legenda;
-mapControlsContainer.append(ColorLegendaContainer);
-// color_legenda
 
 /* LOAD ALL STATIC DATA */
 
@@ -288,8 +264,8 @@ L.geoJson(mapdata, {
 table = loadTable(mapdata, exceptionsNames, implementations);
 tableLogo = '<div id=tablelogo><a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a></div>'
 tableSwitch = '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</a></div>'
-$("#table").html(tableLogo + tableSwitch + table[0].outerHTML);
-
+// $("#table").html(tableLogo + tableSwitch + table[0].outerHTML);
+$("#table").html(tableLogo + table[0].outerHTML);
 
 
 /* Functions pertaining to Information pane */
@@ -313,18 +289,18 @@ info.update = function (props) {
 			this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
 			this._div.innerHTML += 	"<p>&nbsp;</p>";
 		
-			if (props.exceptions[selected_exception].Implemented != "") {
-				this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].Implemented) +  '</span></p>';
+			if (props.exceptions[selected_exception].score != "") {
+				this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].score) +  '</span></p>';
 				this._div.innerHTML += 	"<p>&nbsp;</p>";
 			}
 		
-			if (props.exceptions[selected_exception]['Article Number in local act (TEXT)'] != '') {
-				this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['Article Number in local act (TEXT)'] +  '</span></p>';
+			if (props.exceptions[selected_exception]['title'] != '') {
+				this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['title'] +  '</span></p>';
 				this._div.innerHTML += 	"<p>&nbsp;</p>";
 			}
 		
-			if (props.exceptions[selected_exception].Description != "") {
-				this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].Description +  '</span></p>';
+			if (props.exceptions[selected_exception].description != "") {
+				this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].description +  '</span></p>';
 				this._div.innerHTML += 	"<p>&nbsp;</p>";
 			}
 		
@@ -397,7 +373,6 @@ legend.onAdd = function (map) {
 	
 	this._div = L.DomUtil.create('div', 'exceptions');
 	this._div.innerHTML =  legenda;
-
     return this._div;
 };
 
@@ -407,6 +382,18 @@ legend.update = function (props) {
 };
 
 legend.addTo(map);
+
+//ADD COLOR-LEGENDA 
+var ColorLegendaContainer = L.control({position: 'bottomleft'});
+
+ColorLegendaContainer.onAdd = function (map) {
+	
+	this._div = L.DomUtil.create('div', 'legenda-wrapper');
+	this._div.innerHTML =  color_legenda;
+    return this._div;
+};
+
+ColorLegendaContainer.addTo(map);
 
 function changeException(value) {
 	// Clear colors
