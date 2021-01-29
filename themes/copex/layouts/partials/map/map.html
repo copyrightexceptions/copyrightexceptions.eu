@@ -2,5 +2,16 @@
 	<div id="map"></div>
 	<div id="table"></div>
 </div>
-<script src="map/Leaflet.Sleep.js"></script>
-<script src="map/map.js"></script>
+<script>
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	// SHOW MESSAGE FOR MOBILE DEVICE
+	document.write("<h1>This website is not optimised for mobile viewing</h1>");
+}else{
+	// LOAD MAP IF NOT MOBILE DEVICE
+	var head = document.getElementsByTagName('head')[0];
+	var js = document.createElement("script");
+	js.type = "text/javascript";
+	js.src = "map/map.js";
+	head.appendChild(js);
+}
+</script>
