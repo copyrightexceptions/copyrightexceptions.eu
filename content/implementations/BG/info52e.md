@@ -6,7 +6,7 @@ exceptions:
 - info52e
 jurisdictions:
 - BG
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
