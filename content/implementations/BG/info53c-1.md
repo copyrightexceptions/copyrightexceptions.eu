@@ -6,7 +6,7 @@ exceptions:
 - info53c-1
 jurisdictions:
 - BG
-score: 3
+score: 2
 description: "It allows reuse of articles on current economic, political and religious topics solely by way of reproduction and by mass media only. The exception does not extend to the rights of performers, phonograms producers, film producers and broadcasting organisations. The author’s opt-out option is very broadly interpreted by courts." 
 beneficiaries:
 - mass media
