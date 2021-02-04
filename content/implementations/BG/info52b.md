@@ -17,7 +17,7 @@ usage:
 subjectmatter:
 - works (other than computer programs and architectural works)
 compensation:
--fair compensation required
+- fair compensation required
 attribution: 
 - no attribution required
 otherConditions: 
