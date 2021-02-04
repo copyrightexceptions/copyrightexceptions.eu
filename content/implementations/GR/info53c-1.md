@@ -6,7 +6,7 @@ exceptions:
 - info53c-1
 jurisdictions:
 - GR
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
