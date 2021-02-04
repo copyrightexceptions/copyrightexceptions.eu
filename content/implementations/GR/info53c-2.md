@@ -1,7 +1,7 @@
 ---
 title: "Article 25 of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues (updated up to the Law 4672/2020)"
-date: 2020-12-09T11:39:35+02:00 
-draft: true
+date: 2020-12-09 
+draft: false
 exceptions:
 - info53c-2
 jurisdictions:
