@@ -1,17 +1,16 @@
 ---
 title: "Article 24, para 1, p.5 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.5 от Закона за авторското право и сродните му права)"
-date: 2020-12-09T11:39:32+02:00 
+date: 2020-12-09 
 draft: true
 exceptions:
 - info53c-1
 jurisdictions:
 - BG
-score: -3
+score: 3
 description: "It allows reuse of articles on current economic, political and religious topics solely by way of reproduction and by mass media only. The exception does not extend to the rights of performers, phonograms producers, film producers and broadcasting organisations. The author’s opt-out option is very broadly interpreted by courts." 
 beneficiaries:
 - mass media
 purposes: 
-- 
 usage:
 - reproduction
 subjectmatter:
