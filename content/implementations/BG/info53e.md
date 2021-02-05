@@ -23,7 +23,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
--no attribution required
+- no attribution required
 otherConditions: 
 remarks: "The exception does not extend to performers' rights."
 link: https://lex.bg/laws/ldoc/2133094401
