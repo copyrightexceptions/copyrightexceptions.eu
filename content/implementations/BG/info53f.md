@@ -1,6 +1,6 @@
 ---
 title: "Article 24, para 1, p.4 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.4 от Закона за авторското право и сродните му права)"
-date: 2003-01-01T11:39:32+02:00 
+date: 2003-01-01 
 draft: false
 exceptions:
 - info53f
