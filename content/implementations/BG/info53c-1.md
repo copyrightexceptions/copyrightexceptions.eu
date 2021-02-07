@@ -2,6 +2,7 @@
 title: "Article 24, para 1, p.5 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.5 от Закона за авторското право и сродните му права)"
 date: 2020-12-09 
 draft: false
+weight: 52
 exceptions:
 - info53c-1
 jurisdictions:
