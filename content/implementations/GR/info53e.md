@@ -1,12 +1,12 @@
 ---
 title: ""
-date: 2020-12-09T11:39:35+02:00 
+date: 2021-02-07T11:39:35+02:00 
 draft: true
 exceptions:
 - info53e
 jurisdictions:
 - GR
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
