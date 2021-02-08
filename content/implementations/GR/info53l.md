@@ -1,7 +1,8 @@
 ---
 title: ""
-date: 2021-02-07T11:39:36+02:00 
+date: 2021-02-07
 draft: false
+weight: 62
 exceptions:
 - info53l
 jurisdictions:
@@ -9,19 +10,12 @@ jurisdictions:
 score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
 remarks: ""
 link: 
 ---

@@ -2,6 +2,7 @@
 title:
 date:  
 draft: false 
+weight: 10
 exceptions:
 - dsm3
 jurisdictions:
