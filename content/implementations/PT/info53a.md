@@ -2,6 +2,7 @@
 title: "Article 75(2) (f) and (h) and Article 189 (1)(c) Código do Direito de Autor e dos Direitos Conexos"
 date: 2020-12-09T11:39:40+02:00 
 draft: false
+weight: 50
 exceptions:
 - info53a
 jurisdictions:

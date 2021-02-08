@@ -2,6 +2,7 @@
 title: "Article 28B of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues (updated up to the Law 4672/2020)."
 date: 2002-10-10T11:39:35+02:00 
 draft: false
+weight: 30
 exceptions:
 - info51
 jurisdictions:
