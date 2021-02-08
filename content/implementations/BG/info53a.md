@@ -2,6 +2,7 @@
 title: "Article 24, para 1, p.3 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.3 от Закона за авторското право и сродните му права)"
 date: 2003-01-01
 draft: false
+weight: 50
 exceptions:
 - info53a
 jurisdictions:

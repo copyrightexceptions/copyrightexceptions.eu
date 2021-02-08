@@ -1,7 +1,8 @@
 ---
 title: "Article 21 of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues (updated up to the Law 4672/2020)"
 date: 1993-04-03T11:39:35+02:00 
-draft: false
+draft: false 
+weight: 50
 exceptions:
 - info53a
 jurisdictions:
