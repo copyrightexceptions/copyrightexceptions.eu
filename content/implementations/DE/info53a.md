@@ -2,6 +2,7 @@
 title: "§ 60a Unterricht und Lehre, § 60b Unterrichts- und Lehrmedien, § 60c Wissenschaftliche Forschung, §60d Text und Data Mining"
 date: 2018-03-01 
 draft: false
+weight: 50
 exceptions:
 - info53a
 jurisdictions:
