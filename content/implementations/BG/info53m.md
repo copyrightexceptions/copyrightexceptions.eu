@@ -2,6 +2,7 @@
 title: "Article 24, para 1, p.15 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.15 от Закона за авторското право и сродните му права)."
 date: 2003-03-01T11:39:32+02:00 
 draft: false
+weight: 63
 exceptions:
 - info53m
 jurisdictions:
