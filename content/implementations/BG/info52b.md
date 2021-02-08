@@ -2,6 +2,7 @@
 title: "Article 25, para 1, p.2 of the Copyright and Neighbouring Rights Law (Член 25, ал.1, т.2 от Закона за авторското право и сродните му права)"
 date: 2020-12-09 
 draft: false
+weight: 41
 exceptions:
 - info52b
 jurisdictions:

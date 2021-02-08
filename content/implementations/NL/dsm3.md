@@ -2,6 +2,7 @@
 title: "Artiekel 15n Auteurswet"
 date: 2020-06-07 
 draft: false
+weight: 10
 exceptions:
 - dsm3
 jurisdictions:

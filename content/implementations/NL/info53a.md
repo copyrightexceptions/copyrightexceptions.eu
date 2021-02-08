@@ -2,6 +2,7 @@
 title: "Artikel 12(5) en Artikel 16 Auteurswet"
 date: 2020-12-09T11:39:39+02:00 
 draft: false
+weight: 50
 exceptions:
 - info53a
 jurisdictions:
