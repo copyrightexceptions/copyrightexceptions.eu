@@ -495,7 +495,11 @@
 		}
 		
 		.legenda-wrapper {
-			width: 100%
+			width: auto;
+			left: 50%;
+			transform: translate(-50%, 0%);
+			margin: 0;
+			position: fixed;
 		}
 		
 		.legenda-box {
