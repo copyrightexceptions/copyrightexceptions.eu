@@ -6,7 +6,7 @@ var selected_exception = "";
 
 /* BUILD LEGENDA */
 
-/* Create legenda for under map and table */
+/* Create legenda for under map */
 var color_legenda =	'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#f46d43></div> No implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#fee08b></div> Very restrictive implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#a6d96a></div> Restrictive implementation</div></div>' + 
@@ -103,88 +103,18 @@ function getStatus(s) {
 					  
 }
 
-/* Switch between table view and map view */
-function switchView (setView) {
-	if (setView === undefined) {
-		setView = 'auto';
-	}
-	switch(setView) {
-		// auto detects whether map or table is currently active and switches to the other.
-		case 'auto':
-				if ($("#table").css("z-index") > $("#map").css("z-index")) {
-					$("#table").css("z-index", "0");
-					$("#map").css("z-index", "1");
-					window.parent.location.hash = selected_exception;
-				} else {
-					window.parent.location.hash = 'table';
-					$("#table").css("z-index", "1");
-					$("#map").css("z-index", "0");
-				}
-			break;
-		case 'table':
-			window.parent.location.hash = 'table';
-			$("#table").css("z-index", "1");
-			$("#map").css("z-index", "0");
-			break;
-		case 'map':
-			window.parent.location.hash = selected_exception;
-			$("#table").css("z-index", "0");
-			$("#map").css("z-index", "1");
-			break;
-	}
-	map.setView([55, 10], 4);	
-}
-
 /* Change selected exception, using the hash of the URL, in case people link to a specific implementation*/
 function changeSelected_Exception (hash) {
 	hash = unescape(hash);
 	if (hash != '') {
-		if (hash == 'table') { // Additionally check if table view is requested
-			switchView(hash);
-		} else {
-			selected_exception = hash;
-			changeException(selected_exception);  
-			highlight(selected_exception); 
+		selected_exception = hash;
+		changeException(selected_exception);  
+		highlight(selected_exception); 
 		}
 	} else {
 		selected_exception = "";
 	}
 }
-
-/* Generates the table view of the data. */
-function loadTable(data, names, implementations) {  
-	var table = $("<table/>").addClass('data-table');
-	var row = $("<tr/>").addClass( "table_header" );
-	row.append($("<th/>").text(''));
-	for (var country in implementations) {
-		cell = $("<th/>");
-		cell.attr('title', country);
-		$('<a>'+ country +'</a>').attr({'href': '/jurisdictions/' + country.toLowerCase()}).appendTo(cell);
-		row.append(cell);
-	}
-	table.append(row);
-	
-	$.each (names, function( key, exception ) {
-		var row = $("<tr/>");
-		cell = $("<td/>");
-		cell.html("<span class=exception>" + names[key].title + "</span>");
-		short_name = names[key].short;
-		row.append(cell);
-		for (var country in implementations) {
-			if ( implementations[country].hasOwnProperty(short_name)) {
-				cell = $("<td/>").css("background-color", getColor(implementations[country][short_name].score));
-				$('<a></a>').attr({'href': '/implementations/' + country.toLowerCase() + '/' + short_name + '/'}).appendTo(cell);
-			}
-			else {
-				cell = $("<td/>").css("background-color", getColor(''));
-			}
-			row.append(cell);
-		}
-		table.append(row);
-	});
-	return table;
-}
-
 
 // * set up map */
 var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 10], 4);
@@ -261,11 +191,6 @@ L.geoJson(mapdata, {
 	style: style,
 	onEachFeature: onEachFeature
 }).addTo(map);
-table = loadTable(mapdata, exceptionsNames, implementations);
-tableLogo = '<div id=tablelogo><a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a></div>'
-tableSwitch = '<div id=switch><a href="' + base_url + '" class="SwitchTABLE">SHOW MAP</a></div>'
-// $("#table").html(tableLogo + tableSwitch + table[0].outerHTML);
-$("#table").html(tableLogo + table[0].outerHTML);
 
 
 /* Functions pertaining to Information pane */
@@ -427,11 +352,6 @@ function highlight(excep) {
 	$( ".exception" + "." + excep ).css( "background-color", "#494949"); 
 }
 
-
-function showMap () {
-	legend.update(legenda);
-}
-
 // SET exception (based on hash)
 changeSelected_Exception(window.parent.location.hash.substring(1));
 
@@ -468,9 +388,7 @@ for(var index in exceptionsNames) {
 		console.log("No short for: " + exceptionsNames[index]["title"]);
 	}
 }
-$('.SwitchMAP').click(function(){ switchView(); return false;});
-$('.SwitchTABLE').click(function(){ switchView(); return false;});
-$('#closeinfo').click(function(){ switchView(); return false;});
+$('#closeinfo').click(function(){return false;});
 $( ".info" )
   .mouseover(function() {
    	map.scrollWheelZoom.disable();
@@ -487,21 +405,3 @@ $( ".exceptions" )
     map.scrollWheelZoom.enable();
   });
 
-$(document).on('mouseenter mouseleave', '.data-table td', function () {
-	var i = $(this).index(),
-	col = $(this);
-	if (i > 0) {
-		th = col.closest('table').find('th').eq(i);
-		th.toggleClass('data-table-hightlight');
-		th.children().toggleClass('data-table-hightlight');
-		
-		first = col.closest('tr').find('td').eq(0);
-		first.children().toggleClass('table-name-hover');
-	}
-});
-
-$(document).on('click', '.SwitchTABLE', function(e){
-    e.preventDefault(); // stop default action
-    switchView(); 
-    return false;
-});
