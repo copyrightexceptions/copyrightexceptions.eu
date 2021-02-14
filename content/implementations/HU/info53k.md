@@ -1,13 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+date: 2021-02-14 
+draft: false
 weight: 61
 exceptions:
 - info53k
 jurisdictions:
 - HU
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
@@ -23,6 +23,6 @@ attribution:
 -
 otherConditions: 
 - 
-remarks: ""
+remarks: "There are currently two draft versions to implement the exception in connection to the transposition of art.17 of the CDSM Directive."
 link: 
 ---
