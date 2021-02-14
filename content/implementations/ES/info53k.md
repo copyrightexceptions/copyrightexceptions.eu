@@ -28,6 +28,6 @@ attribution:
 otherConditions:
 - the work must be lawfully published
 - use must be limited to the extent justified by such purpose
-remarks: "The provision concerns copurighted works. The exception is extended to related rights with a general reference to "other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act" in § 75 (6)."
+remarks: "The provision concerns copyrighted works. The exception is extended to related rights with a general reference to \"other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act\" in § 75 (6)."
 link: https://www.riigiteataja.ee/en/eli/ee/525112013002/consolide
 ---
