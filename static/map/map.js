@@ -110,7 +110,6 @@ function changeSelected_Exception (hash) {
 		selected_exception = hash;
 		changeException(selected_exception);  
 		highlight(selected_exception); 
-		}
 	} else {
 		selected_exception = "";
 	}
@@ -211,22 +210,19 @@ info.update = function (props) {
 	} else {
 		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 			this._div.style = "display: inherit;";
-			this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
-			this._div.innerHTML += 	"<p>&nbsp;</p>";
+			this._div.innerHTML += "<h2 class=country-name>" + props.name + "</h2>";	
+
 		
 			if (props.exceptions[selected_exception].score != "") {
-				this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].score) +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
+				this._div.innerHTML += 	"<h3>Implementation status</h3><p><span>" + getStatus(props.exceptions[selected_exception].score) +  '</span></p>';
 			}
 		
 			if (props.exceptions[selected_exception]['title'] != '') {
-				this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['title'] +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
+				this._div.innerHTML += 	"<h3>Article Number in local act</h3><p><span>" + props.exceptions[selected_exception]['title'] +  '</span></p>';
 			}
 		
 			if (props.exceptions[selected_exception].description != "") {
-				this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].description +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
+				this._div.innerHTML += 	"<h3>Description</h3><p><span>" + props.exceptions[selected_exception].description +  '</span></p>';
 			}
 		
 			this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
@@ -252,10 +248,9 @@ info.showExceptionDetails = function (value) {
 			var obj = exceptionsNames[i];
 			if (obj.short == value) {
 				found = true;
-				this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
-				this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-				this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+				this._div.innerHTML += "<h2 class=country-name>" + obj.title + '</h2>';
+				this._div.innerHTML += "<h3>Summary</h3><p><span>" + obj.summary +  '</span></p>';
+				this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
 				return;
 			}
 		}
