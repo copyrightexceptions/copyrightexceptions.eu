@@ -26,7 +26,7 @@ attribution:
 - indicating the source, including the author’s name is required, whenever possible
 otherConditions: 
 remarks: "The exception covers no pastiche.<br /><br />The Lithuanian parody exception for copyrighted works was removed in 2011, leaving the corresponding neighbouring rights exception behind. Currently the law, in terms of litteral reading, provides for an exemption for the purposes of parody and caricature solely regarding neighbouring rights.
-<br /><br />In a decision (Nr. 3K-3-214/2009), preceding the CJEU Deckmyn case, the Supreme Court of the Republic of Lithuania ruled that the use of a work for the purpose of parody was permitted under the following conditions: 
+<br /><br />In a decision (Nr. 3K-3-214/2009), preceding the CJEU Deckmyn case, the Supreme Court of the Republic of Lithuania ruled that the use of a work for the purpose of parody was permitted under the following conditions:<br /> 
 i) the parody is an imitation of the copyrighted work,<br /> 
 ii) the use of a work is humoristic,<br /> 
 iii) the parodied work is the target of parody,<br /> 
