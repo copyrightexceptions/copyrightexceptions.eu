@@ -110,7 +110,6 @@ function changeSelected_Exception (hash) {
 		selected_exception = hash;
 		changeException(selected_exception);  
 		highlight(selected_exception); 
-		}
 	} else {
 		selected_exception = "";
 	}
@@ -293,9 +292,7 @@ info.getContainer().addEventListener('mouseout', function () {
 
 // LEGEND
 var legend = L.control({position: 'topleft'});
-
 legend.onAdd = function (map) {
-	
 	this._div = L.DomUtil.create('div', 'exceptions');
 	this._div.innerHTML =  legenda;
     return this._div;
