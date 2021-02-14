@@ -5,7 +5,7 @@
 {{- range $index, $element := $pages -}}
 	{"title" : "{{ .Title }}", 
 	"short" : {{ if isset .Params "short" }}"{{ index .Params "short" }}"{{else}}""{{ end }},
-	"summary" : {{ if isset .Params "summary" }}"{{ index .Params "summary" }}"{{else}}""{{ end }},
+	"summary" : {{ if isset .Params "summary" }}"{{ replace (index .Params "summary") "\n" "<br/>" }}"{{else}}""{{ end }},
 	"linklaw" : {{ if isset .Params "linklaw" }}"{{ index .Params "linklaw" }}"{{else}}""{{ end }}
 	{{- if not (eq (add $index 1) $len) -}}
 		},
