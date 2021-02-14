@@ -27,6 +27,7 @@
                     	<div id="content" role="main">
                     	<h1>{{ .Page.Params.title }}</h1>
   						<p class="overview">{{ .Page.Params.summary }}</p>
+  						<p>{{ .Page.Params.more }}</p>
   						<h2>This exception has been implemented in the following Member States:</h2>
   						{{ range .Pages }}
 	  					{{if .Title}}<p class="overview">In {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a> {{ end }} in <a href="{{.Permalink}}">{{.Title}}</a></p>{{end}}
