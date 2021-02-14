@@ -23,8 +23,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - works must be published/ made public
-remarks: "Purposes: The exception does not extend to pastiche.
-
-Subject Matter: The exception does not extend to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and database makers' (§ 94) rights."
+remarks: "Purposes: The exception does not extend to pastiche.<br /><br />Subject Matter: The exception does not extend to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and database makers' (§ 94) rights."
 link: https://www.beck-online.cz/bo/chapterview-document.seam?documentId=onrf6mrqgayf6mjsgexggyjrl5ugymk7mrutix3emqzc2mrq&rowIndex=0
 ---
