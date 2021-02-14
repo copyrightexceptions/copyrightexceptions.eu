@@ -17,15 +17,15 @@ usage:
 - any use
 subjectmatter:
 - work
- -performances
- -phonograms
+- performances
+- phonograms
 - film fixations
 - broadcasts
 compensation:
 - no compensation required
 attribution: 
 - indicating the name of the author of the work, if it appears thereon, the name of the work and the source publication required
-otherConditions: 
+otherConditions:
 - the work must be lawfully published
 - use must be limited to the extent justified by such purpose
 remarks: "The provision concerns copurighted works. The exception is extended to related rights with a general reference to "other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act" in § 75 (6)."
