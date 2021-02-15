@@ -7,7 +7,7 @@ exceptions:
 - info53k
 jurisdictions:
 - LT
-score: 
+score: 1
 description: "This exception allows for the use of performances, phonograms, film fixations and broadcasts for the purpose of caricature or parody. Indicating the source, including the author’s name, is required, whenever possible." 
 beneficiaries:
 - any user
