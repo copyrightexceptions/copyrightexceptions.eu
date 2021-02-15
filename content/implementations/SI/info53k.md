@@ -1,28 +1,31 @@
 ---
-title: ""
-date: 2020-12-09T11:39:41+02:00 
-draft: true
+title: "Article 53, point 2 of the Copyright and Related Rights Act"
+date: 2016-10-22
+draft: false
 weight: 61
 exceptions:
 - info53k
 jurisdictions:
 - SI
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the transformation of a disclosed work, if the work is transformed into a parody or caricature, provided this does not, or is not likely to, create confusion as to the source of the work." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- parody or caricature
 usage:
-- 
+- transformation
 subjectmatter:
-- 
+- works
+- phonograms
+- film fixations
+- broadcasts
 compensation:
--
+- no compensation required
 attribution: 
--
+- no attribution required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- the use must not likely to, create confusion as to the source of the work
+remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
+link: https://wipolex.wipo.int/en/text/422515
 ---
