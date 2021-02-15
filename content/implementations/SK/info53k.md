@@ -1,28 +1,31 @@
 ---
-title: ""
-date: 2020-12-09T11:39:41+02:00 
-draft: true
+title: "Section 38 of the Copyright Act"
+date: 2016-01-01
+draft: false
 weight: 61
 exceptions:
 - info53k
 jurisdictions:
 - SK
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the use of a work by means of caricature, parody or pastiche in a manner not giving rise to likelihood of confusion with the original work." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- caricature, parody or pastiche
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- works
+- phonograms
+- film fixations
+- broadcasts
 compensation:
--
+- no compensation required
 attribution: 
--
+- no attribution required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- the use must not give rise to likelihood of confusion with the original work
+remarks: "The exception applies to performers' (§ 103), phonogram producers' (§113), audiovisual producers' (§121) and broadcasters' (§127.1) rights."
+link: https://wipolex.wipo.int/en/text/542164
 ---
