@@ -116,7 +116,7 @@ function changeSelected_Exception (hash) {
 }
 
 // * set up map */
-var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 10], 4);
+var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 3], 4);
 
 L.control.zoom({position:'topright'}).addTo(map);
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
