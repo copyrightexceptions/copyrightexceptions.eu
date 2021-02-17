@@ -208,26 +208,35 @@ info.update = function (props) {
 	if (selected_exception == "" || typeof(selected_exception) == 'undefined') {
 		this._div.style = "display: none;";
 	} else {
+						// MEMBERSTATE has implemented the GERENERIC EXCEPTION exception in EXCEPTIONNAME. EXCEPTION SCORE LONG. (see here for the logic when the exception has not been implemented)
+				
+			//implemented
+			//<p> <a href="http://localhost:1313/v2dev/jurisdictions/pt/">COUNTRY</a>  has implemented the  <a href="http://localhost:1313/v2dev/exceptions/info53a/">NAME</a>  exception in <strong>ARTICLE NUMBERS</strong>. <span class="score2">SCORE</span>.</p>
+			//NOT implemented
+			//<p class="intro"> <a href="https://www.copyrightexceptions.eu/v2dev/jurisdictions/it/">Italy </a>  has <span class="score0">not implemented</span> the  <a href="https://www.copyrightexceptions.eu/v2dev/exceptions/info53k/">Use for the purpose of caricature, parody or pastiche (Art. 5.3(k) InfoSoc)</a>  exception.</p>
+		console.log(props)
 		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 			this._div.style = "display: inherit;";
-			this._div.innerHTML += "<h2 class=country-name>" + props.name + "</h2>";	
+			contents = "";
+			contents += "<p>";
+			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
+			if (props.exceptions[selected_exception].score == 0) {
+				contents += "<span class=\"score0\">not implemented</span> the ";
+				contents += "in <strong>" + props.exceptions[selected_exception]['title'] + "</strong>. exception.";
+			}
+			else {
+				contents += "has implemented the ";
+				contents += "<a href=" + base_url + "exceptions/" + selected_exception + "/ >" + props.exceptions[selected_exception]['title'] + "</a> exception ";
+				contents += "in <strong>" + props.exceptions[selected_exception]['title'] + "</strong>. ";
+				contents += "<span class=score" + props.exceptions[selected_exception].score + ">" + getStatus(props.exceptions[selected_exception].score) + "</span>."
+			} 
+			
+			
+			contents += "</p>"
+			//contents += "<p>" + props.exceptions[selected_exception]['description'] + "</p>"
+			contents += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">More information</span></a></p>";
 
-		
-			if (props.exceptions[selected_exception].score != "") {
-				this._div.innerHTML += 	"<h3>Implementation status</h3><p><span>" + getStatus(props.exceptions[selected_exception].score) +  '</span></p>';
-			}
-		
-			if (props.exceptions[selected_exception]['title'] != '') {
-				this._div.innerHTML += 	"<h3>Article Number in local act</h3><p><span>" + props.exceptions[selected_exception]['title'] +  '</span></p>';
-			}
-		
-			if (props.exceptions[selected_exception].description != "") {
-				this._div.innerHTML += 	"<h3>Description</h3><p><span>" + props.exceptions[selected_exception].description +  '</span></p>';
-			}
-		
-			this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-			this._div.innerHTML += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-			this._div.innerHTML += "<p><a href='" + base_url +  "jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+			this._div.innerHTML = contents;
 			this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 		}
 		else {// invalid exception
@@ -248,8 +257,8 @@ info.showExceptionDetails = function (value) {
 			var obj = exceptionsNames[i];
 			if (obj.short == value) {
 				found = true;
-				this._div.innerHTML += "<h2 class=country-name>" + obj.title + '</h2>';
-				this._div.innerHTML += "<h3>Summary</h3><p><span>" + obj.summary +  '</span></p>';
+				this._div.innerHTML += "<h2 class=info-name>" + obj.title + '</h2>';
+				this._div.innerHTML += "<p>" + obj.summary +  '</p>';
 				this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
 				return;
 			}
@@ -260,6 +269,19 @@ info.showExceptionDetails = function (value) {
 		}
 	}
 };
+
+info.showCountryDetails = function (value) {
+	this._div.innerHTML = "";
+	if (value == "" || typeof(value) == 'undefined') {
+		this._div.style = "display: none;";
+	} else {
+		found = false
+		
+		if (!found) {
+			this._div.style = "display: none;";
+		}
+	}
+}
 
 info.clear = function (exception) {
 	if (exception == "" || typeof(exception) == 'undefined') {
@@ -342,9 +364,9 @@ function changeException(value) {
 }
 
 function highlight(excep) {
-	$( ".exception" + "." + excep ).css( "color", "#feffff");
+	$( ".exception" + "." + excep ).css( "color", "#000000");
 	$( ".exception" + "." + excep ).css( "background", "url('')"); 
-	$( ".exception" + "." + excep ).css( "background-color", "#494949"); 
+	$( ".exception" + "." + excep ).css( "background-color", "#CCCCCC"); 
 }
 
 // SET exception (based on hash)
