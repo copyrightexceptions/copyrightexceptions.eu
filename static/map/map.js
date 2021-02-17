@@ -24,6 +24,18 @@ $.ajax({
   }
 });
 
+/* Load information about jurisdictions from the Hugo taxonomy */
+var legalArrangements;
+$.ajax({
+	url: base_url + "/jurisdictions/index.json",
+	dataType: 'json',
+	async: false,
+	success: function(data) {
+	legalArrangements = data;
+  }
+});
+console.log(legalArrangements)
+
 /* Create legenda */
 var legenda = '';
 jQuery.each(exceptionsNames, function() {
@@ -199,22 +211,14 @@ var info = L.control();
 
 info.onAdd = function (map) {
 	this._div = L.DomUtil.create('div', 'info');
-	this._div.style = "display: none;";
 	return this._div;
 };
 
 info.update = function (props) {
 	this._div.innerHTML = "";
 	if (selected_exception == "" || typeof(selected_exception) == 'undefined') {
-		this._div.style = "display: none;";
+		info.showCountryDetails(props.iso_a2)
 	} else {
-						// MEMBERSTATE has implemented the GERENERIC EXCEPTION exception in EXCEPTIONNAME. EXCEPTION SCORE LONG. (see here for the logic when the exception has not been implemented)
-				
-			//implemented
-			//<p> <a href="http://localhost:1313/v2dev/jurisdictions/pt/">COUNTRY</a>  has implemented the  <a href="http://localhost:1313/v2dev/exceptions/info53a/">NAME</a>  exception in <strong>ARTICLE NUMBERS</strong>. <span class="score2">SCORE</span>.</p>
-			//NOT implemented
-			//<p class="intro"> <a href="https://www.copyrightexceptions.eu/v2dev/jurisdictions/it/">Italy </a>  has <span class="score0">not implemented</span> the  <a href="https://www.copyrightexceptions.eu/v2dev/exceptions/info53k/">Use for the purpose of caricature, parody or pastiche (Art. 5.3(k) InfoSoc)</a>  exception.</p>
-		console.log(props)
 		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
 			this._div.style = "display: inherit;";
 			contents = "";
@@ -270,24 +274,26 @@ info.showExceptionDetails = function (value) {
 	}
 };
 
+info.showIntroduction = function (value) {
+	this._div.innerHTML = "";
+	contents = ""
+	contents += "<h1>Introduction</h1>";
+	contents += "<p>CopyrightExceptions.eu is a project to lorem ipsum..</p>";
+	this._div.innerHTML = contents;
+}
+
 info.showCountryDetails = function (value) {
 	this._div.innerHTML = "";
-	if (value == "" || typeof(value) == 'undefined') {
-		this._div.style = "display: none;";
-	} else {
-		found = false
-		
-		if (!found) {
-			this._div.style = "display: none;";
-		}
-	}
+	contents = "";
+	contents += "<h1>" + legalArrangements[value]['name'] + "</h1>";
+	contents += "<p>" +  legalArrangements[value]['legalarrangement'] + "</p>";
+	contents += '<p><a href="' + base_url + 'jurisdictions/' + value.toLowerCase() + '/">Overview of implementations</a></p>';
+	this._div.innerHTML = contents;
 }
 
 info.clear = function (exception) {
 	if (exception == "" || typeof(exception) == 'undefined') {
-		this._div.style = "display: none;";
-		this._div.innerHTML = "";
-		map.closePopup();
+		info.showIntroduction()
 	} else {
 		info.showExceptionDetails(exception);
 	}
@@ -370,7 +376,9 @@ function highlight(excep) {
 }
 
 // SET exception (based on hash)
-changeSelected_Exception(window.parent.location.hash.substring(1));
+if (window.parent.location.hash.substring(1) != "") {
+	changeSelected_Exception(window.parent.location.hash.substring(1));
+}
 
 window.parent.onhashchange = function(e) {
 	e.preventDefault();
@@ -392,7 +400,8 @@ $(document).ready(function(){
 	  if (exceptionsNames[index]["short"] != "") {
 	 	 $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
 		}
-	}  
+	} 
+	info.showIntroduction(); 
 });
 
 for(var index in exceptionsNames) {
