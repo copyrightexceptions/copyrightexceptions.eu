@@ -24,6 +24,16 @@ $.ajax({
   }
 });
 
+function getException(shortName) {
+	for(var i = 0; i < exceptionsNames.length; i++) {
+		var obj = exceptionsNames[i];
+		if (obj.short == shortName) {
+			return obj;
+		}
+	}
+	return false;
+}
+
 /* Load information about jurisdictions from the Hugo taxonomy */
 var legalArrangements;
 $.ajax({
@@ -220,17 +230,18 @@ info.update = function (props) {
 		info.showCountryDetails(props.iso_a2)
 	} else {
 		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
+			exceptionDetails = getException(selected_exception);
 			this._div.style = "display: inherit;";
 			contents = "";
 			contents += "<p>";
 			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
 			if (props.exceptions[selected_exception].score == 0) {
 				contents += "<span class=\"score0\">not implemented</span> the ";
-				contents += "in <strong>" + props.exceptions[selected_exception]['title'] + "</strong>. exception.";
+				contents += "in <strong>" + exceptionDetails.title + "</strong>. exception.";
 			}
 			else {
 				contents += "has implemented the ";
-				contents += "<a href=" + base_url + "exceptions/" + selected_exception + "/ >" + props.exceptions[selected_exception]['title'] + "</a> exception ";
+				contents += "<a href=" + base_url + "exceptions/" + selected_exception + "/ >" + exceptionDetails.title + "</a> exception ";
 				contents += "in <strong>" + props.exceptions[selected_exception]['title'] + "</strong>. ";
 				contents += "<span class=score" + props.exceptions[selected_exception].score + ">" + getStatus(props.exceptions[selected_exception].score) + "</span>."
 			} 
@@ -256,19 +267,14 @@ info.showExceptionDetails = function (value) {
 		this._div.style = "display: none;";
 	} else {
 		found = false
-		this._div.style = "display: inherit;";
-		for(var i = 0; i < exceptionsNames.length; i++) {
-			var obj = exceptionsNames[i];
-			if (obj.short == value) {
-				found = true;
-				this._div.innerHTML += "<h2 class=info-name>" + obj.title + '</h2>';
-				this._div.innerHTML += "<p>" + obj.summary +  '</p>';
-				this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
-				return;
-			}
-		}
-		
-		if (!found) {
+		obj = getException(value);
+		if (obj != false) {
+			this._div.style = "display: inherit;";
+			this._div.innerHTML += "<h2 class=info-name>" + obj.title + '</h2>';
+			this._div.innerHTML += "<p>" + obj.summary +  '</p>';
+			this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			return;
+		} else {
 			this._div.style = "display: none;";
 		}
 	}
