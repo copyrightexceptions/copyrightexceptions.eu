@@ -31,42 +31,14 @@
 			clear: both;
 		}
 		
-		#switch:hover {
-			background-color: rgba(242,242,242,1.0) !important;
-    		color: rgba(73,73,73,1.0) !important;
-			background-image:url("")!important;
-		}
-		
-		#switch a {
-
-			cursor: pointer ;
-			text-decoration:none;
-			padding-left : 7px;
-			padding-right : 7px;
-			color: white !important;
-			background-color: #494949 !important;
-			height: 30px;
-			display: block;
-			display: flex;
-			align-items: center;
-		}
-		
-		#switch a:hover {
-			background-color: rgba(242,242,242,1.0) !important;
-    		color: rgba(73,73,73,1.0) !important;
-			background-image:url("")!important;
-		}
-		
 		#logo {
 			margin: 5px;
 			float: right;
+			width: 265px;
 		}
 		
-		#tablelogo {
-		    margin: 0px;
-			float: right;
-			margin-right: 15px;
-			margin-top: -5px;
+		#logo img {
+			width: 100%;
 		}
 		
 		#logo a {
@@ -213,9 +185,6 @@
 			pointer-events: auto;
 		}
 		
-		
-		
-		
 		/* MAP */
 		
 		#map {
@@ -239,8 +208,8 @@
 			border-bottom: none;
 			color: white;
 			background: #494949;
-			height: 30px !important;
-			width: 30px; !important;
+			height: 35px !important;
+			width: 35px !important;
 			
 			margin-top: 5px;
 			cursor: pointer !important;
@@ -254,7 +223,7 @@
 		.leaflet-control-zoom {
 			height: auto;
 			clear: none;
-			margin-right: 3px !important;
+			margin-right: 10x1px !important;
 		}
 		
 		
@@ -339,12 +308,14 @@
 			margin: 0;
 			position: fixed;
 			bottom: 15px;
+			background-color: rgba(242,242,242,0.7);
+			padding-top: 7px;
+			padding-left: 5px;
 		}
 		
 		.legenda-box {
 			white-space: nowrap;
 			margin-right: 10px;
-			background-color: transparent !important;
 			float: left;
 			height: 14px;
 			line-height: 14px;
@@ -355,11 +326,6 @@
 			transform: translateY(-50%);
 			font-size: 14px;
 			margin-right: 2px;
-		}
-		
-		.legenda-box:hover {
-			white-space: nowrap;
-			background-color: white !important;
 		}
 		
 		.legenda-row {
