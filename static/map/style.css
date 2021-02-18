@@ -41,6 +41,8 @@
 		overflow-y : auto;
 		overflow-x : hidden;
 		position: relative;
+		background-color: rgba(242,242,242,0.7);
+		padding: 10px;
 	}
 	
 	.info .info-name {
@@ -58,7 +60,7 @@
 		margin-bottom: 0px;
 		position: relative;
 		overflow-wrap: break-word;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 1.6em;
 		padding-bottom: 4px;
 	}
@@ -68,6 +70,7 @@
 		background: #E6E6E6;
 		padding: 3px 4px 4px 4px;
 		text-decoration: none;
+		font-size: 16px;
 	}
 		
 	.info a:hover {
@@ -167,7 +170,8 @@
 		border-top-right-radius: 0px !important;
 		border-bottom: none;
 		color: white;
-		background: #494949;
+		color: #000000;
+		background: #E6E6E6;
 		height: 35px !important;
 		width: 35px !important;
 		
@@ -192,8 +196,8 @@
 	}
 	
 	.leaflet-bar a:hover {
-		background-color:  rgba(242,242,242,1.0) !important;
-		color: rgba(73,73,73,1.0) !important;
+		background-color:  #CCCCCC !important;
+		color: #000000 !important;
 	}
 	
 	.leaflet-bar {
