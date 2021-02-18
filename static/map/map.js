@@ -44,7 +44,6 @@ $.ajax({
 	legalArrangements = data;
   }
 });
-console.log(legalArrangements)
 
 /* Create legenda */
 var legenda = '';
@@ -234,7 +233,7 @@ info.update = function (props) {
 			this._div.style = "display: inherit;";
 			contents = "";
 			contents += "<p>";
-			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
+			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + legalArrangements[props.iso_a2]['name'] + "</a> ";
 			if (props.exceptions[selected_exception].score == 0) {
 				contents += "<span class=\"score0\">has not implemented</span> the ";
 				contents += "<strong>" + exceptionDetails.title + "</strong>. exception.";
