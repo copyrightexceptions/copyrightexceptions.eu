@@ -56,6 +56,8 @@
 	
 	.info .description {
 		font-size: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	
 	.info p {
