@@ -1,6 +1,6 @@
 ---
-title: "Article 19(7) of the Copyright act"
-date: 2006-06-30
+title: "Article 39 of Law 23/2006"
+date: 2006-07-08
 draft: false
 weight: 61
 exceptions:
@@ -8,26 +8,25 @@ exceptions:
 jurisdictions:
 - ES
 score: 2
-description: "This exception allows for the use of a lawfully published work in a caricature, parody or pastiche to the extent justified by such purpose. The name of the author of the work, if it appears thereon, the name of the work and the source publication must be mentioned." 
+description: "This exception allows for transformation of disclosed works by way of parody, as long as it does not imply a risk of confusion with the original work or infer damage to the original work or its author." 
 beneficiaries:
 - any user
 purposes: 
-- caricature, parody or pastiche
+- parody
 usage:
-- any use
+- transformation
 subjectmatter:
-- work
-- performances
+- works
 - phonograms
 - film fixations
 - broadcasts
 compensation:
 - no compensation required
 attribution: 
-- indicating the name of the author of the work, if it appears thereon, the name of the work and the source publication required
+- no attribution required
 otherConditions:
-- the work must be lawfully published
-- use must be limited to the extent justified by such purpose
-remarks: "The provision concerns copyrighted works. The exception is extended to related rights with a general reference to \"other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act\" in § 75 (6)."
-link: https://www.riigiteataja.ee/en/eli/ee/525112013002/consolide
+- derivative work must not imply a risk of confusion with the original work 
+- the use must not infer damage to the original work or its author
+remarks: "In terms of purposes of the use, the exception does not cover caricature and pastiche. The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
+link: https://wipolex.wipo.int/en/text/507842
 ---

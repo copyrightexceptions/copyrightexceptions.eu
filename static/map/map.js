@@ -24,6 +24,28 @@ $.ajax({
   }
 });
 
+function getException(shortName) {
+	for(var i = 0; i < exceptionsNames.length; i++) {
+		var obj = exceptionsNames[i];
+		if (obj.short == shortName) {
+			return obj;
+		}
+	}
+	return false;
+}
+
+/* Load information about jurisdictions from the Hugo taxonomy */
+var legalArrangements;
+$.ajax({
+	url: base_url + "/jurisdictions/index.json",
+	dataType: 'json',
+	async: false,
+	success: function(data) {
+	legalArrangements = data;
+  }
+});
+console.log(legalArrangements)
+
 /* Create legenda */
 var legenda = '';
 jQuery.each(exceptionsNames, function() {
@@ -116,7 +138,7 @@ function changeSelected_Exception (hash) {
 }
 
 // * set up map */
-var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 10], 4);
+var map = L.map('map', {preferCanvas: true, zoomControl: false, minZoom:3, maxZoom:60, attributionControl: false, closePopupOnClick: false, scrollWheelZoom: false, sleepOpacity: 1, sleepNote: false}).setView([55, 3], 4);
 
 L.control.zoom({position:'topright'}).addTo(map);
 map.once('focus', function() { map.scrollWheelZoom.enable(); });
@@ -199,38 +221,37 @@ var info = L.control();
 
 info.onAdd = function (map) {
 	this._div = L.DomUtil.create('div', 'info');
-	this._div.style = "display: none;";
 	return this._div;
 };
 
 info.update = function (props) {
 	this._div.innerHTML = "";
 	if (selected_exception == "" || typeof(selected_exception) == 'undefined') {
-		this._div.style = "display: none;";
+		info.showCountryDetails(props.iso_a2)
 	} else {
 		if (("exceptions" in props) && (selected_exception in props.exceptions)) {
+			exceptionDetails = getException(selected_exception);
 			this._div.style = "display: inherit;";
-			this._div.innerHTML += "<span class=country-name>" + props.name + "<a href=\"javascript:info.clear('" + selected_exception + "')\" id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>";	
-			this._div.innerHTML += 	"<p>&nbsp;</p>";
-		
-			if (props.exceptions[selected_exception].score != "") {
-				this._div.innerHTML += 	"<p>Implementation status: </p><p><span>" + getStatus(props.exceptions[selected_exception].score) +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
+			contents = "";
+			contents += "<p>";
+			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
+			if (props.exceptions[selected_exception].score == 0) {
+				contents += "<span class=\"score0\">has not implemented</span> the ";
+				contents += "<strong>" + exceptionDetails.title + "</strong>. exception.";
 			}
-		
-			if (props.exceptions[selected_exception]['title'] != '') {
-				this._div.innerHTML += 	"<p>Article Number in local act: </p><p><span>" + props.exceptions[selected_exception]['title'] +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
-			}
-		
-			if (props.exceptions[selected_exception].description != "") {
-				this._div.innerHTML += 	"<p>Description: </p><p><span>" + props.exceptions[selected_exception].description +  '</span></p>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
-			}
-		
-			this._div.innerHTML += "<p><a href='/feedback' style=text-decoration:none><span class=info_button> FEEDBACK</span></a></p>";
-			this._div.innerHTML += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">MORE DETAILS ON THIS EXCEPTION</span></a></p>";
-			this._div.innerHTML += "<p><a href='" + base_url +  "jurisdictions/" + props.iso_a2.toLowerCase() + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">SEE ALL EXCEPTIONS OF " + props.name.toUpperCase() + "</span></a>";
+			else {
+				contents += "has implemented the ";
+				contents += "<a href=" + base_url + "exceptions/" + selected_exception + "/ >" + exceptionDetails.title + "</a> exception ";
+				contents += "in <strong>" + props.exceptions[selected_exception]['title'] + "</strong>. ";
+				contents += "<span class=score" + props.exceptions[selected_exception].score + ">" + getStatus(props.exceptions[selected_exception].score) + "</span>."
+			} 
+			
+			
+			contents += "</p>"
+			contents += "<p class=description>" + props.exceptions[selected_exception]['description'] + "</p>"
+			contents += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">More information</span></a></p>";
+
+			this._div.innerHTML = contents;
 			this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
 		}
 		else {// invalid exception
@@ -246,30 +267,39 @@ info.showExceptionDetails = function (value) {
 		this._div.style = "display: none;";
 	} else {
 		found = false
-		this._div.style = "display: inherit;";
-		for(var i = 0; i < exceptionsNames.length; i++) {
-			var obj = exceptionsNames[i];
-			if (obj.short == value) {
-				found = true;
-				this._div.innerHTML += "<span class=country-name>" + obj.title + "<a href='javascript:info.clear()' id=closeinfo style=text-decoration:none><span class=info_button>X</a></span>" + '</span>';
-				this._div.innerHTML += 	"<p>&nbsp;</p>";
-				this._div.innerHTML += 	"<p>Summary: </p><p><span>" + obj.summary +  '</span></p>';
-				this._div.innerHTML += '<p>&nbsp;</p><p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
-				return;
-			}
-		}
-		
-		if (!found) {
+		obj = getException(value);
+		if (obj != false) {
+			this._div.style = "display: inherit;";
+			this._div.innerHTML += "<h2 class=info-name>" + obj.title + '</h2>';
+			this._div.innerHTML += "<p>" + obj.summary +  '</p>';
+			this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			return;
+		} else {
 			this._div.style = "display: none;";
 		}
 	}
 };
 
+info.showIntroduction = function (value) {
+	this._div.innerHTML = "";
+	contents = ""
+	contents += "<h1>Introduction</h1>";
+	contents += "<p>CopyrightExceptions.eu is a project to lorem ipsum..</p>";
+	this._div.innerHTML = contents;
+}
+
+info.showCountryDetails = function (value) {
+	this._div.innerHTML = "";
+	contents = "";
+	contents += "<h1>" + legalArrangements[value]['name'] + "</h1>";
+	contents += "<p>" +  legalArrangements[value]['legalarrangement'] + "</p>";
+	contents += '<p><a href="' + base_url + 'jurisdictions/' + value.toLowerCase() + '/">Overview of implementations</a></p>';
+	this._div.innerHTML = contents;
+}
+
 info.clear = function (exception) {
 	if (exception == "" || typeof(exception) == 'undefined') {
-		this._div.style = "display: none;";
-		this._div.innerHTML = "";
-		map.closePopup();
+		info.showIntroduction()
 	} else {
 		info.showExceptionDetails(exception);
 	}
@@ -344,13 +374,15 @@ function changeException(value) {
 }
 
 function highlight(excep) {
-	$( ".exception" + "." + excep ).css( "color", "#feffff");
+	$( ".exception" + "." + excep ).css( "color", "#000000");
 	$( ".exception" + "." + excep ).css( "background", "url('')"); 
-	$( ".exception" + "." + excep ).css( "background-color", "#494949"); 
+	$( ".exception" + "." + excep ).css( "background-color", "#CCCCCC"); 
 }
 
 // SET exception (based on hash)
-changeSelected_Exception(window.parent.location.hash.substring(1));
+if (window.parent.location.hash.substring(1) != "") {
+	changeSelected_Exception(window.parent.location.hash.substring(1));
+}
 
 window.parent.onhashchange = function(e) {
 	e.preventDefault();
@@ -372,7 +404,8 @@ $(document).ready(function(){
 	  if (exceptionsNames[index]["short"] != "") {
 	 	 $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
 		}
-	}  
+	} 
+	info.showIntroduction(); 
 });
 
 for(var index in exceptionsNames) {
@@ -385,7 +418,6 @@ for(var index in exceptionsNames) {
 		console.log("No short for: " + exceptionsNames[index]["title"]);
 	}
 }
-$('#closeinfo').click(function(){return false;});
 $( ".info" )
   .mouseover(function() {
    	map.scrollWheelZoom.disable();
@@ -401,4 +433,3 @@ $( ".exceptions" )
   .mouseout(function() {
     map.scrollWheelZoom.enable();
   });
-
