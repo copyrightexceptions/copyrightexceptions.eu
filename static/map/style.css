@@ -8,7 +8,7 @@
 	#logo {
 		margin: 5px;
 		float: right;
-		width: 265px;
+		width: 280px;
 	}
 	
 	#logo img {
@@ -52,6 +52,10 @@
 		font-size: 20px;
 		line-height: 1.2em;
 		font-weight: 700;
+	}
+	
+	.info .description {
+		font-size: 14px;
 	}
 	
 	.info p {

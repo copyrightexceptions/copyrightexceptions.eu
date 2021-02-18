@@ -236,7 +236,7 @@ info.update = function (props) {
 			contents += "<p>";
 			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
 			if (props.exceptions[selected_exception].score == 0) {
-				contents += "<span class=\"score0\">not implemented</span> the ";
+				contents += "<span class=\"score0\">has not implemented</span> the ";
 				contents += "<strong>" + exceptionDetails.title + "</strong>. exception.";
 			}
 			else {
@@ -248,7 +248,7 @@ info.update = function (props) {
 			
 			
 			contents += "</p>"
-			//contents += "<p>" + props.exceptions[selected_exception]['description'] + "</p>"
+			contents += "<p class=description>" + props.exceptions[selected_exception]['description'] + "</p>"
 			contents += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">More information</span></a></p>";
 
 			this._div.innerHTML = contents;
