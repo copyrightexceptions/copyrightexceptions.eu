@@ -1,7 +1,8 @@
 ---
 title: "Artikel 13a Auteurswet"
-date: 2004-09-01T00:00:00+02:00 
+date: 2004-09-01
 draft: false
+weight: 30
 exceptions:
 - info51
 jurisdictions:

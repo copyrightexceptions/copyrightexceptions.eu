@@ -1,12 +1,13 @@
 ---
-title:
+title: ""
 date:  
-draft: false 
+draft: true 
+weight: 10
 exceptions:
 - dsm3
 jurisdictions:
 - DK
-score: 0
+score: 
 description: "" 
 beneficiaries:
 purposes: 

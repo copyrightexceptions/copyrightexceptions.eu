@@ -2,6 +2,7 @@
 title: ""
 date: 2020-12-09T11:39:40+02:00 
 draft: true
+weight: 43
 exceptions:
 - info52d
 jurisdictions:
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---

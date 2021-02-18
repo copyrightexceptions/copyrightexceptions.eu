@@ -1,25 +1,21 @@
 ---
 title: ""
-date: 2020-12-09T11:39:32+02:00 
-draft: true
+date: 2020-12-09
+draft: false
+weight: 44
 exceptions:
 - info52e
 jurisdictions:
 - BG
-score: 
+score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
-compensation: ""
-attribution: ""
+compensation:
+attribution: 
 otherConditions: 
-- 
 remarks: ""
-link: ""
+link: 
 ---

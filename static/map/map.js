@@ -322,9 +322,7 @@ info.getContainer().addEventListener('mouseout', function () {
 
 // LEGEND
 var legend = L.control({position: 'topleft'});
-
 legend.onAdd = function (map) {
-	
 	this._div = L.DomUtil.create('div', 'exceptions');
 	this._div.innerHTML =  legenda;
     return this._div;

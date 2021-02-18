@@ -1,12 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:35+02:00 
-draft: true
+date: 2021-02-07T11:39:35+02:00 
+draft: false
+weight: 43
 exceptions:
 - info52d
 jurisdictions:
 - GR
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---

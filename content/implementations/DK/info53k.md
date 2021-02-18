@@ -1,12 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:33+02:00 
-draft: true
+date: 2021-02-13 
+draft: false
+weight: 61
 exceptions:
 - info53k
 jurisdictions:
 - DK
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---

@@ -1,25 +1,31 @@
 ---
-title: ""
-date: 2020-12-09T11:39:32+02:00 
-draft: true
+title: "Article 24, para 1, p.13 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.13 от Закона за авторското право и сродните му права)"
+date: 2003-01-01 
+draft: false
+weight: 55
 exceptions:
 - info53e
 jurisdictions:
 - BG
-score: 
-description: "" 
+score: 3
+description: "This exception allows for use of works for the purposes of the national security, in judicial, administrative or parliamentary proceedings." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- for the purposes of the national security
+- in judicial, administrative or parliamentary proceedings
 usage:
-- 
+- any use
 subjectmatter:
-- 
-compensation: ""
-attribution: ""
+- works
+- phonograms
+- film fixations
+- broadcasts
+compensation:
+- no compensation required
+attribution: 
+- no attribution required
 otherConditions: 
-- 
-remarks: ""
-link: ""
+remarks: "The exception does not extend to performers' rights."
+link: https://lex.bg/laws/ldoc/2133094401
 ---

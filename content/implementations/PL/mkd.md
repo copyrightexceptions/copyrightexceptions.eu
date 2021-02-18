@@ -2,6 +2,7 @@
 title: ""
 date: 2020-12-09T11:39:39+02:00 
 draft: true
+weight: 80
 exceptions:
 - mkd
 jurisdictions:
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---

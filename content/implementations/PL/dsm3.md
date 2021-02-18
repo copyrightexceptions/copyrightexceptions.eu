@@ -1,12 +1,13 @@
 ---
-title: "test"
-date: 2020-12-09T11:39:39+02:00 
-draft: false
+title: ""
+date: 2020-12-09 
+draft: true
+weight: 10
 exceptions:
 - dsm3
 jurisdictions:
 - PL
-score: 1
+score: 
 description: "" 
 beneficiaries:
 - 
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---

@@ -1,7 +1,8 @@
 ---
 title: ""
-date: 2020-12-09T11:39:39+02:00 
+date: 2020-12-09 
 draft: true
+weight: 70
 exceptions:
 - owd
 jurisdictions:
@@ -16,10 +17,12 @@ usage:
 - 
 subjectmatter:
 - 
-compensation: ""
-attribution: ""
+compensation:
+-
+attribution: 
+-
 otherConditions: 
 - 
 remarks: ""
-link: ""
+link: 
 ---
