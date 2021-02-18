@@ -237,7 +237,7 @@ info.update = function (props) {
 			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + props.name + "</a> ";
 			if (props.exceptions[selected_exception].score == 0) {
 				contents += "<span class=\"score0\">not implemented</span> the ";
-				contents += "in <strong>" + exceptionDetails.title + "</strong>. exception.";
+				contents += "<strong>" + exceptionDetails.title + "</strong>. exception.";
 			}
 			else {
 				contents += "has implemented the ";
