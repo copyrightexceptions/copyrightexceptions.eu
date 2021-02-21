@@ -46,6 +46,12 @@ h2 {
     padding: 2px;    
 }
 
+.msname {
+	font-size: 26px;
+	font-weight: 700;
+	margin-left: -4px;
+}
+
 .score0 {
 	background: #f46d43;
 	padding: 3px 4px 4px 4px;

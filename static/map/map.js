@@ -11,6 +11,7 @@ var color_legenda =	'<div class=legenda-row><div class=legenda-box><div class=le
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#fee08b></div> Very restrictive implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#a6d96a></div> Restrictive implementation</div></div>' + 
 					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#1a9850></div> Broad implementation </div></div>' + 
+					'<div class=legenda-row><div class=legenda-box><div class=legenda-box-color style=background-color:#e7e7e7></div> No data </div></div>' + 
 					'</div>';
 
 /* Load information about exceptions from the Hugo taxonomy */
@@ -233,7 +234,7 @@ info.update = function (props) {
 			this._div.style = "display: inherit;";
 			contents = "";
 			contents += "<p>";
-			contents += "<a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + legalArrangements[props.iso_a2]['name'] + "</a> ";
+			contents += "<span class=msname><strong><a href=" + base_url + "jurisdictions/" + props.iso_a2.toLowerCase() + "/ >" + legalArrangements[props.iso_a2]['name'] + "</a></strong></span> ";
 			if (props.exceptions[selected_exception].score == 0) {
 				contents += "<span class=\"score0\">has not implemented</span> the ";
 				contents += "<strong>" + exceptionDetails.title + "</strong>. exception.";
@@ -248,7 +249,7 @@ info.update = function (props) {
 			
 			contents += "</p>"
 			contents += "<p class=description>" + props.exceptions[selected_exception]['description'] + "</p>"
-			contents += "<p><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">More information</span></a></p>";
+			contents += "<p class=description><a href='" + base_url + "implementations/" + props.iso_a2.toLowerCase() + "/" + selected_exception + "/' style=text-decoration:none><span class=info_button style=\"margin-bottom:6px;\">More information on this implementation</span></a></p>";
 
 			this._div.innerHTML = contents;
 			this._div.firstChild.onmousedown = this._div.firstChild.ondblclick = L.DomEvent.stopPropagation;
@@ -270,8 +271,8 @@ info.showExceptionDetails = function (value) {
 		if (obj != false) {
 			this._div.style = "display: inherit;";
 			this._div.innerHTML += "<h2 class=info-name>" + obj.title + '</h2>';
-			this._div.innerHTML += "<p>" + obj.summary +  '</p>';
-			this._div.innerHTML += '<p><a href="' + base_url + 'exceptions/' + obj.short + '/">Overview of implementations</a></p>';
+			this._div.innerHTML += "<p class=description>" + obj.summary +  '</p>';
+			this._div.innerHTML += '<p class=description><a href="' + base_url + 'exceptions/' + obj.short + '/">See overview of all implementations</a></p>';
 			return;
 		} else {
 			this._div.style = "display: none;";
@@ -282,8 +283,8 @@ info.showExceptionDetails = function (value) {
 info.showIntroduction = function (value) {
 	this._div.innerHTML = "";
 	contents = ""
-	contents += "<h1>Introduction</h1>";
-	contents += "<p>CopyrightExceptions.eu is a project to lorem ipsum..</p>";
+	contents += "<h1>About copyrightexceptions.eu</h1>";
+	contents += "<p class=\"description\">This website is a collaborative effort to map user rights in the European Union's copyright framework. To do this copyrightexceptions.eu provides information on the national implementations of the various exceptions and limitations to copyright and related rights foreseen in the EU copyright directives.</p><p class=\"description\">Use the list of exceptions on the left to see which EU member states have implemented each exception into national legislation.</p><p class=\"description\">You can find more information about copyrightexceptions.eu, the methodology behind the site and how you can contribute to this effort on <a href=\"static/about/\">our about page</a></p>";
 	this._div.innerHTML = contents;
 }
 
