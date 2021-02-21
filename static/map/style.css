@@ -52,12 +52,25 @@
 		font-size: 20px;
 		line-height: 1.2em;
 		font-weight: 700;
+		margin-block-start: 0px;
+		margin-block-end: 0px;
 	}
 	
 	.info .description {
 		font-size: 14px;
 		padding-top: 15px;
-		padding-bottom: 15px;
+	}
+	
+	.info .msname {
+		font-size: 22px;
+		margin-left: -4px;
+	}
+	
+	.info h1 {
+		font-size: 20px;
+		margin-block-start: 0px;
+		margin-block-end: 0px;
+		line-height: 1.6em;
 	}
 	
 	.info p {
@@ -76,7 +89,6 @@
 		background: #E6E6E6;
 		padding: 3px 4px 4px 4px;
 		text-decoration: none;
-		font-size: 16px;
 	}
 		
 	.info a:hover {
