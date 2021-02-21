@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "About"
 date: 2020-12-09T11:39:27+02:00 
 draft: false
 ---
@@ -19,4 +19,4 @@ The current version of copyrightexceptions.eu has been made possible with suppor
 
 ## Technical partners
 
-The map interface for copyrightexception.eu had been developed by [IP Squared](https://ip-squared.com) based on [leaflet.js](https://leafletjs.com) framework. Information architecture by [publicspace.online](https://publicspace.online) and implemented with [HUGO](https://gohugo.io) 
+The map interface for copyrightexception.eu had been developed by [IP Squared](https://ip-squared.com) based on [leaflet.js](https://leafletjs.com) framework. Information architecture and design by [publicspace.online](https://publicspace.online) Implemented with [HUGO](https://gohugo.io). 
