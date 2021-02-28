@@ -30,7 +30,7 @@ attribution:
 otherConditions: 
 - recordings of speeches are excluded from the scope of the exception
 - use of speeches in collections is excluded from the scope of the exception
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses" of works and other subject matter.<br /><br />
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter.<br /><br />
 Attribution is regulated in Section 57 (3a)."
 link: 
 ---
