@@ -1,4 +1,5 @@
 ---
 name: "Hungary" 
 legalarrangement: ""
+lastupdate:
 ---

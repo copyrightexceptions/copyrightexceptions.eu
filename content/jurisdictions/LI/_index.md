@@ -1,4 +1,5 @@
 ---
 name: "Lichtenstein" 
 legalarrangement: ""
+lastupdate:
 ---

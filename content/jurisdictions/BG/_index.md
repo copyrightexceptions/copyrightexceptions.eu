@@ -1,4 +1,5 @@
 ---
 name: "Bulgaria" 
 legalarrangement: ""
+lastupdate:
 ---

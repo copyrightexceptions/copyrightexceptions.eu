@@ -1,4 +1,5 @@
 ---
 name: "Slovenia" 
 legalarrangement: ""
+lastupdate:
 ---

@@ -1,4 +1,5 @@
 ---
 name: "Slovakia" 
 legalarrangement: ""
+lastupdate:
 ---

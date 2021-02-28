@@ -1,4 +1,5 @@
 ---
 name: "Norway" 
 legalarrangement: ""
+lastupdate:
 ---
