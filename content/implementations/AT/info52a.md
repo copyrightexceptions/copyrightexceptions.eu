@@ -27,7 +27,7 @@ otherConditions:
 - reproduction must be of individual copies only
 - reproduction must be from lawful sources
 - entire books, entire periodicals or sheet music, as well as of copies thereof must not be reproduces, unless copies are made by way of transcription or books and periodicals are unpublished or out-of-print
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses" of works and other subject matter.<br /><br />
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter.<br /><br />
 'Own use' is a pre-InfoSoc implementation institution and unlike 'private use', 'own use' includes 'professional use' within the internal organisation of a legal entity. However, it should be noted, that under Section 42a, single copies can be made, on order and with no compensation required, for the 'own use' of third parties. <br /><br />
 'Individual copies' means a certain restricted number of copies required by the nature and purpose of the 'own use'. The exact number is unclear both in cases of 'own' use and 'personal' use (see OGH 4 Ob 94/92 – Null-Nummer II) and must be established on a case-by-case basis.<br /><br />
 'Lawful source' means that no obviously unlawfully produced model or a model which has been unlawfully made available to the public has been used for copying."
