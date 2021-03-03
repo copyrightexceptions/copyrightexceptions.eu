@@ -53,22 +53,22 @@ h2 {
 }
 
 .score0 {
-	background: #f46d43;
+	background: rgba(244, 109, 67, 0.7);
 	padding: 3px 4px 4px 4px;
 }
 
 .score1 {
-	background: #fee08b;
+	background: rgba(254, 224, 139, 0.7);
 	padding: 3px 4px 4px 4px;
 }
 
 .score2 {
-	background: #a6d96a;
+	background: rgba(166, 217, 106, 0.7);
 	padding: 3px 4px 4px 4px;
 }
 
 .score3 {
-	background: #1a9850;
+	background: rgba(26, 152, 80, 0.7);
 	padding: 3px 4px 4px 4px;
 }
 
