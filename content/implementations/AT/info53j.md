@@ -23,7 +23,7 @@ subjectmatter:
 - works of art
 - works of visual art
 compensation:
--reasonable compensation required (can be collected only by collecting societies)
+- reasonable compensation required (can be collected only by collecting societies)
 attribution: 
 - the source must always be clearly stated
 otherConditions: 
