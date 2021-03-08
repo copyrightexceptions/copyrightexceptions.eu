@@ -24,7 +24,8 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
+- the work must be accessible to the public
 - the work must be lawfully divulged 
-remarks: "The exception is applicable by way of analogy to databases (Art. XI.191 § 2 CEL).<br /><br />As per art.XI.193 CEL, all Belgian exceptions are of mandatory nature."
+remarks: "Although the text of the provision may leave the impression that it concerns works of plastic art or architectire, the parliamentary discussions prior to the adoption of the provision and available case law make it clear that it can also cover any visual works (e.g. a logo) or musical works, as long as they are seen or heard in public places, including indoors in publicly accessible locations.<br /><br />The exception is applicable by way of analogy to databases (Art. XI.191 § 2 CEL).<br /><br />As per art.XI.193 CEL, all Belgian exceptions are of mandatory nature."
 link: http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?DETAIL=2013022819%2FF&caller=list&row_id=1&numero=1&rech=1&cn=2013022819&table_name=LOI&nm=2013A11134&la=F&chercher=t&dt=CODE+DE+DROIT+ECONOMIQUE&language=fr&fr=f&choix1=ET&choix2=ET&fromtab=loi_all&sql=dt+contains++%27CODE%27%2526+%27DE%27%2526+%27DROIT%27%2526+%27ECONOMIQUE%27and+actif+%3D+%27Y%27&tri=dd+AS+RANK+&trier=promulgation&imgcn.x=59&imgcn.y=7
 ---
