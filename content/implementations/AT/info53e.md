@@ -23,6 +23,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses" of works and other subject matter. The exception applies to photographs (§68(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)) and databases (§76d(5)).<br /><br />Although there is no restriction to beneficiaries, the EU Court of Justice has interpreted the InfoSoc provision as meaning that free use may be exercised solely by a competent public authority and, in certain cases, by a third party only in coordination with competent national authorities (Painer, Case C-145/10)."
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The exception applies to photographs (§68(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)) and databases (§76d(5)).<br /><br />Although there is no restriction to beneficiaries, the EU Court of Justice has interpreted the InfoSoc provision as meaning that free use may be exercised solely by a competent public authority and, in certain cases, by a third party only in coordination with competent national authorities (Painer, Case C-145/10)."
 link: 
 ---
