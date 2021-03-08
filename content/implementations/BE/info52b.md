@@ -1,7 +1,7 @@
 ---
 title: "Article XI.190, 9° of the Code of Economic Law (CEL)"
-date: 2020-12-09T11:39:31+02:00 
-draft: true
+date: 2005-05-22
+draft: false
 weight: 41
 exceptions:
 - info52b
