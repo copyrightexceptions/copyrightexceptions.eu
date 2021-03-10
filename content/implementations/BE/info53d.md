@@ -18,7 +18,7 @@ usage:
 - communication to the public
 subjectmatter:
 - works
--	performances
+- performances
 - phonograms
 - film fixations
 - broadcasts

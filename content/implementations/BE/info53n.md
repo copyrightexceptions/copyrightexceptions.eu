@@ -18,7 +18,7 @@ usage:
 - making available to individual members of the public
 subjectmatter:
 - works
--	performances
+- performances
 - phonograms
 - film fixations
 - broadcasts
