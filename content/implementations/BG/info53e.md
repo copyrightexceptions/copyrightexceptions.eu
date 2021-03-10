@@ -8,11 +8,11 @@ exceptions:
 jurisdictions:
 - BG
 score: 3
-description: "This exception allows for use of works for the purposes of the national security, in judicial, administrative or parliamentary proceedings." 
+description: "This exception allows for the use of works for the purposes of national security, in judicial, administrative or parliamentary proceedings." 
 beneficiaries:
 - any user
 purposes: 
-- for the purposes of the national security
+- for the purposes of national security
 - in judicial, administrative or parliamentary proceedings
 usage:
 - any use

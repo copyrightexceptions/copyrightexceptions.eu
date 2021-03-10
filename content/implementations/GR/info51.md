@@ -1,6 +1,6 @@
 ---
-title: "Article 28B of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues (updated up to the Law 4672/2020)."
-date: 2002-10-10T11:39:35+02:00 
+title: "Article 28B of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues"
+date: 2002-10-10 
 draft: false
 weight: 30
 exceptions:
@@ -31,6 +31,6 @@ otherConditions:
 - the act of reproductions must be transient or incidental
 - the act of reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
-remarks: ""
+remarks: "According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
 link: https://www.opi.gr/en/library/law-2121-1993#a28b
 ---
