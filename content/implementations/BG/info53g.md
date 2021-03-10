@@ -13,7 +13,7 @@ beneficiaries:
 - any user
 purposes: 
 usage:
-- all types of use
+- any use
 subjectmatter:
 - works
 - performances
@@ -26,6 +26,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - during religious ceremonies or at official celebrations organised by public authorities
-remarks: ""
+remarks: "The exception extends to performers (Article 84), phonograms producers (Art. 90), film producers (Art.90v) and broadcasting organisations (Art. 93)."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
