@@ -7,7 +7,7 @@ exceptions:
 - info53f
 jurisdictions:
 - BG
-score: 3
+score: 2
 description: "This exception allows for the use as current information in periodicals and other mass media of speeches, reports, preaches, etc. and parts thereof, presented at public meetings, as well as court pleadings, indicating the source and the name of the author, unless impossible." 
 beneficiaries:
 - periodicals and other mass media
