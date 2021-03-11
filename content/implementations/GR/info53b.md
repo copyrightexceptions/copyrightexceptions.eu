@@ -1,6 +1,6 @@
 ---
 title: "Article 28A of Law 2121/1993, Intellectual Property, Related Rights and Cultural Issues (updated up to the Law 4672/2020)."
-date: 2020-03-04T11:39:35+02:00 
+date: 2020-03-04
 draft: false
 weight: 51
 exceptions:
@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - GR
 score: 1
-description: "The provision of art. 5.3.(2) of the InfoSoc Directive was the sole optional exception transposed in Greece in implementation of the Directive - under art. 28A of the national copyright law in 2002. In 2020 (by Law 4672/2020) the exception was replaced in its entirety by a provision implementing the Marakesh Directive and named 'Permitted uses for the benefit of persons who are print disabled and persons with other disabilities'." 
+description: "This exception allows for uses of certain types of works for the benefit of persons who are print disabled and persons with other disabilities (visual impaired or with a reading disability). In 2020 the former transposition of art. 5.2.(c) of the InfoSoc Directive was replaced in its entirety by a provision implementing the Marakesh Directive." 
 beneficiaries:
 - disabiled persons (meaning a) blind; b) with visual impairment which cannot be improved; c) with a perceptual or reading disability; d) unable, due to a physical disability, to hold or manipulate a book or to focus or move their eyes to the extent that would be normally acceptable for reading)
 - authorised entities
@@ -25,6 +25,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: ""
+remarks: "The provision of art. 5.3.(2) of the InfoSoc Directive was the sole optional exception transposed in Greece in implementation of the Directive - under art. 28A of the national copyright law in 2002. In 2020 (by Law 4672/2020) the exception was replaced in its entirety by a provision implementing the Marakesh Directive and named 'Permitted uses for the benefit of persons who are print disabled and persons with other disabilities'"
 link: https://www.opi.gr/en/library/law-2121-1993#a28a
 ---
