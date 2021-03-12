@@ -7,7 +7,7 @@ exceptions:
 - info52b
 jurisdictions:
 - RO
-score: 
+score: 3
 description: "This exception allows for the reproduction of a work, against compensatory remuneration, for personal use or for use by a normal family circle, provided that the work has already been disclosed to the public, the reproduction does not hinder the normal use of the work or prejudice the author or the owner of the utilization rights." 
 beneficiaries:
 - any user
