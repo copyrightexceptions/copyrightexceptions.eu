@@ -88,6 +88,11 @@ h2 {
 	margin: -17px 10px 0px 20px;
 }
 
+#content img {
+	width: 100%
+	}
+
+
 @media only screen and (min-width: 200px) and (max-width: 670px) {
 
 .logo img {
