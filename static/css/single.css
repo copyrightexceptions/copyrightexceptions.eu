@@ -91,7 +91,22 @@ h2 {
 #content img {
 	width: 100%
 	}
+	
+#github img {
+	width: 24px;
+	}
 
+code {
+	white-space: pre-wrap;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+	font-size: 12px;
+	display: block;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	background-color: rgba(242,242,242,0.7);
+	margin: 10px 20px 10px 20px;
+	}
 
 @media only screen and (min-width: 200px) and (max-width: 670px) {
 

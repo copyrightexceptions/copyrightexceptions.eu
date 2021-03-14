@@ -24,7 +24,9 @@ Clicking on this link brings you to the GitHub page containing the information f
 
 ![Contribute: Click to edit](/v2dev/images/contribute-step2.png)
 
-After clicking you will be able to edit a copy of the information. **When editing you should be carefull not to change the structure of the file. You should only edit the information about the implementation of the exception** (but since you are working on a copy of the actual information you do not have to worry about causing damage). Once you are done making your edits, please scroll down to the bottom of the page, and add a short description of the edits that you have made (this is important for us to understand the proposed changes) and click on the 'Propose changes' button.
+After clicking you will be able to edit a copy of the information. **When editing you should be carefull not to change the structure of the file. You should only edit the information about the implementation of the exception** (but since you are working on a copy of the actual information you do not have to worry about causing damage). You can find more information about the data model and the structure of these files [here](../data-model/). 
+
+Once you are done making your edits, please scroll down to the bottom of the page, and add a short description of the edits that you have made (this is important for us to understand the proposed changes) and click on the 'Propose changes' button.
 
 ![Contribute: Submit edits](/v2dev/images/contribute-step3.png)
 
