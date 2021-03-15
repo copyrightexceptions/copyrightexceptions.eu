@@ -19,6 +19,10 @@ usage:
 - temporary acts of reproduction
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 
@@ -27,6 +31,6 @@ otherConditions:
 - the act of reproductions must be transient or accessory
 - the act of reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
-remarks: ""
+remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
 link: http://legislatie.just.ro/Public/DetaliiDocument/221527
 ---
