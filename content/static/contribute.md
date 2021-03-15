@@ -5,7 +5,7 @@ draft: false
 ---
 # Contribute to copyrightexceptions.eu
 
-The information on copyrightexceptions.eu is a collaborative effort and represents the our current best understanding of the national implementations of the copyright exceptions foreseen by the EU copyright framework (the [2001 Copyright in the Information Society Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0029), the [2019 Copyright in the Digital Single Market Directive](https://eur-lex.europa.eu/eli/dir/2019/790/oj), the [2012 Orphan Works Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32012L0028) and the [2017 Marrakesh Directive](https://eur-lex.europa.eu/eli/dir/2017/1564/oj)). 
+The information on copyrightexceptions.eu is a collaborative effort and represents our current best understanding of the national implementations of the copyright exceptions foreseen by the EU copyright framework (the [2001 Copyright in the Information Society Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0029), the [2019 Copyright in the Digital Single Market Directive](https://eur-lex.europa.eu/eli/dir/2019/790/oj), the [2012 Orphan Works Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32012L0028) and the [2017 Marrakesh Directive](https://eur-lex.europa.eu/eli/dir/2017/1564/oj)). 
 
 National implementations of these directives are not static and may change as Member States update their domestic copyright legislation and not all such changes will immediately come to our attention. {{< rawhtml >}}<span class="score1">{{< /rawhtml >}}**We are therefore grateful for any updates, corrections or additions to the information that is available on copyrightexceptions.eu**{{< rawhtml >}}</span>{{< /rawhtml >}}.
 
