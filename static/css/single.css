@@ -87,12 +87,9 @@ h2 {
 	float: right;
 	margin: -17px 10px 0px 20px;
 }
-
-#content img {
-	width: 100%
-	}
 	
 #github img {
+	margin-top: -6px;
 	width: 24px;
 	}
 
@@ -107,6 +104,38 @@ code {
 	background-color: rgba(242,242,242,0.7);
 	margin: 10px 20px 10px 20px;
 	}
+
+.partner-logos-wrapper {
+	width: auto;
+	display: inline-block;
+	}
+
+.partner-logo1 {
+	width: 200px;
+	float: left;
+	padding-top: 20px;
+	margin-right: 20px;
+	}
+
+.partner-logo2 {
+	width: 180px;
+	float: left;
+	margin-right: 20px;
+	}
+	
+.partner-logo3 {
+	width: 180px;
+	float: left;
+	}	
+	
+.screenshot img {
+	width: 100%;
+	}
+	
+figure {
+	margin: 0;
+	}
+
 
 @media only screen and (min-width: 200px) and (max-width: 670px) {
 
