@@ -284,7 +284,7 @@ info.showIntroduction = function (value) {
 	this._div.innerHTML = "";
 	contents = ""
 	contents += "<h1>About copyrightexceptions.eu</h1>";
-	contents += "<p class=\"description\">This website is a collaborative effort to map user rights in the European Union's copyright framework. To do this copyrightexceptions.eu provides information on the national implementations of the various exceptions and limitations to copyright and related rights foreseen in the EU copyright directives.</p><p class=\"description\">Use the list of exceptions on the left to see which EU member states have implemented each exception into national legislation.</p><p class=\"description\">You can find more information about copyrightexceptions.eu, the methodology behind the site and how you can contribute to this effort on <a href=\"static/about/\">our about page</a></p>";
+	contents += "<p class=\"description\">This website is a collaborative effort to map user rights in the European Union's copyright framework. To do this copyrightexceptions.eu provides information on the national implementations of the various exceptions and limitations to copyright and related rights foreseen in the EU copyright directives.</p><p class=\"description\"><strong><span class=\"score2\">Use the list of exceptions on the left to see which EU member states have implemented each exception into national legislation.</span></strong></p><p class=\"description\">You can find more information about copyrightexceptions.eu, the methodology behind the site and how you can contribute to this effort on our <a href=\"static/about/\"><strong>about page</strong></a></p>";
 	this._div.innerHTML = contents;
 }
 
