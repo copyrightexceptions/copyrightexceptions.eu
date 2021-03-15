@@ -17,6 +17,10 @@ usage:
 - reproduction
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - compensatory remuneration is due
 attribution: 
@@ -24,6 +28,6 @@ attribution:
 otherConditions: 
 - the work must be already disclosed to the public
 - the must not hinder the normal use of the work or prejudice the author or the owner to use the rights
-remarks: ""
+remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
 link: http://legislatie.just.ro/Public/DetaliiDocument/221527
 ---
