@@ -20,6 +20,10 @@ usage:
 - communication to the public
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 
@@ -28,6 +32,6 @@ otherConditions:
 - use must not comprise any direct or indirect commercial or economic advantage
 - use must be limited to the extent justified by the purpose of the information
 - only short fragments of works can be used
-remarks: ""
+remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
 link: http://legislatie.just.ro/Public/DetaliiDocument/221527
 ---
