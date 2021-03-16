@@ -19,12 +19,16 @@ usage:
 - reproduction
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
 - beneficiaries must use their own facilities
-remarks: ""
+remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
 link: http://legislatie.just.ro/Public/DetaliiDocument/221527
 ---
