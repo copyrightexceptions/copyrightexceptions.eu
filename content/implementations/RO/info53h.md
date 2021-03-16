@@ -24,7 +24,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
--the source and name of the author must be stated, unless this proves impossible; in the case of works of plastic, photographic or architectural art, the place where the original is located must also be mentioned
+- the source and name of the author must be stated, unless this proves impossible; in the case of works of plastic, photographic or architectural art, the place where the original is located must also be mentioned
 otherConditions: 
 - the image of the work must not be the main subject of the reproduction, distribution or communication 
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."

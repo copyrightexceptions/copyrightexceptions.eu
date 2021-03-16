@@ -1,5 +1,5 @@
 ---
-title: Article 35, para 1, (b) of the Law No 8/1996 on copyright and related rights"
+title: "Article 35, para 1, (b) of the Law No 8/1996 on copyright and related rights"
 date: 2018-06-14
 draft: false
 weight: 54
