@@ -1,28 +1,27 @@
 ---
-title: ""
-date: 2020-12-09T11:39:39+02:00 
-draft: true
+title: "Article 33, para 1 of the Copyright and Related Rights Act"
+date: 2015-11-20
+draft: false
 weight: 58
 exceptions:
 - info53h
 jurisdictions:
 - PL
-score: 
-description: "" 
+score: 3
+description: "This exception provides for the dissemination of works permanently exhibited on commonly accessible public roads, streets, squares or gardens, although not for the same use." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- not specified (other than the same use)
 usage:
-- 
+- dissemination
 subjectmatter:
-- 
+- works permanently exhibited on commonly accessible public roads, streets, squares or gardens
 compensation:
--
+- no compensation required
 attribution: 
--
+- the author’s full name and source are indicated. The author and the source should be indicated taking into account existing possibilities
 otherConditions: 
-- 
 remarks: ""
-link: 
+link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
