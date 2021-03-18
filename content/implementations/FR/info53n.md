@@ -28,6 +28,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - works used must be already disclosed
-remarks: "In France the exceptions under art.5.2.c and 5.3.n. of the InfoSoc directive share one provision. The reproduction exception extends to all related rights under art. 211-3, 7° IPC."
+remarks: "In France the exceptions under art.5.2.c and 5.3.n. of the InfoSoc directive share one provision. The exception extends to all related rights under art. 211-3, 7° IPC."
 link: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/
 ---
