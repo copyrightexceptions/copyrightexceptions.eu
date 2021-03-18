@@ -17,9 +17,11 @@ usage:
 - any use
 subjectmatter:
 - works
+- performances
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
