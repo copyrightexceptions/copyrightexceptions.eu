@@ -1,5 +1,5 @@
 ---
-"Article L122-5, 8° of the Intellectual Property Code"
+title: "Article L122-5, 8° of the Intellectual Property Code"
 date: 2006-07-01
 draft: false
 weight: 42
@@ -18,6 +18,7 @@ usage:
 - reproduction
 subjectmatter:
 - works
+- performances
 - phonograms
 - film fixations
 - broadcasts
