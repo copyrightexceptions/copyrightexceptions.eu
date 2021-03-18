@@ -1,6 +1,6 @@
 ---
 title: "Article 25, para 1, (b) of the Copyright and Related Rights Act"
-date: 2015-11-20
+date: 2004-04-01
 draft: false
 weight: 52
 exceptions:
