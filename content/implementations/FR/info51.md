@@ -1,5 +1,5 @@
 ---
-"Article L122-5, 6° of the Intellectual Property Code"
+title: "Article L122-5, 6° of the Intellectual Property Code"
 date: 2006-07-01
 draft: false
 weight: 30
@@ -19,9 +19,11 @@ usage:
 - temporary reproduction
 subjectmatter:
 - works
+- performances
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
