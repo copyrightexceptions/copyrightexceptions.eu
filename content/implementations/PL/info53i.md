@@ -1,5 +1,5 @@
 ---
-"Article 29'' of the Copyright and Related Rights Act"
+title: "Article 29'' of the Copyright and Related Rights Act"
 date: 2015-11-20
 draft: false
 weight: 59

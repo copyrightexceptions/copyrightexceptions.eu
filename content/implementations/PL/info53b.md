@@ -1,5 +1,5 @@
 ---
-title: title: "Article 33' of the Copyright and Related Rights Act"
+title: "Article 33' of the Copyright and Related Rights Act"
 date: 2018-09-22
 draft: false
 weight: 51
