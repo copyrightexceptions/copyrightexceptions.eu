@@ -7,7 +7,7 @@ exceptions:
 - info53l
 jurisdictions:
 - PL
-score: 
+score: 3
 description: "This exception allows foe the use of works in connection with the demonstration or repair of equipment." 
 beneficiaries:
 - any user
