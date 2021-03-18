@@ -1,14 +1,14 @@
 ---
 title: ""
-date: 2020-12-09T11:39:34+02:00 
-draft: true
+date: 2021-03-18
+draft: false
 weight: 40
 exceptions:
 - info52a
 jurisdictions:
 - FR
-score: 
-description: "" 
+score: 0
+description: "The reprography exception is not implemented in France. However, reprography is subject to mandatory collective licensing under art.122-10 of the IPC." 
 beneficiaries:
 - 
 purposes: 
