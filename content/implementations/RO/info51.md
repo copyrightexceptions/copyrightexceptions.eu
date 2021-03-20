@@ -7,7 +7,7 @@ exceptions:
 - info51
 jurisdictions:
 - RO
-score: 
+score: 3
 description: "This exception allows for temporary acts of reproduction that are transient or accessory and constitute an integral and essential part of a technical process, and whose sole purpose is to allow the transmission, within a network of third parties by an intermediary, or the lawful use, of a work or of another protected subkect matter and which do not have an economic significance in its own right." 
 beneficiaries:
 - intermediaries (transmission in a network)
