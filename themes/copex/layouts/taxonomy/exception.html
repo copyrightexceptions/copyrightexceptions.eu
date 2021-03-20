@@ -26,23 +26,23 @@
                 	<div id="primary">
                     	<div id="content" role="main">
                     	<h1>{{ .Page.Params.title }}</h1>
-  						<p class="overview">{{ .Page.Params.summary }}</p>
+  						<p>{{ .Page.Params.summary }}</p>
   						<p>{{ .Page.Params.more }}</p>
   						<h2>This exception has been implemented in the following Member States:</h2>
+  						<ul class="exceptions-jur">
   						{{ range .Pages }}
-	  					{{if .Title}}<p class="overview">In {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a> {{ end }} in <a href="{{.Permalink}}">{{.Title}}</a></p>{{end}}
+	  					{{if .Title}}<li>In {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/"><strong>{{ partial "textexpanders/jur-single.html" . }}</strong></a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title}}</a></li>{{end}}
   						{{ end }}
+  						</ul>
                     	</div><!-- #content -->
                 	</div><!-- #primary -->
             	</div><!--.wrap-->
         	</div><!--#main-->
         	<div id="footer" class="site-footer">
             	<div class="wrap">
- 					<p>CopyrightExceptions.eu is a project maintained by <a href="https://publicspace.online">publicspace.online</a>. The information provided on this website is for informational purposes only. You can find more information about the project and its contributors <a href="{{ $.Site.BaseURL }}about.html">here</a>. All texts and data presented on this website are dedicated to the public domain using <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a>.</p>
+ 					{{ partial "footer.html" . }} 
             	</div><!--.wrap-->
         	</div><!--#footer--> 
     	</div><!--#page-->
   	</body>
 </html>
-
-    

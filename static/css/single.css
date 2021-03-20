@@ -54,22 +54,22 @@ h2 {
 
 .score0 {
 	background: rgba(244, 109, 67, 0.7);
-	padding: 3px 4px 4px 4px;
+	padding: 3px 3px 3px 3px;
 }
 
 .score1 {
 	background: rgba(254, 224, 139, 0.7);
-	padding: 3px 4px 4px 4px;
+	padding: 3px 3px 3px 3px;
 }
 
 .score2 {
 	background: rgba(166, 217, 106, 0.7);
-	padding: 3px 4px 4px 4px;
+	padding: 3px 3px 3px 3px;
 }
 
 .score3 {
 	background: rgba(26, 152, 80, 0.7);
-	padding: 3px 4px 4px 4px;
+	padding: 3px 3px 3px 3px;
 }
 
 .intro {
@@ -167,13 +167,12 @@ figure {
 
 .exceptions-jur {
 	margin-top: 30px;
-	list-style-type: none;
-	margin-left: 0px;
-	padding-left: 0px;
+	font-size: 18px;
+	line-height: 1.6em;
 }
 
 .exceptions-jur li {
-	margin-top: 5px;
+	margin-top: 8px;
 }
 
 .exceptions li {
@@ -183,7 +182,7 @@ figure {
 a {
 	color: #000000;
 	background: #E6E6E6;
-	padding: 3px 4px 4px 4px;
+	padding: 3px 3px 3px 3px;
 	text-decoration: none;
 }
 
