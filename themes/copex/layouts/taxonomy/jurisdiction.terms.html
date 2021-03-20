@@ -27,7 +27,7 @@
                     	<div id="content" role="main">
                     		<h1>Overview of the jurisdictions that have implemented at least one of the generic exceptions in their national laws:</h1>
 							<div>
-								<ul class="exceptions">
+								<ul class="exceptions-jur">
 									{{ $data := .Data }}
    									{{ range $key, $value := .Data.Terms.Alphabetical }}
       								<li><a href="{{ $.Site.BaseURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}" class="tag">{{ partial "textexpanders/jur-single.html" $value.Name }}</a><!-- ({{ $value.Count }} exceptions implemented into national law) --></li> 
