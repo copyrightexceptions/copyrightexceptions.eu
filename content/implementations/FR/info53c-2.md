@@ -1,5 +1,5 @@
 ---
-"Article L122-5, 9° of the Intellectual Property Code"
+title: "Article L122-5, 9° of the Intellectual Property Code"
 date: 1992-07-01
 draft: false
 weight: 53

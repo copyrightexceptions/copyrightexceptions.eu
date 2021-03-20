@@ -1,5 +1,5 @@
 ---
-"Article L122-5, 2° of the Intellectual Property Code"
+title: "Article L122-5, 2° of the Intellectual Property Code"
 date: 2006-07-01
 draft: false
 weight: 41
@@ -28,5 +28,5 @@ otherConditions:
 - works used must be from a lawful source
 - works of art to be used for aims identical to those for which the original work was created, copies of software other than backup copies and copies, as well as reproductions of an electronic database are expressly excluded from the scope of the exception.
 remarks: "The exception extends to all related rights under art. 311-1 to 311-8 IPC."
-link: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/"
+link: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/"
 ---

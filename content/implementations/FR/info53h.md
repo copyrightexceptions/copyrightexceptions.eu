@@ -10,19 +10,12 @@ jurisdictions:
 score: 
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
 remarks: ""
 link: 
 ---
