@@ -2,7 +2,7 @@
 title: "Reporting by the press on current events (Art. 5.3(c) 2nd part InfoSoc)"
 short: "info53c-2"
 draft: "false"
-summary: ""
-more: ""
+summary: "This (optional) exception or limitation allows reproduction, communication to the public or making available to the public - by any user, of works or other subject matter (other than databases and software) in connection with the reporting of current events. The permitted use must be to the extent justified by the informatory purpose. The source, including the author's name, must be indicated unless this turns out to be impossible."
+more: "The EU Court of Justice gave an autonomous interpretation of the requirements of the provision in Spiegel Online (C-516/17). The use under the exception could only be conditioned by i) the indication of the source; ii) the use of the work to the extent justified by the informatory purpose and iii) the use ‘in connection with the reporting of current events’. The action of 'reporting' must be understood as that of providing information on a current event, with no obligation to analyse such an event in detail. A ‘current event’ is an event that, at the time at which it is reported, is of informatory interest to the public. ‘To the extent justified by the informatory purpose’ means that the use of the protected work must not be extended beyond the confines of what is necessary to achieve the informatory purpose. The ‘connection with the reporting of current events’ must be interpreted on a case-by-case basis by the national court per the usual meaning in everyday language, the legislative context and the purposes of the norm."
 linklaw: ""
 ---
