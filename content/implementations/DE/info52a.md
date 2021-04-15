@@ -1,14 +1,14 @@
 ---
 title: ""
-date: 2020-12-09T11:39:35+02:00 
-draft: true
+date: 2021-04-15
+draft: false
 weight: 40
 exceptions:
 - info52a
 jurisdictions:
 - DE
-score: 
-description: "" 
+score: 0
+description: "This exception is not explicitly implemented. However, under the private use exception as per Section 53, para 1, second sentence of the Act on Copyright and Related Rights (UrhG), copies may be made on behalf of private users by "third parties" when the authorised private use "involves copies on paper or a similar medium which have been effected by the use of any kind of photomechanical technique or by some other process having similar effects". This means that commercial reprography is covered, as long as it is assigned by a private user." 
 beneficiaries:
 - 
 purposes: 
