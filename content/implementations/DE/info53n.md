@@ -22,7 +22,7 @@ subjectmatter:
 compensation:
 - equitable remuneration required
 attribution: 
-- no attribution required
+- the source, including the name of the author, must in all cases be acknowledged unless this is not possible
 otherConditions: 
 - works used must be from beneficiaries' holdings or exhibitions
 - the exception can be overriden by agreements dealing exclusively with the making available of content at terminals or with the transmission of reproductions in response to individual orders
