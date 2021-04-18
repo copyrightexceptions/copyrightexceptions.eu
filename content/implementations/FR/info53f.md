@@ -24,5 +24,5 @@ attribution:
 - the name of the author and the source must be indicated
 otherConditions: 
 remarks: "The exception extends to all related rights under art. L. 211-3, 3° IPC."
-https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/
+link: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/
 ---
