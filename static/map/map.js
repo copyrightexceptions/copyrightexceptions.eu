@@ -381,7 +381,7 @@ function highlight(excep) {
 // SET exception (based on hash)
 if (window.parent.location.hash.substring(1) != "") {
 	changeSelected_Exception(window.parent.location.hash.substring(1));
-}
+} 
 
 window.parent.onhashchange = function(e) {
 	e.preventDefault();
@@ -404,7 +404,9 @@ $(document).ready(function(){
 	 	 $('#' + exceptionsNames[index]["short"]).click( createClickAction( exceptionsNames[index]["short"] ));
 		}
 	} 
-	info.showIntroduction(); 
+	if (selected_exception == "" || typeof(selected_exception) == 'undefined') {
+		info.showIntroduction();
+	}
 });
 
 for(var index in exceptionsNames) {
