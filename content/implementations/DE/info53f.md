@@ -27,7 +27,7 @@ attribution:
 otherConditions: 
 - speeches used must relate to current affairs 
 - speeches used must be made at public gatherings or delivered during public negotiations before state, local authority or church organs
-- use in the form of reproduction and distribution as a collection predominantly containing speeches by the same author is expressly lexcluded
+- use in the form of reproduction and distribution as a collection predominantly containing speeches by the same author is expressly excluded
 remarks: ""
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0453
 ---
