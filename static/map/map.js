@@ -145,12 +145,11 @@ map.once('focus', function() { map.scrollWheelZoom.enable(); });
 map.fitBounds(map.getBounds(), {padding: [0, 0]});
 
 /* ADD LOGO */
-var mapControlsContainer = document.getElementsByClassName("leaflet-top leaflet-right")[0];
+var mapControlsContainer = document.getElementsByClassName("leaflet-control-zoom leaflet-bar leaflet-control")[0];
 var logoContainer = document.createElement("div");
 logoContainer.setAttribute("id", "logo");
 logoContainer.innerHTML ='<a href="' + base_url + '"><img src="' + base_url + 'images/copyright_exceptions_logo.svg"/></a>';
-mapControlsContainer.append(logoContainer);
-
+mapControlsContainer.prepend(logoContainer);
 
 /* LOAD ALL STATIC DATA */
 

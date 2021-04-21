@@ -6,9 +6,9 @@
 	}
 	
 	#logo {
-		margin: 5px;
-		float: right;
+		margin: 0px;
 		width: 280px;
+		float: left;
 	}
 	
 	#logo img {
@@ -17,7 +17,15 @@
 	
 	#logo a {
 		text-decoration: none;
+		width: 280px !important;
+		height: 100% !important;
+		background: none;
+		margin: 0;
 	} 
+	
+	#logo a:hover {
+		background-color: #FFFFFF !important;
+	}
 	
 	.map-container {
 		position: relative;
@@ -193,8 +201,10 @@
 		height: 35px !important;
 		width: 35px !important;
 		
-		margin-top: 5px;
+		margin-top: 10px;
 		cursor: pointer !important;
+		float: right;
+		clear: right;
 	}
 	
 	.leaflet-bar a.leaflet-disabled {
