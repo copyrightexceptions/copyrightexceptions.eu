@@ -9,6 +9,7 @@ jurisdictions:
 - ES
 score: 3
 description: "This exception allows for the reproduction, distribution or communication to the public for purposes of public safety or for the proper development of administrative, judicial or parliamentary procedures." 
+beneficiaries:
 - any user
 purposes: 
 - public safety 
