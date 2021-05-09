@@ -27,7 +27,7 @@
                     	<div id="content" role="main">
                     	<h1>{{ .Page.Params.title }}</h1>
   						<p>{{ .Page.Params.summary }}</p>
-  						<p>{{ .Page.Params.more }}</p>
+  						<p>{{ .Page.Params.more| safeHTML }}</p>
   						<h2>This exception has been implemented in the following Member States:</h2>
   						<ul class="exceptions-jur">
   						{{ range .Pages }}
