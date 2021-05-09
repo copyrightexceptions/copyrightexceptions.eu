@@ -1,5 +1,5 @@
 ---
-title: title: "Article 31.2 of Law 23/2006"
+title: "Article 31.2 of Law 23/2006"
 date: 2014-11-04
 draft: false
 weight: 41
@@ -15,7 +15,7 @@ purposes:
 - exclusively for private, non-professional and non-business use
 usage:
 - reproduction (in any medium)
-works
+works:
 - performances
 - phonograms
 - film fixations
