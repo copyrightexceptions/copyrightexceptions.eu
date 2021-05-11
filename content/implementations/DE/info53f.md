@@ -7,7 +7,7 @@ exceptions:
 - info53f
 jurisdictions:
 - DE
-score: 
+score: 2
 description: "This exception allows for the reproduction, distribution and communication to the public, in newspapers, periodicals or other printed matter or other data carriers mainly devoted to current events, of speeches relating to current affairs made at public gatherings or communicated to the public, or delivered during public negotiations before state, local authority or church organs. Reproduction and distribution in the form of a collection predominantly containing speeches by the same author are expressly left out of the scope of the exception." 
 beneficiaries:
 - newspapers, periodicals and other printed matter or other data carriers mainly devoted to current events
