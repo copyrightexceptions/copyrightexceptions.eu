@@ -7,8 +7,8 @@ exceptions:
 - info53h
 jurisdictions:
 - ES
-score: 
-description: "This exception allows for works permanently located in parks, streets, squares or other public roads can be reproduced, distributed and communicated freely through paintings, drawings, photographs and audiovisual works."
+score: 3
+description: "This exception allows for works permanently located in parks, streets, squares or other public roads to be reproduced, distributed and communicated freely through paintings, drawings, photographs and audiovisual works."
 beneficiaries:
 - any user
 purposes: 
