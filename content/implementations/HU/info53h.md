@@ -1,28 +1,27 @@
 ---
-title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+title: "Section 68(1) of the Copyright Act"
+date: 2004-05-01
+draft: false
 weight: 58
 exceptions:
 - info53h
 jurisdictions:
 - HU
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the use of an image of a work of fine art, architecture and applied art creation that is permanently exposed outdoors."
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- not specified
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- image of a work of fine art, architecture and applied art creation
 compensation:
--
+- no compensation required
 attribution: 
--
+- no attribution required
 otherConditions: 
-- 
 remarks: ""
-link: 
+link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---
