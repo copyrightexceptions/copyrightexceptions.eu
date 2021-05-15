@@ -1,13 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+date: 2021-05-13
+draft: false
 weight: 60
 exceptions:
 - info53j
 jurisdictions:
 - HU
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
