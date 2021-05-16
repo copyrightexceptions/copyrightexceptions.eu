@@ -30,5 +30,5 @@ otherConditions:
 - the supply of services for the purpose of enabling the reproduction of phonograms and videograms by a natural person for personal is deemed to constitute an act of reproduction, thus cannt fall under the exception
 - the exception does not apply to protected works and subject matter made available to the public in such a way that members of the public may access them from a place and at a time individually chosen by them when the work is protected by the technological measures or when the access is permitted on the basis of agreed contractual terms
 remarks: ""
-link: link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
+link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
 ---

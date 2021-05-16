@@ -1,28 +1,35 @@
 ---
-title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+title: "Section 35(4) of the Copyright Act"
+date: 2004-05-01
+draft: false
 weight: 42
 exceptions:
 - info52c
 jurisdictions:
 - HU
-score: 
-description: "" 
+score: 2
+description: "This exception allows for public libraries, educational establishments, museums, archives and video or audio archives qualifying as public collections to make copies of works if these do not serve, either directly or indirectly, the purpose of earning or increasing one’s income and i) the copy is necessary for scientific research or archiving; ii) the copy is made for the public library or for the purpose of providing access to individual members of the public on dedicated terminals; iii) the copy is made of a minor part of a published work, or of a newspaper or periodical article, for internal institutional purposes." 
 beneficiaries:
-- 
+- public libraries, educational establishments, museums, archives and video or audio archives
 purposes: 
-- 
+- scientific research or archiving
 usage:
-- 
+- reproduction
 subjectmatter:
-- 
+- works
+- performances
+- phonograms
+- film fixations
+- broadcasts
+- press publications
 compensation:
--
+- no compensation required 
 attribution: 
--
+- no attribution required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- the use must not have a direct or indirect commercial purpose 
+- the copy must be made for the public library or for the purpose of providing access to individual members of the public on dedicated terminals
+- the copy must be made of a minor part of a published work, or of a newspaper or periodical article, for internal institutional purposes
+remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
+https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---

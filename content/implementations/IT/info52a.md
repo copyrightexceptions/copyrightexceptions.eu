@@ -24,5 +24,5 @@ attribution:
 otherConditions: 
 - use is limited to 15% of each volume or issue of a magazine, excluding advertising pages
 remarks: ""
-link: link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
+link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
 ---
