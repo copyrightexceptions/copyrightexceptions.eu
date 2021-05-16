@@ -31,5 +31,5 @@ otherConditions:
 - the copy must be made for the public library or for the purpose of providing access to individual members of the public on dedicated terminals
 - the copy must be made of a minor part of a published work, or of a newspaper or periodical article, for internal institutional purposes
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---

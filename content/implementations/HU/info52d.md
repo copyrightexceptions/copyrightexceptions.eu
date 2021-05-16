@@ -33,4 +33,5 @@ otherConditions:
 - recordings peserved in archives must be of exceptional documentary nature
 - recordings in archives must be kept in what qualifies as public collections
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+---

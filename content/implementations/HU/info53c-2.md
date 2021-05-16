@@ -30,6 +30,6 @@ otherConditions:
 - use must relate to current, daily events 
 - use must be limited to the extent justified by the purpose
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---
 The different translations of section 37 in my sources differs in meaning. 

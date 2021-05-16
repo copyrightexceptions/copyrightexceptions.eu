@@ -33,4 +33,5 @@ otherConditions:
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no own economic value
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf---
+link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+---
