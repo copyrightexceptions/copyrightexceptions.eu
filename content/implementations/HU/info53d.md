@@ -1,28 +1,35 @@
 ---
-title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+title: "Section 34(1) of the Copyright Act"
+date: 2004-05-01
+draft: false
 weight: 54
 exceptions:
 - info53d
 jurisdictions:
 - HU
-score: 
-description: "" 
+score: 3
+description: "This exception allows anyone to quote, true to the original and to the extent justified by the character and purpose of the recipient work, parts of works on the condition of indicating the source and the author specified in the original work." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- quotation
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- works
+- performances
+- phonograms
+- film fixations
+- broadcasts
+- press publications
 compensation:
--
+- no compensation required 
 attribution: 
--
+- indicating the source and the author specified in the original work is required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- use must be limited to the extent justified by the character and purpose of the recipient work
+- quotation must be true to the original
+- use is limited to parts of works
+remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
+https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---
