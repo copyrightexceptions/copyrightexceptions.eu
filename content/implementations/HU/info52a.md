@@ -7,7 +7,7 @@ exceptions:
 - info52a
 jurisdictions:
 - HU
-score: 3
+score: 2
 description: "This exception allows for the reproduction by way of photocopying or by other similar means on paper or other media of the like. Rightholders are entitled to an appropriate remuneration with regard to private copying. Reproduction of sheet music, entire books and entire issues of periodicals is expressly excluded in Section 35(1)." 
 beneficiaries:
 - any user
