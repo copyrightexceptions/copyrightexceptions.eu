@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - HU
 score: 3
-description: "This exception allows for the reproduction by way of photocopying or by other similar means on paper or other media of the like (referred to collectively as “reprography”). Rightholders are entitled to an appropriate remuneration with regard to private copying. Reproduction if sheet music is expressly excluded in Section 35(1)." 
+description: "This exception allows for the reproduction by way of photocopying or by other similar means on paper or other media of the like. Rightholders are entitled to an appropriate remuneration with regard to private copying. Reproduction of sheet music, entire books and entire issues of periodicals is expressly excluded in Section 35(1)." 
 beneficiaries:
 - any user
 purposes: 
@@ -22,7 +22,7 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-- sheet music is excluded from the scope of the exception
+- sheet music, entire books and entire issues of periodicals are excluded from the scope of the exception
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
 link: https://www.cms-lawnow.com/ealerts/2004/08/hungarian-profile-intellectual-property?sc_lang=en
 ---
