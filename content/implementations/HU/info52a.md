@@ -17,13 +17,17 @@ usage:
 - reproduction
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
+- press publications
 compensation:
-- remuneration due by the manufacturer of the device for reprography or, in the case of foreign manufacturing, by the person obliged by law to pay customs duties or, in the absence of such an obligation, under joint and several liability by the person who imports the device and by the person who was first to place it on the market in Hungary
+- compensation required according to Section 20 of the Act
 attribution: 
 - no attribution required
 otherConditions: 
 - sheet music, entire books and entire issues of periodicals are excluded from the scope of the exception
 remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-link: https://www.cms-lawnow.com/ealerts/2004/08/hungarian-profile-intellectual-property?sc_lang=en
+https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
 ---
-* this mechanism is described as a collective management scheme in all my sources, but it really sounds like a paid exception to me. (Ana Lazarova)
