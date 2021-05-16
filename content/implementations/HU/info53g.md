@@ -1,14 +1,14 @@
 ---
-title: ""
-date: 2020-12-09T11:39:36+02:00 
-draft: true
+title: 
+date: 2004-05-01
+draft: false
 weight: 57
 exceptions:
 - info53g
 jurisdictions:
 - HU
-score: 
-description: "" 
+score: 0
+description: "The exception is not explicitly implemented. However, use for the purpose of religious ceremonies and religious festivities of religious communities is partially covered by a de minimis exception for non-remunerated stage performances under Section 38(1)(e) ot the Copyright Act." 
 beneficiaries:
 - 
 purposes: 
