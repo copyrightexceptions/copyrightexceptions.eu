@@ -17,7 +17,11 @@ usage:
 - reproduction 
 - imitation
 subjectmatter:
-- work
+- works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - payment of fair compensation required
 attribution: 
