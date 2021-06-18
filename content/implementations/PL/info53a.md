@@ -1,6 +1,6 @@
 ---
 title: "Article 27 and Article 100 of the Copyright and Related Rights Act"
-date: 2020-12-09
+date: 2018-10-01
 draft: false
 weight: 50
 exceptions:
