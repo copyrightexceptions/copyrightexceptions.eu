@@ -11,4 +11,10 @@ This page should provide information on our methodology (where does the data com
 
 ## Contributors 	
 
+* *Greece* The information on Greece has been contributed by Ana Lazarova with contributions Alexandra Giannopoulou (IVIR) 
+
+
+
 ## Data Sources
+
+For the information on the individual implementations we have made use of data collected by the [ReCreating Europe]() project, by information on the educational end research exceptions collected bu the [PIJIP project](http://www.PIJIP.org).  
