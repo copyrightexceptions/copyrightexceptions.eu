@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - CZ
 score: 2
-description: "This exception allows for a a library, archive, museum, gallery, school, university and other non-profit school-related and educational establishment to make a reproduction of a work for its own archiving and conservation purposes, in the quantities and formats needed for the permanent preservation of the work, and if such a reproduction does not serve any direct or indirect economic or commercial purpose. It also allows for reproductions works whose reproduction has been damaged or lost, provided that it is possible to verify with the exertion of reasonable effort that it is not being offered for sale, or a print reproduction of a minor part of the work, if such part has been damaged or lost, or in order to be lended." 
+description: "This exception allows for a library, archive, museum, gallery, school, university and other non-profit school-related and educational establishment to make a reproduction of a work for its own archiving and conservation purposes, in the quantities and formats needed for the permanent preservation of the work, and if such a reproduction does not serve any direct or indirect economic or commercial purpose. It also allows for reproductions works whose reproduction has been damaged or lost, provided that it is possible to verify with the exertion of reasonable effort that it is not being offered for sale, or a print reproduction of a minor part of the work, if such part has been damaged or lost, or in order to be lended." 
 beneficiaries:
 - library, archive, museum, gallery, school, university and other non-profit school-related and educational establishment
 purposes: 
