@@ -1,14 +1,14 @@
 ---
 title: ""
 date: 2020-12-09T11:39:33+02:00 
-draft: true
+draft: false
 weight: 43
 exceptions:
 - info52d
 jurisdictions:
 - CZ
-score: 
-description: "" 
+score: 0
+description: 
 beneficiaries:
 - 
 purposes: 
