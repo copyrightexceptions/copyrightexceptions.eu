@@ -1,6 +1,6 @@
 ---
 title: "Article 18b of the Copyright Act"
-date: 2004-09-01
+date: 2021-06-07
 draft: false
 weight: 61
 exceptions:
@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required
 attribution: 
