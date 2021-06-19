@@ -8,22 +8,26 @@ exceptions:
 jurisdictions:
 - NL
 score: 2
-description: "This exception allows for disclosure to the public or reproduction of a literary, scientific or artistic work in the context of a caricature, parody or pastiche is not regarded as an infringement of the copyright in that work, provided that this use is in accordance with what is generally regarded as reasonably acceptable." 
+description: "This exception allows for disclosure to the public or reproduction of a literary, scientific or artistic work in the context of a caricature, parody or pastiche, provided that the use is in accordance with what is generally regarded as reasonably acceptable." 
 beneficiaries:
 - any user
 purposes: 
 - caricature, parody or pastiche
 usage:
 - reproduction
-- disclosure to the public
+- making available to the public 
 subjectmatter:
-- literary, scientific or artistic work
+- works
+- performances
+- phonograms
+- broadcasts
+- film fixations
 compensation:
-- no compensation required
+- not required
 attribution: 
-- no attribution required
+- not required
 otherConditions: 
 - the use must be in accordance with what is generally regarded as reasonably acceptable
-remarks: "In the Netehrlands, neighbouring rights are protected under a separate act – the Neighbouring Rights Act. There is no reference to parody in the NRA."
-link: http://docplayer.net/164122928-The-dutch-copyright-act.html
+remarks: "There is a corresponding provision in Article 10(j) of the Neighbouring Rights Act"
+link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=18b
 ---
