@@ -1,6 +1,6 @@
 ---
 title: "Artikel 15b Auteurswet"
-date: 2002-01-01 
+date: 2021-06-07 
 draft: false
 weight: 56
 exceptions:
@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required 
 attribution: 
