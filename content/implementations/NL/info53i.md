@@ -1,28 +1,32 @@
 ---
-title: ""
-date: 2020-12-09T11:39:39+02:00 
-draft: true
+title: "Artikel 18a Auteurswet"
+date: 2002-01-01 
+draft: false
 weight: 59
 exceptions:
 - info53i
 jurisdictions:
 - NL
-score: 
-description: "" 
+score: 2
+description: "Exception allowing the incidental incorporation of a literary, scientific or artistic work as a component of secondary importance in another work." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- inclusion in another work
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- works
+- performances
+- phonograms
+- broadcasts
+- film fixations
 compensation:
--
+- not required
 attribution: 
--
+- not required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- The incorporated work must be of secondary importance
+remarks: "There is a corresponding provision in Article 10(p) of the Neighbouring Rights Act"
+link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=18
 ---
