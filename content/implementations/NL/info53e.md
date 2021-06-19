@@ -7,7 +7,7 @@ exceptions:
 - info53e
 jurisdictions:
 - NL
-score: 2
+score: 3
 description: "This exception consists of two parts. The first part allows the judiciary to reproduced or make public images of any nature for the purpose of detecting criminal offences. The second part allows the reproduction of literary, scientific or artistic works in the interests of public security or to ensure the smooth progress of administrative, parliamentary or judicial proceedings or of reporting on these." 
 beneficiaries:
 - the judiciary (first part)
