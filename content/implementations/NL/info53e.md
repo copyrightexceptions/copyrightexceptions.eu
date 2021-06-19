@@ -1,6 +1,6 @@
 ---
 title: "Artikel 22 Auteurswet"
-date: 2003-02-01
+date: 2021-06-07
 draft: false
 weight: 55
 exceptions:
@@ -27,6 +27,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 - databases
 compensation:
 - not required 
