@@ -1,6 +1,6 @@
 ---
 title: "Artikel 18a Auteurswet"
-date: 2021-07-06 
+date: 2021-06-07
 draft: false
 weight: 59
 exceptions:
