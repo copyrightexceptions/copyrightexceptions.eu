@@ -1,6 +1,6 @@
 ---
 title: "Artikel 18a Auteurswet"
-date: 2002-01-01 
+date: 2021-07-06 
 draft: false
 weight: 59
 exceptions:
@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required
 attribution: 
