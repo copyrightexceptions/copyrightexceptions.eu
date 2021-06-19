@@ -7,7 +7,7 @@ exceptions:
 - info53g
 jurisdictions:
 - NL
-score: 
+score: 2
 description: "Exception allowing the use of works for the purposes of congregational singing and the instrumental accompaniment thereof during a religious service." 
 beneficiaries:
 - natural persons
@@ -22,7 +22,7 @@ compensation:
 attribution: 
 - not required
 otherConditions: 
-remarks: ""
+remarks: "The dutch implementation only covers the religious celebrations use case of the generic InfoSoc exception, it does not allow for uses of works during celebrations organised by a public authority."
 link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=17c
 ---
 
