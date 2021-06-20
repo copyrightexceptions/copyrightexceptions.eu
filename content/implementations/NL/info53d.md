@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - NL
 score: 2
-description: "Exception allowing quotations from works that have been lawfully made public in announcements, reviews, polemics or scientific treatises or for expressions with a similar purpose, provided that the authors moral rights are observer, the source including the name of the author is indicated and the quotation is in accordance with what is reasonably permissible according to the rules of social intercourse and the number and scale of the portions quoted are justified by the purpose to be achieved." 
+description: "Exception allowing quotations from works that have been lawfully made public in announcements, reviews, polemics or scientific treatises or for expressions with a similar purpose, provided that the authors moral rights are observerd, the source including the name of the author is indicated and the quotation is in accordance with what is reasonably permissible according to the rules of social intercourse and the number and scale of the portions quoted are justified by the purpose to be achieved." 
 beneficiaries:
 - any user
 purposes: 
@@ -25,9 +25,9 @@ subjectmatter:
 compensation:
 - not required 
 attribution: 
-- required if reasonably possible.
+- required if reasonably possible
 otherConditions: 
-- the moral rights of the author must be observed.
+- the moral rights of the author must be observed
 - the work must have been lawfully made public
 - the quotation is in accordance with what is reasonably permissible according to the rules of social intercourse
 - scale of the portions quoted is justified by the purpose to be achieved 
