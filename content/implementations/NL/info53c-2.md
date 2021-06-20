@@ -1,13 +1,13 @@
 ---
 title: "Artikel 16a Auteurswet"
-date: 2004-07-01 
+date: 2021-06-07 
 draft: false
 weight: 53
 exceptions:
 - info53c-2
 jurisdictions:
 - NL
-score: 3
+score: 2
 description: "Exception allowing short recordings, representations and communications of works to be used in public photo, film, radio or television reports insofar as this is justified for the purpose of adequately representing the current event that is the subject of the reporting. If reasonably possible, the source, including the name of the author, must be clearly indicated." 
 beneficiaries:
 - any user
@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required
 attribution: 
