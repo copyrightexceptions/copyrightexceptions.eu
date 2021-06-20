@@ -1,6 +1,6 @@
 ---
 title: "Artikel 15a Auteurswet"
-date: 2004-07-01 
+date: 2021-06-07 
 draft: false
 weight: 54
 exceptions:
@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required 
 attribution: 
