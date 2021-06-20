@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - NL
 score: 0
-description: "With the implementation of the CDSM directive into Dutch law on 07-06-2021, the existing implementation of Art 5.2(c) InfoSoc in Article 16n Auteurswet has been replaced by the implementation of Article 6 CDSM."
+description: "With the implementation of the DSM directive into Dutch law on 07-06-2021, the existing implementation of Art 5.2(c) InfoSoc in Article 16n Auteurswet has been replaced by the implementation of Article 6 DSM."
 beneficiaries:
 purposes: 
 usage:
