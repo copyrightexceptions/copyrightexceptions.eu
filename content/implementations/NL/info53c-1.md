@@ -1,6 +1,6 @@
 ---
 title: "Artikel 15 Auteurswet"
-date: 2014-10-29
+date: 2021-06-07
 draft: false
 weight: 52
 exceptions:
@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - not required
 attribution: 
