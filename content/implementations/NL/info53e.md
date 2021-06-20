@@ -34,7 +34,7 @@ compensation:
 attribution: 
 - not required
 otherConditions: 
-remarks: "There are corresponding provisions in Article 10(k) of the Neighbouring Rights Act and 5.1(c) of the Database Act<br /><br />The types of use allowed by the second part are a bit unclear. The Dutch original uses the term 'overnemen' wich does not directly map on any of the standard uses and is probably broader than 'reproduction'"
+remarks: "There are corresponding provisions in Article 10(k) of the Neighbouring Rights Act and 5.1(c) of the Database Act.<br /><br />The types of use allowed by the second part are a bit unclear. The Dutch original uses the term 'overnemen' wich does not directly map on any of the standard uses and is probably broader than 'reproduction'"
 link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=22
 ---
 
