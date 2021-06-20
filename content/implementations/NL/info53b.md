@@ -1,6 +1,6 @@
 ---
 title: "Artikel 15i Auteurswet"
-date: 2018-10-11 
+date: 2021-06-07 
 draft: false
 weight: 51
 exceptions:
@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - film fixations
+- press publications
 compensation:
 - fair remuneration is required
 attribution: 
