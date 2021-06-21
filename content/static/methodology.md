@@ -5,16 +5,15 @@ draft: false
 ---
 # Methodology, Contributors and Data Sources
 
-This page should provide information on our methodology (where does the data come from, how are the scores calculated, what is our review standard) as well as credits to the main contributors (So fa Anna and Teresa) and links to data sources (like the italian project).
-
 ## Methodology 
+
+This report presents the findings of a legal analysis into copyright exceptions and limitations in the European Union. Unless otherwise noted, no case law was analysed.
+
+The exceptions and limitations were scored according to their scope of protection and applicable conditions. In particular, we looked into how close the national exception or limitation is to the EU law with regards to the types of uses permitted, the purposes permitted, to which subject matter it applies, the types of beneficiaries covered, and the technological, physical, quantitative, temporal or other conditions applicable to the use.
+
+The information in this website is not intended to be legal advice, and is not necessarily complete and accurate. Please consult a local lawyer if you need to know which uses are permitted by the copyright laws analysed in this website.
 
 ## Contributors 	
 
-* *Greece* The information on Greece has been contributed by Ana Lazarova with contributions Alexandra Giannopoulou (IVIR) 
-
-
-
 ## Data Sources
 
-For the information on the individual implementations we have made use of data collected by the [ReCreating Europe]() project, by information on the educational end research exceptions collected bu the [PIJIP project](http://www.PIJIP.org).  
