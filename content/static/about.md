@@ -12,7 +12,7 @@ This site is a collaborative effort to map user rights in the European Union's c
 * the [2012 Orphan Works Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32012L0028), and 
 * the [2017 Marrakesh Directive](https://eur-lex.europa.eu/eli/dir/2017/1564/oj).
 
-Copyright exceptions is a joint project by the [COMMUNIA Association for the Public Domain](https://www.communia-association.org), [Open Future](http://www.openfuture.eu) and [Digital Republic](https://digrep.bg).
+Copyright exceptions is a joint project by the [COMMUNIA Association for the Public Domain](https://www.communia-association.org), [Open Future](http://www.openfuture.eu) and [Digital Republic](https://digrep.bg/en/).
 
 {{< rawhtml >}}<div class="partner-logos-wrapper">
 <div class="partner-logo1"><img src="../../images/communia-logo.svg" width="200"/></div>
