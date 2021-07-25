@@ -1,6 +1,6 @@
 ---
 title: "Artikel 18c Auteurswet"
-date: 2020-06-07
+date: 2021-06-07
 draft: false
 weight: 14
 exceptions:

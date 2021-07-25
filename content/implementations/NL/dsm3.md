@@ -1,6 +1,6 @@
 ---
 title: "Artikel 15n Auteurswet"
-date: 2020-05-07 
+date: 2021-06-07 
 draft: false
 weight: 10
 exceptions:
