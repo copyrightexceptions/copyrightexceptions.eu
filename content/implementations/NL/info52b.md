@@ -34,7 +34,7 @@ otherConditions:
 - in the case of works of visual art the reproduction must show a clear difference from the original work in terms of size or method of production.
 - the copies produced may not be disclosed to third parties without the consent of the author or rightholder, unless such disclosure is made for the purposes of judicial or administrative proceedings.
 - objects designed to perform, display or represent works that contain reproductions made under the exception may not be disclosed to third parties without the consent of the author or rightholder, unless such disclosure is made for the purposes of judicial or administrative proceedings.
-remarks: "The exception is codified in Articles 16b and 16c. The remaining Articles deal with the modalities of the equitable remuneration that is due for uses under Article 16c.<br /><br />There is a corresponding provision in Article 11 of the Neighbouring Rights Act."
+remarks: "The exception is codified in Articles 16b and 16c. The remaining Articles deal with the modalities of the equitable remuneration that is due for uses under Article 16c.<br /><br />There is a corresponding provision in Article 10(e) of the Neighbouring Rights Act."
 link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=16b
 ---
 
