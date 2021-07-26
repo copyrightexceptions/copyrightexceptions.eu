@@ -25,7 +25,9 @@ subjectmatter:
 - performances 
 - phonograms 
 - broadcasts 
-- film fixations 
+- film fixations
+- databases
+- press publications 
 compensation: 
 - not required for uses under Art 12(5)
 - required for uses under Art 16
@@ -37,7 +39,7 @@ otherConditions:
 - the copying is in accordance with what is reasonably permissible according to the rules of social intercourse (Art 16)
 - the moral rights of the author must be observed (Art 16)
 - in cases where works are included in compilation works, no more than a few short works or short portions of works of the same author may be copied. In case of visual art works not more than a few works of the same author may be included provided that the size of manner of reproduction is sufficiently different from the original work and that no more than one work out of a series of works is included in the compilation (Article 16)
-remarks: "There are corresponding provision in Article 11 of the Neighbouring Rights Act and Article 5.1(b) of the Database Act that cover the uses allowed by Article 16 of the Copyright Act. There is a provision corresponding with Article 12(5) in Article 2(8) of the Neighbouring Rights Act.<br /><br />Article 16 also allows the use of translated versions of a work."
+remarks: "There are corresponding provision in Article 11 of the Neighbouring Rights Act and Articles 4a(c) and 5.1(b) of the Database Act. There is a provision corresponding with Article 12(5) in Article 2(8) of the Neighbouring Rights Act.<br /><br />Article 16 also allows the use of translated versions of a work."
 link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=16
 ---
 
