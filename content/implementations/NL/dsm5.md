@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - NL
 score: 2
-description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exceptions contained in Art 5(3)a of the InfoSoc Directive and Article 5 of the CDSM directive.  Article 16 allows reproductions and communications to the public as well as digital uses that takes place by means of a secure electronic environment of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. These uses are subject to compensation. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose. This includes simultaneous digital uses as explanation by means of secure electronic environments." 
+description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exceptions contained in Art 5(3)a of the InfoSoc Directive and Article 5 of the CDSM Directive.  Article 16 allows reproductions and communications to the public as well as digital uses that takes place by means of a secure electronic environment of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. These uses are subject to compensation. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose. This includes simultaneous digital uses as explanation by means of secure electronic environments." 
 beneficiaries:
 - public or non for profit academic or educational institutions (Art 12(5))
 - not defined (Art 16)
@@ -90,7 +90,6 @@ Als inbreuk op het auteursrecht op een werk van letterkunde, wetenschap of kunst
 6 Van de bepalingen in dit artikel kan niet bij overeenkomst worden afgeweken.
 
 ### Translation (Art 16):
-
 
 The reproduction or publication of portions of a literary, scientific or artistic work solely for educational purposes shall not be regarded as an infringement of copyright insofar as this is justified by the non-commercial purpose to be achieved, provided that
 
