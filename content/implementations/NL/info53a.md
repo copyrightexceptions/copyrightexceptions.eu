@@ -7,8 +7,8 @@ exceptions:
 - info53a
 jurisdictions:
 - NL
-score: 1
-description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exception contained in Art 5(3)a of the InfoSoc Directive. Article 16 allows reproductions and communications to the public of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose." 
+score: 2
+description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exception contained in Art 5(3)a of the InfoSoc Directive. Article 16 allows reproductions and communications to the public of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. These uses are subject to compensation. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose." 
 beneficiaries:
 - public or non for profit academic or educational institutions (Art 12(5))
 - not defined (Art 16)
