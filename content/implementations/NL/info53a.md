@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - NL
 score: 2
-description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exception contained in Art 5(3)a of the InfoSoc Directive. Article 16 allows reproductions and communications to the public of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. These uses are subject to compensation. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose." 
+description: "Articles 12(5) and 16 of the Dutch Copyright Act implement the exceptions contained in Art 5(3)a of the InfoSoc Directive and Article 5 of the CDSM Directive.  Article 16 allows reproductions and communications to the public as well as digital uses that takes place by means of a secure electronic environment of parts of works, entire short works and entire works of visual arts for the sole purpose of illustration for teaching. These uses are subject to compensation. Article 12(5) allows in-classroom use by public or not-for profit educational institutions as long as the use is part of a curriculum or justified by an academic purpose. This includes simultaneous digital uses as explanation by means of secure electronic environments." 
 beneficiaries:
 - public or non for profit academic or educational institutions (Art 12(5))
 - not defined (Art 16)
@@ -32,24 +32,38 @@ compensation:
 - not required for uses under Art 12(5)
 - required for uses under Art 16
 attribution: 
-- not required for uses under Art 12(5)
-- required for uses under Art 16
+- not required for analogue uses under Art 12(5)
+- required unless impossible for digital uses under 12(5)
+- required in so far as reasonably possible for uses under Art 16
 otherConditions:
+- digital uses must take place by means of a secure electronic environment that is only accessible to pupils or students and the teaching staff of the educational institution.
 - the work which is being copied must be legally available to the public (Art 16)
 - the copying is in accordance with what is reasonably permissible according to the rules of social intercourse (Art 16)
 - the moral rights of the author must be observed (Art 16)
 - in cases where works are included in compilation works, no more than a few short works or short portions of works of the same author may be copied. In case of visual art works not more than a few works of the same author may be included provided that the size of manner of reproduction is sufficiently different from the original work and that no more than one work out of a series of works is included in the compilation (Article 16)
-remarks: "There are corresponding provision in Article 11 of the Neighbouring Rights Act and Articles 4a(c) and 5.1(b) of the Database Act. There is a provision corresponding with Article 12(5) in Article 2(8) of the Neighbouring Rights Act.<br /><br />Article 16 also allows the use of translated versions of a work."
+remarks: "To implement Article 5 of the CDSM directive the Dutch legislator has expanded the scope of both Articles 12(5) and 16 to include digital uses by means of a secure electronic environment that is only accessible to pupils or students and the teaching staff of the educational institution.<br /><br />There are provisions corresponding with Article 16 in Article 10(e) of the Neighbouring Rights Act and in Articles 4a(c) and 5.1(b) of the Database Act. There is a provision corresponding with Article 12(5) in Article 2(8) of the Neighbouring Rights Act.<br /><br />Article 16 also allows the use of translated versions of a work.<br /><br />Article 16 also allows the use of translated versions of a work."
 link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&artikel=16
 ---
 
 ### Original (Art 12(5)): 
 
-Onder een voordracht, op- of uitvoering of voorstelling in het openbaar wordt niet begrepen die welke uitsluitend dient tot het onderwijs dat vanwege de overheid of vanwege een rechtspersoon zonder winstoogmerk wordt gegeven, voor zover de voordracht, op- of uitvoering of voorstelling deel uitmaakt van het schoolwerkplan of leerplan voor zover van toepassing, of tot een wetenschappelijk doel.
+Onder een voordracht, op- of uitvoering of voorstelling in het openbaar wordt niet begrepen die welke uitsluitend dient tot het onderwijs dat vanwege de overheid of vanwege een rechtspersoon zonder winstoogmerk wordt gegeven, voor zover de voordracht, op- of uitvoering of voorstelling deel uitmaakt van het schoolwerkplan of leerplan voor zover van toepassing, of tot een wetenschappelijk doel. De eerste volzin is mede van toepassing op het digitale gebruik ter toelichting bij het vorenbedoeld onderwijs dat plaatsvindt onder verantwoordelijkheid van een onderwijsinstelling door middel van een beveiligde elektronische omgeving die alleen toegankelijk is voor de leerlingen of studenten en het onderwijzend personeel van de onderwijsinstelling, mits:
+
+1°. het gebruik gelijktijdig met de voordracht, op- of uitvoering of voorstelling plaatsvindt;
+
+2°. het gebruik, met inbegrip van de handelingen tot reproductie die voor de openbaarmaking noodzakelijk zijn, wordt gerechtvaardigd voor het te bereiken niet-commerciële doel; en
+
+3°. de bron, waaronder de naam van de maker, wordt vermeld, tenzij dit niet mogelijk blijkt.
 
 ### Translation (Art 12(5)):
 
-A lecture, performance or presentation does not include those that serve exclusively for education provided by the government or by a non-profit legal entity, insofar as the lecture, performance or presentation is part of the school curriculum or syllabus insofar as applicable, or for a scientific purpose.
+A lecture, performance or presentation does not include those that are exclusively intended for education provided by the government or by a non-profit legal entity, insofar as the lecture, performance or presentation is part of the school curriculum or syllabus insofar as applicable, or for a scientific purpose. The first sentence also applies to digital use as an explanation of the aforementioned education that takes place under the responsibility of an educational institution by means of a secure electronic environment that is only accessible to pupils or students and the teaching staff of the educational institution, provided that
+
+1°. the use takes place simultaneously with the lecture, performance, or presentation
+
+2°. the use, including the acts of reproduction necessary for the publication, is justified for the non-commercial purpose to be achieved; and
+
+3°. the source, including the name of the maker, is mentioned, unless this proves impossible.
 
 ### Original (Art 16):
 
@@ -71,8 +85,11 @@ Als inbreuk op het auteursrecht op een werk van letterkunde, wetenschap of kunst
 
 4 De bepalingen van dit artikel zijn mede van toepassing ten aanzien van het overnemen in een andere taal dan de oorspronkelijke.
 
-### Translation (Art 16):
+5 De bepalingen van dit artikel zijn mede van toepassing op digitaal gebruik dat plaatsvindt onder verantwoordelijkheid van een onderwijsinstelling door middel van een beveiligde elektronische omgeving die alleen toegankelijk is voor de leerlingen of studenten en het onderwijzend personeel van de onderwijsinstelling.
 
+6 Van de bepalingen in dit artikel kan niet bij overeenkomst worden afgeweken.
+
+### Translation (Art 16):
 
 The reproduction or publication of portions of a literary, scientific or artistic work solely for educational purposes shall not be regarded as an infringement of copyright insofar as this is justified by the non-commercial purpose to be achieved, provided that
 
@@ -91,3 +108,7 @@ The reproduction or publication of portions of a literary, scientific or artisti
 3 In the case of copying in a compilation work, no more than a few short works or short portions of his works may be copied from the same author, and in the case of works as referred to in Article 10, Paragraph 1 (6), (9) or (11). The provisions of this Article shall also apply to the copying of other works, provided that such copying is not prohibited in the case of the works referred to in Article 10, paragraph 1 under 6°.
 
 4 The provisions of this article shall also apply to reproduction in a language other than the original.
+
+5 The provisions of this article also apply to digital use that takes place under the responsibility of an educational institution by means of a secure electronic environment that is only accessible to pupils or students and the teaching staff of the educational institution.
+
+6 The provisions of this Article cannot be deviated from by agreement.
