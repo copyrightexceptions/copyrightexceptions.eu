@@ -4,7 +4,7 @@ date: 2004-05-01
 draft: false
 weight: 41
 exceptions:
-- info52b
+- info53b
 jurisdictions:
 - HU
 score: 3
