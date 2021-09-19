@@ -2,6 +2,7 @@
 title: "Article L122-5, 3° (b) of the Intellectual Property Code"
 date: 1992-07-01
 draft: false
+weight: 52
 exceptions:
 - info53c-1
 jurisdictions:
