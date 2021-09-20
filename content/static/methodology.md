@@ -15,12 +15,14 @@ The information in this website is not intended to be legal advice, and is not n
 
 ## Contributors 
 
-The following individuals have contributed to the analysis for the Member States listed behind their names. For a more detailed description of their contributions please refer to our [GitHub repository](https://github.com/copyrightexceptions/copyrightexceptions.eu) where all changes to the country pages are tracked. 
+The following individuals have contributed to the analysis for the Member States listed behind their names: 
 
 * **Ana Lazarova:** Spain, Italy, Greece, Austria, Czech Republic, France, Hungary, Romania, Poland Germany. 
 * **Konrad Gliściński:** Poland 	
 * **Paul Keller:** Netherlands, Germany 
 * **Teresa Nobre:** Portugal 
+
+For a more detailed description of their contributions please refer to our [GitHub repository](https://github.com/copyrightexceptions/copyrightexceptions.eu) where all changes to the country pages are tracked. 
 
 ## Data Sources
 
