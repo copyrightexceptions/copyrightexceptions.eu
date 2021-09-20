@@ -1,13 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:39+02:00 
+date: 2021-09-21
 draft: true
 weight: 65
 exceptions:
 - info53o
 jurisdictions:
 - PL
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
