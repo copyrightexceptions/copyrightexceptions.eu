@@ -17,13 +17,15 @@ The information in this website is not intended to be legal advice, and is not n
 
 The following individuals have contributed to the analysis for the Member States listed behind their names: 
 
-* **Ana Lazarova:** Spain, Italy, Greece, Austria, Czech Republic, France, Hungary, Romania, Poland Germany. 
-* **Konrad Gliściński:** Poland 	
-* **Paul Keller:** Netherlands, Germany 
-* **Teresa Nobre:** Portugal 
+* **Ana Lazarova:** Austria, Bulgaria, Czech Republic, France, Germany, Greece, Hungary, Italy, Poland, Romania and Spain. 
+* **Konrad Gliściński:** Poland. 	
+* **Paul Keller:** Germany and the Netherlands. 
+* **Teresa Nobre:** Portugal. 
 
 For a more detailed description of their contributions please refer to our [GitHub repository](https://github.com/copyrightexceptions/copyrightexceptions.eu) where all changes to the country pages are tracked. 
 
 ## Data Sources
 
-The findings are based on the consultation of primary sources such. In addition we are using the data collected by [Kennisland](https://www.kl.nl) for the pervious version of this website and data aggregated by the [Scuola Superiore Sant’Anna](https://www.santannapisa.it/en) in the context of the [reCreating Europe project](https://www.recreating.eu). 
+The findings are primarily based on the consultation of primary sources (legislative texts). In addition we are using the data collected by [Kennisland](https://www.kl.nl) for the previous version of this website, data collected by [Digital Republic](https://digrep.bg/en/) for the [Mapping EU E&Ls project](https://digrep.bg/en/projects-2/) and data aggregated by the [Scuola Superiore Sant’Anna](https://www.santannapisa.it/en) in the context of the [reCreating Europe project](https://www.recreating.eu). 
+
+The 2nd edition of [Copyright in the Information Society](https://www.e-elgar.com/shop/gbp/copyright-in-the-information-society-9781786439192.html) edited by Brigitte Lindner and Ted Shapiro proved to be an invaluable resource regarding relevant case law.
