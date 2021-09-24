@@ -1,5 +1,5 @@
 /* SET VARIABLES */
-var base_url = "/v2dev/"
+var base_url = ""
 
 /* pre-load an exception that you want to highlight, use the short of that exception (e.g. DSM6) */
 var selected_exception = "";
