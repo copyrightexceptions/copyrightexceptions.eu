@@ -30,6 +30,7 @@ attribution:
 otherConditions: 
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technical process
+- temporary acts of reproduction must have no independent economic significance
 remarks: "Art.11a of the Copyright Act applies also to performances (art.65(6) of the CA); sound recordings (art.66(2) of the CA); film fixations (art.67(2) of the CA) and broadcasts (art.69(3) of the CA)."
 link: https://wipolex.wipo.int/en/text/464632
 ---
