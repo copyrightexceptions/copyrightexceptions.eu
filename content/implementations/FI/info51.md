@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- photographs
 compensation:
 - no compensation required
 attribution: 
