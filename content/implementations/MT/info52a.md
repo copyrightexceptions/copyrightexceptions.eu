@@ -15,7 +15,6 @@ purposes:
 - no specific purpose
 usage:
 - reproduction 
-- communication to the public
 subjectmatter:
 - an audiovisual work
 - a literary work other than in the case of a computer programme
