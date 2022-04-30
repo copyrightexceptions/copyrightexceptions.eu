@@ -1,28 +1,33 @@
 ---
-title: ""
-date: 2020-12-09T11:39:38+02:00 
-draft: true
+title: "Article 9(1)m of Chapter 415 of the Laws of Malta"
+date: 2003
+draft: false
 weight: 56
 exceptions:
 - info53f
 jurisdictions:
 - MT
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the reproduction, translation, distribution or communication to the public of political speeches as well as extracts of public lectures or similar works or subject-matter to the extent justified by informatory purposes and provided that the source, including the author’s name, is, except where this is impossible, indicated." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- informatory purpose
 usage:
-- 
+- reproduction
+- translation
+- distribution 
+- communication to the public
 subjectmatter:
-- 
+- political speeches 
+- extracts of public lectures 
+- similar works or subject-matter
 compensation:
--
+- no compensation required
 attribution: 
--
+- the source, including the author’s name, must be indicated, unless impossible 
 otherConditions: 
-- 
-remarks: ""
-link: 
+- use is limited to the extent justified by informatory purposes
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 21 of Cap.415."
+link: https://legislation.mt/eli/cap/415/eng/pdf
 ---
