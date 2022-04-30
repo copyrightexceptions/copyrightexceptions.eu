@@ -1,5 +1,5 @@
 ---
-title: "Article 9(1) of Chapter 415 of the Laws of Malta"
+title: "Article 9(1)a of Chapter 415 of the Laws of Malta"
 date: 2003
 draft: false
 weight: 30
