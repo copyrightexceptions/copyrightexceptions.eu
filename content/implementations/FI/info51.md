@@ -32,6 +32,6 @@ otherConditions:
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technical process
 - temporary acts of reproduction must have no independent economic significance
-remarks: ""Art.11a of the Copyright Act applies also to performances (art.45(7) of the CA); sound recordings (art.46(3) of the CA); film fixations (art.46a(3) of the CA); broadcasts (art.48(4) of the CA) and photographs (art.49a(3) of the CA) and photographs.""
+remarks: "Art.11a of the Copyright Act applies also to performances (art.45(7) of the CA); sound recordings (art.46(3) of the CA); film fixations (art.46a(3) of the CA); broadcasts (art.48(4) of the CA) and photographs (art.49a(3) of the CA) and photographs."
 link: https://www.finlex.fi/en/laki/kaannokset/1961/en19610404.pdf
 ---
