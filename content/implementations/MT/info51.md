@@ -9,6 +9,7 @@ jurisdictions:
 - MT
 score: 3
 description: "This exception allows for temporary acts of reproduction of audiovisual works, databases, literary works other than computer programmes, musical or artistic works. Acts of reproduction must be transient or incidental and an integral and essential part of a technological process, se well as their sole purpose must be to enable a transmission in a network between third parties by an intermediary, or another lawful use of a work or other subject matter to be made, and they must have no independent economic significance." 
+beneficiaries:
 - intermediaries (transmission between third persons in a network)
 - any user (lawful use)
 purposes: 
