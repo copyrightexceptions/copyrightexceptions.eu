@@ -9,20 +9,13 @@ jurisdictions:
 - ES
 score: 0
 description: "" 
-beneficiaries:
-- 
+beneficiaries: 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
 remarks: ""
 link: 
 ---
