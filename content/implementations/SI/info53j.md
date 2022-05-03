@@ -1,28 +1,29 @@
 ---
-title: ""
-date: 2020-12-09T11:39:41+02:00 
-draft: true
+title: "Article 54 of the Copyright and Related Rights Act"
+date: 2004-04-26
+draft: false
 weight: 60
 exceptions:
 - info53j
 jurisdictions:
 - SI
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the use by the organiser of a public exhibition or sale of artistic works of said works to the extent necessary to promote the event, provided that this is not done for direct or indirect economic advantage. The source and authorship of the work must be indicated if the latter is indicated on the work used." 
 beneficiaries:
-- 
+- organiser of a public exhibition or sale of artistic works
 purposes: 
-- 
+- promotion of the event
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- artistic works
 compensation:
--
+- no compensation required
 attribution: 
--
+- the source and authorship of the work must be indicated if indicated on the work itself
 otherConditions: 
-- 
-remarks: ""
-link: 
+- use must be limited to the extent necessary to promote the event
+- use must not involve direct or indirect economic advantage
+remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
+link: https://wipolex.wipo.int/en/text/422515 
 ---
