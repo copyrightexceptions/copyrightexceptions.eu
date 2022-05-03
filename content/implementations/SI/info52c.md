@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - SI
 score: 1
-description: "This exception allows for the reproduction on any medium of an already published work in a maximum of three copies by public archives, public libraries, museums and educational and scientific institutions may for their own needs, provided that they do so from their own instance and if they do not intend to achieve direct or indirect economic benefits. Entire books, graphic editions of music works, electronic databases, computer programs and architectural constructions are explicitely excluded from the scope of the exception; except where a written work in the volume of the entire book has been out-of-commerce for at least two years; or graphic editions of a musical works are copied by hand." " 
+description: "This exception allows for the reproduction on any medium of an already published work in a maximum of three copies by public archives, public libraries, museums and educational and scientific institutions may for their own needs, provided that they do so from their own instance and if they do not intend to achieve direct or indirect economic benefits. Entire books, graphic editions of music works, electronic databases, computer programs and architectural constructions are explicitely excluded from the scope of the exception; except where a written work in the volume of the entire book has been out-of-commerce for at least two years; or graphic editions of a musical works are copied by hand."
 beneficiaries:
 - public archives, public libraries, museums and educational and scientific institutions
 purposes: 

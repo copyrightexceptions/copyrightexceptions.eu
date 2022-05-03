@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - SI
 score: 3
-"This exception allows, for the purpose of informing the public, for (i) the reproduction of public political speeches and public speeches made at hearings before state, religious or similar bodies. The exception applies mutatis mutandis to public communications of the works mentioned therein. The source and authorship of the work must be indicated, if the latter is indicated on the work used." 
+description: "This exception allows, for the purpose of informing the public, for (i) the reproduction of public political speeches and public speeches made at hearings before state, religious or similar bodies. The exception applies mutatis mutandis to public communications of the works mentioned therein. The source and authorship of the work must be indicated, if the latter is indicated on the work used." 
 beneficiaries:
 - any user
 purposes: 
