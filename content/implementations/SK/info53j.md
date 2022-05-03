@@ -7,7 +7,7 @@ exceptions:
 - info53j
 jurisdictions:
 - SK
-score: 
+score: 3
 description: "This exception allows for the use of a work of art for the purpose of promoting a public exhibition of a work of art or promoting the sale of a work of art by making a copy, public transmission or public distribution by transfer of ownership, to the extent necessary for such promotion. The exception expressly excludes the use of a work of art after the end of its public exhibition or after its sale." 
 beneficiaries:
 - any user
