@@ -1,5 +1,5 @@
 ---
-title: "Article 48(1)2. of the Copyright and Related Rights Act"
+title: "Article 48(1) p. 1, 2 and 4 of the Copyright and Related Rights Act"
 date: 2004-04-26
 draft: false
 weight: 53
