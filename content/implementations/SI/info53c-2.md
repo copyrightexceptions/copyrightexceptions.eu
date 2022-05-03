@@ -1,5 +1,5 @@
 ---
-title: "Article 48(1)2. of the Copyright and Related Rights Act"
+title: "Article 48(1) p. 1, 2 and 4 of the Copyright and Related Rights Act"
 date: 2004-04-26
 draft: false
 weight: 53
@@ -19,8 +19,9 @@ usage:
 - adaptation (preparation of abstracts)
 - reproduction (of abstracts in the form of press reviews)
 - public communication
+- any use (of news of the day, which have the nature of a press release) 
 subjectmatter:
-- works (seen or heard as a part of a current event that is being reported on)
+- works (seen or heard as a part of a current event that is being reported on; news of the day)
 - published newspaper and similar articles
 - performances
 - phonograms
