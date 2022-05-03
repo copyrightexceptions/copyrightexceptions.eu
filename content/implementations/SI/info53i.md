@@ -1,28 +1,32 @@
 ---
-title: ""
-date: 2020-12-09T11:39:41+02:00 
-draft: true
+title: "Article 52 of the Copyright and Related Rights Act"
+date: 2004-04-26
+draft: false
 weight: 59
 exceptions:
 - info53i
 jurisdictions:
 - SI
-score: 
-description: "" 
+score: 3
+description: "This exception allows for the use of disclosed works that may be regarded as accessory works of secondary importance with regard to the exploitation of an object." 
 beneficiaries:
-- 
+- any user
 purposes: 
-- 
+- not specified (the use is secondary to the exploitation of another object)
 usage:
-- 
+- any use
 subjectmatter:
-- 
+- works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
--
+- no compensation required
 attribution: 
--
+- no attribution required
 otherConditions: 
-- 
-remarks: ""
-link: 
+- works must be regarded as accessory and of secondary importance with regard to the exploitation of another object
+remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
+link: https://wipolex.wipo.int/en/text/422515
 ---
