@@ -29,6 +29,6 @@ otherConditions:
 - works used must be divulged
 - the source of the works used must be legally released
 - copies must not be made accessible to the public
-remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
+remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test.<br /><br />Art. 185 (1) expressly states that articles 183 and 184 apply mutatis mutandis to performers, phonogram producers, audiovisual producers and publishers of information publications.<br /><br />As per art.185(3), 'irrespective of the fact that they do not have their own exclusive right of reproduction, publishers of written editions have their own right to appropriate compensation for reproduction of their editions for private use'. Under art.185 (4) this 'right to appropriate compensation' last for 50 years from the lawful publication of the work, counting from 1 January of the year immediately following the year of publication."
 link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
 ---
