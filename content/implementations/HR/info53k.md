@@ -1,6 +1,6 @@
 ---
-title: "Article 94 of the Copyright and Related Rights Act"
-date: 2003-10-30
+title: "Article 206 of the Copyright and Related Rights Act"
+date: 2021-10-14
 draft: false
 weight: 61
 exceptions:
@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - HR
 score: 2
-description: "This exception allows for the transformation of a work into a parody or caricature to the extent necessary for the purpose thereof, by indicating the work being transformed and its author." 
+description: "This exception allows for the remake of a work into parody, caricature and pastiche, to the extent necessary for its meaning (humor, criticism of the work being parodied, the caricature or the pastiche, critique of social events and phenomena and similar), in accordance with good customs. Transformation of a work into a parody or caricature must be limited to the extent necessary for the purpose thereof. The original work and its author must be indicated." 
 beneficiaries:
 - any user
 purposes: 
@@ -26,6 +26,6 @@ attribution:
 -  the work being transformed and its author must be indicated
 otherConditions: 
 - the protected work must be used to the extent necessary for the purpose of parody or caricature
-remarks: "Under Article 4 (2) of the law, the provisions of this Act concerning exceptions and limitations of copyright shall apply mutatis mutandis to related rights."
-link: https://www.dziv.hr/files/File/eng/zakon_autor_ENG.pdf
+remarks: 
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
 ---
