@@ -17,7 +17,8 @@ purposes:
 - performance of judicial, administrative or arbitrary proceedings
 usage:
 - any use
-works
+subjectmatter:
+- works
 - performances
 - phonograms
 - film fixations
