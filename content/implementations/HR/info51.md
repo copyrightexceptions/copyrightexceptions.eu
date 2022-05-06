@@ -1,6 +1,6 @@
 ---
-title: "Article 81 of the Copyright and Related Rights Act"
-date: 2003-10-30
+title: "Article 182 of the Copyright and Related Rights Act"
+date: 2021-10-14
 draft: false
 weight: 30
 exceptions:
@@ -18,7 +18,7 @@ purposes:
 usage:
 - temporary acts of reproduction
 subjectmatter:
-- works
+- works 
 - phonograms
 - film fixations
 - broadcasts
@@ -29,6 +29,7 @@ attribution:
 otherConditions: 
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technological process
-remarks: "Under Article 4 (2) of the law, the provisions of this Act concerning exceptions and limitations of copyright shall apply mutatis mutandis to related rights."
-link: https://www.dziv.hr/files/File/eng/zakon_autor_ENG.pdf
+- works used must be divulged
+remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divukged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
 ---
