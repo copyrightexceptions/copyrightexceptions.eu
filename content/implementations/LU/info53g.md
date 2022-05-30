@@ -1,28 +1,21 @@
 ---
 title: ""
-date: 2020-12-09T11:39:38+02:00 
-draft: true
+date: 2022-05-30
+draft: false
 weight: 57
 exceptions:
 - info53g
 jurisdictions:
 - LU
-score: 
+score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
 remarks: ""
 link: 
 ---
