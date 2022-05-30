@@ -1,5 +1,5 @@
 ---
-title: "Article 10, 4° de la Loi du 18 avril 2001 sur les droits d’auteur, les droits voisins
+title: "Article 10, 9° de la Loi du 18 avril 2001 sur les droits d’auteur, les droits voisins
 et les bases de données"
 date: 2004-04-18
 draft: false
@@ -9,13 +9,15 @@ exceptions:
 jurisdictions:
 - LU
 score: 2
-description: "This exception allows for the ephemeral recordings made by a broadcasting organization by its own means and for its broadcasts." 
+description: "This exception allows for the ephemeral recordings made by a broadcasting organization by its own means and for its broadcasts. These recordings may be kept in official archives if they have an exceptional documental value. " 
 beneficiaries:
 - broadcasting organizations
 purposes: 
 - for the purpose of beneficieries' own broadcasts
+- archivation
 usage:
 - ephemeral recordings
+- reproduction
 subjectmatter:
 - works
 - performances
