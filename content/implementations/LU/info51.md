@@ -1,7 +1,7 @@
 ---
 title: "Article 10, 5° de la Loi du 18 avril 2001 sur les droits d’auteur, les droits voisins
 et les bases de données"
-date: 2001-04-30
+date: 2004-04-18
 draft: false
 weight: 30
 exceptions:
@@ -32,6 +32,7 @@ otherConditions:
 - temporary acts of reproduction must be transitory or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technical process
 - temporary acts of reproduction must have no independent economic significance
-remarks: "The scope of the exception is extended to neighbouring rights under Art. 46 (1), 5° - for performers, phonogram and film producers; and Art. 55 - for broadcasters."
+- works used must be lawfully made available to the public
+remarks: "The scope of the exception is extended to neighbouring rights under Art. 46 (1), 5° - for performers, phonogram and film producers; and Art. 55 - for broadcasters. All exceptions apply mutatis mutandis to the distribution right."
 link: https://wipolex.wipo.int/en/text/128652
 ---
