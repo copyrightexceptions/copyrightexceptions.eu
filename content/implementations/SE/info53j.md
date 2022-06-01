@@ -1,28 +1,21 @@
 ---
 title: ""
-date: 2020-12-09T11:39:42+02:00 
-draft: true
+date: 2022-06-01
+draft: false
 weight: 60
 exceptions:
 - info53j
 jurisdictions:
 - SE
-score: 
+score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
 remarks: ""
 link: 
 ---
