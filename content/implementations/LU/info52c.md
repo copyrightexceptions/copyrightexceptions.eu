@@ -9,7 +9,7 @@ exceptions:
 jurisdictions:
 - LU
 score: 2
-description: "This exception allows for	the reproduction of a work lawfully accessible to the public, made by a publicly accessible library, an educational institution, a museum or an archive that does not seek any direct or indirect commercial or economic benefit for the sole purpose of preserving the heritage and carrying out any work reasonably useful for the safeguarding of that work, provided that it does not harm the normal exploitation of said works and does not cause harm that this communication is analog and is done within the institution." 
+description: "This exception allows for the reproduction of a work lawfully accessible to the public, made by a publicly accessible library, an educational institution, a museum or an archive that does not seek any direct or indirect commercial or economic benefit for the sole purpose of preserving the heritage and carrying out any work reasonably useful for the safeguarding of that work, provided that it does not harm the normal exploitation of said works and does not cause harm that this communication is analog and is done within the institution." 
 beneficiaries:
 - publicly accessible library, an educational institution, a museum or an archive that does not seek any direct or indirect commercial or economic benefit
 purposes: 

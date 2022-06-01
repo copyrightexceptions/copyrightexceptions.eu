@@ -14,7 +14,8 @@ beneficiaries:
 - any user
 purposes: 
 - reporting of current events
-reproduction
+usage:
+- reproduction
 subjectmatter:
 - works (short fragments thereof)
 - works of plastic arts (in their entirety)
