@@ -31,6 +31,6 @@ otherConditions:
 - the reproductions must be an integral and essential part of a technological process
 - the copies made must be transient or have only a secondary importance in the process
 - the copies made must not have any independent economic importance
-remarks: "The exception extends to the rights of performers (art. 45(3) of the Law), phonograms producers (art. 46(3) of the Law) and broadcasting organisations (art. 48(3) of the Law)."
+remarks: "The exception extends to the rights of performers (art. 45(3) of the Law), phonograms producers (art. 46(3) of the Law) and broadcasting organisations (art. 48(3) of the Law).<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
 link: https://wipolex.wipo.int/en/text/495847
 ---
