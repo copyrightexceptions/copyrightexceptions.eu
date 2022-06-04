@@ -16,6 +16,6 @@ subjectmatter:
 compensation:
 attribution: 
 otherConditions: 
-remarks: ""
+remarks: "Reprography is subject to extended collective licence as per art. 26."
 link: 
 ---
