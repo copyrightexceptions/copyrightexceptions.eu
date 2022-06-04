@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - SE
 score: 2
-description: "Accordin to Article 26c, the owner of a building or a useful artefact is entitled to alter the item without the consent of the author." 
+description: "According to Article 26c, the owner of a building or a useful artefact is entitled to alter the item without the consent of the author." 
 beneficiaries:
 - the owner of the work
 purposes: 
@@ -19,7 +19,7 @@ subjectmatter:
 - a building 
 - a useful artefact
 compensation:
-- fair compensation required
+- no compensation required
 attribution: 
 - the source must be, as a general rule, stated to the extent and in the manner required by proper usage
 otherConditions: 
