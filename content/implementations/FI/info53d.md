@@ -24,6 +24,7 @@ subjectmatter:
 - photographs
 compensation:
 - no compensation required
+attribution:
 - the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage
 otherConditions: 
 - works used must be disclosed
