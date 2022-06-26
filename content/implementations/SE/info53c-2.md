@@ -1,5 +1,5 @@
 ---
-title: "Article 23(3) and 25 of the Act (1960:729) on copyright in literary and artistic works"
+title: "Articles 23(3) and 25 of the Act (1960:729) on copyright in literary and artistic works"
 date: 2005-07-01
 draft: false
 weight: 53
