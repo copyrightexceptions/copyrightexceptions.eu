@@ -1,6 +1,6 @@
 ---
-title: "§18 of the Copyright Act"
-date: 2004
+title: "§18' of the Copyright Act"
+date: 2006-06-30
 draft: false
 weight: 30
 exceptions:
