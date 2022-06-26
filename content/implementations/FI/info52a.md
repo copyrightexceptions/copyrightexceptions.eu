@@ -1,28 +1,21 @@
 ---
 title: ""
-date: 2020-12-09T11:39:34+02:00 
-draft: true
+date: 2022-06-04
+draft: false
 weight: 40
 exceptions:
 - info52a
 jurisdictions:
 - FI
-score: 
+score: 0
 description: "" 
 beneficiaries:
-- 
 purposes: 
-- 
 usage:
-- 
 subjectmatter:
-- 
 compensation:
--
 attribution: 
--
 otherConditions: 
-- 
-remarks: ""
+remarks: "Reprography is subject to extended collective licence as per art. 26."
 link: 
 ---
