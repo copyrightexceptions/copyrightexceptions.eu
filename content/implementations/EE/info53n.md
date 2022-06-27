@@ -1,5 +1,5 @@
 ---
-title: "§20, para 3 of the Copyright Act"
+title: "§20, para 4 of the Copyright Act"
 date: 2006-06-30
 draft: false
 weight: 64
@@ -12,7 +12,7 @@ description: "This exception allows for the making available by public archives,
 beneficiaries:
 - public archives, museums or libraries
 purposes: 
-- use by natural persons
+- non-commercial use for the benefit of natural persons
 usage:
 - making available (on the spot through special equipment)
 - lending (on the spot)
@@ -30,6 +30,7 @@ otherConditions:
 - works used must be included in the collections of public archives, museums or libraries
 - use must be carried out upon order from a natural person
 - making available is allowed on the spot through special equipment, lending is allowed on the spot
+- use must be non-commercial (§20, para 5)
 remarks: "The provision concerns copyrighted works. The exception is extended to related rights with a general reference to \"other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act\" in § 75 (6)."
 link: https://www.riigiteataja.ee/en/eli/ee/525112013002/consolide
 ---
