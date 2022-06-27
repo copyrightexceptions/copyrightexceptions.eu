@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms (short excerpts)
 - film fixations (short excerpts)
 - broadcasts (short excerpts)
+- press publications (short excerpts)
 compensation:
 - no compensation required
 attribution: 
