@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - authors and publishers are entitled to receive equitable remuneration for the reprographic reproduction of their works in the cases specified in subsection 18(1) of the CA (§ 27'(1) CA). In other cases of §18(1) of the CA no remuneration is envisaged
 - the author as well as the performer of the work and the producer of phonograms have the right to obtain equitable remuneration for personal use of the work or phonogram according to § 27 of the CA (§ 26(2) CA).
