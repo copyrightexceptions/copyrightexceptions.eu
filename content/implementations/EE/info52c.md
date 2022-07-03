@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - EE
 score: 2
-description: "This exception allows for the reproduction by cultural heritage institutions of work from their collections in order to: (1) replace a lost, destroyed or unusable work; (2) make a copy of the work in any form or medium, including in digital form, to the extent necessary to ensure its preservation; (3) replace a work that is part of the permanent collection of another cultural heritage institution if it has been lost, destroyed or rendered unusable; (4) make a copy for the private use of a natural person.
+description: "This exception allows for the reproduction by cultural heritage institutions of work from their collections in order to: (1) replace a lost, destroyed or unusable work; (2) make a copy of the work in any form or medium, including in digital form, to the extent necessary to ensure its preservation; (3) replace a work that is part of the permanent collection of another cultural heritage institution if it has been lost, destroyed or rendered unusable; (4) make a copy for the private use of a natural person."
 beneficiaries:
 - cultural heritage institutions
 purposes: 
