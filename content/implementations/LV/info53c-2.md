@@ -15,7 +15,7 @@ beneficiaries:
 purposes: 
 - informatory purpose
 usage:
-- reproduction (in the form of quotations and fragments
+- reproduction (in the form of quotations and fragments)
 - fixation (by photographic works)
 - communication to the public (by photographic works)
 - publishing (by photographic works)
