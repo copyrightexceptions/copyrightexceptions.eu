@@ -30,6 +30,6 @@ otherConditions:
 - sheet music is expressly excluded from the subject matter of the exception
 - use by natural persons must be without direct or indirect commercial purpose
 - third persons cannot be involved in the production of copies
-"The exception extends to neighbouring rights as per Section 54(5) of the CA regarding lawfully acquired films or phonograms, as well as neighbouring rights objects included in a lawfully acquired film or phonogram."
+remarks: "The exception extends to neighbouring rights as per Section 54(5) of the CA regarding lawfully acquired films or phonograms, as well as neighbouring rights objects included in a lawfully acquired film or phonogram."
 link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
 ---

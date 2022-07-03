@@ -30,6 +30,6 @@ attribution:
 otherConditions: 
 - works must be used in a form perceivable by visually impaired and hearing impaired
 - use is limited to the necessary in the case of the relevant impairment
-"The exception extends to neighbouring rights as per Section 54(3)2 of the CA 'Restrictions on Rights of the Neighbouring Rightholders'."
+remarks: "The exception extends to neighbouring rights as per Section 54(3)2 of the CA 'Restrictions on Rights of the Neighbouring Rightholders'."
 link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
 ---

@@ -29,6 +29,6 @@ otherConditions:
 - use is made upon request by natural persons who have authorised access to computers specifically set up in the premises of the relevant library, archive or museum
 - use is made for scientific research or for self-education purposes of natural persons 
 - the service must be ensured by the relevant library, archive or museum by using exclusively the intranet that has special protection
-"The exception extends to neighbouring rights as per Section 54, para 3(3) of the CA, however in this case is rendered unusable by the restriction regarding digital reproduction. In practice, the exception can apply to the making available of out-of-commerce subject matter only, and is subject to contractual override."
+remarks: "The exception extends to neighbouring rights as per Section 54, para 3(3) of the CA, however in this case is rendered unusable by the restriction regarding digital reproduction. In practice, the exception can apply to the making available of out-of-commerce subject matter only, and is subject to contractual override."
 link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
 ---

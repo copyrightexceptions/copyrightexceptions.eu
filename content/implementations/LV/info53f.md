@@ -26,6 +26,6 @@ attribution:
 otherConditions: 
 - the use must be limited to the extent justified by the informational purpose
 - the use is conditioned by the compliance with the moral rights of the author (§14 of the CA) and the three-step test (§18 of the CA)
-"The exception does not extend to neighbouring rights."
+remarks: "The exception does not extend to neighbouring rights."
 link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
 ---

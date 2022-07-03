@@ -34,6 +34,6 @@ otherConditions:
 - reproduction is allowed only in separate and mutually unrelated cases
 - reproduction is allowed only in analogue manner
 - reproduction in a digital format is allowed only for out-of-commerce works that have been published in Latvia, and unless an agreement with the author determines otherwise
-"The exception extends to neighbouring rights as per Section 54, para 3(3) of the CA. Digital reproduction is once again restricted to out-of-commerce subject matter, and is subject to contractual override."
+remarks: "The exception extends to neighbouring rights as per Section 54, para 3(3) of the CA. Digital reproduction is once again restricted to out-of-commerce subject matter, and is subject to contractual override."
 link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
 ---
