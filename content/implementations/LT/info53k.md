@@ -1,6 +1,6 @@
 ---
 title: "Article 21' of the Law No VIII- 1185 on Copyright and Related Rights"
-date: 2003-03-05
+date: 2022-03-24
 draft: false
 weight: 61
 exceptions:
