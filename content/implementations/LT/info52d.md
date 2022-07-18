@@ -24,6 +24,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- electronic press publications
 compensation:
 - no compensation required
 attribution: 
@@ -32,6 +33,6 @@ otherConditions:
 - beneficiaries must use their own facilities
 - use must be for beneficiaries' own broadcasts
 - preservertion by broadcasters is limited to 30 days
-remarks: "The exception extends to neighbouring rights as per Section 58(1)1 of the CA"
+remarks: "The exception extends to neighbouring rights as per Section 58(1)7 of the CA"
 link: https://www.wipo.int/edocs/lexdocs/laws/en/lt/lt081en.pdf
 ---
