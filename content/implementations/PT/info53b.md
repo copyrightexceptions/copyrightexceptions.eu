@@ -26,12 +26,12 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- no attribution required
+- use must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them
 otherConditions: 
 - works used must be directly related to the disabilities (probable mistransposition or mistranslation of the directive)
 - use must be limited to the extent strictly required by the specific disabilities 
 - use must not be, directly or indirectly, for profit
 - the rules apply without prejudice to the provisions of articles 82a, 82b and 82c of the Law, which introduce the Marrakesh exception for the print desabled
-remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br />Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?artigo_id=484A0075&nid=484&tabela=leis&pagina=1&ficha=1&so_miolo=&nversao=#artigo
 ---
