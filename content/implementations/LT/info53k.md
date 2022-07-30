@@ -8,8 +8,7 @@ exceptions:
 jurisdictions:
 - LT
 score: 3
-description: "211 article. Use of the work for caricature, parody or pastiche
-It is permissible to use a work for caricature, parody or pastiche without the author's or other copyright holder's permission and without royalties. This exception allows for the use of performances, phonograms, film fixations and broadcasts for the purpose of caricature or parody. Indicating the source, including the author’s name, is required, whenever possible." 
+description: "This exception allows for the use of works for the purpose of caricature or parody or pastiche. Indicating the source, including the author’s name, is required, whenever possible." 
 beneficiaries:
 - any user
 purposes: 
