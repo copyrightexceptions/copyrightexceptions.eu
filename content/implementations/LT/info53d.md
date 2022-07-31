@@ -36,5 +36,5 @@ otherConditions:
 - use must be fair 
 - use must not exceed the extent necessary for the purpose of the quotation
 remarks: "The exception also covers neighbouring rights under art 58(1), p.14, which allows 'to reproduce and make available to the public (including, but not limited to, by making available to the public on computer networks (the Internet)), for the purpose of quotation (criticism or review), a small part of the subject-matter of the copyright or related rights which has been lawfully published or made available to the public, in another subject-matter, provided that the use is fair use and does not exceed the extent necessary for the purpose of the citation.'<br /><br />According to the legal definition in art 2(6) of the law, 'A quotation is a short passage from another work or subject-matter of neighbouring rights intended to prove or make intelligible the author's or rightholder's own statements or to refer to the views or ideas of the other author or rightholder as expressed in the original."
-link: link: https://www.wipo.int/edocs/lexdocs/laws/en/lt/lt081en.pdf
+link: https://www.wipo.int/edocs/lexdocs/laws/en/lt/lt081en.pdf
 ---
