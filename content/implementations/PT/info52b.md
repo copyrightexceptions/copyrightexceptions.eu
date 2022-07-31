@@ -1,5 +1,5 @@
 ---
-"Article 75(2)(a), second part, Código do Direito de Autor e dos Direitos Conexos"
+title: "Article 75(2)(a), second part, Código do Direito de Autor e dos Direitos Conexos"
 date: 2004-08-24
 draft: false
 weight: 41
