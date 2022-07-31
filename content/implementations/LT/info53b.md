@@ -1,5 +1,5 @@
 ---
-"Article 25 of the Law of 18 May 1999 No VIII- 1185 on Copyright and Related Rights"
+title: "Article 25 of the Law of 18 May 1999 No VIII- 1185 on Copyright and Related Rights"
 date: 2003-03-05
 draft: false
 weight: 51
