@@ -18,6 +18,7 @@ usage:
 subjectmatter:
 - works
 - recordings of performances
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -28,6 +29,6 @@ remarks: "The exempted use must meet the condition for fair dealing, which means
 - works, performances or recordings must be lawfully made available to the public 
 - the respective use is allowed for a purpose and to an extent which will not unreasonably prejudice the interests of the rightsowner where 
 - the respective use must be accompanied by a sufficient acknowledgement.
-The exception extends to 'recordings of performances' as per Section 221 (2) CA."
-link: 
+The exception extends to 'recordings of performances' as per Section 221 (2) CA and as of 19 November 2021 - to press publications as per section 13(4) of S.I. No 567 of 2021."
+link: https://www.irishstatutebook.ie/eli/2019/act/19/enacted/en/print
 ---
