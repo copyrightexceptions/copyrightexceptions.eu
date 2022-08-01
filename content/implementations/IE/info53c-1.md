@@ -17,7 +17,8 @@ usage:
 - reproduction
 - communication to the public (but not making available)
 subjectmatter:
-- work (other than a photograph) 
+- works (other than a photograph) 
+- press publications
 compensation:
 - no compensation required
 attribution: 
