@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - IE
 score: 2
-description: "This exception allows for the making of a copy and communication to the public of a work (other than a photograph) on current economic, political or religious matters or similar matters by a media business. Such use must not be expressly reserved, and the copy and communication must be accompanied by a sufficient acknowledgemen. Subsequent sale, rental or lensing, or offer or exposure for sale, rental or loan, or otherwise making available to the public of such a copy is expressly forbidden by subsection 2A." 
+description: "This exception allows for the making of a copy and communication to the public of a work (other than a photograph) on current economic, political or religious matters or similar matters by a media business. Such use must not be expressly reserved, and the copy and communication must be accompanied by a sufficient acknowledgement. Subsequent sale, rental or lending, or offer or exposure for sale, rental or loan, or otherwise making available to the public of such a copy is expressly forbidden by subsection 2A." 
 beneficiaries:
 - media business (within the meaning of section 28A(1) of the Competition Act 2002)
 purposes: 
