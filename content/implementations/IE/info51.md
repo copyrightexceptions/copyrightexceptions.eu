@@ -27,6 +27,6 @@ attribution:
 otherConditions: 
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must be technically required for the viewing of or listening to the work by a member of the public to whom a copy of the work is lawfully made available
-remarks: "The exception extends to performances as per Section 244 CA."
+remarks: "In Ireland there is no overall distinction made between works of authorship and related rights. Certain provisions are stated to apply to some but not all rights holders - for example moral rights are granted only to authors of literary, dramatic, musical, artistic works and film. However in general the provisions relating to ownership, duration, permitted acts, dealings and so forth, apply in the absence of a specific exclusion to every 'work', with ‘work’ defined as a literary, dramatic, musical or artistic work, sound recording, film, broadcast, cable programme, typographical arrangement or a published edition, or an original database, and includes a computer programme. Performances and works protected by the database right are dealt with separately to the main scheme. (see Linda Scales in ‘Ireland’ (2019), B Lindner and T Shapiro (eds), Copyright in the Information Society, Elgar Intellectual Property Law and Practice, 471)<br /><br />The exception extends to performances as per Section 244 CA."
 link: https://www.irishstatutebook.ie/eli/2000/act/28/enacted/en/print#sec244
 ---
