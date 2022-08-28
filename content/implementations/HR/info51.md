@@ -22,6 +22,8 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- informative publications
+- written editions
 compensation:
 - no compensation required
 attribution: 
