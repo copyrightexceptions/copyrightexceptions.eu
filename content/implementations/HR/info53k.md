@@ -27,5 +27,5 @@ attribution:
 otherConditions: 
 - the protected work must be used to the extent necessary for the purpose of parody or caricature
 remarks: 
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---

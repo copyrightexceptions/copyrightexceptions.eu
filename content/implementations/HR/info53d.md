@@ -9,6 +9,7 @@ jurisdictions:
 - HR
 score: 2
 description: "This exception allows to quote verbatim excerpts of copyrighted works (citations) or items, object of neighbouring rights, that are legally accessible to the public, for scientific research, teaching, criticism, polemics, reviews and the like, to the extent justified by the purpose to be achieved and in accordance with good customs, under the condition that the source and the name of the author must be indicated, if possible in view of the way of use." 
+beneficiaries:
 - any user
 purposes: 
 - scientific research, teaching, criticism, polemics, reviews and the like
@@ -31,5 +32,5 @@ otherConditions:
 - works used must be legally accessible to the public
 - use must be limited to the extent justified by the purpose to be achieved and in accordance with good customs
 remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---
