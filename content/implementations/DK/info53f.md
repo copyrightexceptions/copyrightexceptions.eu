@@ -7,7 +7,7 @@ exceptions:
 - info53f
 jurisdictions:
 - DK
-score: 
+score: 2
 description: "§26 of the CA allows for the use of proceedings in Parliament, municipal councils and other elected public authorities, in judicial proceedings and in public meetings held to discuss general matters. §32 allows for the use of broadcasts of debate programs in which general questions are discussed. However, both provision exclude the publishing of compilations of the subject-matter used." 
 beneficiaries:
 - any user
