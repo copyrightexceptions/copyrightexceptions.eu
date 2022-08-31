@@ -35,5 +35,5 @@ otherConditions:
 - copies that are made or deposited pursuant to the Act on Legal Deposit may only be made available at the Royal Library, the State and University Library and the Danish Film Institute and communicates and handed over if the work cannot be acquired through general trade
 - legal deposited copies of works can be used if they have been broadcast on radio and television, films and works published on electronic communication networks
 remarks: "§ 16a of the Copyright Act applies also to performances (art.65(6) of the CA); sound recordings (art.66(2) of the CA); film fixations (art.67(2) of the CA), broadcasts (§ 69(3) of the CA), photographic pictures (§70 (3) of the CA) and press publications (§ 69a(5) of the CA - added with the ammendment of 3 June 2021)."
-link: https://wipolex.wipo.int/en/text/464632"
+link: https://wipolex.wipo.int/en/text/464632
 ---
