@@ -1,6 +1,6 @@
 ---
 title: "§ 15 of the Copyright Act"
-date: 2003-12-09
+date: 2002-12-17
 draft: false
 weight: 44
 exceptions:
