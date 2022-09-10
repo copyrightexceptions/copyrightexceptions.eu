@@ -8,11 +8,11 @@ exceptions:
 jurisdictions:
 - BE
 score: 3
-description: "This exception allows for reproduction and communication to the public for the purpose of quotations taken from a lawfully published work for the purpose of criticism, polemic or review in accordance with the fair practice of the profession and to the extent justified by the purpose. The quotations must mention the source and the name of the author, unless this turns out to be impossible." 
+description: "This exception allows for reproduction and communication to the public for the purpose of quotations taken from a lawfully published work for the purpose of criticism, polemic, or review in accordance with the fair practice of the profession and to the extent justified by the purpose. The quotations must mention the source and the name of the author unless this turns out to be impossible." 
 beneficiaries:
 - any user
 purposes: 
-- quotations for the purpose of criticism, polemic or review
+- quotations for the purpose of criticism, polemic, or review
 usage:
 - reproduction 
 - communication to the public
