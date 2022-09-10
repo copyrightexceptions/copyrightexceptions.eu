@@ -31,6 +31,6 @@ otherConditions:
 - the act of reproductions must be transient or incidental
 - the act of reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject-matter."
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject-matter. The exception applies to photographs and cinematographic products (§74(7) of the law), performances (§71(6) of the law), phonograms (§76(6) of the law), broadcasts (§76a(5) of the law). However, under §74(7), §42a para. 1 no. 1 does not apply to the copying of commercially produced photographs based on an original that has been produced in a photographic process."
 link: 
 ---
