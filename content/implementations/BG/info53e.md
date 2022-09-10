@@ -8,12 +8,12 @@ exceptions:
 jurisdictions:
 - BG
 score: 3
-description: "This exception allows for the use of works for the purposes of national security, in judicial, administrative or parliamentary proceedings." 
+description: "This exception allows for the use of works for the purposes of national security, in judicial, administrative, or parliamentary proceedings." 
 beneficiaries:
 - any user
 purposes: 
 - for the purposes of national security
-- in judicial, administrative or parliamentary proceedings
+- in judicial, administrative, or parliamentary proceedings
 usage:
 - any use
 subjectmatter:
@@ -26,6 +26,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception does not extend to performers' rights."
+remarks: "The exception does not extend to performers' rights (art. 84)."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
