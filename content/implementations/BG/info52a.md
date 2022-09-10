@@ -22,6 +22,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The scope of the exception is restricted to non-commercial use only. There is a certain discrepancy between this provision and the next art. 26, which sets the conditions for the provision of fair remuneration. Art. 26, para 1 states that copyright holders and publishers (publishers are added to the list of rightsholders) of any printed works have right to compensation when these works are reproduced by reprographic means for private use (added requirement for ptivate use)."
+remarks: "The scope of the exception is restricted to non-commercial use only. There is a certain discrepancy between this provision and the next art. 26, which sets the conditions for the provision of fair remuneration. art. 26, para 1 states that copyright holders and publishers (publishers are added to the list of rightsholders) of any printed works have the right to compensation when these works are reproduced by reprographic means for private use (added requirement for private use)."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
