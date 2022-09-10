@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - AT
 score: 2
-description: "This exception allows for the reproduction, distribution, public demonstration by optical means, broadcast and making available to the public of works of architecture according to an executed construction or other works of fine art that have been produced for the purpose of being permanently installed in a public place. Expressly excluded from the scope of the exception are uses by replicating works of architecture, reproduction of a painting or work of graphic arts produced for permanent installation in a public place, as well as reproduction of works of sculpture by way of plastic art." 
+description: "This exception allows for the reproduction, distribution, public demonstration by optical means, broadcast and making available to the public of works of architecture according to an executed construction or other works of fine art that have been produced for the purpose of being permanently installed in a public place. Expressly excluded from the scope of the exception are uses by replicating works of architecture, reproduction of a painting or work of graphic arts produced for permanent installation in a public place, as well as a reproduction of works of sculpture by way of plastic art." 
 beneficiaries:
 - any user
 purposes: 
@@ -28,5 +28,5 @@ attribution:
 - no attribution required
 otherConditions: 
 remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The 'freedom of panorama' exception does not extend to related rights."
-link: 
+link: https://wipolex.wipo.int/en/text/503812
 ---
