@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BE
 score: 3
-description: "This exception allows for reproduction of broadcasts made by hospitals, prisons, youth care organisations, or institutions assisting people with a disability provided that such institutions do not pursue any commercial purposes and that such reproduction is for the exclusive use of the natural persons residing there" 
+description: "This exception allows for the reproduction of broadcasts made by hospitals, prisons, youth care organisations, or institutions assisting people with a disability provided that such institutions do not pursue any commercial purposes and that such reproduction is for the exclusive use of the natural persons residing there" 
 beneficiaries:
 - hospitals, prisons, youth care organisations, or institutions assisting people with a disability
 purposes: 
