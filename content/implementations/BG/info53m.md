@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BG
 score: 2
-description: "This exception allows for the use of a building, which is a work of architecture, or of a plan of such a building for the purpose of its reconstruction, carried out following coordination with the respective collective management organization." 
+description: "This exception allows for the use of a building, which is a work of architecture, or a plan of such a building for the purpose of its reconstruction, carried out following coordination with the respective collective management organization." 
 beneficiaries:
 - any user
 purposes: 
