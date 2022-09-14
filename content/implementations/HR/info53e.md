@@ -7,7 +7,7 @@ exceptions:
 - info53e
 jurisdictions:
 - HR
-score: 3
+score: 2
 description: "Art. 200 allows for the copying of works of copyright and related rights for use in court, administrative, arbitration and other official proceedings, as well as communication to the public of works of copyright and related rights created for the purposes of official proceedings. Ar. 212 covers the use the author's work, including the author's database, as well as the objects of related rights, including the non-original database, to the extent and in a manner that fulfills the needs of public safety." 
 beneficiaries:
 - any user
