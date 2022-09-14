@@ -7,7 +7,7 @@ exceptions:
 - info53l
 jurisdictions:
 - HR
-score: 
+score: 3
 description: "This exception allows for stores that sell phonograms or videograms or devices for copying or receiving sound or images, to record copyrighted works and objects of related rights on sound, image or text carriers, to communicate them from these carriers, as well as to broadcast, to the extent necessary to familiarize or test the operation of these phonograms or videograms or devices to direct customers or for their repair." 
 beneficiaries:
 - stores that sell phonograms or videograms or devices for copying or receiving sound or images

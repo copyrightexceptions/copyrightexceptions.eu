@@ -20,6 +20,7 @@ subjectmatter:
 - photographs
 - performances
 - phonograms
+- film fixations
 - broadcasts
 compensation:
 - no compensation required
@@ -27,6 +28,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - the use must be located within business operations that deal with the manufacture, sale or repair of image or sound carriers, devices for their production or use, or broadcasting equipment
-remarks: "The exception applies to performances (§71(1)), photographs (§74(7)), phonograms (§76(4)) and broadcasts (§76a(3))."
+remarks: "The exception applies to performances (§71(1)), photographs and cinematographic products (§74(7)), phonograms (§76(4)) and broadcasts (§76a(3))."
 link: 
 ---
