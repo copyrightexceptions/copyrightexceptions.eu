@@ -22,6 +22,8 @@ usage:
 subjectmatter:
 - works of art
 - works of visual art
+- photographs 
+- film fixations
 compensation:
 - reasonable compensation required (can be collected only by collecting societies)
 attribution: 
