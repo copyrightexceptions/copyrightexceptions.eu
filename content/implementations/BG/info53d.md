@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BG
 score: 2
-description: "This exception allows use of quotations from works already disclosed, for the purpose of criticism or review. The quotation must comply with fair practice and must be used to the extent required by the specific purpose. Indicating the source and the name of the author is required, unless impossible." 
+description: "This exception allows the use of quotations from works already disclosed, for the purpose of criticism or review. The quotation must comply with fair practice and must be used to the extent required by the specific purpose. Indicating the source and the name of the author is required, unless impossible." 
 beneficiaries:
 - any user
 purposes: 
@@ -27,6 +27,6 @@ attribution:
 otherConditions: 
 - must comply with fair practice 
 - must be used to the extent required by the specific purpose
-remarks: "The exception does not extend to performers’ rights (Art. 84) and phonogram producers (Art. 90). The lack of attribution obstructs the application of the quotation exception."
+remarks: "The exception does not extend to performers’ rights (art. 84) and phonogram producers (art. 90). The lack of attribution obstructs the application of the quotation exception."
 link: https://lex.bg/laws/ldoc/2133094401
 ---

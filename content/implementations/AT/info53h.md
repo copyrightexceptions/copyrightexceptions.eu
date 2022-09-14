@@ -22,10 +22,12 @@ usage:
 subjectmatter:
 - works of architecture according to an executed construction 
 - works of fine art that have been produced for the purpose of being permanently installed in a public place
+- photographs 
+- film fixations
 compensation:
 - fair compensation required (that can be collected solely by collecting societies)
 attribution: 
-- no attribution required
+- the source must always be clearly stated
 otherConditions: 
 remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The 'freedom of panorama' exception does not extend to related rights."
 link: https://wipolex.wipo.int/en/text/503812

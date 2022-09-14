@@ -31,6 +31,6 @@ otherConditions:
 - the nature of reproductions must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no independent economic significance
-remarks: "The exception extends to performers (Article 84), phonograms producers (Art. 90), film producers (Art.90v) and broadcasting organisations (Art. 93)."
+remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90), film producers (art.90v) and broadcasting organisations (art. 93)."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
