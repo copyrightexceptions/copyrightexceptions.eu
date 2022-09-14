@@ -36,5 +36,5 @@ otherConditions:
 - works used must appear as an integral part of the current event that is being reported to the public 
 - the work must be used in the scope that corresponds to the purpose and method of reporting
 remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---

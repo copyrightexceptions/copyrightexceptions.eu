@@ -35,5 +35,5 @@ otherConditions:
 - the rights for such use must not have been expressly reserved in relation to this content 
 - the work must be used in the scope that corresponds to the purpose and method of reporting
 remarks: "Although the croatian 'press review' exception is relatively broad in most of its elements. it combines the possibility for the rightsholder to reserve their rights, typical for the 'press review' exception, with the requirement for the use to be limited to the extent necessary for public reporting on current events, which is a traditional restriction for the 'reporting on current events' exception, thus cumulating two typically alternative restrictions on free use and seriously limiting the scope of the provisions.<br /><br />Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html?fbclid=IwAR0MqXwMhX8bMoETnGphIX3BGU0eq4_8s9B0rGMclSpPj52yxWFIEZlTR3c
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---
