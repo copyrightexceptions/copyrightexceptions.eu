@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BG
 score: 3
-description: "This exception allows for temporary reproduction of works, having transient or incidental nature, which do not have independent economic significance, constituting integral and essential part of the technological process and with the sole purpose to enable: i) a transmission in a network by an intermediary, or ii) other permitted use of a work." 
+description: "This exception allows for temporary reproduction of works, having transient or incidental nature, which does not have independent economic significance, constituting an integral and essential part of the technological process and with the sole purpose to enable: i) a transmission in a network by an intermediary, or ii) other permitted use of a work." 
 beneficiaries:
 - intermediaries (transmission in a network)
 - any user (other lawful uses)
