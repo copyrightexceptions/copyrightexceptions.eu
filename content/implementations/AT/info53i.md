@@ -22,6 +22,7 @@ usage:
 subjectmatter:
 - works
 - photographs
+- performances
 - phonograms
 - film fixations
 - broadcasts
