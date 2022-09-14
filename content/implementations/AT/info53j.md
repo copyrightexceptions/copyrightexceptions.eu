@@ -22,6 +22,8 @@ usage:
 subjectmatter:
 - works of art
 - works of visual art
+- photographs 
+- film fixations
 compensation:
 - reasonable compensation required (can be collected only by collecting societies)
 attribution: 
@@ -29,6 +31,6 @@ attribution:
 otherConditions: 
 - other commercial uses are excluded
 - in the case of advertisment of auctions and sales of visual art, the advertising material may only be distributed by the publisher free of charge or at a price not exceeding the production costs
-remarks: "Item 2 of Section 54(2) applies to photographs (§68(7))."
+remarks: "Item 2 of Section 54(2) applies to photographs and cinematographic products (§68(7) of the Law)."
 link: 
 ---
