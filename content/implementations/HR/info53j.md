@@ -1,6 +1,6 @@
 ---
-title: "Article 93 of the copyright and related rights act"
-date: 2003-10-30
+title: "Article 205 of the copyright and related rights act"
+date: 2021-10-14
 draft: false
 weight: 60
 exceptions:
