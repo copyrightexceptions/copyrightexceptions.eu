@@ -21,7 +21,10 @@ usage:
 - use for public lectures, performances or presentations
 subjectmatter:
 - works
+- photographs
+- performances
 - phonograms
+- film fixations
 - broadcasts
 compensation:
 - no compensation required
