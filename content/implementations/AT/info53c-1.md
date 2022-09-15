@@ -10,7 +10,8 @@ jurisdictions:
 score: 2
 description: "This exception allows for the reproduction and distribution in other newspapers and magazines, public performance, broadcast and making available to the public of individual articles contained in a newspaper or magazine on economic, political or religious current issues, unless reproduction is expressly prohibited.  Press releases depicting simple communications (miscellaneous news, news of the day) do not enjoy copyright protection. However, under Section 79, when these materials are published in newspaper communications or other communications serving newspapers or magazines against payment, they may be reproduced solely in newspapers, magazines or other institutions that ensure the periodic distribution of news, and not before 12 hours have passed as of the first publication authorized by the news collector." 
 beneficiaries:
-- newspapers and magazines
+- newspapers and magazines (for reproduction and distribution)
+- any user (for public reading, broadcast by radio and making available to the public)
 purposes: 
 - not specified
 usage:
