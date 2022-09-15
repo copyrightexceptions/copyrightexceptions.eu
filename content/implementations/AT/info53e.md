@@ -18,6 +18,11 @@ usage:
 - any use
 subjectmatter:
 - works
+- photographs
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 

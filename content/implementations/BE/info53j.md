@@ -18,6 +18,10 @@ usage:
 - communication to the public
 subjectmatter:
 - works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 
