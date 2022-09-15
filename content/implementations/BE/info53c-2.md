@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BE
 score: 2
-description: "This exception allows for the reproduction and communication to the public, for the purposes of information, of short fragments of works or of works of fine art as a whole in connection with reports on current events and wherever justified by the informatory purpose pursued. The source, including the author’s name, must be mentioned, unless this turns out to be impossible." 
+description: "This exception allows for the reproduction and communication to the public, for the purposes of information, of short fragments of works or works of fine art as a whole in connection with reports on current events and wherever justified by the informatory purpose pursued. The source, including the author’s name, must be mentioned unless this turns out to be impossible." 
 beneficiaries:
 - any user
 purposes: 
@@ -26,7 +26,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- the source, including the author’s name, must be mentioned, unless impossibl
+- the source, including the author’s name, must be mentioned, unless impossible
 otherConditions: 
 - the use must be in connection with reports on current events
 - the use must be justified by the informatory purpose pursued 

@@ -22,6 +22,8 @@ usage:
 - use for public lectures, performances and demonstrations
 subjectmatter:
 - works (published or divulged with the author's consent)
+- photographs
+- film fixations
 compensation:
 - no compensation required
 attribution: 
