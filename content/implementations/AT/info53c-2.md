@@ -29,10 +29,10 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- the source, including the name of the author, must be indicated, unless this proves impossible or the works are only included in the reporting incidentally
+- the source, including the name of the author, must be indicated unless this proves impossible or the works are only included in the reporting incidentally
 otherConditions: 
 - use to a limited extent justified by the informatory purpose
-- applies solely to works which become perceivable to the public during the reporting of current events 
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. §42c applies to phonograms (§76(4)), broadcasts (§76a(3)), as well as photographs and cinematographic works (§74(7)). There is a separate regime concerning performances. <br /><br />According to §71(2) 'for reporting on current events, a performance that is publicly perceptible during events that are being reported on may be recorded on image or sound carriers to an extent justified by the information purpose, broadcast by radio, publicly reproduced and made available to the public; such image or sound carriers may be reproduced and distributed to this extent. In these cases, the source must be cited unless this proves impossible or the lectures and performances have only been incidentally included in the reporting.'<br /><br />In addition to Section 42c, Section 42a can also be used for the purpose of reporting of current events, especially by media monitoring providers, as it applies not only to works perceivable during the event, but also to the news coverage itself. Under §42a (into force as of November 1, 2013) reproduction for a third party's own use (unlike 'private use', 'own use' includes 'professional use' within the internal organisation of a legal entity) is also permitted by digital means against remuneration."
-link:
+- applies solely to works that become perceivable to the public during the reporting of current events 
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The exception applies to phonograms (§76(4)) and broadcasts (§76a(3)) but does not apply to photographs (§74(7)) or performances (§71(1)).<br /><br />In addition to Section 42c, Section 42a can also be used for the purpose of reporting current events, especially by media monitoring providers, as it applies not only to works perceivable during the event, but also to the news coverage itself. Under §42a (into force as of November 1, 2013) reproduction for a third-party's own use (unlike 'private use', 'own use' includes 'professional use' within the internal organisation of a legal entity) is also permitted by digital means against remuneration."
+link:https://wipolex.wipo.int/en/text/503812
 ---
