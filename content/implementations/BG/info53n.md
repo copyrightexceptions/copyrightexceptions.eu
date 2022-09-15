@@ -10,7 +10,7 @@ jurisdictions:
 score: 2
 description: "This exception allows publicly accessible libraries, educational or other learning establishments, museums and archive institutions, to grant access to individuals to works, located in their collections, under the condition, that it is done with scientific purposes and has no commercial purpose." 
 beneficiaries:
-- publicly accessible libraries, educational or other learning establishments, museums and archive institutions
+- publicly accessible libraries, educational or other learning establishments, museums, and archive institutions
 purposes: 
 - scientific purposes 
 - non-commercial purpose
@@ -25,6 +25,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception extends to phonogram producers (Art. 90) and film producers (Art. 90v). There is no express reference for performers’ rights (Art. 84) and broadcasting organizations (Art. 93)."
+remarks: "The exception extends to phonogram producers (art. 90) and film producers (art. 90v). There is no express reference for performers’ rights (art. 84) and broadcasting organizations (art. 93)."
 link: https://lex.bg/laws/ldoc/2133094401
 ---

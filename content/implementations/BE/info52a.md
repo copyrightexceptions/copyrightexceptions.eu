@@ -1,5 +1,5 @@
 ---
-title: "Article XI.190, 5°of the Code of Economic Law (CEL)"
+title: "Article XI.190, 5° of the Code of Economic Law (CEL)"
 date: 2017-03-10
 draft: false
 weight: 40

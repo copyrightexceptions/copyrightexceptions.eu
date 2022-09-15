@@ -22,12 +22,13 @@ usage:
 - use for public lectures, performances and demonstrations
 subjectmatter:
 - works (published or divulged with the author's consent)
+- photographs
+- film fixations
 compensation:
 - no compensation required
 attribution: 
 - the source must always be clearly stated
 otherConditions: 
-remarks: "A rather case-based approach was replaced in 2015 (Federal Law BGBl. I No. 99/2015 come into force on October 1, 2015) by a more open-ended provision.
-<br /><br />Related rights provisions do not reference to §42f. See: photographs (§68(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3))."
+remarks: "A rather case-based approach was replaced in 2015 (Federal Law BGBl. I No. 99/2015 come into force on October 1, 2015) by a more open-ended provision.<br /><br /> §42f applies to photographic and cinematographic works (§74(7)), but does not apply to phonograms, broadcasts and performances."
 link: 
 ---

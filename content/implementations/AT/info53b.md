@@ -31,7 +31,6 @@ attribution:
 - no attribution required
 otherConditions: 
 remarks: "For more information, see the submission in 'Make and disseminate accessible format copies of works (Art. 4 MKD)' for Austria.<br /><br />
-The exception applies to photographs (§68(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)) and databases (§76d(5)).
-"
+The exception applies to The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(6)), broadcasts (§76a(5))."
 link: 
 ---
