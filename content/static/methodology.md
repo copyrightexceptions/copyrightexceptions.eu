@@ -17,7 +17,7 @@ The information in this website is not intended to be legal advice, and is not n
 
 The following individuals have contributed to the analysis for the Member States listed behind their names: 
 
-* **Ana Lazarova:** Austria, Bulgaria, Czech Republic, France, Germany, Greece, Hungary, Italy, Poland, Romania and Spain. 
+* **Ana Lazarova:** Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Finland, France, Estonia, Germany, Greece, Hungary, Ierland, Italy, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovenia, Slovakia, Spain and Sweden. 
 * **Konrad Gliściński:** Poland. 	
 * **Paul Keller:** Germany and the Netherlands. 
 * **Teresa Nobre:** Portugal. 
