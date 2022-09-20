@@ -8,8 +8,7 @@ exceptions:
 jurisdictions:
 - FR
 score: 1
-description: 
-France has two exceptions for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, one applicable to works (L.122-5(12.º)) and another applicable to other subject matter protected by related rights (L.211-3(3.º)(e)). These exceptions are subject to compensation and to license availability.
+description: "France has two exceptions for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, one applicable to works (L.122-5(12.º)) and another applicable to other subject matter protected by related rights (L.211-3(3.º)(e)). These exceptions are subject to compensation and to license availability."
 beneficiaries:
 - anyone under the responsibility of an educational institution in its premises or in other places, for an audience composed mainly of pupils, students or teachers directly concerned by the act of teaching or training requiring this representation or reproduction, or by means of a secure digital environment accessible only to pupils, students and teaching staff of this establishment
 purposes:
