@@ -1,7 +1,7 @@
 ---
 title: §31(1)(c) and §35(2) of the Copyright Act
 date: 2021-02-27
-draft: true
+draft: false
 weight: 50
 exceptions: 
 - info53a
@@ -26,10 +26,10 @@ subjectmatter:
 compensation:
 - does not require the payment of compensation
 attribution: 
--
+- no attribution required
 otherConditions: 
-- quantitative limitations: does not exceed the scope of the intended purpose (general exception)
-- 3-step test: uses of works must not conflict with a normal exploitation of the work and not unreasonably prejudice the legitimate interests of the author 
+- "quantitative limitations: does not exceed the scope of the intended purpose (general exception)"
+- "3-step test: uses of works must not conflict with a normal exploitation of the work and not unreasonably prejudice the legitimate interests of the author" 
 remarks: §74 makes the education exception applicable mutatis mutandis to performances and sound recordings; §78 makes the education exception applicable mutatis mutandis to performances and sound recordings; §82 makes the education exception applicable mutatis mutandis to film fixations; §86 makes the education exception applicable mutatis mutandis to broadcasts
 link: https://www.zakonyprolidi.cz/cs/2000-121/zneni-20210227
 ---
