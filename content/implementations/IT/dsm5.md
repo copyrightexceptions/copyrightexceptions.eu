@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - IT
 score: 2 
-description: Italy has an exception covering the summary, quotation, reproduction, translation, adaptation and communication to the public of protected materials by digital means that take place under the responsibility of an educational institution on its premises or in other location or in a secure electronic environment (Art. 70-bis(1)). This exception is not subject to compensation, but the use of certain materials is subject to license availability. These exceptions apply also to performances, phonograms, film fixations and broadcasts (Art. 71-decies).
+description: Italy has an exception covering the summary, quotation, reproduction, translation, adaptation and communication to the public of protected materials by digital means that take place under the responsibility of an educational institution on its premises or in other location or in a secure electronic environment (Art. 70-bis(1)). This exception is not subject to compensation, but the use of certain materials is subject to license availability. This exception applies also to performances, phonograms, film fixations and broadcasts (Art. 71-decies).
 beneficiaries:
 - anyone under the responsibility of an educational institution, on its premises or in other location or in a secure electronic environment, accessible only to teaching staff of that institution and pupils or enrolled students to the course of study in which the works or other materials are used
 purposes: 
