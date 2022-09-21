@@ -30,13 +30,13 @@
                         
                         <!-- intro -->
                         
-                        <p class="intro">{{ range .Params.jurisdictions }} <span class="msname"><a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a></span> {{ end }} has {{if in .Params.score "0"}}<span class="score0">not {{end}}implemented{{if in .Params.score "0"}}</span>{{end}} the {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }} exception{{if .Title}} in {{if .Params.link}}<a href="{{.Params.link | safeHTML }}">{{end}}<strong>{{.Title}}</strong>{{if .Params.link}}</a>{{end}}. {{if in .Params.score "0"}}<span class="score0">{{end}}{{if in .Params.score "1"}}<span class="score1">{{end}}{{if in .Params.score "2"}}<span class="score2">{{end}}{{if in .Params.score "3"}}<span class="score3">{{end}}{{ partial "textexpanders/score.html" . }}</span>{{end}}.</p>
+                        <p class="intro">{{ range .Params.jurisdictions }} <span class="msname"><a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/">{{ partial "textexpanders/jur-single.html" . }}</a></span> {{ end }} has {{if in .Params.score "0"}}<span class="score0">not {{end}}implemented{{if in .Params.score "0"}}</span>{{end}} the {{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/exceptions.html" . }}</a> {{ end }} exception{{if .Title}} in {{if .Params.link}}<a href="{{.Params.link | safeHTML }}">{{end}}<strong>{{.Title | safeHTML }}</strong>{{if .Params.link}}</a>{{end}}. {{if in .Params.score "0"}}<span class="score0">{{end}}{{if in .Params.score "1"}}<span class="score1">{{end}}{{if in .Params.score "2"}}<span class="score2">{{end}}{{if in .Params.score "3"}}<span class="score3">{{end}}{{ partial "textexpanders/score.html" . }}</span>{{end}}.</p>
 
 						<!-- summar -->
 
 						{{if .Params.description}}
 						<h2>Implementation summary:</h2>
-						<p class="overview">{{.Params.description}}</p>
+						<p class="overview">{{.Params.description | safeHTML}}</p>
 						{{end}}
 						
 						<!-- details -->
@@ -45,7 +45,7 @@
 		
 						{{if .Params.beneficiaries}}<p><strong>Beneficiaries:</strong></p>
 						<ul>
-							{{ range .Params.beneficiaries }}<li>{{ . }}</li>{{end}}
+							{{ range .Params.beneficiaries}}<li>{{ . }}</li>{{end}}
 						</ul>
 						{{end}}
 						
