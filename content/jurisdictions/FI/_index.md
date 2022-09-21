@@ -1,5 +1,5 @@
 ---
 name: "Finland" 
-legalarrangement: ""
+legalarrangement: "Exceptions in Finland are contained in the Copyright Act."
 lastupdate:
 ---
