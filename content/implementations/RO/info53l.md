@@ -10,7 +10,7 @@ jurisdictions:
 score: 2
 description: "This exception allows for the reproduction and presentation of extracts from works by companies engaged in the production or sale of sound or audio-visual recordings, equipment for the reproduction or communication to the public thereof and also equipment for receiving radio and television broadcasts, for the purpose of testing the operation of their products at the time of manufacture or sale, provided that such acts are performed only to the extent required for testing." 
 beneficiaries:
-- companies (engaged in the production or sale of sound or audio-visual recordings, equipment for the reproduction or communication to the public thereof and also equipment for receiving radio and television broadcasts)
+- companies, engaged in the production or sale of sound or audio-visual recordings, equipment for the reproduction or communication to the public thereof and also equipment for receiving radio and television broadcasts
 purposes: 
 - testing the operation of beneficiaries' products at the time of manufacture or sale
 usage:
