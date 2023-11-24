@@ -6,7 +6,7 @@ weight: 12
 exceptions:
 - dsm5
 jurisdictions:
-- HR
+- HU
 score: 2
 description: Hungary has one exception covering the reproduction, distribution and communication to the public of works to pupils and students through a secure electronic environment for purposes of illustration for education and exams (§35(5)); one exception covering the use of a work in another work for purposes of illustration for school education and scientific research (§34(2)); one exception covering the reproduction and distribution of the recipient work, if this work is published as a textbook or reference book (§34(3)(a)); one exception covering the use of the recipient work in digital form at the place of education and its communication to the public through a secured electronic environment for the purpose of school education (§34(3)(b)); and one exception covering the use of visual works in the course of scientific dissemination of knowledge (§68(2)). In addition, there is a provision that states that no permission is required from holders of neighbouring rights in cases where the use of copyrighted work is permitted (§83(2). None of the exceptions is subject to compensation.
 beneficiaries:
