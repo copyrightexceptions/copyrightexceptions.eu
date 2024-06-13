@@ -14,12 +14,12 @@ beneficiaries:
 - governmental and municipal archival authorities, scientific and research libraries operated by the community at large, and public libraries (for purposes of completion or research)
 purposes: 
 - preservation (for libraries and museums that are publicly accessible, archives and institutions for film and audio haritage)
-- completion or research
-- satisfying the needs of library borrowers for single articles or short extracts, or for material which, for security reasons, should not be given away in original form
-- use in reading devices
+- completion or research (for governmental and municipal archival authorities, scientific and research libraries operated by the community at large, and public libraries)
+- satisfying the needs of library borrowers for single articles or short extracts, or for material which, for security reasons, should not be given away in original form (for governmental and municipal archival authorities, scientific and research libraries operated by the community at large, and public libraries)
+- use in reading devices (for governmental and municipal archival authorities, scientific and research libraries operated by the community at large, and public libraries)
 usage:
 - reproduction
-- distribution (paper copies)
+- distribution of paper copies (for governmental and municipal archival authorities, scientific and research libraries operated by the community at large, and public libraries)
 subjectmatter:
 - works (except for computer programs)
 - non-original photographs
