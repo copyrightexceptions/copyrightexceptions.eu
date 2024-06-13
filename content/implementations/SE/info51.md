@@ -35,5 +35,5 @@ otherConditions:
 - the copies made must be transient or have only a secondary importance in the process
 - the copies made must not have any independent economic importance
 remarks: "The Swedish legislator explicitly defined 'lawful access' as 'a use that occurs with the consent of the author or rightsholder, or another use which is not prohibited under the law'.<br /><br />The exception extends to the rights of performers (art. 45(3) of the Law), photographers (art. 49a(4) of the Law), phonograms and film producers (art. 46(3) of the Law), broadcasting organisations (art. 48(3) of the Law) and press publishers (art. 48b(4) of the Law).<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
-link: [https://wipolex.wipo.int/en/text/495847](https://lagen.nu/1960:729)
+link: https://lagen.nu/1960:729
 ---
