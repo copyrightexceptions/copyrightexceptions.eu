@@ -6,7 +6,7 @@ weight: 50
 exceptions:
 - info53a
 jurisdictions:
-- HR
+- HU
 score: 2
 description: "Hungary has a variety of education and research exceptions that apply to copyrighted works: one education and scientific research exception covering the act of “borrowing” from a work to use in another work (§34(2)); one exception covering the adaptation of a work in the course of in-person digital education or remote education (§34(4) 1st sentence); one allowing the use of works that “borrow” other parties’ works, as well as of adaptations, within the framework of in-person digital education or remote education (§34(3)(b) and §34(4) 2nd sentence); one that permits the reproduction, distribution and communication to the public of certain literary works both for in-person and remote education or examination (§35(5)); one covering the use of visual works in the course of scientific dissemination of knowledge (§68(2)); and a text and data mining (TDM) exception for scientific research purposes (§35/A(2)) that follows Article 3 of the DSM Directive closely, except that it also allows the sharing of copies within the framework of a research cooperation or for purposes of peer review of the scientific work (§35/A(3)). These exceptions also apply to subject matter protected by neighbouring rights (§83(2)). None of the exceptions is subject to compensation."
 beneficiaries:
