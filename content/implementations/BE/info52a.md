@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BE
 score: 1
-description: "This exception allows for the reproduction in part or the whole of articles or works of fine art or short fragments of other works, fixed on paper or any similar medium, except for sheet music, where such reproduction is effected on paper or any similar medium, by the use of any kind of photographic technique or by some other process having similar effects, either by a legal person for internal use, or by a natural person for internal use in the context of their business activities, and provided that this does not prejudice the normal exploitation of the work." 
+description: "This exception allows for the reproduction in part or in whole of articles or works of fine art or of short fragments of other works, fixed on paper or any similar medium, except for sheet music, where such reproduction is effected on paper or any similar medium, by the use of any kind of photographic technique or by some other process having similar effects, either by a legal person for internal use, or by a natural person for internal use in the context of their business activities, and provided that this does not prejudice the normal exploitation of the work." 
 beneficiaries:
 - any user
 purposes: 
