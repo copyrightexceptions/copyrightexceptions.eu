@@ -26,6 +26,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - during religious ceremonies or at official celebrations organised by public authorities
-remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90), film producers (art.90v), and broadcast organisations (art. 93)."
+remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90), film producers (art.90v), and broadcast organisations (art. 93).<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
