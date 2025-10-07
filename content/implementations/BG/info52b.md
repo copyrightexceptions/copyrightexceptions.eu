@@ -7,7 +7,7 @@ exceptions:
 - info52b
 jurisdictions:
 - BG
-score: 3
+score: 2
 description: "This exception allows the reproduction of works (other than computer programs and architectural works) regardless of the carrier, by a physical person for personal use, unless done with commercial purposes, and against payment of fair compensation." 
 beneficiaries:
 - any physical person
@@ -26,6 +26,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - for non-commercial purposes
-remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90) and film producers (art.90v). The exception does not cover broadcasting rights (art. 93)."
+remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90) and film producers (art.90v). The exception does not cover broadcasting rights (art. 93).<br /><br />The exception is imperative. According to art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
