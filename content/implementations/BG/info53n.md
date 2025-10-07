@@ -7,7 +7,7 @@ exceptions:
 - info53n
 jurisdictions:
 - BG
-score: 2
+score: 3
 description: "This exception allows publicly accessible libraries, educational or other learning establishments, museums and archive institutions, to grant access to individuals to works, located in their collections, under the condition, that it is done with scientific purposes and has no commercial purpose." 
 beneficiaries:
 - publicly accessible libraries, educational or other learning establishments, museums, and archive institutions
@@ -18,13 +18,16 @@ usage:
 - making available to individuals
 subjectmatter:
 - works
+- performances
 - phonograms
 - film fixations
+- broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception extends to phonogram producers (art. 90) and film producers (art. 90v). There is no express reference for performers’ rights (art. 84) and broadcasting organizations (art. 93)."
+remarks: "As of 2023, the exception applies accordingly to all neighbouring rights.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
