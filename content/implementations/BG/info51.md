@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -31,6 +32,6 @@ otherConditions:
 - the nature of reproductions must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no independent economic significance
-remarks: "The exception extends to performers (art. 84), phonograms producers (art. 90), film producers (art.90v) and broadcasting organisations (art. 93)."
+remarks: "The exception extends to all neigbouring rights.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
