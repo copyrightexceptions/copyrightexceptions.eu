@@ -7,7 +7,7 @@ exceptions:
 - info52b
 jurisdictions:
 - BG
-score: 3
+score: 2
 description: "This exception allows the reproduction of works (other than computer programs and architectural works) regardless of the carrier, by a physical person for personal use, unless done with commercial purposes, and against payment of fair compensation." 
 beneficiaries:
 - any physical person
