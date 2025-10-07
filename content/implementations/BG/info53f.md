@@ -18,6 +18,7 @@ usage:
 subjectmatter:
 - speeches, reports, preaches, etc. and parts thereof, presented at public meetings, 
 - court pleadings
+- press publications
 compensation:
 - no compensation required
 attribution: 
