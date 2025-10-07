@@ -7,22 +7,27 @@ exceptions:
 - info52c
 jurisdictions:
 - BG
-score: 2
-description: "This exception allows the reproduction of already published works by publicly accessible libraries, educational or other learning establishments, museums, and archive institutions, for strictly non-commercial purposes, namely - for educational purposes and the preservation of the works. The exception covers copyrighted works only and does not extend to any neighbouring rights."
+score: 3
+description: "This exception allows the reproduction of already divulged works by publicly accessible libraries, educational or other learning establishments, museums, and archive institutions, for strictly non-commercial purposes, namely - for educational purposes and the preservation of the works."
 beneficiaries:
 - publicly accessible libraries, educational or other learning establishments, museums, and archive institutions
 purposes: 
-- non-commercial educational purposes 
+- non-commercial purposes
+- educational purposes
 - preservation
 usage:
 - reproduction
 subjectmatter:
-- published works
+- works
+- performances
+- phonograms
+- film fixations
+- broadcasts
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception allows the use of published works only and does not extend to performers (art. 84), phonograms producers (art. 90), Film producers (art.90v), and broadcasting organisations (art. 93). The respective referencing provisions do not reference this particular exception. Rationale unclear."
+remarks: "Before the modification of the Law in 2023, the exception allowed for the use of published works only and did not extend to performers (art. 84), phonograms producers (art. 90), film producers (art.90v), and broadcasting organisations (art. 93). Since 2023, the word "published" has been replaced by "divulged" and the respective referencing provisions for neighbouring rights include references to the entire art. 24.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
