@@ -31,6 +31,6 @@ otherConditions:
 - beneficiaries must have rights to use the work granted by its author
 - use must be for the needs of beneficiaries' own broadcasts and carried out by own technical devices (for ephemeral recordings)
 - use must be limited within the margins of the authorization granted by the author to the broadcaster (for ephemeral recordings)
-remarks: "Case law available to clarify the scope of the exception in terms of type of usage - reproduction, but not communication to the public and making available to the public. The exception extends to performers (Article 84), phonograms producers (Art. 90), film producers (Art.90v) and broadcasting organisations (Art. 93)."
+remarks: "Case law available to clarify the scope of the exception in terms of type of usage - reproduction, but not communication to the public and making available to the public. The exception extends to performers (Article 84), phonograms producers (Art. 90), film producers (Art.90v) and broadcasting organisations (Art. 93).<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
