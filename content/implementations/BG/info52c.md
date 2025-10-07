@@ -1,6 +1,6 @@
 ---
 title: "Article 24, para 1, p.9 of the Copyright and Neighbouring Rights Law (Член 24, ал.1, т.9 от Закона за авторското право и сродните му права)"
-date: 2003-01-01
+date: 2023-12-01
 draft: false
 weight: 42
 exceptions:
@@ -28,6 +28,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "Before the modification of the Law in 2023, the exception allowed for the use of published works only and did not extend to performers (art. 84), phonograms producers (art. 90), film producers (art.90v), and broadcasting organisations (art. 93). Since 2023, the word "published" has been replaced by "divulged" and the respective referencing provisions for neighbouring rights include references to the entire art. 24.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
+remarks: "Before the modification of the Law in 2023, the exception allowed for the use of published works only and did not extend to performers (art. 84), phonograms producers (art. 90), film producers (art.90v), and broadcasting organisations (art. 93). Since 2023, the word "published" has been replaced by "divulged" and the respective referencing provisions for neighbouring rights include references to the entire art. 24.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law.<br /><br />This exception co-exists and partially overlaps with the implementation of art.6 of the CDSM Directive (transposed in art.26i of the Bulgarian law). There is an unambitious collision norm in art.26l, according to which the new exceptions 'shall not affect the application of' the pre-existing exception under art. 24 and 'shall not be limited by it."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
