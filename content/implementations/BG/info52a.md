@@ -17,6 +17,7 @@ usage:
 - reproduction (analogue only - ‘on paper or another similar medium by way of reprography or other technique, ensuring similar results’)
 subjectmatter:
 -  printed works (except for sheet music)
+-  press publications
 compensation:
 - fair compensation required
 attribution: 
