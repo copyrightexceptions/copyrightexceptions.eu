@@ -18,13 +18,18 @@ usage:
 - reproduction to video or audio recording medium
 subjectmatter:
 - works
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
 compensation:
-- no compensation required
+- authors are entitled to equitable remuneration
 attribution: 
 - no attribution required
 otherConditions: 
 - the video or audio recording mediums must be deleted within one month after the work is first broadcasted
 - the author must be notified immediately of any inclusion of works of an exceptional documentary value in an archive
-remarks: ""
+remarks: "The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG).<br /><br />Under a general provision in §60h, authors are entitled to equitable remuneration. Claims to equitable remuneration may only be asserted through a collecting society."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0420
 ---
