@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -31,6 +32,6 @@ otherConditions:
 - the nature of reproductions must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no independent economic significance
-remarks: ""
+remarks: "The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0420
 ---
