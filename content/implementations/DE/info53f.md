@@ -1,5 +1,5 @@
 ---
-title: "Section 44 of the Act on Copyright and Related Rights"
+title: "Section 48 of the Act on Copyright and Related Rights"
 date: 2003-10-09 
 draft: false
 weight: 56
