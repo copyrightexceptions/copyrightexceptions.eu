@@ -21,8 +21,13 @@ usage:
 - reproduction and digital distribution and digital communication to the public of a part of a database which is essential in terms of its nature or extent (databases protected by sui generis right)
 
 subjectmatter:
-- published works, performances, phonograms, broadcasts, film fixations, press publications, databases protected by sui generis right
-
+- published works
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
+- databases protected by sui generis right
 compensation:
 - no compensation is required (communication to the public (other than making the content available to the public) for the benefit of members of educational establishments and their families)
 - compensation is required (all other uses)
