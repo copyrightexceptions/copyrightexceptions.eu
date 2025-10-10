@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publiations
 compensation:
 - payment of equitable remuneration is required
 attribution: 
@@ -29,6 +30,6 @@ attribution:
 otherConditions: 
 - copying must not occur from a manifestly unlawfully-produced source or a source which has been unlawfully made available to the public
 - reproduction of graphic recordings of musical works and of book or of periodicals are generally excluded from the scope of the exception
-remarks: ""
+remarks: "The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0420
 ---
