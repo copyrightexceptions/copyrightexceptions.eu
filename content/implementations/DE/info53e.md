@@ -27,6 +27,6 @@ compensation:
 attribution: 
 - source must in all cases be clearly acknowledged
 otherConditions: 
-remarks: ""
+remarks: "The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0453
 ---
