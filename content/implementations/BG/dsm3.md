@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - BG
 score: 3
-description: "This exception allows for the use of works (other than computer programs) and other subject matter for automated analysis of text and information, by a person who has lawful access to them for the purpose of conducting scientific research." 
+description: "This exception allows for the use by means of digital reproduction of works (other than computer programs) and other subject matter for automated analysis of text and information, by a person who has lawful access to them for the purpose of conducting scientific research." 
 beneficiaries:
 - universities and their libraries
 - scientific and research institutes, as well as hospitals conducting scientific research
@@ -20,6 +20,7 @@ purposes:
 usage:
 - reproduction (of works or parts thereof)
 - reproduction, extraction or re-use (of databases or parts thereof)
+- making available to certain groups and idividuals (for the purpose of verification and evaluation of the research)
 subjectmatter:
 - works (excluding computer programs)
 - databases
