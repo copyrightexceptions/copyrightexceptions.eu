@@ -21,12 +21,17 @@ usage:
 - communication to the public
 subjectmatter:
 - works (which become perceivable in the course of a current event)
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - the source must in all cases be clearly acknowledged
 otherConditions: 
 - use must be limited to the extent justified by the purpose of the report
-remarks: "The German interpretation of the ‘reporting of current events’ exception was extremely restricted via case law - the application was restricted to cases where the beneficiary couldn’t reasonably obtain the author’s prior consent to the use of their work. This judicial interpretation was brought forth by the German Federal Court of Justice (Bundesgerichtshof) in its Spiegel Online referral."
+remarks: "The German interpretation of the ‘reporting of current events’ exception was extremely restricted via case law - the application was restricted to cases where the beneficiary couldn’t reasonably obtain the author’s prior consent to the use of their work. This judicial interpretation was brought forth by the German Federal Court of Justice (Bundesgerichtshof) in its Spiegel Online referral. <br /><br />The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0453
 ---
