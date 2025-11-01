@@ -1,6 +1,6 @@
 ---
 title: "Section 58 of the Act on Copyright and Related Rights (UrhG)"
-date: 1965 
+date: 2018-03-01
 draft: false
 weight: 60
 exceptions:
