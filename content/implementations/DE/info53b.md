@@ -19,6 +19,7 @@ usage:
 - distribution
 subjectmatter:
 - works (except for literary works and graphic recordings of musical works)
+- press publications
 compensation:
 - equitable remuneration is required
 attribution: 
@@ -26,6 +27,6 @@ attribution:
 otherConditions: 
 - claims may only be asserted through a collecting society
 - use of literary works and graphic recordings of musical works are expressly excluded from this regime
-remarks: "Use of literary works and graphic recordings of musical works for the benefit of persons with a visual impairment or reading disability are covered by Sections 45b and 45c, implementing the Marrakesh Directive."
+remarks: "Use of literary works and graphic recordings of musical works for the benefit of persons with a visual impairment or reading disability are covered by Sections 45b and 45c, implementing the Marrakesh Directive. The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0453
 ---
