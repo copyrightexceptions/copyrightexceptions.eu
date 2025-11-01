@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - DE
 score: 3
-description: ""This exception allows for reproductions, by any user, for text and data mining of legally accessible works and other subject matter." 
+description: "This exception allows for reproductions, by any user, for text and data mining of legally accessible works and other subject matter." 
 beneficiaries:
 - any user
 purposes: 
