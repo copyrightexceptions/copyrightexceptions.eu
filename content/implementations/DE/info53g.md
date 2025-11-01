@@ -1,6 +1,6 @@
 ---
 title: "Section 52 of the Act on Copyright and Related Rights (UrhG)"
-date: 2003-10-09 
+date: 2018-03-01
 draft: false
 weight: 57
 exceptions:
