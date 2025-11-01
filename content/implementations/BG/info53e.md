@@ -18,14 +18,16 @@ usage:
 - any use
 subjectmatter:
 - works
+- performances
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception does not extend to performers' rights (art. 84)."
+remarks: "Before 2023. the exception did not extend to performers' rights (art. 84). As of 2023, the respective referencing provisions for neighbouring rights include references to the entire art. 24.<br /><br />The exception is imperative. According to para 2 of art.23, any agreement that prevents or restricts the right to free use is null and void, unless otherwise provided by the law."
 link: https://lex.bg/laws/ldoc/2133094401
 ---
