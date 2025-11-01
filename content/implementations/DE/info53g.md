@@ -17,12 +17,17 @@ usage:
 - communications to the public
 subjectmatter:
 - published works
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
 compensation:
 - payment of equitable remuneration to the author is required
 attribution: 
 - no attribution required
 otherConditions: 
 - public stage performances, making available to the public and broadcasting of a work, as well as public screenings of a cinematographic work are expressly excluded from the scope of the exception
-remarks: "Most sources point to Section 46 'Collections for religious use' as the provision implementing art. 5(3)(g) of the InfoSoc Directive. However, Section 46 concerns exclusively the creation of collections intended, by their nature, exclusively for use during religious ceremonies, using 'limited parts of works, of small-scale literary works and of musical works, individual artistic works or individual photographs (...) incorporated in a collection which combines the works of a considerable number of authors.' This exception requires attribution as per Section 63 of the UrhG."
+remarks: "Most sources point to Section 46 'Collections for religious use' as the provision implementing art. 5(3)(g) of the InfoSoc Directive. However, Section 46 concerns exclusively the creation of collections intended, by their nature, exclusively for use during religious ceremonies, using 'limited parts of works, of small-scale literary works and of musical works, individual artistic works or individual photographs (...) incorporated in a collection which combines the works of a considerable number of authors.' This exception requires no attribution as per Section 63 of the UrhG.<br /><br />The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG).<br /><br />The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0343
 ---
