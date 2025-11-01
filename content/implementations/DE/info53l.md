@@ -18,12 +18,17 @@ usage:
 - communication to the public
 subjectmatter:
 - works
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
 compensation:
-- no compensation required
+- authors are entitled to equitable remuneration
 attribution: 
 - no attribution required
 otherConditions: 
 - video or audio recordings made or data recorded on data carriers under the exception must be deleted immediately
-remarks: ""
+remarks: "Under a general provision in §60h, authors are entitled to equitable remuneration. Claims to equitable remuneration may only be asserted through a collecting society.<br /><br />The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG)."
 link: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0343
 ---
