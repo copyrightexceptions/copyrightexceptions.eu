@@ -1,6 +1,6 @@
 ---
 title: "Section 42, paras 6 and 7 of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
-date: 2003-01-07
+date: 2021-06-07
 draft: false
 weight: 42
 exceptions:
@@ -27,12 +27,12 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses’ of works and other subject matter. The provisions of §42, paras 6 and 7, apply to photographs (§74(7)), performances (§71(1)), phonograms (§76(4)) and broadcasts (§76a(3)).<br /><br />
-Regarding copies made by cultural heritage institutions, the source must either be in the possession of the establishment, or the work must be made accessible to the public, but not published or out-of-print."
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses’ of works and other subject matter. The provisions of §42, paras 6 and 7, apply to photographs (§74(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)) and press publications (§76f(5)).<br /><br />Regarding copies made by cultural heritage institutions, the source must either be in the possession of the establishment, or the work must be made accessible to the public, but not published or out-of-print."
 link: https://wipolex.wipo.int/en/text/503812
 ---
