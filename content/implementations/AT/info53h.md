@@ -29,6 +29,6 @@ compensation:
 attribution: 
 - the source must always be clearly stated
 otherConditions: 
-remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The 'freedom of panorama' exception does not extend to related rights."
-link: https://wipolex.wipo.int/en/text/503812
+remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter. The 'freedom of panorama' exception does not extend to related rights, except for a general reference to press publications (§76f(5))."
+link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848
 ---
