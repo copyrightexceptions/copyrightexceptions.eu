@@ -1,6 +1,6 @@
 ---
 title: "Section 42, para 1 of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
-date: 2015-10-01
+date: 2021-06-07
 draft: false
 weight: 40
 exceptions:
@@ -18,6 +18,7 @@ usage:
 - reproduction (analogue) 
 subjectmatter:
 - works (other than entire books, entire periodicals, or sheet music)
+- press publications
 compensation:
 - fair compensation required
 attribution: 
@@ -29,7 +30,6 @@ otherConditions:
 - entire books, entire periodicals, or sheet music, as well as of copies thereof must not be reproduced, unless copies are made by way of transcription or books and periodicals are unpublished or out-of-print
 remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter.<br /><br />
 'Own use' is a pre-InfoSoc implementation institution and unlike 'private use', 'own use' includes 'professional use' within the internal organization of a legal entity. However, it should be noted, that under Section 42a, single copies can be made, on order and with no compensation required, for the 'own use' of third parties. <br /><br />
-'Individual copies' means a certain restricted number of copies required by the nature and purpose of the 'own use'. The exact number is unclear both in cases of 'own' use and 'personal' use (see OGH 4 Ob 94/92 – Null-Nummer II) and must be established on a case-by-case basis.<br /><br />
-'Lawful source' means that no obviously unlawfully produced model or a model which has been unlawfully made available to the public has been used for copying."
-link: https://wipolex.wipo.int/en/text/503812
+'Individual copies' means a certain restricted number of copies required by the nature and purpose of the 'own use'. The exact number is unclear both in cases of 'own' use and 'personal' use (see OGH 4 Ob 94/92 – Null-Nummer II) and must be established on a case-by-case basis.<br /><br />'Lawful source' means that no obviously unlawfully produced model or a model which has been unlawfully made available to the public has been used for copying.<br /><br />As of 2021, the exception applies to press publications as well (§76f(5))"
+link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848
 ---
