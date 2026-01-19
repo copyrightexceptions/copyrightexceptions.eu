@@ -26,12 +26,13 @@ subjectmatter:
 - film fixations
 - broadcasts
 - databases
+- press publications
 compensation:
 - fair compensation required (can only be handled by collecting societies)
 attribution: 
 - no attribution required
 otherConditions: 
 remarks: "For more information, see the submission in 'Make and disseminate accessible format copies of works (Art. 4 MKD)' for Austria.<br /><br />
-The exception applies to photographs and cinematographic products (§74(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)) and databases (§76d(5))."
+The exception applies to photographs and cinematographic products (§74(7)), performances (§71(1)), phonograms (§76(4)), broadcasts (§76a(3)), databases (§76d(5)) and press publications (§76f(5))."
 link: https://wipolex.wipo.int/en/text/503812
 ---
