@@ -33,5 +33,5 @@ otherConditions:
 - recordings of speeches are excluded from the scope of the exception
 - use of speeches in collections is excluded from the scope of the exception
 remarks: "The exceptions and/or limitations in Austrian copyright law are formulated as 'free uses' of works and other subject matter.<br /><br />Attribution is regulated in Section 57 (3a) of the Law. §43 applies to performances (§71(5)), but does not apply to phonograms, broadcasts and photographs and cinematographic works. As pf 2021, the exception applies to press publications (§76f(5))"
-link: [https://wipolex.wipo.int/en/text/503812](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848)
+link: https://wipolex.wipo.int/en/text/503812
 ---
