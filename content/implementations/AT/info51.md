@@ -1,6 +1,6 @@
 ---
 title: "Section 41a of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
-date: 2003-01-07
+date: 2021-06-07
 draft: false
 weight: 30
 exceptions:
@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
