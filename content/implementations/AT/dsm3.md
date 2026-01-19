@@ -1,4 +1,4 @@
---
+---
 title: "Section 42h of the of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
 date: 2021-06-07
 draft: false
