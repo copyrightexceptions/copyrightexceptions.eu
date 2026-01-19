@@ -1,6 +1,6 @@
 ---
 title: "Section 42, paras 6 and 7 of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
-date: 2003-01-07
+date: 2021-06-07
 draft: false
 weight: 42
 exceptions:
