@@ -20,6 +20,7 @@ subjectmatter:
 - images of architectural works
 - fine art works
 - photographs or works of applied art
+- press publications
 compensation:
 - no compensation required
 attribution: 
