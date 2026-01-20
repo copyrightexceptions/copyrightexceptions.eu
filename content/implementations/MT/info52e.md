@@ -17,6 +17,7 @@ usage:
 - reproduction 
 subjectmatter:
 - broadcasts
+- press publications 
 compensation:
 - fair compensation required
 attribution: 
