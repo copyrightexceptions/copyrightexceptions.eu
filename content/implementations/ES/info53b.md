@@ -35,6 +35,5 @@ otherConditions:
 - use must have a direct relationship with the disability in question
 - use must be carried out through a procedure or medium adapted to disability and limited to what it requires
 remarks: "The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001254/T/D20241254L.pdf
-
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
 ---
