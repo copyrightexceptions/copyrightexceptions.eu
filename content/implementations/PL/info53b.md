@@ -23,6 +23,7 @@ subjectmatter:
 - programme broadcasts
 - first editions
 - scientific and critical editions
+- press publications
 ompensation:
 - no compensation required
 attribution: 
@@ -32,6 +33,6 @@ otherConditions:
 - use must be non-profit
 - use must be undertaken in proportion to the nature of the disability
 - works must be already distributed
-remarks: "Under article 100, the exercise of the rights in artistic performances, phonograms, videograms and programme broadcasts, first editions or scientific and critical editions, is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Under article 100, the exercise of the public rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
