@@ -19,12 +19,13 @@ usage:
 subjectmatter:
 - political speeches, addresses, sermons, legal speeches or other works of the same nature
 - summaries or extracts of lectures
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - indication of the source and of the name of the author is required, wherever possible
 otherConditions: 
 - works used must be delivered in public
-remarks: ""
+remarks: "Under art. 52 of the Law the limitation also applies mutatis mutandis to related rights."
 link: https://www.opi.gr/en/library/law-2121-1993#a25
 ---
