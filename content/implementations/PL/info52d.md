@@ -31,6 +31,6 @@ attribution:
 - the author’s full name and source must be indicated, taking into account existing possibilities
 otherConditions: 
 - works used must be recorded by means of beneficiaries' own facilities 
-remarks: "Under article 100, the exercise of public rights is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Under article 100, the exercise of the related rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
