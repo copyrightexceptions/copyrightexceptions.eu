@@ -22,6 +22,7 @@ subjectmatter:
 - political speeches 
 - extracts of public lectures 
 - similar works or subject-matter
+- press publications 
 compensation:
 - no compensation required
 attribution: 
