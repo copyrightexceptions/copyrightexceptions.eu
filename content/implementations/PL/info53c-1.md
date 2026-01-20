@@ -20,6 +20,7 @@ subjectmatter:
 - articles concerning current political, economic or religious topics
 - short excerpts of articles
 - digests of disseminated publications and works and short summaries of disseminated works
+- press publications
 compensation:
 - compensation due for the use of articles (unless only a short excerpt or a summary is used)
 attribution: 
