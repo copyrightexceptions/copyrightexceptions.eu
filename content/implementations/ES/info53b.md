@@ -24,7 +24,8 @@ subjectmatter:
 - film fixations
 - broadcasts
 - mere photographs
-- editorial productions of unpublished public domain works 
+- editorial productions of unpublished public domain works
+- press publications
 compensation:
 - no remuneration required
 attribution: 
@@ -34,5 +35,6 @@ otherConditions:
 - use must have a direct relationship with the disability in question
 - use must be carried out through a procedure or medium adapted to disability and limited to what it requires
 remarks: "The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://wipolex.wipo.int/en/text/507842
+link: https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001254/T/D20241254L.pdf
+
 ---
