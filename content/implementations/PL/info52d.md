@@ -24,12 +24,13 @@ subjectmatter:
 - programme broadcasts
 - first editions
 - scientific and critical editions
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - the author’s full name and source must be indicated, taking into account existing possibilities
 otherConditions: 
 - works used must be recorded by means of beneficiaries' own facilities 
-remarks: "Under article 100, the exercise of the rights in artistic performances, phonograms, videograms and programme broadcasts, first editions or scientific and critical editions, is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
