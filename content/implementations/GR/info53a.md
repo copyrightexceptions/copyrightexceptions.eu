@@ -20,6 +20,7 @@ subjectmatter:
 - short extracts of a work 
 - parts of a short work 
 - a lawfully published work of fine art
+- press publications 
 compensation:
 - no compensation required
 attribution: 
