@@ -22,7 +22,8 @@ subjectmatter:
 - film fixations
 - broadcasts
 - mere photographs
-- editorial productions of unpublished public domain works 
+- editorial productions of unpublished public domain works
+- press publications
 compensation:
 - fair compensation required
 attribution: 
@@ -30,5 +31,6 @@ attribution:
 otherConditions: 
 - works used must be part of the institution's own collection
 remarks: "The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
