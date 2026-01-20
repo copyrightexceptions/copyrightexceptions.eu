@@ -19,6 +19,7 @@ usage:
 - communication to the public
 subjectmatter:
 - artistic work (in the form of a building, a drawing or a plan of a building)
+- press publications 
 compensation:
 - no compensation required
 attribution: 
