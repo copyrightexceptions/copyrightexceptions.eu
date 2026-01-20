@@ -19,12 +19,13 @@ usage:
 - any use
 subjectmatter:
 - works
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - the author’s full name and source are indicated. The author and the source should be indicated taking into account existing possibilities
 otherConditions: 
 - use must be limited to the extent justified by the promotion of that exhibition or sale and excluding other commercial use
-remarks: ""
+remarks: "Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
