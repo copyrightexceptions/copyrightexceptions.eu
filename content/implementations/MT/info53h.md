@@ -20,7 +20,8 @@ usage:
 subjectmatter:
 - work of architecture 
 - sculpture 
-- similar works 
+- similar works
+- press publications 
 compensation:
 - no compensation required
 attribution: 
