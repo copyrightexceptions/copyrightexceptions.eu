@@ -20,6 +20,7 @@ usage:
 - communicate, make available, distribute or lend this copy to a beneficiary
 subjectmatter:
 - work (meaning a work in the form of a book, magazine, scientific or other, newspaper or other kind of writing, notation, including sheet music, and related illustrations, in any media, including in digital format and in audio form, such as audiobooks, which is protected by copyright and which is published or otherwise lawfully made publicly available)
+- press publications
 compensation:
 - may be due for certains acts of use
 attribution: 

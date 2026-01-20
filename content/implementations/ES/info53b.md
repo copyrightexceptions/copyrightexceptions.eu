@@ -25,7 +25,7 @@ subjectmatter:
 - broadcasts
 - mere photographs
 - editorial productions of unpublished public domain works
-- press publications 
+- press publications
 compensation:
 - no remuneration required
 attribution: 

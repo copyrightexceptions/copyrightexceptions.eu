@@ -17,11 +17,12 @@ usage:
 - dissemination
 subjectmatter:
 - works permanently exhibited on commonly accessible public roads, streets, squares or gardens
+- press publication
 compensation:
 - no compensation required
 attribution: 
 - the author’s full name and source are indicated. The author and the source should be indicated taking into account existing possibilities
 otherConditions: 
-remarks: ""
+remarks: "Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
