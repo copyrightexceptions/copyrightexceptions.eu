@@ -23,6 +23,7 @@ subjectmatter:
 - published articles on current economic, political or religious topics 
 - broadcast works of the same character
 - other subject-matter of the same character
+- press publications 
 compensation:
 - no compensation required
 attribution: 
