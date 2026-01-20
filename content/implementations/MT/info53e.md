@@ -32,7 +32,7 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 21 of Cap.415." As per art.15(6) of S.L. 415.08 of the Laws of Malta, the provisions of art. 9 of the Copyright Act apply mutatis mutandis in respect of press publishers’ rights.
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 21 of Cap.415. As per art.15(6) of S.L. 415.08 of the Laws of Malta, the provisions of art. 9 of the Copyright Act apply mutatis mutandis in respect of press publishers’ rights."
 
 link: https://legislation.mt/eli/cap/415/eng/pdf
 ---
