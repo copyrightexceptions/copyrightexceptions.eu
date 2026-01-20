@@ -26,5 +26,6 @@ otherConditions:
 - the public must be able to attend the event free of charge 
 - the artists involved in the event must not receive specific remuneration for their performance
 remarks: ""
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
