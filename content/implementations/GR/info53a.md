@@ -20,6 +20,11 @@ subjectmatter:
 - short extracts of a work 
 - parts of a short work 
 - a lawfully published work of fine art
+- performances
+- phonograms
+- film fixations
+- broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -27,6 +32,6 @@ attribution:
 otherConditions: 
 - in such measure as is compatible with the purpose
 - provided that the reproduction is effected in accordance with fair practice and does not conflict with the normal exploitation
-remarks: "As most Greek national exceptions, this one precedes the InfoSoc Directive. Another pre-existing exceptions that can be regarded as partially covering the scope of art. 5.3.(a) is art. 20 of the Greek law named 'School Textbooks and Anthologies' which permits, without the author's consent and without payment, the reproduction by means of printing of small parts of lawfully published literary works of one or more writers in educational textbooks approved for use in primary and secondary education by the Ministry of National Education and Religions or another competent ministry, according to the official detailed syllabus."
+remarks: "As most Greek national exceptions, this one precedes the InfoSoc Directive. Another pre-existing exceptions that can be regarded as partially covering the scope of art. 5.3.(a) is art. 20 of the Greek law named 'School Textbooks and Anthologies' which permits, without the author's consent and without payment, the reproduction by means of printing of small parts of lawfully published literary works of one or more writers in educational textbooks approved for use in primary and secondary education by the Ministry of National Education and Religions or another competent ministry, according to the official detailed syllabus.<br /><br />Under art. 52, the limitations applicable to the economic rights of copyright apply mutatis mutandis to related rights."
 link: https://www.opi.gr/en/library/law-2121-1993#a21
 ---
