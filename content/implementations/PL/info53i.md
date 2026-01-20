@@ -23,6 +23,7 @@ subjectmatter:
 - programme broadcasts
 - first editions
 - scientific and critical editions
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -31,6 +32,6 @@ otherConditions:
 - use must be unintentional 
 - use must comprise incorporation of a work into another work
 - the work incorporated must have no significance for the work into which it has been incorporated
-remarks: "Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. However, in this case the use should be unintentional, thus the attribution requirement should be deemed waived given the 'existing possibilities'.<br /><br />Under article 100, the exercise of the rights in artistic performances, phonograms, videograms and programme broadcasts, first editions or scientific and critical editions, is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. However, in this case the use should be unintentional, thus the attribution requirement should be deemed waived given the 'existing possibilities'.<br /><br />Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively." 
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
