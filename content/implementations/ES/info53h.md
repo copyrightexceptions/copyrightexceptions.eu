@@ -19,6 +19,7 @@ usage:
 - communication to the public
 subjectmatter:
 - works permanently located in parks, streets, squares or other public roads
+- press publications 
 compensation:
 - no remuneration required
 attribution: 
@@ -26,5 +27,6 @@ attribution:
 otherConditions: 
 - works under this exception can be used through paintings, drawings, photographs and audiovisual works
 remarks: ""
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
