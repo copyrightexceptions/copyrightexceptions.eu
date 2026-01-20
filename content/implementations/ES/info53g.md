@@ -17,6 +17,7 @@ usage:
 - performance
 subjectmatter:
 - musical works
+- press publications 
 compensation:
 - no remuneration required
 attribution: 
