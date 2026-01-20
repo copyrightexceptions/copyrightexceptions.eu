@@ -23,6 +23,7 @@ subjectmatter:
 - programme broadcasts
 - first editions
 - scientific and critical editions
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -30,6 +31,6 @@ attribution:
 otherConditions: 
 - use must not be associated with obtaining any direct or indirect financial benefit
 - advertising, promotional and electoral campaign events are expressly excluded from the scope of the exception
-remarks: "Under article 100, the exercise of the rights in artistic performances, phonograms, videograms and programme broadcasts, first editions or scientific and critical editions, is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---
