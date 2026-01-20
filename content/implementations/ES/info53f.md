@@ -21,6 +21,7 @@ usage:
 subjectmatter:
 - lectures, addresses, court pleadings and other works of the same character that have been delivered in public
 - speeches made at parliamentary sessions or meetings of public bodies
+- press publications
 compensation:
 - no remuneration required
 attribution: 
@@ -28,5 +29,6 @@ attribution:
 otherConditions: 
 - the exception does not apply to publication of such works in a collection 
 remarks: "The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
