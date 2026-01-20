@@ -20,6 +20,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -28,5 +29,6 @@ otherConditions:
 - derivative work must not imply a risk of confusion with the original work 
 - the use must not infer damage to the original work or its author
 remarks: "In terms of purposes of the use, the exception does not cover caricature and pastiche. The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
