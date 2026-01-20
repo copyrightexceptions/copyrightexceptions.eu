@@ -19,6 +19,7 @@ usage:
 - public communication
 subjectmatter:
 - works and articles on current affairs
+- press publications
 compensation:
 - payment of agreed remuneration, or in the absence of agreement, the remuneration deemed equitable
 attribution: 
@@ -28,5 +29,6 @@ otherConditions:
 - works used must be published by mass media
 - literary collaborations are explicitly excluded from the scope of the exception
 remarks: "This analysis does not take into account the so-called 'press clippings' exception under the second part of art. 32(1) of the Spanish law ('_Periodic compilations made in the form of reviews or press reviews will be considered citations_') and the so-called 'Google tax' (art.32(2), applicable to both search engines and content aggregation), as they do not comply with the requirements of the first hypothesis of art. 5(3)(d) of the Infosoc Directive, thus cannot be deemed to implement it.<br /><br />The exception applies to neighbouring rights on the basis of the general provision of Art. 132 of the Law."
-link: https://wipolex.wipo.int/en/text/507842
+link: https://www.boe.es/eli/es/rdlg/1996/04/12/1/con
+
 ---
