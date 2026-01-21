@@ -29,6 +29,7 @@ otherConditions:
 - lawful access
 - storage (copies of works or other subject-matter shall be stored withan appropriate level of security and may be retained for the purposes of scientific research, including for the verification ofresearch results)
 - rightholders shall be allowed to apply measures to ensure the security and integrity of the networks and databases where the works or other  subject-matter are hosted. Such measures shall not go beyond what is necessary to achieve that objective.
-remarks: "The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights.."
+- 3-step test (the exception is only applicable in particular cases which do not conflict with a normal exploitation of the work or other subject-matter and do not unreasonably prejudice the legitimate interests of the rightholder
+remarks: "Under art.8, any contractual provision contrary to the exception is unenforceable. Where the application of any effective technological measure to a work prevents any beneficiary from benefiting from that exception, the rightholder shall make available to the beneficiary the means  of benefiting from that exception, to the extent necessary to benefit from that exception.<br /><br />The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights."
 link: https://legislation.mt/eli/sl/415.8/eng?utm_source=chatgpt.com
 ---
