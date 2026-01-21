@@ -27,6 +27,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no remuneration required
 attribution: 
@@ -34,5 +35,6 @@ attribution:
 otherConditions: 
 - works used must be seen or heard as a part of a current event that is being reported
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act.<br /><br />The provision of art. 48(1)2 of the Slovenian Copyright Law can be regarded as a 'press review' exception because it covers the 'preparation and reproduction of abstracts of published newspaper and similar articles in the form of press reviews'. However, art. 48(1)2 does not meet two basic requirements of the respective InfoSoc provision of the 1st hypothesis of art.5(3)(c) - (i) the limitation of the thematic scope of the works used to current economic, political or religious topics and (ii) the reservation option in favour of the rightsholder. At the same time, art. 48(1)2 expressly limits the use to the purpose of informing the public, which is a typical characteristic of the 'reporting of current events' exception. This is why it is submitted that the 'press review' exception is not transposed proper in Slovenia and the 'preparation and reproduction of abstracts of published newspaper and similar articles in the form of press reviews' is regarded as part of the 'reporting of current events' exception's implementation."
-link: https://wipolex.wipo.int/en/text/422515
----
+link:[
+](https://www.wipo.int/wipolex/en/legislation/details/21946
+)---
