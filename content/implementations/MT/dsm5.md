@@ -24,10 +24,12 @@ compensation:
 attribution: 
 - the source, including the author’s name, must be indicated, unless impossible
 otherConditions: 
+- lawful access
 - the use must take place either under the responsibility of an educational establishment, on its premises or at other venues, or through a secure electronic environment accessible only by the educational establishment’s pupils or students and teaching staff
 - the exception is overridable by licence availability with regards to works or other subject-matter which are intended primarily for the educational market
 - the digital use referred to in the exception is understood to cover the specific accessibility needs of persons with adisability in the context of illustration for teaching.
-- the use under the responsibility of an education establishment established in Malta shallbe deemed to occur solely in Malta
-remarks: "The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights."
+- the use under the responsibility of an education establishment established in Malta shall be deemed to occur solely in Malta
+- 3-step test (the exception is only applicable in particular cases which do not conflict with a normal exploitation of the work or other subject-matter and do not unreasonably prejudice the legitimate interests of the rightholder)
+remarks: "Under art.8, any contractual provision contrary to the exception is unenforceable. Where the application of any effective technological measure to a work prevents any beneficiary from benefiting from that exception, the rightholder shall make available to the beneficiary the means  of benefiting from that exception, to the extent necessary to benefit from that exception.<br /><br />The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights."
 link: https://legislation.mt/eli/sl/415.8/eng
 ---
