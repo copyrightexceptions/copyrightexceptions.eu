@@ -28,6 +28,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - volume of use is limited to the degree required for preservation
-remarks: "According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
+remarks: "As per para 2 of art.22A, any contractual provision contrary to the exception is void. According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
 link: https://opi.gr/en/library/law-2121-1993/#a21a
 ---
