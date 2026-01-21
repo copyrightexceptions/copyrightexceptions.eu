@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - payment of fair remuneration required
 attribution: 
@@ -30,5 +31,6 @@ otherConditions:
 - reproduction may be performed in a maximum of three copies 
 - entire books, graphic editions of music works, electronic databases, computer programs and architectural constructions are explicitely excluded from the scope of the exception; except where a written work in the volume of the entire book has been out-of-commerce for at least two years; or graphic editions of a musical works are copied by hand
 remarks: "Compensation fees are regulated in a different legislative act - 'Regulation on the amounts of remuneration for private and internal reproduction' of 2006.<br /><br />This reproduction exception shares a provision with the reprography and the private copying ones and is cosidered 'reproduction for internal purposes'. The low score is due to the prohibition of reproduction of entire books and sheet music for the purposes of cultural heritage institutions, notwithstanding the purpose (incl. for preservation purposes).<br /><br />According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: https://wipolex.wipo.int/en/text/422515
----
+[
+](https://www.wipo.int/wipolex/en/legislation/details/21946
+)---
