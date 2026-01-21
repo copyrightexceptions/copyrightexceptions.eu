@@ -16,7 +16,7 @@ purposes:
 usage:
 - any (digital) use
 subjectmatter:
-- works (other than computer programmes)
+- works
 - databases
 - press publications
 compensation:
