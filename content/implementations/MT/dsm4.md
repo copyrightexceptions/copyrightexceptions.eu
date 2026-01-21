@@ -25,8 +25,10 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
+- lawful access
 - the exception applies unless use has been expressly reserved by the rightholders in an appropriate manner, such as machine-readable means in the case of content made publicly available online
-- reproductions and extractions may be retained for as longas is necessary
-remarks: "The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights."
+- reproductions and extractions may be retained for as long as is necessary
+- 3-step test (the exception is only applicable in particular cases which do not conflict with a normal exploitation of the work or other subject-matter and do not unreasonably prejudice the legitimate interests of the rightholder)
+remarks: "Under art.8, any contractual provision contrary to the exception is unenforceable. Where the application of any effective technological measure to a work prevents any beneficiary from benefiting from that exception, the rightholder shall make available to the beneficiary the means  of benefiting from that exception, to the extent necessary to benefit from that exception.<br /><br />The exception appears not to apply to other related rights, apart from press publishers’ rights and sui generis database rights."
 link: https://legislation.mt/eli/sl/415.8/eng
 ---
