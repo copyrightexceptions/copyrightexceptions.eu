@@ -33,6 +33,6 @@ otherConditions:
 - use must not exceed 5% of the total extent of the work or does not exceed an article lawfully published to a newspaper or a periodical or a poem or a work of visual arts, including photographic works
 - the exception does not apply to any type of subject-matter for which appropriate licenses are 'easily available on the market'
 - use through secure electronic environment is considered to take place exclusively in the Member State where the education institution has its registered offices
-remarks: "This exception is mechanically added to an already very restrictive pre-existing teaching exception in art.21, para 1.<br /><br />Art. 21A seems not to cover extraction of databases.<br /><br />According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
+remarks: "This exception is mechanically added to an already very restrictive pre-existing teaching exception in art.21, para 1.<br /><br />As per para 6 of art.21, any contractual provision contrary to the exception is void.<br /><br />According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
 link: https://opi.gr/en/library/law-2121-1993/#a21a
 ---
