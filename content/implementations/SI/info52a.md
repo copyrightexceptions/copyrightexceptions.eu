@@ -17,6 +17,7 @@ usage:
 - reproduction (on paper or similar medium using photocopying or other photographic technique with similar effects)
 subjectmatter:
 - works (except entire books, graphic editions of music works, electronic databases, computer programs and architectural constructions, unless books have been out-of-commerce for at least two years; or graphic editions of a musical works are copied by hand)
+- press publications
 compensation:
 - payment of fair remuneration required
 attribution: 
@@ -26,5 +27,4 @@ otherConditions:
 - reproduction may be performed in a maximum of three copies 
 - entire books, graphic editions of music works, electronic databases, computer programs and architectural constructions are explicitely excluded from the scope of the exception; except where a written work in the volume of the entire book has been out-of-commerce for at least two years; or graphic editions of a musical works are copied by hand
 remarks: "Compensation fees are regulated in a different legislative act - 'Regulation on the amounts of remuneration for private and internal reproduction' of 2006.<br /><br />The reproduction exception shares a provision with the private copying and the reproduction by libraries ones.<br /><br />According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: https://wipolex.wipo.int/en/text/422515
----
+[](https://www.wipo.int/wipolex/en/legislation/details/21946)---
