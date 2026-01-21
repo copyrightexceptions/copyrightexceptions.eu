@@ -1,6 +1,6 @@
 ---
 title: "Article 9(1)i of Chapter 415 of the Laws of Malta"
-date: 2003
+date: 2001.01.01
 draft: false
 weight: 59
 exceptions:
