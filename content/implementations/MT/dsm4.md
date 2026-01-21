@@ -17,7 +17,7 @@ usage:
 - reproduction 
 - extraction
 subjectmatter:
-- works (other than computer programmes)
+- works
 - databases
 - press publications
 compensation:
