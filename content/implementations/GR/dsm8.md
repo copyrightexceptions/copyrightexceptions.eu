@@ -7,7 +7,7 @@ exceptions:
 - dsm8
 jurisdictions:
 - GR
-score: 
+score: 3
 description: "This exception allows cultural heritage institutions to reproduce, distribute, make available and provide to the public on non-commercial websites, exclusively for non–commercial purposes, out-of-commerce works or other subject–matter that are permanently in their collections. The exception is solely applicable to types of works for which no sufficiently representative collective management organisation is established and operates lawfully within Greek territory." 
 beneficiaries:
 - cultural heritage institutions
