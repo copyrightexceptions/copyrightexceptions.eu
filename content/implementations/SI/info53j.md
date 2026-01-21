@@ -26,5 +26,5 @@ otherConditions:
 - use must be limited to the extent necessary to promote the event
 - use must not involve direct or indirect economic advantage
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: [
-](https://www.wipo.int/wipolex/en/legislation/details/21946)---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
+---

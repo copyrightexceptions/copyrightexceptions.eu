@@ -30,5 +30,5 @@ otherConditions:
 - works used must be from the benefieciaries' collections
 - use must not contradict the terms of existing licensing agreements for the respective work
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: [
-](https://www.wipo.int/wipolex/en/legislation/details/21946)---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
+---

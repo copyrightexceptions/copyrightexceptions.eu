@@ -26,5 +26,5 @@ otherConditions:
 - the owner must respect the author’s right to integrity of the work
 - works of architecture that have been awarded a prize in an open contest are expressly excluded from the scope of the exception
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: [
-](https://www.wipo.int/wipolex/en/legislation/details/21946)---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946)
+---
