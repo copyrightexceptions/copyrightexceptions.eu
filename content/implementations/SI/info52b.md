@@ -33,6 +33,5 @@ otherConditions:
 - copies must not be handed over or communicated to the public
 - direct or indirect economic benefits must not be intended
 remarks: "Compensation fees are regulated in a different legislative act - 'Regulation on the amounts of remuneration for private and internal reproduction' of 2006.<br /><br />The private copying exception shares a provision with the reprography and the reproduction by libraries ones.<br /><br />According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-[
-](https://www.wipo.int/wipolex/en/legislation/details/21946
-)---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
+---

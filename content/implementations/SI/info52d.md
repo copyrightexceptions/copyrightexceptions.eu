@@ -35,6 +35,5 @@ otherConditions:
 - beneficiary must destroy ephemeral fixations no later than one month after the broadcast
 - beneficiary must immediately notify the author of the work about the archivation
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-[
-](https://www.wipo.int/wipolex/en/legislation/details/21946
-)---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
+---

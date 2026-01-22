@@ -34,4 +34,5 @@ otherConditions:
 - use must be limited in scope 
 - use must not be intended to achieve direct or indirect economic benefit
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-https://www.wipo.int/wipolex/en/legislation/details/21946---
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
+---

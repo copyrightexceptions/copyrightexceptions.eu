@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - GR
 score: 3
-description: "This exception allows for the reproduction by research organisations and cultural heritage institutions, of works or other subject–matter to which they have lawful access, to conduct text and data mining for the purpose of scientific research.
+description: "This exception allows for the reproduction by research organisations and cultural heritage institutions, of works or other subject–matter to which they have lawful access, to conduct text and data mining for the purpose of scientific research."
 beneficiaries:
 - research organisations 
 - cultural heritage institutions
