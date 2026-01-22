@@ -1,5 +1,5 @@
 ---
-ttitle: "Article XI.190, 12° of the Code of Economic Law (CEL)"
+title: "Article XI.190, 12° of the Code of Economic Law (CEL)"
 date: 2022-08-01
 draft: false
 weight: 13

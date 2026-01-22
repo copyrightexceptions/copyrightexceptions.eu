@@ -1,5 +1,5 @@
 ---
-title: "Article 4 of S.L. 415.08 of the Laws of Malta"
+title: "Article 7 of S.L. 415.08 of the Laws of Malta"
 date: 2021-06-18 
 draft: false
 weight: 13
