@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -31,6 +32,6 @@ otherConditions:
 - works used must be lawfully published 
 - use must be compatible with fair practice 
 - use must be limited to the volume justified by the purpose
-remarks: "Under art. 52 of the Law the limitation also applies mutatis mutandis to related rights."
+remarks: "The scope of the exception was slightly broadened in 2023 through the implementation of art. 17 of the CDSM Directive, which introduced a fairly neutral quotation exception limited to user uploads and the making available of user-generated content on online content-sharing service providers. It is not formulated as a supplement to the existing quotation exception, nor as a self-standing limitation under Chapter IV of the Law, but rather as part of the platform liability regime pursuant to art.66F, para 8.<br /><br />Under art. 52 of the Law the limitation also applies mutatis mutandis to related rights."
 link: https://www.opi.gr/en/library/law-2121-1993#a19
 ---

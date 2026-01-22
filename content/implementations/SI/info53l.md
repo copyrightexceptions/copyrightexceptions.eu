@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications 
 compensation:
 - no compensation required
 attribution: 
@@ -29,5 +30,5 @@ attribution:
 otherConditions: 
 - use is limited to the extent necessary for the purpose of testing
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: https://wipolex.wipo.int/en/text/422515
+link: https://www.wipo.int/wipolex/en/legislation/details/21946)
 ---

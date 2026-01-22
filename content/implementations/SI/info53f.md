@@ -18,11 +18,12 @@ usage:
 - public communication
 subjectmatter:
 - public political speeches and public speeches made at hearings before state, religious or similar bodies
+- press publications 
 compensation:
 - no remuneration required
 attribution: 
 - the source and author of the work must be stated, if it is stated on the used work
 otherConditions: 
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act.<br /><br />The provision of art. 48(1)3 shares a provision with the Slovenian 'reporting of current events' exception."
-link: https://wipolex.wipo.int/en/text/422515
+link: https://www.wipo.int/wipolex/en/legislation/details/21946
 ---

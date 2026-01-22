@@ -23,6 +23,7 @@ subjectmatter:
 - Videograms
 - Programme broadcasts
 - First publications or scientific and critical publications
+- press publications
 compensation:
 - No compensation requirement
 attribution: 
@@ -35,9 +36,7 @@ remarks: "Poland has one exception covering all types of uses of works for educa
 The beneficiaries of these exceptions are, explicitly listed in the Act, educational institutions entering the education system (e.g. schools, but not entities running the so-called language schools) (see Articles 2 and 4.29d of the Education Law Act of 14 December and Article 127 (2) and (3) of the Act of 11 September 2003 on the Military Service of Professional Soldiers) and entities entering the higher education system (e.g. universities) (see Article 7.1 (1), (2), and (4) to (8) of the Act of 20 July 2018 - The Law on Higher Education and Science). They can be public and private entities.<br /><br />
 The exceptions cover uses of originals and translations of disseminated works. Reproductions are subject to a quantitative limitation: only minor works or parts of larger works can be reproduced. It is not entirely clear whether the quantitative restriction only applies to the reproduction of works or also to other activities (e.g. making works publicly available).<br /><br />  
 In the case of making works publicly available (e.g. for distance learning), the use is allowed only for a limited number of persons, who are learners or who teach or conduct scientific research, identified by the beneficiaries (Art. 27 (2)). 
-These exceptions are not subject to compensation. These exceptions require attribution and are subject to the 3-step test. An interpretation of these provisions indicates that the use may not be commercial.
-
-The exception does not apply to the use of computer programs (Art. 77 (1))."
+These exceptions are not subject to compensation. These exceptions require attribution and are subject to the 3-step test. An interpretation of these provisions indicates that the use may not be commercial. <br /><br />  Under article 100, the exercise of the related rights is subject to the restrictions referred to in Articles 23-35, respectively. The exception does not apply to the use of computer programs (Art. 77 (1))."
 link: https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19940240083/U/D19940083Lj.pdf
 ---
 An English version of the law can be consulted here: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php 

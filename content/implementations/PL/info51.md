@@ -25,6 +25,7 @@ subjectmatter:
 - programme broadcasts
 - first editions
 - scientific and critical editions
+- press publication
 compensation:
 - no compensation required
 attribution: 
@@ -33,6 +34,6 @@ otherConditions:
 - the reproduction must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
-remarks: "Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. Authors do not have the right to remuneration, unless stipulated otherwise...<br /><br />Under article 100, the exercise of the rights in artistic performances, phonograms, videograms and programme broadcasts, first editions or scientific and critical editions, is subject to the restrictions referred to in Articles 23-35, respectively."
+remarks: "Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. Authors do not have the right to remuneration, unless stipulated otherwise.<br /><br />Under article 100, the exercise of relatedd rights is subject to the restrictions referred to in Articles 23-35, respectively."
 link: http://www.copyright.gov.pl/pages/main-page/law-and-ordinances.php
 ---

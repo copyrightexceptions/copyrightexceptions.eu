@@ -23,7 +23,8 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
-compensation:
+- press publications
+- compensation:
 - no compensation required
 attribution: 
 - no attribution required
@@ -32,5 +33,6 @@ otherConditions:
 - temporary acts of reproduction must be an integral and essential part of a technological process
 - temporary acts of reproduction must have no independent economic significance
 remarks: "According to Article 4 of the CRRA, the provisions on 'the substantive restrictions on copyright' apply mutatis mutandis to related rights, unless otherwise provided in Chapter Five of the Act."
-link: https://wipolex.wipo.int/en/text/422515
+[link: https://wipolex.wipo.int/en/text/422515](https://www.wipo.int/wipolex/en/legislation/details/21946
+)
 ---
