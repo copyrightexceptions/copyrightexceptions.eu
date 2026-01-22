@@ -30,7 +30,7 @@ subjectmatter:
 - broadcasts
 - press publications
 compensation:
-- no compensation required
+- storage media remuneration applicable under §42b
 attribution: 
 - no attribution required
 otherConditions: 
