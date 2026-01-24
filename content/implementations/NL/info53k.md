@@ -1,5 +1,5 @@
 ---
-title: "Article 18b of the Copyright Act"
+title: "Artikel 18b Auteurswet"
 date: 2021-06-07
 draft: false
 weight: 61
