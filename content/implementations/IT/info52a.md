@@ -17,12 +17,14 @@ usage:
 - reproduction
 subjectmatter:
 - printed works
+- press publications
 compensation:
 - compensation due (as agreed between SIAE and the interested trade associations; remuneration cannot be less than the average per-page-price determined each year by ISTAT2 per reproduced page)
 attribution: 
 - no attribution required
 otherConditions: 
 - use is limited to 15% of each volume or issue of a magazine, excluding advertising pages
-remarks: ""
-link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
+remarks: "Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title 
+"
+link: Ihttps://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
 ---
