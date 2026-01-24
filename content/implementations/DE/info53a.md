@@ -29,6 +29,6 @@ compensation:
 attribution:
 otherConditions: 
 - Quantity limitations
-remarks: "This this a very complicated mess. Each of these four exceptions deserves its own analysis, there is lots of work to be done here"
+remarks: "This is a very complicated mess. Each of these four exceptions deserves its own analysis, there is lots of work to be done here"
 link: "https://dejure.org/gesetze/UrhG/60a.html"
 ---
