@@ -25,8 +25,8 @@ subjectmatter:
 - press publications
 compensation:
 - not required  
-attribution: 
-- bot required
+attribution:
+- not required
 otherConditions:
 - the moral rights of the author must be observed
 - the broadcasting organisation must be authorised to broadcast the work
