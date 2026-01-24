@@ -15,7 +15,7 @@ beneficiaries:
 purposes: 
 - text and data mining for scientific research
 usage:
-- reporductions
+- reproductions
 - extractions
 subjectmatter:
 - works
