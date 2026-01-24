@@ -28,7 +28,7 @@ attribution:
 - not required 
 otherConditions: 
 - The work must part of the own collection of the beneficiary
-- The reproduction must be necessary for the purpose of reproduction.
+- The reproduction must be necessary for the purpose of preservation.
 remarks: "This exception is a slightly modified version of the existing Dutch implementation of the optional exception contained in Article 5(2)c of the InfoSoc directive. There are corresponding provisions in Article 10(f) of the Neighbouring rights act and 4a(d) of the Database Act. The exception cannot be overridden by contract."
 link: 
 ---
