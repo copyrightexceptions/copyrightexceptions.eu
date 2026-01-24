@@ -8,49 +8,49 @@
 
 {"implementations" : {
 {{- range $index, $element := $pages -}}
-	
+
 	{{/* Test if the subsection contains documents */}}
 	{{-  if not .IsSection -}}
-		
-		{{/* Test if this is the same jurisdiction as last time */}}		
+
+		{{/* Test if this is the same jurisdiction as last time */}}
 		{{- if not (eq ($scratch.Get "currentJurisdiction") (path.Base .File.Dir)) -}}
 			{{- $scratch.Set "newJurisdiction" true -}}
 		{{- else -}}
 			{{- $scratch.Set "newJurisdiction" false -}}
 		{{- end -}}
-		
-		
-		{{- if ($scratch.Get "newJurisdiction") -}}	
-			
+
+
+		{{- if ($scratch.Get "newJurisdiction") -}}
+
 			{{/* if there is a previous section, close it  */}}
 			{{- if not (eq ($scratch.Get "currentJurisdiction") "") -}}
 				}},
 			{{- end -}}
-			
+
 			{{- $scratch.Set "currentJurisdiction" (path.Base .File.Dir) -}}
-			
+
 			{{/* create new dict for jurisdiction */}}
-			"{{- $scratch.Get "currentJurisdiction" -}}" : {			
-		
+			"{{- $scratch.Get "currentJurisdiction" -}}" : {
+
 		{{- else -}}
 			},
 		{{- end -}}
-		
+
 		{{/* Main mapping */}}
-		"{{- .File.BaseFileName -}}": 
+		"{{- .File.BaseFileName -}}":
 		{
 		"link": "{{- .Params.link -}}",
 		"description": "{{ (replace .Params.description "\n" "<br/>") | safeHTML}}",
-		
+
 		"compensation": "{{- .Params.compensation -}}",
 		"title": "{{- .Params.title -}}",
 		"score": "{{- .Params.score -}}"
-		
+
 		{{/* Test if this is the last item to process, to wrap up the dict */}}
 		{{- if (eq (add $index 1) $len) -}}
 			}
 		{{- end -}}
-		
+
 	{{- end -}}
 {{- end -}}
 }

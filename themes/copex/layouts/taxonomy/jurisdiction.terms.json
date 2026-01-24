@@ -3,8 +3,8 @@
 
 {
 {{- range $index, $element := $pages -}}
-	"{{ path.Base .File.Dir }}" : { 
-	"name" : "{{ index .Params "name" }}", 
+	"{{ path.Base .File.Dir }}" : {
+	"name" : "{{ index .Params "name" }}",
 	"legalarrangement" : {{ if isset .Params "legalarrangement" }}"{{ index .Params "legalarrangement" }}"{{else}}""{{ end }}
 	{{- if not (eq (add $index 1) $len) -}}
 		},
