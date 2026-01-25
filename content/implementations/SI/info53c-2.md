@@ -7,7 +7,6 @@ exceptions:
 - info53c-2
 jurisdictions:
 - SI
-score: 
 score: 2
 description: "This exception allows, for the purpose of informing the public, for (i) the reproduction of works, which are being seen or heard as a part of a current event that is being reported on and (ii) the preparation and reproduction of abstracts of published newspaper and similar articles in the form of press reviews. The exception applies mutatis mutandis to public communications of the works mentioned therein. The source and authorship of the work must be indicated, if the latter is indicated on the work used" 
 beneficiaries:
