@@ -7,7 +7,7 @@ exceptions:
 - info53l
 jurisdictions:
 - EE
-score: 
+score: 0
 description: "" 
 beneficiaries:
 purposes: 
