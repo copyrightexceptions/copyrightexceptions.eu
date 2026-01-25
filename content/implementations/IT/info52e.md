@@ -17,11 +17,12 @@ usage:
 - reproduction
 subjectmatter:
 - broadcasts
+- press publications
 compensation:
 - fair compensation determined by a Ministerial decree is required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: ""
-link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
+remarks: "Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title I "
+link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
 ---
