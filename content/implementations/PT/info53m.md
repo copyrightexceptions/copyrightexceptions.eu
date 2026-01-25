@@ -7,7 +7,7 @@ exceptions:
 - info53m
 jurisdictions:
 - PT
-score: 
+score: 3
 description: "This exception allows for the use of an artistic work in the form of a building, a drawing or plan of a building for the purpose of reconstruction or repair." 
 beneficiaries:
 - any user
