@@ -34,7 +34,6 @@ otherConditions:
 - after its use the recording must be destroyed or rendered unusable
 - recordings peserved in archives must be of exceptional documentary nature
 - recordings in archives must not be used for further economic or commercial exploitation
-remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title I 
-"
+remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I"
 link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
 ---

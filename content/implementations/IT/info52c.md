@@ -32,8 +32,7 @@ otherConditions:
 - use must not encompass any direct or indirect economic or commercial advantage
 - use must serve 'internal' purposes only
 - reprography by individual members of the public is limited to 15% of the printed work, unless the work is out-of commerce
-remarks: ""
-link: Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title I 
-tps://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633
+remarks: "Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I"
+link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633
 
 ---

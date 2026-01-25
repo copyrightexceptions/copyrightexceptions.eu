@@ -30,7 +30,6 @@ otherConditions:
 - the reproduction must not be carried out by a third party
 - the supply of services for the purpose of enabling the reproduction of phonograms and videograms by a natural person for personal is deemed to constitute an act of reproduction, thus cannt fall under the exception
 - the exception does not apply to protected works and subject matter made available to the public in such a way that members of the public may access them from a place and at a time individually chosen by them when the work is protected by the technological measures or when the access is permitted on the basis of agreed contractual terms
-remarks: "Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title 
-"
-link: Ihttps://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
+remarks: "Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I"
+link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
 ---

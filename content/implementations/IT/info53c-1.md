@@ -27,8 +27,7 @@ attribution:
 otherConditions: 
 - reproduction or utilization must not be expressly reserved by the rightsholder
 - articles and other subject matter used must be published in magazines or newspapers or broadcast or made available to the public
-remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />.Under art. 71decies, exceptions and limitations to authors’ right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers’ right) explicitly references the exceptions and limitations in Chapter V of Title I 
-"
+remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I"
 link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633
 
 ---

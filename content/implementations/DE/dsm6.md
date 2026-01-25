@@ -29,6 +29,6 @@ attribution:
 - the source, including the name of the author, must in all cases be acknowledged unless this is not possible
 otherConditions: 
 - works used must be from beneficiaries' holdings or exhibitions
-remarks: "TThe implementation of art.6 of the CDSM Directive builds on the existing implementation of art.5(2)(c) of the InfoSoc Directive by broadening the pre-existing reproduction exception to also cover publicly accessible institutions operating for commercial purposes, insofar as preservation is concerned.<br /><br />The exception applies accordingly to performances (§83 UrhG), phonograms (§85(4) UrhG), broadcasts (§87(4) UrhG), press publications (§87i UrhG) and film fixations (§94 UrhG)."
+remarks: "The implementation of art.6 of the CDSM Directive builds on the existing implementation of art.5(2)(c) of the InfoSoc Directive by broadening the pre-existing reproduction exception to also cover publicly accessible institutions operating for commercial purposes, insofar as preservation is concerned.<br /><br />The exception applies accordingly to performances (§83 UrhG), phonograms (§85(4) UrhG), broadcasts (§87(4) UrhG), press publications (§87i UrhG) and film fixations (§94 UrhG)."
 link: https://dejure.org/gesetze/UrhG/60e.html
 ---
