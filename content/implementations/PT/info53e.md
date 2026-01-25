@@ -7,7 +7,7 @@ exceptions:
 - info53e
 jurisdictions:
 - PT
-score: 
+score: 3
 description: "This exception allows for the use of works for the purposes of public security or to ensure the smooth running or reporting of administrative, parliamentary or judicial proceedings." 
 beneficiaries:
 - any user
