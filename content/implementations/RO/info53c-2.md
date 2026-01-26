@@ -24,6 +24,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -33,5 +34,4 @@ otherConditions:
 - use must be limited to the extent justified by the purpose of the information
 - only short fragments of works can be used
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
