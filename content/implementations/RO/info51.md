@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -32,5 +33,4 @@ otherConditions:
 - the act of reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+(https://legislatie.just.ro/Public/DetaliiDocument/7816)---
