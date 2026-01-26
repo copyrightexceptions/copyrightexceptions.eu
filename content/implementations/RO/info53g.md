@@ -30,4 +30,5 @@ otherConditions:
 - use must be in accordance with good practice, must not hinder the normal exploitation of the work and harm the author
 - works used must be made public
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

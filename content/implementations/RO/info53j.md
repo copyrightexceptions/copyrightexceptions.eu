@@ -27,4 +27,5 @@ otherConditions:
 - use must be non-commercial
 - works must be already made public
 remarks: ""
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

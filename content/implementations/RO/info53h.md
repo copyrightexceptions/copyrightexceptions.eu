@@ -29,4 +29,5 @@ attribution:
 otherConditions: 
 - the image of the work must not be the main subject of the reproduction, distribution or communication 
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

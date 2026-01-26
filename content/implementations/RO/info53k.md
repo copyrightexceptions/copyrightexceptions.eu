@@ -26,4 +26,5 @@ otherConditions:
 - the original work must be already disclosed to the public
 - the derivative work must not cause confusion with the original work and the author thereof
 remarks: "In terms of purposes, the exception does not cover pastiche. In June 2018 the numeration of articles of the Romanian Copyright Act was changed."
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

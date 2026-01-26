@@ -29,5 +29,6 @@ attribution:
 otherConditions: 
 - the needs of the beneficieries must be directly related to their disabilities
 - the use must not exceed the extent justified by the purpose
-remarks: “Section 33 (1) of the law limits the applicability of exceptions and limitations to publicly available works only.<br /><br/>The exception applies to all neighbouring rights. Pursuant to Section 83 of the Law, the consent of neighbouring rights holders is not required in cases where the author’s consent is not required.”
-link: (https://mkogy.jogtar.hu/jogszabaly?docid=99900076.TV)---
+remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to publicly available works only.<br /><br/>The exception applies to all neighbouring rights. Pursuant to Section 83 of the Law, the consent of neighbouring rights holders is not required in cases where the author's consent is not required."
+link: https://mkogy.jogtar.hu/jogszabaly?docid=99900076.TV
+---

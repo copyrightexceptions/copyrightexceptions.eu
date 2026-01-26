@@ -50,6 +50,33 @@ Each implementation file in `/content/implementations/{CC}/{exception}.md` conta
 - **Build**: `hugo`
 - **Add implementation**: Create `.md` file in `/content/implementations/{CC}/`
 
+## Reviewing Recently Changed Files
+
+When asked to review recently merged PRs or changed files, use **batch operations** for efficiency:
+
+### DO (Efficient Approach):
+1. **Get all changed files at once**: Use `git diff --name-only` or list recent PRs to see all affected files
+2. **Find common issues with grep/sed**: Use simple patterns to identify recurring problems across all files
+   - Example: `grep -l 'link:.*---$'` to find link formatting issues
+   - Example: `grep -l 'remarks:.*"$'` to find missing closing quotes
+3. **Report all issues first**: List all problems found before attempting fixes
+4. **Fix in batch when possible**: Use sed or simple scripts to fix the same issue across multiple files
+5. **Test once at the end**: Run `hugo` after all fixes are complete
+
+### DON'T (Inefficient Approach):
+- ❌ Read and check files one by one
+- ❌ Make individual edits for each file separately
+- ❌ Test after every single change
+- ❌ Use complex solutions (Python scripts, spawning agents) for simple pattern fixes
+- ❌ Get stuck debugging YAML parsing for individual files
+
+### Common YAML Issues to Check:
+- **Missing closing quotes**: `remarks: "text...` should end with `"`
+- **Malformed links**: `link: (URL)---` should be `link: URL` on one line, `---` on the next
+- **Trailing spaces**: Fields ending with spaces (use `sed` to strip)
+- **Missing scores**: Empty `score:` fields
+- **Empty beneficiaries**: Fields with no list items
+
 ## Data Quality Notes
 
 ### General Formatting

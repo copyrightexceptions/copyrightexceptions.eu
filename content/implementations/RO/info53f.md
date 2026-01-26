@@ -30,4 +30,5 @@ otherConditions:
 - use must be in accordance with good practice, must not hinder the normal exploitation of the work and harm the author
 - works used must have been expressed orally in public
 remarks: ""
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---
