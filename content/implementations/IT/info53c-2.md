@@ -30,6 +30,6 @@ attribution:
 otherConditions: 
 - use is limited to the extent justified by the informatory purpose
 - the scope of the exception covers works or protected subject-matters utilized during current events
-remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder\'s authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors\' right apply also to the neighbouring rights."
+remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights."
 link: https://www.wipo.int/edocs/lexdocs/laws/en/it/it211en.pdf
 ---
