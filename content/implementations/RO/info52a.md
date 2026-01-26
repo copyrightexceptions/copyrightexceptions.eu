@@ -13,9 +13,9 @@ beneficiaries:
 purposes: 
 usage:
 subjectmatter:
+-press publications
 compensation:
 attribution: 
 otherConditions: 
 remarks: ""
-link: 
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
