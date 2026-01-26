@@ -22,6 +22,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -30,5 +31,4 @@ otherConditions:
 - use must be in accordance with good practice, must not hinder the normal exploitation of the work and harm the author
 - works used must be made public
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations.<br /><br />Although there is no restriction to beneficiaries, the EU Court of Justice has interpreted the InfoSoc provision as meaning that free use may be exercised solely by a competent public authority and, in certain cases, by a third party only in coordination with competent national authorities (Painer, Case C-145/10)."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
