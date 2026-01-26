@@ -21,6 +21,7 @@ subjectmatter:
 - images of works of architecture, plastic, photographic or applied art, permanently placed in public places
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -28,5 +29,4 @@ attribution:
 otherConditions: 
 - the image of the work must not be the main subject of the reproduction, distribution or communication 
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
