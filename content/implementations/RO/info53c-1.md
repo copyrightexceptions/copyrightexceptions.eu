@@ -21,6 +21,7 @@ usage:
 subjectmatter:
 - press articles 
 - radio or television reports
+- press publications 
 compensation:
 - no compensation required
 attribution: 
@@ -31,5 +32,4 @@ otherConditions:
 - works must already be made public
 - rightholders can explicitly forbid use under the exception (opt-out option)
 remarks: ""
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
