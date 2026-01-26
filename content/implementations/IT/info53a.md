@@ -7,12 +7,12 @@ exceptions:
 - info53a
 jurisdictions:
 - IT
-score: 1 
+score: 1
 description: Italy has an exception covering the summary, quotation, reproduction, translation, adaptation and communication to the public of protected materials by digital means that take place under the responsibility of an educational institution on its premises or in other location or in a secure electronic environment (Art. 70-bis(1)). This exception is not subject to compensation, but the use of certain materials is subject to license availability. There's also an exception covering the summary, quotation, reproduction and communication to the public of protected materials for use in criticism and discussion for illustration for teaching or scientific research purposes, which is open to any user and it is not subject to compensation (unless the reproduction is made in anthologies for school use) (Art. 70(1)). Finally, there is an exception allowing the free publication of low resolution or degraded images and music through the Internet, which is open to any user and it is not subject to compensation (Art. 70(1-bis)). These exceptions apply also to performances, phonograms, film fixations and broadcasts (Art. 71-decies).
 beneficiaries:
 - anyone (exception for summary, quotation, reproduction and communication to the public and exception for free publication through the Internet)
 - anyone under the responsibility of an educational institution, on its premises or in other location or in a secure electronic environment, accessible only to teaching staff of that institution and pupils or enrolled students to the course of study in which the works or other materials are used (exception for summary, quotation, reproduction, translation, adaptation and communication to the public by digital means)
-purposes: 
+purposes:
 - use in criticism or discussion for illustration for teaching or scientific research purposes, with non-commercial purposes (exception for summary, quotation, reproduction and communication to the public)
 - educational or scientific use, not for profit (exception for free publication through the Internet)
 - illustration for teaching, with no commercial purposes (exception for summary, quotation, reproduction, translation, adaptation and communication to the public by digital means)
@@ -27,8 +27,8 @@ subjectmatter:
 compensation:
 - not subject to payment of compensation, except if the reproduction is made in anthologies for school use, in which case a fair remuneration is due (exception for summary, quotation, reproduction and communication to the public)
 - not subject to payment of compensation (exception for free publication through the Internet and exception for summary, quotation, reproduction, translation, adaptation and communication to the public by digital means)
-attribution: 
-otherConditions: 
+attribution:
+otherConditions:
 - "quantity limitation: passages or parts; it cannot exceed the measure determined by the regulation (exception for summary, quotation, reproduction and communication to the public)"
 - "quantity limitation: low resolution or degraded (exception for free publication through the Internet)"
 - "quantity limitation: passages or parts; within the limits of what is justified (exception for summary, quotation, reproduction, translation, adaptation and communication to the public by digital means)"

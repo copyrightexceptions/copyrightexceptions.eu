@@ -1,6 +1,6 @@
 ---
 title: "Article 75(x) Código do Direito de Autor e dos Direitos Conexos"
-date: 2023-06-19 
+date: 2023-06-19
 draft: false
 weight: 61
 exceptions:
@@ -8,8 +8,9 @@ exceptions:
 jurisdictions:
 - PT
 score: 3
-description: "This exception allows for the reproduction, communication to the public and making available to the public of works in order to make them accessible to anyone from the place and at the time chosen by them, for the purpose of caricature, parody or pastiche." 
+description: "This exception allows for the reproduction, communication to the public and making available to the public of works in order to make them accessible to anyone from the place and at the time chosen by them, for the purpose of caricature, parody or pastiche."
 beneficiaries:
+- any user
 purposes:
 - caricature, parody or pastiche
 usage:

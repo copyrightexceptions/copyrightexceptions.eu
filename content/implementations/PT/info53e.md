@@ -8,11 +8,11 @@ exceptions:
 jurisdictions:
 - PT
 score: 3
-description: "This exception allows for the use of works for the purposes of public security or to ensure the smooth running or reporting of administrative, parliamentary or judicial proceedings." 
+description: "This exception allows for the use of works for the purposes of public security or to ensure the smooth running or reporting of administrative, parliamentary or judicial proceedings."
 beneficiaries:
 - any user
-purposes: 
-- public security 
+purposes:
+- public security
 - to ensure the smooth running or reporting of administrative, parliamentary or judicial proceedings
 usage:
 - any use
@@ -24,9 +24,9 @@ subjectmatter:
 - broadcasts
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - use must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them
-otherConditions: 
+otherConditions:
 remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br />Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?artigo_id=484A0075&nid=484&tabela=leis&pagina=1&ficha=1&so_miolo=&nversao=#artigo
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Article 68 bis of Law for the Protection of Copyright and Neighbouring Rights"
-date: 2003-04-09 
+date: 2003-04-09
 draft: false
 weight: 30
 exceptions:
@@ -12,7 +12,7 @@ description: "This exception allows for temporary acts of reproduction which hav
 beneficiaries:
 - intermediaries (transmission in a network)
 - any user (other lawful uses)
-purposes: 
+purposes:
 - transmission in a network between third parties by an intermediary
 - other lawful uses
 usage:
@@ -27,9 +27,9 @@ subjectmatter:
 - press publications
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - no attribution required
-otherConditions: 
+otherConditions:
 - the nature of reproductions must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no independent economic significance
