@@ -21,6 +21,7 @@ subjectmatter:
 - works
 - television or radio broadcasts 
 - sound or audio-visual recordings
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -32,5 +33,4 @@ otherConditions:
 - works must previously been made public
 - only brief excerpts from works in publications, in television or radio broadcasts or in sound or audio-visual recordings can be used
 remarks: ""
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link:(https://legislatie.just.ro/Public/DetaliiDocument/7816)---

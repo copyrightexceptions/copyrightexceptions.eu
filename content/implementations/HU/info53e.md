@@ -30,6 +30,6 @@ attribution:
 otherConditions: 
 - use must be limited to a manner and an extent consistent with the purpose
 - use must not be aimed, either directly or indirectly, at earning or increasing income
-remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to publicly available works only.<br /><br/>The exception applies to all neighbouring rights. Pursuant to Section 83 of the Law, the consent of neighbouring rights holders is not required in cases where the author's consent is not required."
+link: https://mkogy.jogtar.hu/jogszabaly?docid=99900076.TV
 ---

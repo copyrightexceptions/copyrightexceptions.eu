@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required 
 attribution: 
@@ -29,5 +30,4 @@ otherConditions:
 - reproduction must cover short extracts from works (for information and research)
 - reproduction of an entire work is permitted only for its replacement, in case of destruction, serious damage or loss of the single copy from the permanent collection of the respective library or archive
 remarks: "According to some commentators, art.35.1.d is the implementation of art. 5.3.n of the InfoSoc Directive. However, its first hypothesis concerning uses for the purposes of information and research only covers reproduction of short excerpts and does not mention in any way providing access to the public. It is not entirely clear what the relationship between the second hypothesis of art. 35.1.d. and art.35.1.d. is. The latter is clearly a literal implementation of art.5.2.c of the InfoSoc Directive, while the former represents an extremely restrictive approach to reproduction for preservation purposes by cultural heritage institutions. There is no known judicial interpretation available.<br /><br />According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link:(https://legislatie.just.ro/Public/DetaliiDocument/7816)---

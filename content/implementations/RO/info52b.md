@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - compensatory remuneration is due
 attribution: 
@@ -29,5 +30,4 @@ otherConditions:
 - the work must be already disclosed to the public
 - the must not hinder the normal use of the work or prejudice the author or the owner to use the rights
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link:(https://legislatie.just.ro/Public/DetaliiDocument/7816)---
