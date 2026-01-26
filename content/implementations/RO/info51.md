@@ -8,11 +8,11 @@ exceptions:
 jurisdictions:
 - RO
 score: 3
-description: "This exception allows for temporary acts of reproduction that are transient or accessory and constitute an integral and essential part of a technical process, and whose sole purpose is to allow the transmission, within a network of third parties by an intermediary, or the lawful use, of a work or of another protected subkect matter and which do not have an economic significance in its own right." 
+description: "This exception allows for temporary acts of reproduction that are transient or accessory and constitute an integral and essential part of a technical process, and whose sole purpose is to allow the transmission, within a network of third parties by an intermediary, or the lawful use, of a work or of another protected subkect matter and which do not have an economic significance in its own right."
 beneficiaries:
 - intermediaries (transmission in a network)
 - any user (other lawful uses)
-purposes: 
+purposes:
 - transmission in a network between third parties by an intermediary
 - other lawful uses
 usage:
@@ -26,11 +26,12 @@ subjectmatter:
 - press publications
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - no attribution required
-otherConditions: 
+otherConditions:
 - the act of reproductions must be transient or accessory
 - the act of reproductions must be an integral and essential part of a technological process
 - the act of reproduction must have no independent economic significance
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-(https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

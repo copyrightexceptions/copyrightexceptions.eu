@@ -1,6 +1,6 @@
 ---
 title: ""
-date: 2021-03-12 
+date: 2021-03-12
 draft: false
 weight: 40
 exceptions:
@@ -8,14 +8,15 @@ exceptions:
 jurisdictions:
 - RO
 score: 0
-description: "The reprography exception is not expressly implemented in Romania. Paper copies are included in the private copying exception (art.36(1)) and under art. 36(2) the compensation system applies to media on which reproductions of graphically expressed works can be made, as well as to copying equipment." 
+description: "The reprography exception is not expressly implemented in Romania. Paper copies are included in the private copying exception (art.36(1)) and under art. 36(2) the compensation system applies to media on which reproductions of graphically expressed works can be made, as well as to copying equipment."
 beneficiaries:
-purposes: 
+purposes:
 usage:
 subjectmatter:
--press publications
+- press publications
 compensation:
-attribution: 
-otherConditions: 
+attribution:
+otherConditions:
 remarks: ""
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

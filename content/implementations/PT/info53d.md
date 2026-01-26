@@ -8,11 +8,11 @@ exceptions:
 jurisdictions:
 - PT
 score: 2
-description: "This exception allows for the insertion of citations or summaries of other people's works, whatever their genre and nature, in support of their own doctrines or for the purpose of criticism, discussion or teaching, and to the extent justified by the objective to be achieved." 
+description: "This exception allows for the insertion of citations or summaries of other people's works, whatever their genre and nature, in support of their own doctrines or for the purpose of criticism, discussion or teaching, and to the extent justified by the objective to be achieved."
 beneficiaries:
 - any user
-purposes: 
-- in support of beneficiaries' own doctrines 
+purposes:
+- in support of beneficiaries' own doctrines
 - for the purpose of criticism, discussion or teaching
 usage:
 - insertion of citations or summaries of other people's works
@@ -25,9 +25,9 @@ subjectmatter:
 - press publications
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - use must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them
-otherConditions: 
+otherConditions:
 - use must be limited to the extent justified by the objective to be achieved
 - works used must not be confused with the work of those who use them
 - reproduction or quotation must not be so extensive as to impair the interest in the original works
