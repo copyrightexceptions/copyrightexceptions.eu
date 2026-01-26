@@ -8,10 +8,10 @@ exceptions:
 jurisdictions:
 - RO
 score: 3
-description: "This exception allows for the use of works previously made public for the benefit of people with disabilities, which are directly related to that disability and to the extent required by the specific disability." 
+description: "This exception allows for the use of works previously made public for the benefit of people with disabilities, which are directly related to that disability and to the extent required by the specific disability."
 beneficiaries:
 - people with disabilities
-purposes: 
+purposes:
 - for the benefit of people with disabilities
 usage:
 - any use
@@ -21,14 +21,15 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
-- press publications 
+- press publications
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - no attribution required
-otherConditions: 
-- use must be directly related to the disability 
+otherConditions:
+- use must be directly related to the disability
 - use must be to the extent required by the specific disability
 - works used must have been made public
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
+---

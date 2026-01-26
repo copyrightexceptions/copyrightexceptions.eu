@@ -55,7 +55,10 @@ Each implementation file in `/content/implementations/{CC}/{exception}.md` conta
 When asked to review recently merged PRs or changed files, use **batch operations** for efficiency:
 
 ### DO (Efficient Approach):
-1. **Get all changed files at once**: Use `git diff --name-only` or list recent PRs to see all affected files
+1. **Get all changed files at once**:
+   - **Best**: Ask user to paste Hugo server output (shows real-time changes with "Source changed" messages)
+   - Use filesystem: `find content/implementations -type f -mmin -30` (files modified in last 30 minutes)
+   - Use git: `git diff --name-only` or list recent PRs (but may be outdated if files not yet committed)
 2. **Find common issues with grep/sed**: Use simple patterns to identify recurring problems across all files
    - Example: `grep -l 'link:.*---$'` to find link formatting issues
    - Example: `grep -l 'remarks:.*"$'` to find missing closing quotes
