@@ -23,6 +23,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 compensation:
 - no compensation required
@@ -35,5 +36,6 @@ otherConditions:
 - the intermediary must not alter the content of the transmission 
 - the intermediary must not interfere with the legitimate use of the technology according to the good market practices, to obtain data on the use of the information, and in general the merely technological transmission processes
 remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
-link: https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?artigo_id=484A0075&nid=484&tabela=leis&pagina=1&ficha=1&so_miolo=&nversao=#artigo
+link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
+
 ---
