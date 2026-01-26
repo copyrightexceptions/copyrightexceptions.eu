@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications 
 compensation:
 - no compensation required
 attribution: 
@@ -30,5 +31,4 @@ otherConditions:
 - use must be to the extent required by the specific disability
 - works used must have been made public
 remarks: "According to art. 120, the provisions regarding the limits of exercising copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organizations."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
----
+link: (https://legislatie.just.ro/Public/DetaliiDocument/7816)---
