@@ -52,6 +52,36 @@ Each implementation file in `/content/implementations/{CC}/{exception}.md` conta
 
 ## Data Quality Notes
 
+### General Formatting
 - Links should be full URLs with `https://`
 - Use `<br /><br />` for paragraph breaks in YAML string fields
 - Attribution field values: "required", "not required", "required if reasonably possible"
+- Ensure all YAML strings are properly quoted and closed (no stray quotes or line breaks mid-string)
+
+### Date Accuracy
+- The `date` field should reflect when the **specific legal provision** came into force, not general reform dates
+- Verify dates against official legal sources, especially for provisions that existed before reforms
+- Example: UrhWissG provisions (§60a-§60f) came into force 2018-03-01, not 2017-09-01
+
+### Draft Status and Implementation
+- If a directive is actually implemented in national law, set `draft: false` and populate all fields
+- Empty draft files may indicate missing implementations that need research
+- Score 0 files (not implemented) should have `draft: false` but minimal content (empty title/description)
+
+### Score Accuracy
+- Score should accurately reflect implementation level based on actual legal provisions:
+  - 0 = Not implemented
+  - 1 = Partial/restrictive implementation
+  - 2 = Substantial implementation with conditions
+  - 3 = Full implementation
+- Verify score matches the substantive legal content described
+
+### Links and References
+- Links should point to the specific section/article referenced in the title
+- Preferred sources: Official legal databases (e.g., dejure.org, gesetze-im-internet.de)
+- Verify links are current and accessible
+
+### Complex Implementations
+- When one file covers multiple legal provisions (e.g., §60a, §60b, §60c), note this clearly in the remarks
+- Consider whether complex multi-provision exceptions should be split into separate files
+- Remarks should provide context about relationship to other provisions or directives

@@ -1,28 +1,28 @@
 ---
 title: ""
-date: 2020-12-09T11:39:35+02:00 
+date: 2020-12-09T11:39:35+02:00
 draft: true
 weight: 80
 exceptions:
 - mkd
 jurisdictions:
 - DE
-score: 
-description: "" 
+score:
+description: ""
 beneficiaries:
-- 
-purposes: 
-- 
+-
+purposes:
+-
 usage:
-- 
+-
 subjectmatter:
-- 
+-
 compensation:
 -
-attribution: 
+attribution:
 -
-otherConditions: 
-- 
+otherConditions:
+-
 remarks: ""
-link: 
+link:
 ---
