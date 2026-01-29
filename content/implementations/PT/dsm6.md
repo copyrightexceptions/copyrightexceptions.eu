@@ -7,7 +7,7 @@ exceptions:
 - dsm6
 jurisdictions:
 - PT
-score:
+score: 3
 description: "This exception allows cultural heritage institutions to reproduce works and other protected materials permanently in their collections, regardless of format or medium, exclusively to guarantee their conservation and to the extent necessary to ensure such conservation."
 beneficiaries:
 - cultural heritage institutions
