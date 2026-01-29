@@ -17,6 +17,7 @@ usage:
 - alteration
 subjectmatter:
 - works
+- press publications 
 compensation:
 - no compensation required
 attribution: 
@@ -25,5 +26,5 @@ otherConditions:
 - the original work must be already disclosed to the public
 - the derivative work must not cause confusion with the original work and the author thereof
 remarks: "In terms of purposes, the exception does not cover pastiche. In June 2018 the numeration of articles of the Romanian Copyright Act was changed."
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
 ---

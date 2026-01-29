@@ -7,20 +7,20 @@ exceptions:
 - dsm5
 jurisdictions:
 - IT
-score: 2 
+score: 2
 description: Italy has an exception covering the summary, quotation, reproduction, translation, adaptation and communication to the public of protected materials by digital means that take place under the responsibility of an educational institution on its premises or in other location or in a secure electronic environment (Art. 70-bis(1)). This exception is not subject to compensation, but the use of certain materials is subject to license availability. This exception applies also to performances, phonograms, film fixations and broadcasts (Art. 71-decies).
 beneficiaries:
 - anyone under the responsibility of an educational institution, on its premises or in other location or in a secure electronic environment, accessible only to teaching staff of that institution and pupils or enrolled students to the course of study in which the works or other materials are used
-purposes: 
+purposes:
 - illustration for teaching, with no commercial purposes
 usage:
 - reproduction, adaptation, communication to the public
 subjectmatter:
-- any work, performance, phonograms, broadcasts, film fixations, press publications 
+- any work, performance, phonograms, broadcasts, film fixations, press publications
 compensation:
 - not subject to payment of compensation
-attribution: 
-otherConditions: 
+attribution:
+otherConditions:
 - "quantity limitations: passages or parts; within the limits of what is justified"
 - "technological limitations: in a secure electronic environment, accessible only to teaching staff of that institution and pupils or enrolled students to the course of study in which the works or other materials are used"
 - "license availability: the exception does not apply to material mainly intended for the education market and sheet music and to musical scores when appropriate voluntary licenses that authorize the uses specified therein are available on the market and when these licenses meet the needs and specificities of the institutes of education and are easily known and accessible by them"

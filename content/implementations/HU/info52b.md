@@ -29,6 +29,6 @@ attribution:
 otherConditions: 
 - architectural works, technical structures, software, computer-operated data banks, sheet music, entire books and entire issues of periodicals are excluded from the scope of the exception
 - the copy cannot be obtained by recording of public performances of works on video or audio media (camcording) or by a third party making copies of works by computer or on electronic data media, regardless of whether or not it is done for private purposes
-remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to published works only."
-link: https://www.hipo.gov.hu/sites/default/files/szjt_lxxvi_1999_en_rev_1.pdf
+remarks: "Section 33 (1) of the law limits the applicability of exceptions and limitations to publicly available works only.<br /><br/>The exception applies to all neighbouring rights. Pursuant to Section 83 of the Law, the consent of neighbouring rights holders is not required in cases where the author's consent is not required."
+link: https://mkogy.jogtar.hu/jogszabaly?docid=99900076.TV
 ---

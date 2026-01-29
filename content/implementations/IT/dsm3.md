@@ -1,28 +1,28 @@
 ---
 title: ""
-date: 2020-12-09T11:39:37+02:00 
+date: 2020-12-09T11:39:37+02:00
 draft: true
 weight: 10
 exceptions:
 - dsm3
 jurisdictions:
 - IT
-score: 
-description: "" 
+score:
+description: ""
 beneficiaries:
-- 
-purposes: 
-- 
+-
+purposes:
+-
 usage:
-- 
+-
 subjectmatter:
-- 
+-
 compensation:
 -
-attribution: 
+attribution:
 -
-otherConditions: 
-- 
+otherConditions:
+-
 remarks: ""
-link: 
+link:
 ---
