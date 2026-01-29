@@ -17,6 +17,7 @@ usage:
 - any use
 subjectmatter:
 - images of works
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -26,5 +27,5 @@ otherConditions:
 - use must be non-commercial
 - works must be already made public
 remarks: ""
-link: http://legislatie.just.ro/Public/DetaliiDocument/221527
+link: https://legislatie.just.ro/Public/DetaliiDocument/7816
 ---

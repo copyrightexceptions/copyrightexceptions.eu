@@ -1,6 +1,6 @@
 ---
 title: "Article 68 bis of Law for the Protection of Copyright and Neighbouring Rights"
-date: 2003-04-09 
+date: 2003-04-09
 draft: false
 weight: 30
 exceptions:
@@ -12,7 +12,7 @@ description: "This exception allows for temporary acts of reproduction which hav
 beneficiaries:
 - intermediaries (transmission in a network)
 - any user (other lawful uses)
-purposes: 
+purposes:
 - transmission in a network between third parties by an intermediary
 - other lawful uses
 usage:
@@ -27,13 +27,13 @@ subjectmatter:
 - press publications
 compensation:
 - no compensation required
-attribution: 
+attribution:
 - no attribution required
-otherConditions: 
+otherConditions:
 - the nature of reproductions must be transient or incidental
 - the reproductions must be an integral and essential part of a technological process
 - the reproduction must have no independent economic significance
 remarks: "The Italian law differs between exceptions, where use is exempt from the rightsholder's authorisation and no payment is due, and limitations, where payment of equitable compensation is due.<br /><br />Under art. 71decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I"
 
-link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=
+link: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633&atto.articolo.numero=0&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=0&qId=d1b1fc15-11a5-46e8-95a9-22a36444d796&tabID=0.5032422992606587&title=lbl.dettaglioAtto
 ---

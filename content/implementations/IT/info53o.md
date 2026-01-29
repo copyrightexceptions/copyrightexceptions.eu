@@ -7,15 +7,15 @@ exceptions:
 - info53o
 jurisdictions:
 - IT
-score: 0 
-description: "" 
+score: 0
+description: ""
 beneficiaries:
-purposes: 
+purposes:
 usage:
 subjectmatter:
 compensation:
-attribution: 
-otherConditions: 
+attribution:
+otherConditions:
 remarks: ""
-link: 
+link:
 ---

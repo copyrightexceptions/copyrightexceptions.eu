@@ -8,14 +8,14 @@ exceptions:
 jurisdictions:
 - LU
 score: 0
-description: "" 
+description: ""
 beneficiaries:
-purposes: 
+purposes:
 usage:
 subjectmatter:
 compensation:
-attribution: 
-otherConditions: 
+attribution:
+otherConditions:
 remarks: ""
-link: 
+link:
 ---
