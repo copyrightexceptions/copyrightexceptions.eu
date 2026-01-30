@@ -27,7 +27,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- no explicit attribution requirement
+- attribution required unless impossible
 otherConditions: 
 - works must be a permanent part of beneficiaries' collections
 - works must be outside of commercial circulation
@@ -35,6 +35,6 @@ otherConditions:
 - there must be no collective management entity that is sufficiently representative as per the criteria of art.36-A of Law No.º 26/2015 (on on CMOs)
 - rightsholders can exclude their works from the use 'anytime'
 - use is considered to occur exclusively in the territory of the Member State of the European Union where the institution is established
-remarks: "Persuant to art.74º-A of the Law, a work is considered to be out-of-commerce when it can be presumed in good faith that the work or other protected material is not, in its entirety, accessible to the public through the usual channels of trade, after a reasonable effort has been made to determine its availability to the public. At the same time, art. 74º-D sets a cut-off date that appears to be a cumulative.<br /><br/>The opt-out mechanism is regulated in paras 5 to 7 of Article 36º-A of Law No.º 26/2015, referenced by art. 74-D, para 2(b) of the Copyright act.<br /><br/>The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "Persuant to art.74º-A of the Law, a work is considered to be out-of-commerce when it can be presumed in good faith that the work or other protected material is not, in its entirety, accessible to the public through the usual channels of trade, after a reasonable effort has been made to determine its availability to the public. At the same time, art. 74º-D sets a cut-off date that appears to be a cumulative.<br /><br/>The opt-out mechanism is regulated in paras 5 to 7 of Article 36º-A of Law No.º 26/2015, referenced by art. 74-D, para 2(b) of the Copyright act.<br /><br/>The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br/>Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
 ---
