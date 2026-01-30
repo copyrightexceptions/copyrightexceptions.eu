@@ -33,6 +33,6 @@ attribution:
 otherConditions: 
 - use must be limited to the extent justified by the non-commercial objective pursued a
 - use must take place under the responsibility of an educational and teaching establishment, on its premises or elsewhere, or through secure electronic means accessible only by students, teachers and technicians in the school context of that same establishment of education and teaching 
-remarks: "The implementation of art.5 of the CDSM Directive in 75(g) co-exists and partially overlaps with the pre-existing teaching exceptions in art.75(e) and (i).<br /><br />The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "The implementation of art.5 of the CDSM Directive in 75(g) co-exists and partially overlaps with the pre-existing teaching exceptions in art.75(e) and (i).<br /><br />The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br/>Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
 ---
