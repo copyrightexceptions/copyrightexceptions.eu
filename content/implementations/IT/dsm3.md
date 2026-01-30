@@ -28,7 +28,7 @@ compensation:
 attribution:
 - no attribution required
 otherConditions:
-- lawful acces to works used
+- lawful access to works used
 - storage and reuse (copies of works or other materials may be stored with an adequate level of security and used only for scientific research purposes, including the verification of research results)
 - safeguards (rightsholders are authorized to apply, to an extent not exceeding what is necessary for the purpose, measures suitable to ensure the security and integrity of the networks and databases in which the works or other materials are hosted. Measures may also be defined on the basis of agreements between associations of rightholders, cultural heritage  institutes and research organisations)
 - the exception cannot be overriden by contract
