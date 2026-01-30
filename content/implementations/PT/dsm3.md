@@ -26,12 +26,12 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution:
-- no attribution required
+- no attribution specifically required
 otherConditions:
 - lawful access
 - materials used must be stored with an adequate level of security and may be kept for scientific research purposes as long as necessary for texts and data mining, including for verification of research results (art.76º)
 - rightsholders may apply measures to ensure the security and integrity of networks and databases in which the works or other protected material are kept, provided that such measures do not exceed what is necessary to achieve this objective, nor prejudice the effective application of the exception provided for therein, and may, in particular, cover the validation of access by selected IP addresses or user authentication
 - rightsholders and research bodies and institutions define the best practices agreed for the application of these conditions
-remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br/>Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
 ---
