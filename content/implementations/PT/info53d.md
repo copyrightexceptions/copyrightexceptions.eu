@@ -1,5 +1,5 @@
 ---
-title: "Article 75(2)(g) Código do Direito de Autor e dos Direitos Conexos"
+title: "Article 75(2)(h) Código do Direito de Autor e dos Direitos Conexos"
 date: 2004-08-24
 draft: false
 weight: 54
@@ -31,6 +31,6 @@ otherConditions:
 - use must be limited to the extent justified by the objective to be achieved
 - works used must not be confused with the work of those who use them
 - reproduction or quotation must not be so extensive as to impair the interest in the original works
-remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code. Also under 189(1)(b), excerpts from a performance, a phonogram, a videogram or a broadcast, provided that the use of such excerpts is justified for the purposes of information or criticism or any other of those that authorise quotations or summaries referred to in Article 75 (2)(g), is exempted from protection by related rights.<br /><br />Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them.<br /><br />Under art 76(2), the works reproduced or cited, in the cases of paragraphs b), d), e), f), g) and h) of paragraph 2 of art 75, must not be confused with the work of those who use them, nor can the reproduction or quotation be so extensive as to impair the interest in those works."
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code. Also under 189(1)(b), excerpts from a performance, a phonogram, a videogram or a broadcast, provided that the use of such excerpts is justified for the purposes of information or criticism or any other of those that authorise quotations or summaries referred to in Article 75 (2)(h), is exempted from protection by related rights.<br /><br />Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them.<br /><br />Under art 76(2), the works reproduced or cited, in the cases of paragraphs b), d), e), f), g), h) and i) of paragraph 2 of art 75, must not be confused with the work of those who use them, nor can the reproduction or quotation be so extensive as to impair the interest in those works."
 link: "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475"
 ---
