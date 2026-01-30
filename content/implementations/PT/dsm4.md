@@ -25,10 +25,10 @@ ubjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- no attribution required
+- no attribution specifically required
 otherConditions: 
 - lawful access
 - use must not have been reserved by the rightsholder in an appropriate manner (through machine readable means in the case of content made available to the public online) 
-remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br/>Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
 ---
