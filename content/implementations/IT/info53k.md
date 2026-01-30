@@ -27,6 +27,6 @@ attribution:
 - no attribution explicitely required
 otherConditions: 
 - use is limited to user upload on online content sharing service providers
-remarks: "The exception was first introduced in implementation of art.17 of the CDSM Directive and only covers user uploads of UGC through an online content sharing service provider.<br /><br />Under art. 71-decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I."
+remarks: "The exception was only introduced in implementation of art.17 of the CDSM Directive and only covers user uploads of UGC through an online content sharing service provider. Furthermore, it is not formulated as a self-standing exception, but rather as a part of the platform liability regime.<br /><br />Under art. 71-decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I."
 link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633
 ---
