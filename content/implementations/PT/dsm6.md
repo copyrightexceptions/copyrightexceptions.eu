@@ -25,9 +25,9 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution:
-- no attribution required
+- attribution required unless impossible
 otherConditions:
 - use must be limited to the extent necessary to ensure conservation
-remarks: "The implementation of art.6 of the CDSM Directive in 75(x) co-exists and partially overlaps with the pre-existing exceptions in art.75(e).<br /><br />The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code."
+remarks: "The implementation of art.6 of the CDSM Directive in 75(x) co-exists and partially overlaps with the pre-existing exceptions in art.75(e).<br /><br />The exception applies mutatis mutandis to neighbouring rights under art. 189(3) of the Copyright code.<br /><br/>Indication of source is mandatory in Portugal for all exceptions. Under art. 76º n.º1 (a), the free use referred to in the previous article must be accompanied by the indication, whenever possible, of the name of the author and editor, the title of the work and other circumstances that identify them."
 link: https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1985-34475475
 ---
