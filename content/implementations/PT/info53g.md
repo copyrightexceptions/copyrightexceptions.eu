@@ -1,5 +1,5 @@
 ---
-title: "Article 75(2)(j) Código do Direito de Autor e dos Direitos Conexos"
+title: "Article 75(2)(k) Código do Direito de Autor e dos Direitos Conexos"
 date: 2004-08-24
 draft: false
 weight: 57
