@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - SI
 score: 2
-description: "This exception allows publicly accessible archives, libraries, museums, film or audio heritage institutions and public broadcasting organisations to make freely available to the public on a non-commercial website and reproduce for that purpose the out-of-commerce works, including databases, which they hold permanently in their collections, and for which there is no representative collective management organisation, in so far as this is not intended to achieve direct or indirect economic advantage.
+description: "This exception allows publicly accessible archives, libraries, museums, film or audio heritage institutions and public broadcasting organisations to make freely available to the public on a non-commercial website and reproduce for that purpose the out-of-commerce works, including databases, which they hold permanently in their collections, and for which there is no representative collective management organisation, in so far as this is not intended to achieve direct or indirect economic advantage."
 beneficiaries:
 - publicly accessible archives, libraries, museums
 - film or audio heritage institutions
