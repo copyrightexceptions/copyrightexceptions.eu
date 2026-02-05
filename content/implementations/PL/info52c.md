@@ -1,6 +1,6 @@
 ---
 title: "Article 28 of the Copyright and Related Rights Act"
-date: 2015-11-20
+date: 2024-07-26 
 draft: false
 weight: 42
 exceptions:
@@ -10,7 +10,9 @@ jurisdictions:
 score: 2
 description: "This exception allows cultural heritage institutions, educational institutions, universities, and certain research institutes, to reproduce reproduce works permanently contained in their own collections, regardless of format or medium, in order to supplement, preserve, or protect these collections." 
 beneficiaries:
-- educational institutions, universities, certain research institutes, libraries, museums, and archives
+- cultural heritage institutions
+- educational institutions and universities
+- certain research institutes
 purposes: 
 - supplementing, preserving, or protecting beneficiaries' own collections 
 usage:
