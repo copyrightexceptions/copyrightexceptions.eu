@@ -1,17 +1,17 @@
 ---
-title: §34(2), §34(3)(b), §35(5) and §83(2) of the Copyright Act
-date: 2021-06-01
+title: "Article 198, para 2 of the Copyright and Related Rights Act"
+date: 2021-10-14
 draft: false
+weight: 13
 weight: 50
 exceptions:
 - info53a
 jurisdictions:
 - HR
-score: 2
-description: Hungary has one exception covering the reproduction, distribution and communication to the public of works to pupils and students through a secure electronic environment for purposes of illustration for education and exams (§35(5)); one exception covering the use of a work in another work for purposes of illustration for school education and scientific research (§34(2)); and one exception covering the use of the recipient work in digital form at the place of education and its communication to the public through a secured electronic environment for the purpose of school education (§34(3)(b)). In addition, it has a provision that states that no permission is required from holders of neighbouring rights in cases where the use of copyrighted work is permitted (§83(2). None of the exceptions is subject to compensation.
+score: 3
+description: "Croatia's main teaching exception in implementation of art.5.3.a. of the InfoSoc Directive can be found in art.198(2), which allows for the use of copyrighted works and subject matter of related rights, for giving examples in teaching or in scientific research, which is justified by the non-commercial purpose to be achieved. In addition, educational uses are also covered by art.197 (uses in collections intended for teaching and scientific research), art. 198(1) (public performance and presentation in the form of direct teaching or at school events) and art. 199 (digital and cross-border teaching activities)."
 beneficiaries:
-- anyone (exception for use in another work and exception for using recipient work)
-- anyone in public, vocational and higher education (exception for reproduction, distribution and communication to the public)
+- any user
 purposes: 
 - illustration for school education and scientific research, with no commercial purposes (exception for use in another work)
 - school education, with no commercial purposes (exception for using recipient work)
@@ -21,17 +21,25 @@ usage:
 - use of recipient work in digital form or for communication to the public (exception for using recipient work)
 - reproduction, distribution and communication to the public (exception for reproduction, distribution and communication to the public)
 subjectmatter:
-- published literary or musical work, film, pictures of works of fine art, architecture, applied art and industrial design, photographic works, performances, phonograms, broadcasts, film fixations, press publications (exception for use in another work)
-- any work, performances, phonograms, broadcasts, film fixations, press publications (exception for using recipient work)
-- work published as a book, newspaper and periodical articles, performances, phonograms, broadcasts, film fixations, press publications (exception for reproduction, distribution and communication to the public)
+- works 
+- performances
+- phonograms
+- film fixations
+- broadcasts
+- informative publications
+- written editions
 compensation:
-- do not require payment of compensation
+- no compensation required for most educational uses
+- equitable remuneration required for the reproduction and distribution of works in collections intended for teaching and scientific research (but not for further CTTP of such collections), this remuneration being exercised solely collectively
 attribution: 
+- the source and name of the author or another rightsholder must be indicated, unless proven impossible
 otherConditions: 
-- "quantity limitations: 
-- parts (of a literary, musical or film work); to the extent justified by the purpose (exception to use in another work); 
-- parts (of a book); in a number necessary for that purpose (exception for reproduction, distribution and communication to the public)"
-- "technological limitations: communication to the public via a secured electronic environment (exception for using recipient work and exception for reproduction, distribution and communication to the public)"
-remarks: "There's an exception allowing the use in another work (to an extent exceeding quotation) of parts of a published literary or musical work or of a film, or small entire works of such nature, as well as pictures of works of fine art, architecture, applied art and industrial design creations, and photographic works, for the purposes of illustration for school education and scientific research, to the extent justified by the purpose, on the condition that the recipient work is not used for commercial purposes.<br /><br />There's an exception allowing the use of the recipient work in digital form at the place of education, on an electronic device, or for communication to the public via a secure electronic environment, for the purpose of school education, provided that such uses are not made on a commercial basis.<br /><br />There's an exception allowing the reproduction, distribution and public communication to the pupils and students concerned, through the secure electronic environment of the educational establishment, of parts of a work published as a book, as well as newspaper and periodical articles, for the purposes of illustration for education or for the purposes of exams in public, vocational and higher education in a number necessary for that purpose. A secure electronic environment is defined as a technical solution that prevents a work made available for retrieval from being carried out outside the scope of education and training.<br /><br />There's a provision stating that, in the cases where the law allows the use of a copyrighted work without the authorization of the author, no authorization is required from the holders of neighbouring rights."
-link: https://njt.hu/jogszabaly/1999-76-00-00
+- works used must be divulged
+- use must be justified by the non-commercial purpose to be achieved
+- communication to the public (in the cases of digital cross-border use and dissimination of collections) must take place within responsibility of an educational establishment, on its premises or in other facilities or via safe electronic environment
+- use must not replace purchase of material intended for education markets
+- digital cross-border use is considered to take place only in the Member State where an educational establishment has a place of establishment
+- contract provisions contrary to the exception for digital cross-border use are null and void
+remarks: "Croatia's implementation of art.5.3.a. of the InfoSoc Directive in art.198 (2) is a broad and technology neutral one. In addition, educational uses are also covered by art. 197, which allows for uses in collections intended for teaching and scientific research and art. 198(1), which covers the public performance and presentation at stage in the form of direct teaching or at school events. Art. 5 of the CDSM Directive was implemented in a provision covering solely the use 'in digital and cross-border teaching activities', existing in parallel with art. 198 of the Law of 2021. Under para 2 of art.199, the use covers, inter alia, digital and online teaching, remote teaching and cross-border teaching in all levels of education. According to para 6, it also applies accordingly to activities of lifelong education conducted by state institutions, public establishments and other entities authorised to undertake such activities. It, however, has a very broadly worded carve-out for materials intended for the educational market, without explicitly conditioning its application on the availability of appropriate licences.<br /><br />Art. 198(3) provides a definition of 'illustration for teaching'. Pursuant to it, 'giving examples in teaching comprises the use of copyrighted works and subject matter of related rights, as a rule, in portions or segments, in order to support, enrich or supplement teaching and teaching activities within and outside of premises of educational establishments'. Furthermore, art. 198(4) sets a definition of 'non-commercial purpose' which implies an individual teaching activity, provided that the organisational structure and financial means of an educational establishment are not decisive in determining if an individual teaching activity is of non-commercial nature'.<br /><br />Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
+link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---
