@@ -1,6 +1,6 @@
 ---
 title: "Section 37(1)a of the Copyright Act"
-date: 2006-05-22 
+date: 2022-12-08 
 draft: false
 weight: 42
 exceptions:
@@ -8,12 +8,12 @@ exceptions:
 jurisdictions:
 - CZ
 score: 2
-description: "This exception allows for a library, archive, museum, gallery, school, university and other non-profit school-related and educational establishment to make a reproduction of a work for its own archiving and conservation purposes, in the quantities and formats needed for the permanent preservation of the work, and if such a reproduction does not serve any direct or indirect economic or commercial purpose. It also allows for reproductions works whose reproduction has been damaged or lost, provided that it is possible to verify with the exertion of reasonable effort that it is not being offered for sale, or a print reproduction of a minor part of the work, if such part has been damaged or lost, or in order to be lended." 
+description: "This exception allows a library, archive, museum, gallery, school, college, or other non-profit educational institution, to make copies of works, for own archival and conservation needs, in the numbers and formats necessary for the permanent preservation of the work, that do not serve a direct or indirect economic or commercial purpose." 
 beneficiaries:
-- library, archive, museum, gallery, school, university and other non-profit school-related and educational establishment
+- library, archive, museum, gallery, school, college, or other non-profit educational institution
 purposes: 
 - archiving and conservation purposes
-- lending
+- non-commercial
 usage:
 - reproduction
 subjectmatter:
@@ -22,13 +22,13 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
-- no compensation required for archiving and conservation
-- compensation required in certain cases of lending
-attribution: 
+- no compensation required
+attribution:
 - no attribution required
-otherConditions: 
-- use is limited to quantities and formats needed for the permanent preservation of the work and subsequent reproduction under the exception is allowed only when the initial copy is damaged or lost
-remarks: "The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82) and broadcasters' (§ 86) rights."
-link: 
+otherConditions:
+- use is limited to the numbers and formats necessary for the permanent preservation of the work
+remarks: "In 2022, with the implementation of art.6 of the CDSM directive, the provision of §37(1)a was amended as to remove the requirement for the use to be limited to cases where the initial copy is damaged or lost.<br /><br />§29(3) contains a general provision regarding the imperative nature of exceptions. It states that 'any legal act that excludes or limits copyright exceptions or limitations shall be disregarded, unless the law provides otherwise'. Furthermore, under §43(6), the legal protection against circumvention of TPMs does not affect the exception to the extent necessary for its use. An author who has used technical means is obliged to make their work available to authorized users to the extent necessary to fulfill the purpose of said use.<br /><br />The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and press publishers' rights (§87b(7))."
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
