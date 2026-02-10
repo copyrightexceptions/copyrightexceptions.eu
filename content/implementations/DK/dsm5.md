@@ -31,6 +31,7 @@ attribution:
 - no explicit attribution requirement
 otherConditions: 
 - the exception only applies if no suitable licence exists
+- online teaching uses via secure electronic environments are deemed to occur only in the Member State where the educational institution is established (§88a)
 remarks: "In Denmark, the default regime for the permitted use for educational purposes is extended collective licensing. Art.5 of the CDSM Directive is implemented in a fall-back exception for cases where no suitable licence exists, regardless of the subject matter concerned. Also, this exception is remunerated - the author is entitled to fair compensation unless harm is minimal.<br /><br />The exception applies also to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)) and press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021)."
 link: https://www.retsinformation.dk/eli/lta/2023/680
 ---
