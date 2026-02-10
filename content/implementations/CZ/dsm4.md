@@ -17,7 +17,7 @@ purposes:
 usage:
 - reproduction
 subjectmatter:
-- works (except works primarily intended for educational purposes and published sheet music of musical or musical-dramatic works)
+- works
 - performances
 - phonograms
 - film fixations
