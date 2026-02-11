@@ -1,6 +1,6 @@
 ---
 title: "§16, 16a and 16b of the Copyright Act"
-date: 2023-04-03
+date: 2006-01-01
 draft: false
 weight: 42
 exceptions:
