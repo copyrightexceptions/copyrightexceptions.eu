@@ -30,6 +30,6 @@ attribution:
 - no attribution required
 otherConditions: 
 - recordings may be used only within the institution in question
-remarks: "§ 15 of the Copyright Act applies also to performances (§ 65(6) of the CA); sound recordings (§ 66(2) of the CA); film fixations (§ 67(2) of the CA), broadcasts (§ 69(3) of the CA), photographic pictures (§70 (3) of the CA) and press publications (§ 69a(5) of the CA - added with the ammendment of 3 June 2021)."
+remarks: "§ 15 of the Copyright Act applies also to performances (§ 65(6) of the CA); sound recordings (§ 66(2) of the CA); film fixations (§ 67(2) of the CA), broadcasts (§ 69(3) of the CA), photographic pictures (§70 (3) of the CA) and press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021)."
 link: https://wipolex.wipo.int/en/text/464632
 ---
