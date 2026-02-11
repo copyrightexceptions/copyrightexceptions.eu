@@ -31,7 +31,7 @@
   						<h2>This exception has been implemented in the following Member States:</h2>
   						<ul class="exceptions-jur">
   						{{ range .Pages }}
-	  					{{if .Title}}<li>In {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/"><strong>{{ partial "textexpanders/jur-single.html" . }}</strong></a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title}}</a></li>{{end}}
+	  					{{if .Title}}<li>In {{ range .Params.jurisdictions }} <a href="{{ $.Site.BaseURL }}jurisdictions/{{ . | urlize }}/"><strong>{{ partial "textexpanders/jur-single.html" . }}</strong></a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title | safeHTML}}</a></li>{{end}}
   						{{ end }}
   						</ul>
                     	</div><!-- #content -->

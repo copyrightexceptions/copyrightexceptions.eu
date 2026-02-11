@@ -31,7 +31,7 @@
   							<h2>{{ .Page.Params.name }} has implemented the following exceptions in its national laws:</h2>
   							<ul class="exceptions-jur">
   							{{ range where .Pages ".Params.score" "!=" 0}}
-	  						<li>{{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/ex-short.html" . }}</a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title}}</a></li>
+	  						<li>{{ range .Params.exceptions }} <a href="{{ $.Site.BaseURL }}exceptions/{{ . | urlize }}/">{{ partial "textexpanders/ex-short.html" . }}</a> {{ end }} in <a href="{{.Permalink}}" class="{{if in .Params.score "1"}}score1{{end}}{{if in .Params.score "2"}}score2{{end}}{{if in .Params.score "3"}}score3{{end}}">{{.Title | safeHTML}}</a></li>
   							{{ end }}
   							</ul>
   							<h2>{{ .Page.Params.name }} has <span class="score0">not implemented</span> the following optional exceptions in its national laws:</h2>
