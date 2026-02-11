@@ -26,7 +26,7 @@ subjectmatter:
 - broadcasts
 - photographic pictures
 - press publications
-ompensation:
+compensation:
 - no compensation required for archiving and conservation
 attribution: 
 - no attribution required
