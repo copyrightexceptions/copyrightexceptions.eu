@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - FI
 score: 2
-description: "This exception allows for the making of copies of published works by means other than recording sound or moving images, for the use by persons with a disability or illness who cannot use the works in the ordinary manner (§17(1)). The copies made in this way may be used for communication to disabled persons by means other than transmission on radio or television. Specific entities have the right to make copies in sign language for persons who are deaf and persons with auditory impairments who cannot use the works in the ordinary manner; to be lent, sold or used in communication by means other than radio or television transmission (§17(2)).
+description: "This exception allows for the making of copies of published works by means other than recording sound or moving images, for the use by persons with a disability or illness who cannot use the works in the ordinary manner (§17(1)). The copies made in this way may be used for communication to disabled persons by means other than transmission on radio or television. Specific entities have the right to make copies in sign language for persons who are deaf and persons with auditory impairments who cannot use the works in the ordinary manner; to be lent, sold or used in communication by means other than radio or television transmission (§17(2))."
 beneficiaries:
 - any user
 - certain not-for-profit institutions, listed in a government decree (for the purpose of adapting works for persons with auditory impairments)
