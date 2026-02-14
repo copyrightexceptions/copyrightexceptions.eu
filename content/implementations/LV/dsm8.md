@@ -33,5 +33,5 @@ otherConditions:
 - copyright or related rights holders must have not requested that the cultural heritage institution cease the use of their works or related rights in whole or in relation to individual works or related rights
 - the place of use is deemed to be a Member State of the European Union or a country of the European Economic Area in which the relevant cultural heritage institution is established
 remarks: ""
-link: link: https://likumi.lv/ta/id/5138-autortiesibu-likums
+link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
