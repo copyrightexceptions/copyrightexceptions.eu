@@ -25,7 +25,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- the source and the author's name must be acknowledged where possible
+- no attribution required
 otherConditions: 
 - lawful access
 - "storage and re: copies of works must be stored ensuring restrictions on the use and/or distribution of texts and data and may be retained for the purposes of scientific research, including in order to verify the results of scientific research"
