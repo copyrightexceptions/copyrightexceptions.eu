@@ -19,6 +19,7 @@ subjectmatter:
 - phonograms
 - film fixations 
 - broadcasts
+- databases
 - electronic press publications
 compensation:
 - no compensation required
@@ -27,6 +28,6 @@ attribution:
 otherConditions: 
 - lawful access
 - "storage and reuse: the reproduced material may be stored for as long as is necessary for the purposes of text and data mining"
-remarks: "The exception also covers neighbouring rights under art 58(4), p.15 of the Law, according to which 'the provisions of Articles 22<sup>1</sup>, 22<sup>2</sup> and 23 of this Law shall apply mutatis mutandis to restrictions on related economic rights.'."
+remarks: "The exception also covers neighbouring rights under art 58(4), p.15 of the Law, according to which 'the provisions of Articles 22<sup>1</sup>, 22<sup>2</sup> and 23 of this Law shall apply mutatis mutandis to restrictions on related economic rights.'. In addition, according to art.32(8), 'it is permitted to reproduce legally accessible works for text and data mining purposes without the permission of the author of the work or other copyright holder of the work and without royalties. The reproduced material may be stored for as long as is necessary for the purposes of text and data mining. The limitation of economic rights provided for in this paragraph shall apply only where the copyright holders do not expressly indicate by appropriate means (in the case of content publicly available on the Internet by means of computer-readable media) that they reserve the right to use those databases.'"
 link: https://www.e-tar.lt/portal/lt/legalAct/5b445220b02711ec8d9390588bf2de65?fbclid=IwAR3VYCU1PkYTBB8CvLSym8WC_DtJewvA3EQj7Td0a1ksUEVWGbyHXtFpxqw
 ---
