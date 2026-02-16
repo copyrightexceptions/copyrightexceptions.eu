@@ -18,6 +18,7 @@ usage:
 - distribution (by means of such posters and catalogues)
 subjectmatter:
 - works of visual arts, architecture, applied art, industrial designs and photographic works
+- press publications
 compensation:
 - no compensation required
 attribution: 
