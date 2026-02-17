@@ -1,5 +1,5 @@
 ---
-title: "§18' of the Copyright Act"
+title: "§18<sup>1</sup> of the Copyright Act"
 date: 2006-06-30
 draft: false
 weight: 30
@@ -32,6 +32,6 @@ otherConditions:
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technical process
 - temporary acts of reproduction must not have independent commercial purpose
-remarks: "The provision concerns copyrighted works. The exception is extended to related rights with a general reference to \"other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act\" in § 75 (6)."
+remarks: "The provision concerns copyrighted works. The exception is extended to related rights with a general reference to 'other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act' in § 75 (6)."
 link: https://www.riigiteataja.ee/en/eli/ee/525112013002/consolide
 ---
