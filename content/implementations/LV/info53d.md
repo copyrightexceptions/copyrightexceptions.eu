@@ -18,6 +18,7 @@ usage:
 - communication to the public 
 subjectmatter:
 - works
+- press publications 
 compensation:
 - no compensation required
 attribution: 
@@ -26,6 +27,6 @@ otherConditions:
 - works used must be disclosed
 - use must be limited to the extent justified by the purpose
 - the use is conditioned by the compliance with the moral rights of the author (§14 of the CA) and the three-step test (§18 of the CA)
-remarks: "Irrespective of its broad formulation, the quotation exception is restrictive in that it does not efficiently cover neighbouring rights, not even press publications. The exception extends to neighbouring rights as per Section 54, para 2(2) of the CA, but only regarding short segments included in news broadcasts and in reports of current events, in amounts appropriate for the informative purpose."
+remarks: "Irrespective of its broad formulation, the quotation exception is restrictive in that it does not efficiently cover neighbouring rights, not even press publications. The exception extends to neighbouring rights as per Section 54, para 2(2) of the CA, but only regarding short segments included in news broadcasts and in reports of current events, in amounts appropriate for the informative purpose. <br /><br/>The exception extends to neighbouring rights as per Section 54, para 3.2 of the CA."
 link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
