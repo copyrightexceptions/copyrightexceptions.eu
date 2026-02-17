@@ -17,11 +17,12 @@ usage:
 - any use
 subjectmatter:
 - works
+- press publications 
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The exception seems to not extend to neighbouring rights. There is no reference to this exception in Section 54 of the CA 'Restrictions on Rights of the Neighbouring Rightholders'"
-link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
+remarks: "<br /><br/>The exception extends to neighbouring rights as per Section 54, para 3.2 of the CA.'"
+link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
