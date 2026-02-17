@@ -19,6 +19,7 @@ usage:
 subjectmatter:
 - musical works (with or without words) 
 - artistic musical performance
+- press publications
 compensation:
 - no compensation required
 attribution: 
