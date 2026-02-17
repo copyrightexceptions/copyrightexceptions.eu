@@ -1,5 +1,5 @@
 ---
-title: "Article 19(7) of the Copyright act"
+title: "§19(7) of the Copyright act"
 date: 2006-06-30
 draft: false
 weight: 61
