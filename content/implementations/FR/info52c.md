@@ -17,18 +17,19 @@ purposes:
 usage:
 - reproduction
 subjectmatter:
-- works
+- works (incl. software)
 - performances
 - phonograms
 - film fixations
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
 - works used must be already disclosed
-remarks: "In France the exceptions under art.5.2.c and 5.3.n. of the InfoSoc directive share one provision. The reproduction exception extends to all related rights under art. 211-3, 7° IPC."
+remarks: "In France the exceptions under art.5.2.c and 5.3.n. of the InfoSoc directive share one provision. The reproduction exception extends to all related rights under art. 211-3, 7° and to sui generis database rights under art. 342-3, 5° IPC. The implementation of art.6 of the CDSM Directive did not modify the legal text of L122-5, 8°, which was deemed to already cover uses for the purpose of preservation of cultural heritage (see Report to the President of the Republic concerning Ordinance No. 2021-1518 of 24 November 2021). It, however, led to the extention of the exception to software (art.L122-6-1(V)) and databases (art. 342-3, 5°)."
 link: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037388886/
 ---
