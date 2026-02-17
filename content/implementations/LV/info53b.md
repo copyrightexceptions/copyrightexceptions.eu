@@ -31,6 +31,6 @@ attribution:
 otherConditions: 
 - works must be used in a form perceivable by visually impaired and hearing impaired
 - use is limited to the necessary in the case of the relevant impairment
-remarks: "This exception implements art. 5.3.b. of the InfoSoc Directive in a fairly broad manner, covering any type of dissablity, in parallel with the implementation of the Marrakesh exception in Section 22<sup>1</sup>. The exception extends to neighbouring rights as per Section 54(2)2 of the CA 'Restrictions on Rights of the Neighbouring Rightholders'. Unlike the Marrakesh exception, this one does not apply to sui generis database rights as per Section 59(1)5."
+remarks: "This exception implements art. 5.3.b. of the InfoSoc Directive in a fairly broad manner, covering any type of dissablity, in parallel with the implementation of the Marrakesh exception in Section 22<sup>1</sup>. The exception extends to neighbouring rights as per Section 54(2)2 of the CA 'Restrictions on Rights of the Neighbouring Rightholders'. Unlike the Marrakesh exception, this one does not apply to sui generis database rights as per Section 59(1)5.<br /><br/>The exception extends to neighbouring rights as per Section 54, para 3.2 of the CA"
 link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
