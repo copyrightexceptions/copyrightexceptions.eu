@@ -21,6 +21,7 @@ subjectmatter:
 - works of applied art, decorations and scenography
 - design works
 - photographic works and works executed in a manner similar to photography
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -30,6 +31,6 @@ otherConditions:
 - use mustne non-commercial
 - use is limited to the extent necessary for the promotion of the relevant event
 - use is subject to the three-step test (art.18(2))
-remarks: "This exception was only introducced in 2023. It does not extend to any neighbouring rights as per Section 54, para 3.2 of the CA."
+remarks: "<br /><br/>The exception extends to neighbouring rights as per Section 54, para 3.2 of the CA."
 link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
