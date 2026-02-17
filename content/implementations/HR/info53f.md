@@ -21,6 +21,7 @@ usage:
 subjectmatter:
 - public political, religious and other speeches
 - excerpts from public lectures
+- press publications
 compensation:
 - no compensation required
 attribution: 
