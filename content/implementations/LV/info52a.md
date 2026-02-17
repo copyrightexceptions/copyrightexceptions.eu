@@ -18,6 +18,7 @@ usage:
 - reprographic reproduction
 subjectmatter:
 - works (other than sheet music)
+- press publications
 compensation:
 - fair compensation required
 attribution: 
