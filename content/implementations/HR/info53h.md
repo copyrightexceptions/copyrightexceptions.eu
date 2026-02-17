@@ -19,6 +19,7 @@ usage:
 - communication to the public
 subjectmatter:
 - works
+- press publications
 compensation:
 - no compensation required
 attribution: 
