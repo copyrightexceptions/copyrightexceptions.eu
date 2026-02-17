@@ -1,5 +1,5 @@
 ---
-title: "Article 21' of the Law No VIII- 1185 on Copyright and Related Rights"
+title: "Article 21<sup>1</sup> of the Law No VIII- 1185 on Copyright and Related Rights"
 date: 2022-03-24
 draft: false
 weight: 54
