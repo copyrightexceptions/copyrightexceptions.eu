@@ -22,6 +22,8 @@ subjectmatter:
 - performances (§17(2))
 - databases
 - photographs (§17(1))
+- press publications
+- catalogues 
 compensation:
 - unremunerated use in §17(1)
 - the author is entitled to remuneration for the making of copies for sale or communication to persons with a disability or to other persons in such a manner that the person will permanently have a copy of the work (§17(2))
@@ -29,6 +31,6 @@ attribution:
 - the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage
 otherConditions: 
 - works used in the case of §17(1) must be published
-remarks: "Finland has implemented art.5.3.b. of the InfoSoc directive (in §17) separately from the implementation of the the Marrakesh Directive (§17a-17d), although both provisions are enacted by Law 849/2018. Section 17 has two relatively limited use cases, both for non-commercial use, one remunerated and one - not. In the case of §17(1) the exception applies to works, photographs and databases only. It somewhat overlaps with the Marrakesh exception. §17(2) applies to works, performances and databases. Neither case extends to sound recordings, film fixations, broadcasts or press publications.<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
-link: https://www.finlex.fi/en/laki/kaannokset/1961/en19610404.pdf
+remarks: "Finland has implemented art.5.3.b. of the InfoSoc directive (in §17) separately from the implementation of the the Marrakesh Directive (§17a-17d), although both provisions are enacted by Law 849/2018. Section 17 has two relatively limited use cases, both for non-commercial use, one remunerated and one - not. In the case of §17(1) the exception applies to works, photographs and databases only. It somewhat overlaps with the Marrakesh exception. §17(2) applies to works, performances and databases. Neither case extends to sound recordings, film fixations, broadcasts or press publications.<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use.<br /><br />The exception also applies to performances (art.45(7)), sound recordings (art.46(3)), film fixations (art.46a(3)), broadcasts (art.48(4)), databases (art.49(3)), photographs (art.49a(3)) and press publications (art.50(8) of the CA).<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
+link: hhttps://www.finlex.fi/api/media/statute-foreign-language-translation/689238/mainPdf/main.pdf
 ---
