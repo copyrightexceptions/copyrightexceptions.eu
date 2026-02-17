@@ -18,6 +18,9 @@ usage:
 - reproduction in pictorial form
 subjectmatter:
 - works of art (which are included in a collection or displayed or offered for sale)
+- press publications
+- databases
+- catalogue
 compensation:
 - no compensation required
 attribution: 
@@ -25,6 +28,6 @@ attribution:
 otherConditions: 
 - works used must be included in a collection or displayed or offered for sale
 - when used in a catalogue, such catalogue must be produced by printing, photocopying or by other corresponding means
-remarks: "Outside the scope of the exception the use of such works of art is subject to extended collective licence, unless the author has prohibited the reproduction or communication of the work.<br /><br />The exception does not apply to neighbouring rights.<br /><br />§11(2) requires that when a work is used publicly under an exception, the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
-link: https://www.finlex.fi/en/laki/kaannokset/1961/en19610404.pdf
+remarks: "Outside the scope of the exception the use of such works of art is subject to extended collective licence, unless the author has prohibited the reproduction or communication of the work.<br /><br /><br /><br />The exception also applies to performances (art.45(7)), sound recordings (art.46(3)), film fixations (art.46a(3)), broadcasts (art.48(4)), databases (art.49(3)), photographs (art.49a(3)) and press publications (art.50(8) of the CA).<br /><br />Art. 11(2) requires that when a work is used publicly under an exception, the author's name and the source must be, as a general rule, stated to the extent and in the manner required by proper usage. It also requires that the work must not be altered more than necessary for the intended use."
+link: https://www.finlex.fi/api/media/statute-foreign-language-translation/689238/mainPdf/main.pdf
 ---
