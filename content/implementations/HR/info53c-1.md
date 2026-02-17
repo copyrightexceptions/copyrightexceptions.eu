@@ -22,7 +22,8 @@ subjectmatter:
 - published newspaper articles 
 - photographs
 - radio and television reports 
-- other audiovisual recordings 
+- other audiovisual recordings
+- press publications
 compensation:
 - no compensation required
 attribution: 
