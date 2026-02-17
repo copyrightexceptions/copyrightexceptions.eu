@@ -24,7 +24,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
-- informative publications
+- press publications
 - written editions
 compensation:
 - no compensation required
