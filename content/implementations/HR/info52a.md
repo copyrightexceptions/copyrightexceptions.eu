@@ -13,6 +13,7 @@ beneficiaries:
 purposes: 
 usage:
 subjectmatter:
+-press publications
 compensation:
 attribution: 
 otherConditions: 
