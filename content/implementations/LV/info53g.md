@@ -21,12 +21,13 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
 - use must be limited to the extent justified by the nature of the ceremony
-remarks: "The exception extends to neighbouring rights as per Section 54(3)2 of the CA 'Restrictions on Rights of the Neighbouring Rightholders"
-link: http://www.gencs.eu/uploads/european_patent_trademark_registration/latvia/Copyright%20Law%20Latvia.pdf
+remarks: "<br /><br/>The exception extends to neighbouring rights as per Section 54, para 3.2 of the CA."
+link: https://likumi.lv/ta/id/5138-autortiesibu-likums
 ---
