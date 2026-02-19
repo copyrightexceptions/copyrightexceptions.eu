@@ -32,6 +32,6 @@ otherConditions:
 - temporary acts of reproduction must be transient or incidental
 - temporary acts of reproduction must constitute an integral and essential part of a technological process
 - works used must be divulged
-remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divukged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
+remarks: "<br /><br />Pursuant to §29(2), works used must be disclosed.<br /><br />§29(3) contains a general provision regarding the imperative nature of exceptions. It states that 'any legal act that excludes or limits copyright exceptions or limitations shall be disregarded, unless the law provides otherwise'.<br /><br />The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and press publishers' rights (§87b(7))."
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
