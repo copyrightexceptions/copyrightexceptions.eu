@@ -28,5 +28,5 @@ otherConditions:
 - works used must be permanently located on streets, squares, parks or other places accessible to the public
 - the exception applies only with regard to the external appearance of architectural items
 remarks: "Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
