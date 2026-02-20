@@ -8,7 +8,10 @@ exceptions:
 jurisdictions:
 - HU
 score: 2
-description: "This exception allows cultural heritage institutions and educational institutions to make copies of works if these do not serve, either directly or indirectly, the purpose of earning or increasing one’s income, for scientific research or archiving." 
+description: "This exception allows cultural heritage institutions and educational institutions to make copies of works if these do not serve, either directly or indirectly, the purpose of earning or increasing one’s income, for scientific research or archiving."
+beneficiaries:
+- cultural heritage institutions 
+- educational institutions
 purposes: 
 - non-commercial
 - scientific research
