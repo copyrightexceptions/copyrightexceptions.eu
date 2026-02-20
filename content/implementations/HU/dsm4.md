@@ -9,6 +9,8 @@ jurisdictions:
 - HU
 score: 3
 description: "This exception allows for the reproduction necessary for text and data mining of works, by any user, on the condition that they have lawful access to the work and the rightholder has not objected to the free use in advance and in an appropriate manner – in machine-readable form in the case of content made publicly available electronically." 
+beneficiaries:
+- any user
 purposes: 
 - text and data mining
 usage:
