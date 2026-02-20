@@ -10,7 +10,8 @@ jurisdictions:
 score: 2
 description: "This exception allows cultural heritage institutions and educational institutions to make copies of works if these do not serve, either directly or indirectly, the purpose of earning or increasing one’s income and i) the copy is necessary for scientific research or archiving; ii) the copy is made for the public library or for the purpose of providing access to individual members of the public on dedicated terminals; iii) the copy is made of a minor part of a published work, or of a newspaper or periodical article, for internal institutional purposes." 
 beneficiaries:
-- public libraries, educational establishments, museums, archives and video or audio archives
+- cultural heritage institutions
+- educational institutions
 purposes: 
 - non-commercial
 - scientific research
