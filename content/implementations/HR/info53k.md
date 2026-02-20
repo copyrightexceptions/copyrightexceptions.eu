@@ -30,5 +30,5 @@ attribution:
 otherConditions: 
 - the protected work must be used to the extent necessary for the purpose of parody or caricature
 remarks: 
-link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
