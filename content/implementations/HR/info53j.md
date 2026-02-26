@@ -28,5 +28,5 @@ otherConditions:
 - works used must be intended for such display
 - use of works is limited to the extent necessary for the specific purpose
 remarks: "The exception allows for analogue use only."
-link: https://www.dziv.hr/files/File/eng/zakon_autor_ENG.pdf
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
