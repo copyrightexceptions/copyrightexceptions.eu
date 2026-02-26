@@ -30,5 +30,5 @@ attribution:
 - no attribution required
 otherConditions: 
 remarks: "According to some sources (see Vuckovic, R. (2019). Croatia. In: Lindner, B., Shapiro, T. (eds.), Copyright in the information Society), art.5(2)(e) of the InfoSoc Directive was not implemented in Croatian law, and strictly speaking it was not directly transposed. However art.84 of the Croatian Copyright Act which implemented art.5(2)(c) of the directive, did include \"social (charitable) institutions\" amongst its beneficiaries, allowing the latter reproduction for non-commercial purposes. The new law of 2021 intoduced a similar provision in art. 193 entitled 'Restrictions on the right of reproduction in favor of individual institutions'. Until 2021 beneficiaries could only reproduce their own copy of a work and the reproduction was limited to one single copy, however, this restriction did not subsist in the new provision of art. 183 of the law.<br /><br />Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
-link: https://www.dziv.hr/files/File/eng/zakon_autor_ENG.pdf
+link:https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
