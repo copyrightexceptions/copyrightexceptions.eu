@@ -26,7 +26,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
-- no attribution required
+- the source must be, as a general rule, stated to the extent and in the manner required by proper usage
 otherConditions: 
 - in distance learning, works may only be reproduced in a secure electronic environment
 - the exception can be entirely overriden where use can be made on the basis of art. 42a (contractual agreement), as long as such an agreement is 'readily available on the market'
