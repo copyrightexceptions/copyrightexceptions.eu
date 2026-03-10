@@ -18,7 +18,7 @@ usage:
 - reproduction
 - communication to the public (via non-commercial websites)
 subjectmatter:
-- works (except for computer programs)
+- works
 - non-original photographs
 - performances
 - phonograms
