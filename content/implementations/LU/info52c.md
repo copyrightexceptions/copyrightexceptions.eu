@@ -17,17 +17,18 @@ purposes:
 usage:
 - reproduction
 subjectmatter:
-- works
+- works (incl. computer programmes and databases)
 - performances
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
 - works used must be lawfully made available to the public
-remarks: "The scope of the exception is extended to neighbouring rights under Art. 46 (1), 8° - for performers, phonogram and film producers; and Art. 55 - for broadcasters. All exceptions apply mutatis mutandis to the distribution right.<br /><br />With the implementation of the CDSM Directive, the requirements of art. 6 of the directive were integrated into the already existing provision of art. 10, p. 10°. Since the pre-existing exception was already limited to preservation purposes, the CDSMD transposition did not entail significant changes in the scope of the exception. The main modification consist in inserting 'depositary institutions of cinematographic or sound heritage' as beneficiaries of the exception. Its scope was also expressly extended to database rights (new paragraphs 2, 3 and 4 to art. 10bis) and rights in computer programs (new paragraphs 2 and 3 in art. 35)."
-link: https://legilux.public.lu/eli/etat/leg/loi/2022/04/01/a158/jo
+remarks: "In 2022, the national legislator added a general rule in a new paragraph 4 of art.10, according to which all exceptions are imperative (non-overriddable by contract).<br /><br/>The scope of the exception is extended to neighbouring rights under art. 46 (1), 9° and art. 46 (2) - for performers, phonogram and film producers; art. 55 refers to art. 46 for broadcasters and art.56bis(3) - for ress publishers. The exception also covers the sui generis database right (art. 68(2)). All exceptions apply mutatis mutandis to the distribution right.<br /><br />With the implementation of the CDSM Directive, the requirements of art. 6 of the directive were integrated into the already existing provision of art. 10, p. 10°. Since the pre-existing exception was already limited to preservation purposes, the CDSMD transposition did not entail significant changes in the scope of the exception. The main modification consists in inserting 'depositary institutions of cinematographic or sound heritage' as beneficiaries of the exception. Its scope was also expressly extended to database rights (new paragraphs 2, 3 and 4 to art. 10bis) and rights in computer programs (new paragraphs 2 and 3 in art. 35)."
+link: https://legilux.public.lu/eli/etat/leg/loi/2001/04/18/n2/consolide/20220409
 ---
