@@ -27,7 +27,7 @@ subjectmatter:
 compensation:
 - no compensation required
 attribution: 
--  if possible given the nature of the work and the manner in which the work is used
+- the name of the author or their pseudonym, if it is not an anonymous work, or the name of the person under whose name, business name or title the work is presented to the public, as well as the title of the work and the source must be stated, if possible given the nature of the work and the manner in which the work is used
 otherConditions: 
 - use must occur at a school, under the responsibility of the school or through the school’s secure electronic network
 - use is deemed to occur in the territory of the state in which the school is established
