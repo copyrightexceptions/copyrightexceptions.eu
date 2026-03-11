@@ -59,4 +59,4 @@ link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&ar
 
 4°. copyright is not expressly reserved.
 
-2 This article also applies to copying in a language other than the original.
+2 This article also applies to copying in a language other than the original.---

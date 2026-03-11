@@ -112,4 +112,4 @@ b. short articles, notices or other items published in a daily or weekly newspap
 
 7 If a reproduction authorised under this article has taken place, objects as referred to in paragraph 1 may not be disclosed to third parties without the consent of the author or his assignees, unless such disclosure is made for the purposes of judicial or administrative proceedings.
 
-8 This article shall not apply to the reproduction of a collection accessible by electronic means as referred to in article 10, paragraph 3.
+8 This article shall not apply to the reproduction of a collection accessible by electronic means as referred to in article 10, paragraph 3.---

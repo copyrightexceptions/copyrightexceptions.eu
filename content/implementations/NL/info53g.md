@@ -28,3 +28,4 @@ link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&ar
 
 Original: Als inbreuk op het auteursrecht op een werk van letterkunde of kunst wordt niet beschouwd de gemeentezang en de instrumentale begeleiding daarvan tijdens een eredienst.
 
+---

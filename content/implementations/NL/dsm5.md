@@ -112,3 +112,4 @@ The reproduction or publication of portions of a literary, scientific or artisti
 5 The provisions of this article also apply to digital use that takes place under the responsibility of an educational institution by means of a secure electronic environment that is only accessible to pupils or students and the teaching staff of the educational institution.
 
 6 The provisions of this Article cannot be deviated from by agreement.
+---

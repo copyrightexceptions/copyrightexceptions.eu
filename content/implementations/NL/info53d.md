@@ -65,4 +65,4 @@ It is not considered to be an infringement of the copyright on a literary, scien
 
 2 In this article, quoting is also understood to mean quoting in the form of press reviews from articles published in a daily or weekly newspaper or magazine.
 
-3 This article also applies to quotations in a language other than the original.
+3 This article also applies to quotations in a language other than the original.---

@@ -44,4 +44,4 @@ Als inbreuk op het auteursrecht op een werk van letterkunde, wetenschap of kunst
 
 Translation: In the interests of public safety and for the purpose of detecting criminal offences, images of any nature may be reproduced or made public by or on behalf of the judiciary.
 
-The reproduction of a literary, scientific or artistic work in the interests of public security or to ensure the smooth progress of administrative, parliamentary or judicial proceedings or of reporting on these shall not be regarded as an infringement of copyright.
+The reproduction of a literary, scientific or artistic work in the interests of public security or to ensure the smooth progress of administrative, parliamentary or judicial proceedings or of reporting on these shall not be regarded as an infringement of copyright.---

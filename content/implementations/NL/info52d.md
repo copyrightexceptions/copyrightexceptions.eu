@@ -50,3 +50,4 @@ link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&ar
 
 3 Recordings made in accordance with subsection 2 and having an exceptional documentary value may be kept in official archives. 
 
+---

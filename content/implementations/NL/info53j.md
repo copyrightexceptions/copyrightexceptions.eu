@@ -35,3 +35,4 @@ Tenzij anders overeengekomen, is de eigenaar, bezitter of houder van een teken-,
 ### Translation: 
 
 Unless otherwise agreed, the owner, possessor or holder of a drawing, painting, construction or sculpture or a work of applied art shall be entitled to reproduce or publish that work insofar as this is necessary for the public exhibition or public sale of that work, to the exclusion of any other commercial use.
+---

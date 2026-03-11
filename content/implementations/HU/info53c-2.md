@@ -34,3 +34,4 @@ link: https://mkogy.jogtar.hu/jogszabaly?docid=99900076.TV
 ---
 
 The different translations of section 37 in my sources differs in meaning. 
+---

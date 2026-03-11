@@ -50,4 +50,4 @@ link: https://wetten.overheid.nl/jci1.3:c:BWBR0001886&hoofdstuk=I&paragraaf=6&ar
 
 3 The publication of a photographic portrait in a newspaper or magazine by or with the permission of one of the persons referred to in the first paragraph, shall also not be regarded as an infringement of copyright, provided that the name of the author, in so far as it is indicated on or near the portrait, is mentioned.
 
-4 This article shall apply only to portraits commissioned by or on behalf of the persons portrayed or given to the author on their behalf.
+4 This article shall apply only to portraits commissioned by or on behalf of the persons portrayed or given to the author on their behalf.---

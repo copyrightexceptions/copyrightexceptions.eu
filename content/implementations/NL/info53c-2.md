@@ -38,4 +38,4 @@ Als inbreuk op het auteursrecht op een werk van letterkunde, wetenschap of kunst
 
 ### Translation:
 
-A short recording, representation and communication of a literary, scientific or artistic work in public in a photo, film, radio or television report shall not be regarded as an infringement of copyright insofar as this is justified for the purpose of adequately representing the current event that is the subject of the report and insofar as, within reason, the source, including the name of the author, is clearly indicated.
+A short recording, representation and communication of a literary, scientific or artistic work in public in a photo, film, radio or television report shall not be regarded as an infringement of copyright insofar as this is justified for the purpose of adequately representing the current event that is the subject of the report and insofar as, within reason, the source, including the name of the author, is clearly indicated.---

@@ -61,4 +61,4 @@ Als inbreuk op het auteursrecht op een werk van letterkunde, wetenschap of kunst
 
 2 The provisions of subsection 1 may not be deviated from by agreement.
 
-3 It may be provided by order in council that for the conversion or publication referred to in subsection 1 (2) and (3), an accredited entity established in the Netherlands shall pay equitable remuneration to the author or his successors in title. Further rules and conditions may be laid down in this respect.
+3 It may be provided by order in council that for the conversion or publication referred to in subsection 1 (2) and (3), an accredited entity established in the Netherlands shall pay equitable remuneration to the author or his successors in title. Further rules and conditions may be laid down in this respect.---

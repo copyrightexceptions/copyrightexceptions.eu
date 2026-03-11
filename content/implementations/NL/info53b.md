@@ -43,4 +43,4 @@ link:
 
 1 Without prejudice to the provisions of Article 15j, the reproduction or publication exclusively for the benefit of handicapped persons shall not be regarded as an infringement of copyright on a literary, scientific or artistic work, provided that it is directly related to the handicapped person, is not of a commercial nature and is necessary on account of that handicap.
 
-2 The reproduction or publication referred to in paragraph 1 shall be subject to the payment of equitable remuneration to the author or his successors in title.
+2 The reproduction or publication referred to in paragraph 1 shall be subject to the payment of equitable remuneration to the author or his successors in title.---
