@@ -20,8 +20,9 @@ subjectmatter:
 - works (incl. computer programmes and databases)
 - performances
 - phonograms
-= film fixations
+- film fixations
 - broadcasts
+- press publications
 - databases
 compensation:
 - no compensation required
