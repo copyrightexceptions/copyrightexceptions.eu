@@ -18,6 +18,7 @@ usage:
 subjectmatter:
 - works of fine art that are permanently located outdoors on or at a public place
 - buildings
+- press publications
 compensation:
 - no compensation required
 attribution: 
