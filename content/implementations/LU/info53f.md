@@ -19,6 +19,7 @@ usage:
 subjectmatter:
 - short extracts from public conferences or similar works
 - official acts of the authority and their official translation, as well as speeches delivered in deliberative assemblies, public hearings of the courts or political meetings
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -28,5 +29,5 @@ otherConditions:
 - works used must be lawfully made available to the public
 - use must be limited to the extent justified by the purpose of information pursued (in the case of art. 10 (13°))
 remarks: "The scope of the exception does not extended to neighbouring rights under Art. 46 (1) or Art. 55. All exceptions apply mutatis mutandis to the distribution right."
-link: https://legilux.public.lu/eli/etat/leg/loi/2004/04/18/n4/jo
+link: https://legilux.public.lu/eli/etat/leg/loi/2001/04/18/n2/consolide/20220409
 ---
