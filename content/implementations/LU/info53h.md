@@ -19,6 +19,7 @@ usage:
 - communication to the public
 subjectmatter:
 - works (located in a place accessible to the public)
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -28,5 +29,5 @@ otherConditions:
 - works used must be located in a place accessible to the public
 - works used must not be the main subject of reproduction or communication
 remarks: "This national exception is also associated with the incidental inclusion exception under art. 5(3)(i) of the InfoSoc Directive, because of the requirement for the works used to not be the main subject of reproduction or communication.<br /><br />The scope of the exception is not extended to neighbouring rights under Art. 46 (1) or Art. 55 - for broadcasters. All exceptions apply mutatis mutandis to the distribution right."
-link: https://legilux.public.lu/eli/etat/leg/loi/2004/04/18/n4/jo
+link: https://legilux.public.lu/eli/etat/leg/loi/2001/04/18/n2/consolide/20220409
 ---
