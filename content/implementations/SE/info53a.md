@@ -26,6 +26,7 @@ subjectmatter:
 - film fixations (illustration for teaching)
 - broadcasts (illustration for teaching)
 - databases (illustration for teaching)
+- press publications
 compensation:
 - no compensation required (arts. 13 and 14)
 - authors are entitled to compensation (art.15)
