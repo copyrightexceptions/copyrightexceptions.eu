@@ -24,6 +24,7 @@ subjectmatter:
 - performances
 - phonograms
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
