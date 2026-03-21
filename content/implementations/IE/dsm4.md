@@ -1,5 +1,5 @@
  ---
-title: "Sections 53A of the Copyright and Related Rights Act"
+title: "Sections 53B of the Copyright and Related Rights Act"
 date: 2021-11-19
 draft: false
 weight: 11
