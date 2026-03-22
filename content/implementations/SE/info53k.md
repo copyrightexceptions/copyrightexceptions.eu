@@ -17,6 +17,7 @@ usage:
 - making available
 subjectmatter:
 - works
+- press publications
 compensation:
 - no compensation required
 attribution:
