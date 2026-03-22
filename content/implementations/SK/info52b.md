@@ -22,11 +22,12 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - fair compensation required (subject to mandatory collective administration)
 attribution: 
 - no attribution required
 otherConditions: 
 remarks: "The exception applies to performers' (§ 103), phonogram producers' (§113), audiovisual producers' (§121) and broadcasters' (§127.1) rights."
-link: https://wipolex.wipo.int/en/text/542164
+https://static.slov-lex.sk/static/SK/ZZ/2015/185/20260901.html
 ---
