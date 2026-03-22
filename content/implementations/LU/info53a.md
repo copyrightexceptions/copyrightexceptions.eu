@@ -25,6 +25,7 @@ subjectmatter:
 - film fixations
 - broadcasts
 - databases (art. 10, 2bis°)
+- press publications
 compensation:
 - no compensation required
 attribution: 
