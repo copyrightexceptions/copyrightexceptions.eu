@@ -21,6 +21,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -29,5 +30,5 @@ otherConditions:
 - use must be in accordance with custom 
 - scope of the use may not exceed the scope justified by the purpose of quotation
 remarks: "The exception applies to performers' (§ 103), phonogram producers' (§113), audiovisual producers' (§121) and broadcasters' (§127.1) rights.<br /><br />Pursuant to §35(1) of the Copyright Act, the name of the author or his pseudonym, if it is not an anonymous work, as well as the work title and source, must be stated in all cases under §37 and § 39."
-link: https://wipolex.wipo.int/en/text/542164
+link: https://static.slov-lex.sk/static/SK/ZZ/2015/185/20260901.html-)
 ---
