@@ -30,8 +30,11 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
+- lawfull access
 - "storage and reuse: copies of works or other protected subject matter shall be preserved with appropriate security measures and may be kept for scientific research purposes, including to verify the results of the research"
 - "safeguards: rightholders shall be permitted to apply measures designed to ensure the security and integrity of networks and databases hosting works or other protected subject matter, without such measures going beyond what is necessary to achieve that objective. Rightholders, research organisations and cultural heritage preservation institutions may develop, by mutual agreement, practices regarding the application of these provisions"
-remarks: "According to art. 120 of the Romanian Law No 8/1996 on copyright and related rights, the provisions regarding the limits of copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organisations as well. Art. 94^1 makes all exceptions applicable to press publications. As per art. 36^1(2), this particular exception also applies to sui generis database rights."
+- rightholders may limit the number of copies made (art. 36^5(4))
+- "3-step test: the exception only applies in special cases, provided that they do not conflict with the normal exploitation of the work or other protected subject matter and do not prejudice the author or the rights holders (art. 36^5(2))
+remarks: "According to art. 36^5, any contractual provision that does not comply with the exception is not enforceable. Furthermore, rightholders who have established technical protection measures are obliged to make available to the beneficiaries the means necessary for legal access to works or any other subject matter of protection. However, 'rightholders may limit the number of copies made' (art. 36^5(4)).<br /><br/>According to art. 120 of the Romanian Law No 8/1996 on copyright and related rights, the provisions regarding the limits of copyright also apply accordingly to related rights. Under art. 134 they apply by analogy to broadcasting organisations as well. Art. 94^1 makes all exceptions applicable to press publications. As per art. 36^1(2), this particular exception also applies to sui generis database rights."
 link: https://legislatie.just.ro/Public/DetaliiDocument/7816
 ---
