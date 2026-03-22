@@ -18,6 +18,7 @@ usage:
 subjectmatter:
 - a building 
 - a useful artefact
+- press publications
 compensation:
 - no compensation required
 attribution: 
