@@ -20,6 +20,7 @@ usage:
 - communication to the public
 subjectmatter:
 - works of fine art
+- press publications
 compensation:
 - no compensation required
 attribution: 
