@@ -20,6 +20,7 @@ subjectmatter:
 - phonograms
 - film fixations
 - broadcasts
+- press publications
 compensation:
 - no compensation required
 attribution: 
@@ -31,5 +32,5 @@ otherConditions:
 - the use must be limited only to the elements of the work strictly necessary for the caricature 
 - the user must not denigrate the original work
 remarks: "The scope of the exception is extended to neighbouring rights under Art. 46 (1), 6° - for performers, phonogram and film producers; and Art. 55 - for broadcasters."
-link: 
+link: https://legilux.public.lu/eli/etat/leg/loi/2001/04/18/n2/consolide/20220409
 ---
