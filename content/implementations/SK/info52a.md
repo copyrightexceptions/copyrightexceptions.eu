@@ -29,5 +29,5 @@ otherConditions:
 - permitted use can be undertaken personally or through a third person
 - public distribution can be undertaken by means of free-of-charge transfer of title
 remarks: "The exception applies to performers' (§ 103), phonogram producers' (§113), audiovisual producers' (§121) and broadcasters' (§127.1) rights."
-https://static.slov-lex.sk/static/SK/ZZ/2015/185/20260901.html
+link: https://static.slov-lex.sk/static/SK/ZZ/2015/185/20260901.html
 ---
