@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - RO
 score: 3
-description: "This exception allows cultural heritage preservation institutions to make available, on non-commercial websites and for non-commercial purposes, out-of-commerce works or other protected subject matter, present in their permanent collection, except for categories of works or other protected subject matter for which there is a suficiently representative collective management organisation and the rightholder have not excludes some or all of their works or other protected subject matter from the application of the exception.
+description: "This exception allows cultural heritage preservation institutions to make available, on non-commercial websites and for non-commercial purposes, out-of-commerce works or other protected subject matter, present in their permanent collection, except for categories of works or other protected subject matter for which there is a suficiently representative collective management organisation and the rightholder have not excludes some or all of their works or other protected subject matter from the application of the exception."
 beneficiaries:
 - cultural heritage preservation institutions
 purposes: 
