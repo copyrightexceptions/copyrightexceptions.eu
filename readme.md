@@ -11,6 +11,5 @@ As of 24 March 2026, the following EU27 country implementations are still missin
 | **CY** | dsm3, dsm4, dsm5, dsm6, dsm8, info52a–e, info53a–i, info53l–n *(23 total — almost everything)* |
 | **CZ** | info53m |
 | **EE** | info53d |
-| **FI** | dsm4 |
 | **IT** | info53e |
 | **LU** | dsm3 |
