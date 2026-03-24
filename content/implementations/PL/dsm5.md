@@ -4,7 +4,7 @@ date: 2024-07-26
 draft: false
 weight: 50
 exceptions:
-- info53a
+- dsm5
 jurisdictions:
 - PL
 score: 2
