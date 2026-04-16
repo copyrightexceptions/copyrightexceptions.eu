@@ -26,7 +26,6 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-
-remarks: "The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82) and broadcasters' rights (§ 86)."
-link: 
+remarks: "Pursuant to §29(2), works used must be disclosed.<br /><br />§29(3) contains a general provision regarding the imperative nature of exceptions. It states that 'any legal act that excludes or limits copyright exceptions or limitations shall be disregarded, unless the law provides otherwise'.<br /><br />The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and press publishers' rights (§87b(7))."
+link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
