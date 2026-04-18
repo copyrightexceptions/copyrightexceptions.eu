@@ -1,7 +1,7 @@
 ---
 title: "Section 7(2)(f) of the Copyright Law"
 date: 2004
-draft: true
+draft: false
 weight: 54
 exceptions:
 - info53d
