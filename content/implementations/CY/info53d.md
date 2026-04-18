@@ -7,7 +7,7 @@ exceptions:
 - info53d
 jurisdictions:
 - CY
-score: 
+score: 2
 description: "This exception allows for the quotation of excerpts for the purpose of criticism or book presentation, provided that they concern a work or other objects which have already been lawfully made available to the public, and that such quotation is in accordance with good morals and its extent is justified by its purpose." 
 beneficiaries:
 - any user
