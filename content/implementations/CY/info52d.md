@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - CY
 score: 3
-description:"This exception allows for the reproduction for ephemeral recordings of works made by a broadcasting organisation or under its direction or control, provided that such reproduction or any copies thereof are intended exclusively for lawful broadcasting and are destroyed before the end of a period of six calendar months, which begin immediately after the reproduction is made, or before the end of such longer periods as may be agreed between the broadcasting organization and the owner of the relevant part of the copyright in the work. Whenever a work constitutes a depiction or recording of objective events (documentary) of exceptional historical interest, copies may be preserved in the archives of the broadcasting authority, which are designated as official archives for this purpose." 
+description: "This exception allows for the reproduction for ephemeral recordings of works made by a broadcasting organisation or under its direction or control, provided that such reproduction or any copies thereof are intended exclusively for lawful broadcasting and are destroyed before the end of a period of six calendar months, which begin immediately after the reproduction is made, or before the end of such longer periods as may be agreed between the broadcasting organization and the owner of the relevant part of the copyright in the work. Whenever a work constitutes a depiction or recording of objective events (documentary) of exceptional historical interest, copies may be preserved in the archives of the broadcasting authority, which are designated as official archives for this purpose." 
 beneficiaries:
 - broadcasting organisations (or under their direction or control)
 purposes: 
