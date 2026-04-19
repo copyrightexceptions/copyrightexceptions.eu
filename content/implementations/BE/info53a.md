@@ -2,7 +2,7 @@
 title: "Art. XI.191/1 3.º, 4.º, 6.º and 8.º, Art. XI.191/2 1.º, 2.º and 4.º, Art. XI.217/1 3.º, 4.º, 5.º and 7.º Code of Economic Law"
 date: 2022-08-01
 draft: false
-weight: 12
+weight: 50
 exceptions:
 - info53a
 jurisdictions:

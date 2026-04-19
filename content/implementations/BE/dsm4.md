@@ -2,7 +2,7 @@
 title: "Art. XI.190 20.º, Art. XI.191 2.º, Art. XI.217 19.º, Art. XI. 299 §5, Art. XI.310 §3 2.º of Code of Economic Law"
 date: 2022-08-01
 draft: false
-weight: 12
+weight: 11
 exceptions:
 - dsm4
 jurisdictions:

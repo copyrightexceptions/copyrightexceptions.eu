@@ -2,7 +2,7 @@
 title: "Art. XI.191/1 7.º, Art. XI.191/2 3.º, Art. XI.217/1 6.º, Art. XI.310 §3 1.º of Code of Economic Law"
 date: 2022-08-01
 draft: false
-weight: 12
+weight: 10
 exceptions:
 - dsm3
 jurisdictions:
