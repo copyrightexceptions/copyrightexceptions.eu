@@ -16,7 +16,7 @@ beneficiaries:
 - by childcare establishments recognized or officially organized for this purpose by the public authorities (exception for reproduction or communication by recognized childcare establishments)
 - anyone (exception for in-person digital uses under the responsibility of an educational establishment)
 - students and teaching staff of the educational establishment (exception for remote digital uses under the responsibility of an educational establishment)
-- by research organizations, by libraries accessible to the public, by museums accessible to the public, by archives or by film or audio heritage institution (TDM exception for scientific research)
+- by research organizations, by libraries accessible to the public, by museums accessible to the public, by archives or by film or audio heritage institutions (TDM exception for scientific research)
 
 purposes: 
 - illustration for teaching or scientific research, with non-profit aim (reproduction exception)

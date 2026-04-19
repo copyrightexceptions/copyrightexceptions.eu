@@ -13,7 +13,7 @@ beneficiaries:
 - research organisations
 - libraries accessible to the public
 - museums accessible to the public
-- archives or film or audio heritage institution
+- archives or film or audio heritage institutions
 purposes: 
 - with a view to carrying out, for scientific research purposes, a search of texts and data on works
 usage:
