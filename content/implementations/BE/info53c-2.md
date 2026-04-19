@@ -1,6 +1,6 @@
 ---
 title: "Article XI.190, 1° of the Code of Economic Law (CEL)."
-date: 2015-01-01 
+date: 2015-01-01
 draft: false
 weight: 53
 exceptions:

@@ -31,7 +31,7 @@ attribution:
 - no attribution required
 otherConditions: 
 - the author can, at any time, easily and effectively exclude their works from use
-- the rights in consideration are otside of the scope of the CMO, representing other CMOs as per art. XI.245/7/2, § 2
+- the rights in consideration are outside of the scope of the CMO, representing other CMOs as per art. XI.245/7/2, § 2
 - use is deemed to occur exclusively in the country where the beneficiary is established
 remarks: "As per art. XI.218/2 CEL the exception is also applicable to performers'; producers', broadcasters' and press publishers' rights. Under art. XI.245/7/3, it applies to sui generis database rights.<br /><br/>As per art.XI.193 CEL, all Belgian exceptions are of mandatory nature."
 link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#LNK0445
