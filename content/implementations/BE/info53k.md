@@ -30,5 +30,5 @@ otherConditions:
 - the work must be lawfully published
 - the use must conform to fair practice
 remarks: "The exception is applicable by way of analogy to databases (Art. XI.191 § 2 CEL). As per art. XI.217, 11° CEL the exception is also applicable to performers' (art. XI.205.1 § 1 CEL); film producers' (art. XI.209.1 CEL); phonogram producers' (art. XI.213 CEL), broadcasters' (art. XI.215.1 CEL) and press publishers' (art. XI.216/2 CEL) rights.<br /><br/>As per art.XI.193 CEL, all Belgian exceptions are of mandatory nature."
-link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#t
+link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#Art.XI.190
 ---

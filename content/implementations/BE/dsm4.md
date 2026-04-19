@@ -28,5 +28,5 @@ otherConditions:
 - rights reservation (the exception shall apply on condition that the use of works and other subject matter has not been expressly reserved by their rightholder, in an appropriate manner, which must be in machine-readable form in the case of content made available to the public online)
 - 3-step test (exceptions applicable to copyrighted works and copyrighted databases are only applicable if they do not harm the normal exploitation of the work or the database nor cause undue harm to the legitimate interests of the right holder (Art. XI.192/3))
 remarks: ""
-link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#LNK0426
+link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#Art.XI.190
 ---

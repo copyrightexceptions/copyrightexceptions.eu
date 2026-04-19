@@ -32,5 +32,5 @@ otherConditions:
 - the material thus produced must remain the property of the beneficiaries
 - the author must have access to the material
 remarks: "With the CDSM Directive transposition in 2022, the Belgian legislator replaced the existing implementation of art.5.2(c) of the InfoSoc Directive with that of art.6 of the CDSM Directive.<br /><br />A legacy requirement is that the materials produced as a result of the reproduction remain the property of the beneficiaries, which must not engage in any commercial use or use for profit. In addition, the author may have access to the materials, subject to strict respect for the preservation of the work and upon fair remuneration for the intervention of those institutions.<br /><br />As per art. XI.217, 11° CEL the exception is also applicable to performers' (art. XI.205.1 § 1 CEL); film producers' (art. XI.209.1 CEL); phonogram producers' (art. XI.213 CEL), broadcasters' (art. XI.215.1 CEL) and press publishers' (art. XI.216/2 CEL) rights.<br /><br />As per art.XI.193 CEL, all Belgian exceptions are of mandatory nature."
-link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#t
+link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#Art.XI.190
 ---

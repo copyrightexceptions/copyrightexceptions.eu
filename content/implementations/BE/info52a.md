@@ -30,5 +30,5 @@ otherConditions:
 - the work used must be lawfully divulged
 - the work used must be fixed on paper or any similar medium
 remarks: "The Belgian reprography exception was amended in 2016 to comply with the findings of the Court of Justice of the EU in the Reprobel case (C-572/13).<br /><br />The exception applies to databases (Art. XI.191 § 1, 1° CEL).<br /><br />In 2022 the last part of the provision, requiring for the use not to prejudice the normal exploitation of the work, was repealed."
-link: http://www.ejustice.just.fgov.be/cgi_loi/loi_a1.pl?DETAIL=2013022819%2FF&caller=list&row_id=1&numero=1&rech=1&cn=2013022819&table_name=LOI&nm=2013A11134&la=F&chercher=t&dt=CODE+DE+DROIT+ECONOMIQUE&language=fr&fr=f&choix1=ET&choix2=ET&fromtab=loi_all&sql=dt+contains++%27CODE%27%2526+%27DE%27%2526+%27DROIT%27%2526+%27ECONOMIQUE%27and+actif+%3D+%27Y%27&tri=dd+AS+RANK+&trier=promulgation&imgcn.x=59&imgcn.y=7
+link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#Art.XI.190
 ---
