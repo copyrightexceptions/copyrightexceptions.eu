@@ -1,13 +1,13 @@
 ---
 title: ""
-date: 2020-12-09T11:39:33+02:00 
-draft: true
+date: 2026-04-19
+draft: false
 weight: 57
 exceptions:
 - info53g
 jurisdictions:
 - CY
-score: 
+score: 0
 description: "" 
 beneficiaries:
 - 
