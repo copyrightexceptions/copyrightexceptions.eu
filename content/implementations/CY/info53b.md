@@ -25,7 +25,7 @@ subjectmatter:
 - performances
 - press publications
 compensation:
-- fair compensation required (that takes into account the application or not of technological measures to the specific work or other material)
+- no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
