@@ -4,10 +4,10 @@ This project contains the code and data for the 2020 rebuild of the [copyrightex
 
 ## Implementation Status
 
-As of 18 April 2026, the following EU27 country implementations are still missing (marked `draft: true`), excluding the MKD, OWD, and info53o exceptions.
+As of 19 April 2026, the following EU27 country implementations are still missing (marked `draft: true`), excluding the MKD, OWD, and info53o exceptions.
 
 | Country | Missing implementations |
 |---------|------------------------|
-| **CY** | dsm3, dsm4, dsm5, dsm8, info53a, info53e–i, info53l–n *(13 total)* |
+| **CY** | dsm3, dsm4, dsm5, dsm8, info53a *(5 total)* |
 | **IT** | info53e |
 | **LU** | dsm3 |
