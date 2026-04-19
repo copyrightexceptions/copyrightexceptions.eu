@@ -8,6 +8,6 @@ As of 19 April 2026, the following EU27 country implementations are still missin
 
 | Country | Missing implementations |
 |---------|------------------------|
-| **CY** | dsm3, dsm4, dsm5, dsm8, info53a *(5 total)* |
-| **IT** | info53e |
-| **LU** | dsm3 |
+| **CY** | [dsm3](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm3.md), [dsm4](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm4.md), [dsm5](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm5.md), [dsm8](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm8.md), [info53a](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/info53a.md) *(5 total)* |
+| **IT** | [info53e](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/IT/info53e.md) |
+| **LU** | [dsm3](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/LU/dsm3.md) |
