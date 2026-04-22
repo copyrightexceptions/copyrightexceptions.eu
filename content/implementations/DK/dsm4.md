@@ -7,7 +7,7 @@ exceptions:
 - dsm4
 jurisdictions:
 - DK
-score: 3
+score: 2
 description: "This exceptions allows anyone who has lawful access to a work to extract and reproduce copies of the work for the purpose of text and data mining, provided that the rightholder has not expressly reserved this use. Extracted material and copies may be stored for as long as necessary for text and data mining." 
 beneficiaries:
 - any user
