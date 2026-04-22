@@ -1,4 +1,5 @@
-{{- $pages := sort .Pages ".File.Dir" -}}
+{{- $pages := where .Pages ".Params.hidden" "!=" true -}}
+{{- $pages = sort $pages ".File.Dir" -}}
 {{- $len := (len $pages) -}}
 
 [
