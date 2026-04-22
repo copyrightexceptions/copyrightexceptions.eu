@@ -1,5 +1,5 @@
 ---
-title: "Section 42h of the of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
+title: "Section 42h (1)-(5) of the of the Federal Law on Copyright in Literary and Artistic Works and Related Rights"
 date: 2021-06-07
 draft: false
 weight: 10
@@ -28,6 +28,7 @@ subjectmatter:
 - phonograms
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation
 attribution:
