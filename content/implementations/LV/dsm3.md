@@ -7,7 +7,7 @@ exceptions:
 - dsm3
 jurisdictions:
 - LV
-score: 3
+score: 2
 description: "Latvia has a general text and data mining (TDM) exception for research purposes (Article 21<sup>2</sup>) that follows Article 3 of the DSM Directive closely, except that it is not limited to scientific research. This general exception applies to performances, phonograms, film fixations, broadcasts and press publications (Article 54(3) 2)). In addition, there is a specific exception for TDM for research purposes applicable to databases protected by the sui generis right, subject to the same conditions (Article 59(1) 4)). None of the exceptions are subject to compensation." 
 beneficiaries:
 - research organisations and cultural heritage institutions
