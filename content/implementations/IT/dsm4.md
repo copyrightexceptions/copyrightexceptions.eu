@@ -23,14 +23,15 @@ subjectmatter:
 - film fixations
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution:
 - no attribution required
 otherConditions:
-- lawful access to works used
+- lawful access
 - use may be expressly reserved by the rightsholders as well as the database rights holders
 - storage and safeguards (works used may be stored only for the time necessary for the purpose of extracting text and data, while security levels must not be lower than those defined for TDM for research purposes)
-remarks: "Art. 70-quater applies without prejudice to the provisions of Article 70-ter (TDM for the purposes of scientific research). A clarification on the scope of both TDM exceptions was added in 2025, by way of implementing the EU AI Act in Law no. 132 of September 23, 2025. This law introduces, inter alia, a new art. 70-septies in the Copyright Act, which explicitly states that art. 70-quater is applicable to the training of 'AI systems, including generative AI'.<br /><br />Under art. 71-decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I."
+remarks: "Art. 70-quater applies without prejudice to the provisions of Article 70-ter (TDM for the purposes of scientific research). A clarification on the scope of both TDM exceptions was added in 2025, by way of implementing the EU AI Act in Law no. 132 of September 23, 2025. This law introduces, inter alia, a new art. 70-septies in the Copyright Act, which explicitly states that art. 70-quater is applicable to the training of 'AI systems, including generative AI'.<br /><br />The exception is protected against circumvention by way of TPMs in art.70-quinquies(2) of the Law.<br /><br />Under art. 71-decies, exceptions and limitations to authors' right apply also to the neighbouring rights. In addition, para 16 of art. 43-bis (press publishers' right) explicitly references the exceptions and limitations in Chapter V of Title I."
 link: https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1941-07-16&atto.codiceRedazionale=041U0633
 ---
