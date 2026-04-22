@@ -17,12 +17,13 @@ The information in this website is not intended to be legal advice, and is not n
 
 The following individuals have contributed to the analysis for the Member States listed behind their names: 
 
-* **Ana Lazarova:** Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Finland, France, Estonia, Germany, Greece, Hungary, Ierland, Italy, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovenia, Slovakia, Spain and Sweden. 
-* **Konrad Gliściński:** Poland. 	
-* **Paul Keller:** Germany and the Netherlands. 
-* **Teresa Nobre:** Portugal. 
+* **Ana Lazarova (Digital Republic):** Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Finland, France, Estonia, Germany, Greece, Hungary, Ierland, Italy, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovenia, Slovakia, Spain and Sweden. 
+* **Konrad Gliściński (COMMUNIA):** Poland. 	
+* **Paul Keller (Open Future/COMMUNIA):** Germany and the Netherlands. 
+* **Teresa Nobre (COMMUNIA):** Portugal. 
+* **Dr. Maja Bogataj Jančič and Laura Pipan (ODIPI):** Slovenia
 
-For a more detailed description of their contributions please refer to our [GitHub repository](https://github.com/copyrightexceptions/copyrightexceptions.eu) where all changes to the country pages are tracked. 
+For a more detailed description of their contributions please refer to our [GitHub repository](https://github.com/copyrightexceptions/copyrightexceptions.eu) where all changes to the implementation information are tracked. 
 
 ## Data Sources
 
