@@ -24,6 +24,7 @@ subjectmatter:
 - unpublished work
 - literary criticism or scientific publication
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
@@ -32,6 +33,6 @@ otherConditions:
 - lawful access
 - "storage and reuse: copies of works may be stored for as long as it is necessary for the purposes of text and data mining"
 - "the exception only applies unless the author has expressly and in an appropriate manner reserved the use, including by machine-readable means in the case of content made publicly available online"
-remarks: "The exception is extended to related rights with a general reference to other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act in § 75 (6) of the Copyright Act."
+remarks: "The exception is extended to related rights with a general reference to other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act in § 75 (6) of the Copyright Act. It also applies to sui generis database rightunder §75<sup>6</sup>(5).<br /><br />The exception is safeguarded against circumvention by TPMs in §80<sup>3</sup>(4) of the Law."
 link: https://www.riigiteataja.ee/en/eli/ee/506042016003/consolide/current
 ---
