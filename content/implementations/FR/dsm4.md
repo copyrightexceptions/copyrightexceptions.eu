@@ -30,6 +30,6 @@ attribution:
 otherConditions: 
 - lawful access
 - "storage and reuse: copies and reproductions are stored with an appropriate level of security and then destroyed after the text and data mining process"
-remarks: "From 2016 until 2022, when the transposition of the CDSM Directive in the field of copyright exceptions took effect, art. L.122-5, 10° contained a pre-existing research-only TDM exception. In 2022, it was replaced by a new general provision on TDM referring to art. L.122-5-3 for further details. Art. L.122-5-3 itself implements art. 4 of the Directive in para III. It applies without prejudice to the provisions of section II, which implements art. 3.<br /><br/>The exception extends to neighbouring rights under art. L. 211-3, 8°, as well as to sui generis database rights (art. L342-3, 6°)."
+remarks: "From 2016 until 2022, when the transposition of the CDSM Directive in the field of copyright exceptions took effect, art. L.122-5, 10° contained a pre-existing research-only TDM exception. In 2022, it was replaced by a new general provision on TDM referring to art. L.122-5-3 for further details. Art. L.122-5-3 itself implements art. 4 of the Directive in para III. It applies without prejudice to the provisions of section II, which implements art. 3.<br /><br/>The exception extends to neighbouring rights under art. L. 211-3, 8°, as well as to sui generis database rights (art. L342-3, 6°). Its relationship with TPMs is addressed in art. L-331-7 of the Law."
 link: https://www.legifrance.gouv.fr/codes/id/LEGIARTI000048603495/2023-01-01
 ---
