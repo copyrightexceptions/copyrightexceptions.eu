@@ -22,11 +22,12 @@ subjectmatter:
 - phonograms
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The provision explicitely states that 'this right of use cannot be contractually waived'. The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)), press publications (§76f(5))."
+remarks: "The provision explicitely states that 'this right of use cannot be contractually waived'. In addition, in terms of TPM, there is an obligation for holders to 'immediately' provide access to works, insofar as beneficiaries have lawful access to the subject matter, so they can make use of the exception to the required extent (§90c(6)). The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)), press publications (§76f(5))."
 link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848
 ---
