@@ -7,11 +7,11 @@ exceptions:
 - dsm3
 jurisdictions:
 - PL
-score: 3
+score: 2
 description: "This exception allows cultural heritage institutions, as well as scientific organisations, to reproduce works for the purpose of texts and data mining for scientific research, provided that such activities are not carried out for the purpose of obtaining direct or indirect financial gain." 
 beneficiaries:
 - cultural heritage institutions
-- scientific organisations (as per the Polish Law on Higher Education and Science_
+- scientific organisations (as per the Polish Law on Higher Education and Science)
 purposes: 
 - scientific research
 usage:
@@ -31,8 +31,8 @@ compensation:
 attribution: 
 - a general obligation to name the author and the source, subject to existing options
 otherConditions: 
-- storage and reuse (the works reproduced may be stored for scientific research purposes, including verification of the results of such research; the storage of works shall be carried out in accordance with a level of security ensuring that only authorised persons have access to such works, taking into account authentication procedures)
-- safeguards (in order to ensure the security and integrity of the network and databases in which the works are stored, the rightholder may only use the measures necessary to achieve this objective)
-remarks: "It appears that there is no explicit provision safeguarding the mandatory nature of the exception.<br /><br />Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. Authors do not have the right to remuneration, unless stipulated otherwise.<br /><br />Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively. Sui generis database rights are regulated in a separate act.<br /><br />For the sake of comprehensiveness, it should be noted that the initial Polish transposition proposal of February 2024 provided for an explicit exclusion of AI training from the scope of TDM for the implementation of both articles 3 and 4 of the Directive. This carve-out, however, was not retained in the final amendment."
+- "storage and reuse: the works reproduced may be stored for scientific research purposes, including verification of the results of such research; the storage of works shall be carried out in accordance with a level of security ensuring that only authorised persons have access to such works, taking into account authentication procedures"
+- "safeguards: in order to ensure the security and integrity of the network and databases in which the works are stored, the rightholder may only use the measures necessary to achieve this objective"
+remarks: "It appears that there is no explicit provision safeguarding the mandatory nature of the exception. Protection against circumvention of TPMs may be inferred per argumentum a contrario from art. 79(6) of the Law.<br /><br />Article 34 of the Act sets a general obligation to name the author and the source, subject to existing options, in order to use the works within the limits of permissible free use. Authors do not have the right to remuneration, unless stipulated otherwise.<br /><br />Under article 100, the exercise of related rights is subject to the restrictions referred to in Articles 23-35, respectively. Sui generis database rights are regulated in a separate act.<br /><br />For the sake of comprehensiveness, it should be noted that the initial Polish transposition proposal of February 2024 provided for an explicit exclusion of AI training from the scope of TDM for the implementation of both articles 3 and 4 of the Directive. This carve-out, however, was not retained in the final amendment."
 link: https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001254/T/D20241254L.pdf
 ---
