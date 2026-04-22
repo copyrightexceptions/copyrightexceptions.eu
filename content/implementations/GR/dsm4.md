@@ -23,6 +23,7 @@ subjectmatter:
 - film fixations
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
@@ -30,7 +31,7 @@ attribution:
 otherConditions: 
 - lawful access
 - rightholder can restrict the use in an appropriate manner, such as machine-readable means in the case of content made publicly available online
-- works used can be retained for as long as is necessary for the purposes of text and data mining
-remarks: "According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights."
+- "storage and reuse: works used can be retained for as long as is necessary for the purposes of text and data mining"
+remarks: "According to art. 52, the limitations applicable to the economic right of copyright apply mutatis mutandis to related rights. Art. 21B also covers extraction and reuse of databases under art. 45A(6) of the Law. The exception is protected against curcumvention by TPMs in art.66A(5)."
 link: https://opi.gr/en/library/law-2121-1993/#a21a
 ---
