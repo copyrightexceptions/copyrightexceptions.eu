@@ -7,7 +7,7 @@ exceptions:
 - dsm6
 jurisdictions:
 - AT
-score: 3
+score: 2
 description: "This exception allows cultural heritage institutions to reproduce or have reproduced works permanently held in their collections, regardless of format or medium, for the purpose of their preservation (reproduction for the institution's own use), if and to the extent that reproduction is necessary for this purpose." 
 beneficiaries:
 - publicly accessible libraries or museums, archives, or institutions active in the field of film or sound heritage
@@ -17,16 +17,17 @@ purposes:
 usage:
 - reproduction
 subjectmatter:
-- works
+- works (excluding copmuter programs)
 - photographs
 - phonograms
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
-remarks: "The provision explicitely states that 'this right of use cannot be contractually waived'. The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)), press publications (§76f(5))."
+remarks: "The provision explicitely states that 'this right of use cannot be contractually waived'. In addition, in terms of TPM, there is an obligation for holders to 'immediately' provide access to works, insofar as beneficiaries have lawful access to the subject matter, so they can make use of the exception to the required extent (§90c(6)). The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)), press publications (§76f(5)). According to § 40d however, the entire Section 42 does not apply to computer programs. This contradicts art.6 of the CDSM Directive, which also covers the 'permanent or temporary reproduction of a computer program by any means and in any form, in part or in whole'."
 link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848
 ---
