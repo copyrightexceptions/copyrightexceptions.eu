@@ -12,4 +12,3 @@ As of 22 April 2026, the following EU27 Member State implementations (excluding 
 |---------|------------------------|
 | **CY** | [dsm4](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm4.md), [dsm5](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm5.md), [dsm8](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/dsm8.md), [info53a](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/CY/info53a.md) *(4 total)* |
 | **IT** | [info53e](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/IT/info53e.md) |
-| **LU** | [dsm3](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/LU/dsm3.md) |
