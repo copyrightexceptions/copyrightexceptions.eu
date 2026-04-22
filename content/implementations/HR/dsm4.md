@@ -21,13 +21,16 @@ subjectmatter:
 - broadcasts
 - press publications
 - written editions
+- databases
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
-otherConditions: 
+otherConditions:
+- lawful access
 - works used must be divulged
-- storage and reuse (reproduction and extraction may be kept only for the period necessary to achieve the purpose of text and data mining)
-remarks: "The term 'lawful access' is defined for the purposes of the research TDM exception in art. 187(5). It encompasses access to copyright or related rights- protected content based, inter alia, on a contractual relationship, including subscriptions, access provided under an open-access policy, or other legitimate means of obtaining access to such content. In addition, Article 188(4) and (5) specify what constitutes 'appropriate means of reserving rights', namely a machine-readable method that includes metadata, general terms and conditions relating to the website or service, contractual provisions, or unilateral statements by rightholders. Where copyright works or subject matter of related rights are made available to the public online, the only valid means of reserving rights, according to para 5, is a machine-readable method incorporating metadata and the relevant website or service terms and conditions.<br /><br />Under Article 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Article 181 (2) contains the requirements of the 3-step test."
+- use must not have been reserved by rightsholders explicitly and in an appropriate manner
+- "storage and reuse: reproduction and extraction may be kept only for the period necessary to achieve the purpose of text and data mining"
+remarks: "The term 'lawful access' is defined for the purposes of the research TDM exception in art. 187(5). It encompasses access to copyright or related rights- protected content based, inter alia, on a contractual relationship, including subscriptions, access provided under an open-access policy, or other legitimate means of obtaining access to such content. In addition, art. 188(4) and (5) specify what constitutes 'appropriate means of reserving rights', namely a machine-readable method that includes metadata, general terms and conditions relating to the website or service, contractual provisions, or unilateral statements by rightholders. Where copyright works or subject matter of related rights are made available to the public online, the only valid means of reserving rights, according to para 5, is a machine-readable method incorporating metadata and the relevant website or service terms and conditions. The exception is protected against circumvention by way of TPMs under art.213 of the Law.<br /><br />Under art. 181 (1) of the law, exceptions and limitations apply to both works (which must be divulged) and other subject-matter, subject to related rights. Art. 181 (2) contains the requirements of the 3-step test."
 link: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html
 ---
