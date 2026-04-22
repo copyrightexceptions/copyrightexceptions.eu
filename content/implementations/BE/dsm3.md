@@ -33,9 +33,9 @@ compensation:
 attribution: 
 - no attribution required
 otherConditions: 
-- lawful access (the beneficiary must have lawful access to the works or other subject matter used under the exception)
-- storage (copies of works or other subject matter shall be stored with an appropriate level of security)
-- 3-step test (exceptions applicable to copyrighted works and copyrighted databases are only applicable if they do not harm the normal exploitation of the work or the database nor cause undue harm to the legitimate interests of the right holder (Art. XI.192/3))
-remarks: "For the purpose of the exception, research organisations are universities, including their libraries, research institutes or any other entity, whose primary objective is to conduct scientific research, or to carry out educational activities which also include scientific research (i) on a non-profit basis or by reinvesting all profits in its scientific research; or (ii) within the framework of a mission of public interest recognised by a Member State, in such a way that it is not possible for an undertaking exercising decisive influence over this body to benefit from privileged access to the results produced by this scientific research."
+- "lawful access: the beneficiary must have lawful access to the works or other subject matter used under the exception"
+- "storage: copies of works or other subject matter shall be stored with an appropriate level of security"
+- "3-step test: exceptions applicable to copyrighted works and copyrighted databases are only applicable if they do not harm the normal exploitation of the work or the database nor cause undue harm to the legitimate interests of the right holder (Art. XI.192/3)"
+remarks: "According to art.XI.219 of the Code, the exception is imperative. It is also protected from circumvention via TPMs in art. 291.<br /><br/>For the purpose of the exception, research organisations are universities, including their libraries, research institutes or any other entity, whose primary objective is to conduct scientific research, or to carry out educational activities which also include scientific research (i) on a non-profit basis or by reinvesting all profits in its scientific research; or (ii) within the framework of a mission of public interest recognised by a Member State, in such a way that it is not possible for an undertaking exercising decisive influence over this body to benefit from privileged access to the results produced by this scientific research."
 link: https://www.ejustice.just.fgov.be/eli/loi/2013/02/28/2013A11134/justel#Art.XI.191/1
 ---
