@@ -7,7 +7,7 @@ exceptions:
 - dsm4
 jurisdictions:
 - DK
-score: 3
+score: 2
 description: "This exceptions allows anyone who has lawful access to a work to extract and reproduce copies of the work for the purpose of text and data mining, provided that the rightholder has not expressly reserved this use. Extracted material and copies may be stored for as long as necessary for text and data mining." 
 beneficiaries:
 - any user
@@ -24,6 +24,7 @@ subjectmatter:
 - broadcasts
 - photographic pictures
 - press publications
+- databases
 compensation:
 - no compensation required for archiving and conservation
 attribution: 
@@ -32,6 +33,6 @@ otherConditions:
 - lawful access
 - the exception applies unless the rightholder has not expressly reserved the use
 - "storage and reuse: extracted materials and copies may be stored for as long as necessary for text and data mining"
-remarks: "The exception applies also to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)) and press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021)."
+remarks: "The exception applies also to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)), press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021) and sui generis database rights (§71(5)). The exception is not safeguarded against circumvention by TPMs under §75d, which warrants a lower score."
 link: https://www.retsinformation.dk/eli/lta/2023/680
 ---
