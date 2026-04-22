@@ -7,7 +7,7 @@ exceptions:
 - dsm4
 jurisdictions:
 - RO
-score: 3
+score: 2
 description: "This exception allows for the reproductions and extractions from legally accessible works and other protected subject matter for the purpose of text and data extraction.
 The exception applies provided that the use of works and other protected subject matter has not been expressly reserved by the rightholders in an appropriate manner, such as machine-readable means in the case of content made public online." 
 beneficiaries:
