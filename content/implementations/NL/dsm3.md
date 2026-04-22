@@ -7,7 +7,7 @@ exceptions:
 - dsm3
 jurisdictions:
 - NL
-score: 3
+score: 2
 description: "Exception allowing reproductions and extractions made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining of works or other subject matter to which they have lawful access." 
 beneficiaries:
 - cultural heritage institutions
@@ -25,11 +25,11 @@ subjectmatter:
 - film fixations
 - databases
 compensation: 
-- Not required 
+- no compensation required
 attribution:
-- Not required
+- no attribution required
 otherConditions: 
-- Copies of works or other subject matter made in compliance with the exception must be stored with an appropriate level of security and may only be retained for the purposes of scientific research, including for the verification of research results.
-remarks: "There are corresponding provisions in Article 10(p) of the Neighbouring rights act and 4a(a) of the Database Act"
-link: ""
+- "storage and reuse: copies of works or other subject matter made in compliance with the exception must be stored with an appropriate level of security and may only be retained for the purposes of scientific research, including for the verification of research results"
+remarks: "There are corresponding provisions in Article 10(p) of the Neighbouring rights act and 4a(a) of the Database Act. All or these exceptions are protected against contractual override in the same respective provisions. Also, there are provisions regulating TPMs in art.29a(5) of the Copyright Act, art.19(4) of the Neighbouring rights act and 5a(4) of the Database Act."
+link: https://wetten.overheid.nl/BWBR0001886/2026-01-01/0
 ---
