@@ -29,6 +29,7 @@ compensation:
 attribution:
 - no attribution required
 otherConditions: 
+- lawful access
 - "storage and reuse: copies of works or other subject matter made in compliance with the exception must be stored with an appropriate level of security and may only be retained for the purposes of scientific research, including for the verification of research results"
 remarks: "There are corresponding provisions in Article 10(p) of the Neighbouring rights act and 4a(a) of the Database Act. All or these exceptions are protected against contractual override in the same respective provisions. Also, there are provisions regulating TPMs in art.29a(5) of the Copyright Act, art.19(4) of the Neighbouring rights act and 5a(4) of the Database Act."
 link: https://wetten.overheid.nl/BWBR0001886/2026-01-01/0
