@@ -12,7 +12,7 @@ description: "This exception allows cultural heritage institutions to reproduce 
 beneficiaries:
 - cultural heritage institutions
 purposes: 
-- non=commercial
+- non-commercial
 usage:
 - reproduction
 - making available to the public
