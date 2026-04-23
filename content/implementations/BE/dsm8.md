@@ -25,6 +25,7 @@ subjectmatter:
 - film fixations
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
