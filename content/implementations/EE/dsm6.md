@@ -25,6 +25,7 @@ subjectmatter:
 - unpublished work
 - literary criticism or scientific publication
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
@@ -32,6 +33,6 @@ attribution:
 otherConditions: 
 - works used must be from the beneficiaries' own collections
 - any term of a contract which restricts the free use of the work is be null and void
-remarks: "The provision is part of §20, which regulates free use by Cultural Heritage Institutions. In 2022 para 1 was ammended to accommodate art.6 of the CDSM Directive. Subparagraphs 2 (making a copy to ensure the preservation of the work) and 4 (digitising a collection for the purposes of preservation) were replaced by the new subparagraph 2, providing no substantial change in the scope of the exceptions.<br /><br />The provision concerns copyrighted works. The exception is extended to related rights with a general reference to \"other cases where the rights of authors of works are limited pursuant to Chapter IV of this Act\" in § 75 (6)."
+remarks: "The provision is part of §20, which regulates free use by Cultural Heritage Institutions. In 2022 para 1 was ammended to accommodate art.6 of the CDSM Directive. Subparagraphs 2 (making a copy to ensure the preservation of the work) and 4 (digitising a collection for the purposes of preservation) were replaced by the new subparagraph 2, providing no substantial change in the scope of the exceptions.<br /><br />The exception is safeguarded against contractual override in §19<sup>1</sup>(4) and against circumvention by TPMs in §80<sup>3</sup>(4) of the Law.<br /><br />The exception is extended to related rights with a general reference to other cases where 'the rights of authors of works are limited pursuant to Chapter IV of this Act' in §75(6). It also applies to sui generis database rightunder §75<sup>6</sup>(5)."
 link: https://www.riigiteataja.ee/en/eli/ee/525112013002/consolide
 ---
