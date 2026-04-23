@@ -2,9 +2,9 @@
 title: "Section 23, para 1 and of the Copyright Act"
 date: 2023-04-04
 draft: false
-weight: 42
+weight: 13
 exceptions:
-- info52c
+- dsm6
 jurisdictions:
 - LV
 score: 2
