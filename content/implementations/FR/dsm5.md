@@ -1,5 +1,5 @@
 ---
-title: L.122-5(12.º) and L.211-3(3.º)(e) of the Code of Intellectual Property
+title: L.122-5 12.º of the Code of Intellectual Property
 date: 2022-06-30 
 draft: false
 weight: 12
@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - FR
 score: 1
-description: "France has two exceptions for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, one applicable to works (L.122-5(12.º)) and another applicable to other subject matter protected by related rights (L.211-3(3.º)(e)). These exceptions are subject to compensation and to license availability."
+description: "France has one exception for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, one applicable to works (L.122-5 12.º and L.122-5-4) and similar exceptions applicable to other subject matter protected by related rights (L.122-6-1 VII, L.211-3 3º (e), L.342-3 5º 4º). These exceptions are subject to compensation and to license availability."
 beneficiaries:
 - anyone under the responsibility of an educational institution in its premises or in other places, for an audience composed mainly of pupils, students or teachers directly concerned by the act of teaching or training requiring this representation or reproduction, or by means of a secure digital environment accessible only to pupils, students and teaching staff of this establishment
 purposes:
