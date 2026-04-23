@@ -23,12 +23,13 @@ subjectmatter:
 - film fixations
 - broadcasts
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution:
 - no attribution required
 otherConditions:
 - use is limited to the numbers and formats necessary for the permanent preservation of the work
-remarks: "In 2022, with the implementation of art.6 of the CDSM directive, the pre-existing provision of §37(1)a on reproduction by CHIs was amended to remove the requirement for the use to be limited to cases where the initial copy is damaged or lost.<br /><br />§29(3) contains a general provision regarding the imperative nature of exceptions. It states that 'any legal act that excludes or limits copyright exceptions or limitations shall be disregarded, unless the law provides otherwise'. Furthermore, under §43(6), the legal protection against circumvention of TPMs does not affect the exception to the extent necessary for its use. An author who has used technical means is obliged to make their work available to authorized users to the extent necessary to fulfill the purpose of said use.<br /><br />The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86) and press publishers' rights (§87b(7))."
+remarks: "In 2022, with the implementation of art.6 of the CDSM directive, the pre-existing provision of §37(1)a on reproduction by CHIs was amended to remove the requirement for the use to be limited to cases where the initial copy is damaged or lost.<br /><br />§29(3) contains a general provision regarding the imperative nature of exceptions. It states that 'any legal act that excludes or limits copyright exceptions or limitations shall be disregarded, unless the law provides otherwise'. Furthermore, under §43(6), the legal protection against circumvention of TPMs does not affect the exception to the extent necessary for its use. An author who has used technical means is obliged to make their work available to authorized users to the extent necessary to fulfill the purpose of said use.<br /><br />The exception extends to performers' (§ 74), phonogram producers' (§ 78), film producers' (§ 82), broadcasters' (§ 86), press publishers' (§87b(7)) and sui generis database rights (§94)."
 link: https://www.e-sbirka.cz/sb/2000/121/2025-07-01?zalozka=text
 ---
