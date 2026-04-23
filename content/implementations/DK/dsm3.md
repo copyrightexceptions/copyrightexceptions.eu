@@ -34,7 +34,6 @@ attribution:
 otherConditions: 
 - lawful access
 - "storage and reuse: copies must be stored with an appropriate level of security and may be retained for research purposes; rightholders may take measures to ensure the security and integrity of networks and databases, but such measures must not exceed what is necessary"
-remarks: "The exception explicitly states that it cannot be overridden by contract. The exception is safeguarded against circumvention by TPMs under §75d.
-<br /><br/>The exception applies to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)), press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021) and sui generis database rights (§71(5))."
+remarks: "The exception explicitly states that it cannot be overridden by contract. The exception is safeguarded against circumvention by TPMs under §75d.<br /><br/>The exception applies to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)), press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021) and sui generis database rights (§71(5))."
 link: https://www.retsinformation.dk/eli/lta/2023/680
 ---
