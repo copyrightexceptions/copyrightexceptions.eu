@@ -25,12 +25,13 @@ subjectmatter:
 - broadcasts
 - photographic pictures
 - press publications
+- databases
 compensation:
 - no compensation required
 attribution: 
 - no attribution required
 otherConditions: 
 - the exception contains no explicit requirement for works to be in the beneficiary's collection
-remarks: "The exception also applies to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)) and press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021)."
+remarks: "The exception explicitly states that it cannot be overridden by contract. The exception is safeguarded against circumvention by TPMs under §75d.<br /><br/>The exception also applies to performances (§65(6)), sound recordings (§66(2)), film fixations (§67(2)), broadcasts (§69(3)), photographic pictures (§70(3)), press publications (§ 69a(5) of the CA - added with the amendment of 3 June 2021) and sui generis database rights (§71(5))."
 link: https://www.retsinformation.dk/eli/lta/2023/680
 ---
