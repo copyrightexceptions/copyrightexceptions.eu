@@ -12,7 +12,7 @@ description: "This exception allows cultural heritage institutions to reproduce,
 beneficiaries:
 - cultural heritage institutions
 purposes: 
-- nn-commercial
+- non-commercial
 usage:
 - reproduction
 - transmission 
@@ -22,16 +22,17 @@ subjectmatter:
 - photographs
 - phonograms
 - broadcasts
+- databases
 - press publications
 compensation:
 - no compensation
 attribution:
 - no explicit attribution requirement
 otherConditions: 
-- works must be  permanently in beneficiaries' collections
+- works must be permanently in beneficiaries' collections
 - rights must not be administered by a collecting society, pursuant to § 25a of the Collecting Society Act 2016, Federal Law Gazette I No. 27/2016
 - the rightholder can object to the use of their work, by submitting a declaration to the cultural heritage institution. The cultural heritage institution must cease the use within a reasonable period after receiving this declaration
 - use shall be deemed to take place in the country in which the cultural heritage institution is located
-remarks: "he exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)) and press publications (§76f(5))."
+remarks: "The exception applies to photographs and cinematographic products (§74(7)), performances (§71(6)), phonograms (§76(4)), broadcasts (§76a(3)), sui generis database rights (§76d(5)) and press publications (§76f(5))."
 link: https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001848
 ---
