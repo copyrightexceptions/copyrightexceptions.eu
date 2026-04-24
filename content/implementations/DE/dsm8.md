@@ -23,6 +23,7 @@ subjectmatter:
 - broadcasts
 - film fixations
 - press publications
+- databases
 compensation:
 - authors are entitled to equitable remuneration
 attribution: 
@@ -33,6 +34,6 @@ otherConditions:
 - making works available to the public is only permitted on non-commercial websites
 - the exception only applies if there is no collecting society that administers these rights for the respective types of works and is representative in this respect (§ 51b of the Collecting Societies Act)
 - public access may only take place if the rightholder has not objected to the use within six months as of the provision of information on the works in question, their use, and the right to object throughout the entire period of use on the online portal of the European Union Intellectual Property Office
-remarks: "Use pursuant to this exception in Member States of the European Union and Contracting States to the Agreement on the European Economic Area is deemed to have taken place only in the Member State or Contracting State in which the cultural heritage institution is established. This rule does not apply to series of works that predominantly contain works from third countries (Section 52c of the Collecting Societies Act).<br /><br />The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG).<br /><br />The exception is imperative. Under § 61g, rightholders may not invoke agreements which restrict or prohibit uses permitted under this exception and such restriction or prohibition is to the detriment of the persons entitled to such use."
+remarks: "In terms of subject matter, the exception includes a limitation relating to the status of OOCW. According to §52b(3) of the Collecting Society Act, works published in books, journals, newspapers, etc. are considered out of commerce only if 30 years have elapsed since their publication. The exception applies accordingly to performances (§83), phonograms (§85(4)), broadcasts (§87(4)), press publications (§87i) and film fixations (§94 UrhG), as well as 'sui generis' databases (§87c(3)).<br /><br />Use pursuant to this exception in Member States of the European Union and Contracting States to the Agreement on the European Economic Area is deemed to have taken place only in the Member State or Contracting State in which the cultural heritage institution is established. This rule does not apply to series of works that predominantly contain works from third countries (Section 52c of the Collecting Societies Act).<br /><br />The exception is imperative. Under § 61g, rightholders may not invoke agreements which restrict or prohibit uses permitted under this exception and such restriction or prohibition is to the detriment of the persons entitled to such use."
 link: https://dejure.org/gesetze/UrhG/61d.html
 ---
