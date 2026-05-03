@@ -8,7 +8,7 @@ exceptions:
 jurisdictions:
 - FR
 score: 1
-description: "France has one exception for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, one applicable to works (L.122-5 12.º and L.122-5-4) and similar exceptions applicable to other subject matter protected by related rights (L.122-6-1 VII, L.211-3 3º (e), L.342-3 5º 4º). These exceptions are subject to compensation and to license availability."
+description: "France has one exception for reproductions and communications to the public that take place under the responsibility of an educational establishment for purposes of illustration for teaching, examinations and competitions, applicable to works (L.122-5 12.º and L.122-5-4) and similar exceptions applicable to other subject matter protected by related rights (L.122-6-1 VII, L.211-3 3º (e), L.342-3 5º 4º). These exceptions are subject to compensation and to license availability."
 beneficiaries:
 - anyone under the responsibility of an educational institution in its premises or in other places, for an audience composed mainly of pupils, students or teachers directly concerned by the act of teaching or training requiring this representation or reproduction, or by means of a secure digital environment accessible only to pupils, students and teaching staff of this establishment
 purposes:
@@ -29,8 +29,8 @@ compensation:
 attribution: 
 otherConditions: 
 - "quantity limitations: extracts, to the extent justified by the purpose"
-- "license availability: do not apply to acts of reproduction and representation in digital form when adequate licenses authorize these acts for illustration purposes in the context of education and professional training and meet to the needs and specificities of the establishments are offered in a visible manner to the educational establishments"
+- "license availability: the exceptions do not apply to acts of reproduction and representation in digital form when adequate licenses authorize these acts for illustration purposes in the context of education and professional training and meet to the needs and specificities of the establishments are offered in a visible manner to the educational establishments"
 - "technical limitations: by means of a secure digital environment accessible only to pupils, students and teaching staff of this establishment" 
-remarks:
+remarks: No protection against contractual overrides located. The safeguard against technological protection measures, which implements Article 7(2) of the CDSM Directive, covers these exceptions.
 link: https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006069414/
 ---
