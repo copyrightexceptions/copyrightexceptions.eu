@@ -6,8 +6,4 @@ We are currently in the process of adding data on the implementation of the CDSM
 
 ## Implementation Status
 
-As of 6 May 2026, the following EU27 Member State implementations (excluding the MKD, OWD, and info53o exceptions) are still missing:
-
-| Country | Missing implementations |
-|---------|------------------------|
-| **IT** | [info53e](https://github.com/copyrightexceptions/copyrightexceptions.eu/blob/master/content/implementations/IT/info53e.md) |
+As of 7 May 2026, all EU27 Member State implementations (excluding the MKD, OWD, and info53o exceptions) are complete.
