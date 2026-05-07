@@ -14,12 +14,22 @@ beneficiaries:
 purposes:
 - illustration for teaching, with no commercial purposes
 usage:
-- reproduction, adaptation, communication to the public
+- reproduction
+- adaptation
+- communication to the public
 subjectmatter:
-- any work, performance, phonograms, broadcasts, film fixations, press publications, software, databases protected by sui generis right
+- work
+- performances
+- phonograms
+- broadcasts
+- film fixations
+- press publications
+- software
+- databases protected by sui generis right
 compensation:
 - not subject to payment of compensation
 attribution:
+- use must always be accompanied by the mention of the title of the work, of the names of the author, publisher and translator, if such indications appear on the work
 otherConditions:
 - "quantity limitations: passages or parts; within the limits of what is justified"
 - "technological limitations: in a secure electronic environment, accessible only to teaching staff of that institution and pupils or enrolled students to the course of study in which the works or other materials are used"
