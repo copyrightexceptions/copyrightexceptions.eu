@@ -18,6 +18,8 @@ purposes:
 usage:
 - reproduction (in electronic form)
 - communication to the public (through a secure electronic environment)
+- transformation and distribution (of databases)
+transformed databases.
 subjectmatter:
 - works 
 - databases
